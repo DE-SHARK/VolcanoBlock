@@ -157,11 +157,11 @@
 	quests: [
 		{
 			description: [
-				"&9IC2&r is already a classic for a lot of us, but this rework brings on some new features and blocks to help you in your playthrough!"
+				"&9IC2&r已经成为我们中的经典之一，但这个重新制作带来了一些新的功能和方块，帮助你在游戏中前进！"
 				""
-				"To get started, let's make the &3Stone Macerator&r. This machine will break your ores down into &a2 dusts&r, effectively doubling your resource output for raw ores!"
+				"要开始，让我们制作&a石质打粉机&f&r。这台机器会将你的矿石打成&a2个粉末&r，有效地将你的资源产出翻倍！"
 				""
-				"To power this, we just need some kind of burnable fuel like Coal!"
+				"为了给它提供动力，我们只需要一些可燃燃料，比如煤！"
 			]
 			id: "563C42A7D2CD8529"
 			rewards: [
@@ -184,21 +184,23 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "0B1D7E9E93B7A2A6"
-				item: "ic2:stone_macerator"
-				type: "item"
-			}]
-			title: "&bWelcome to&r &9Industrial Craft 2: Classic&r!"
+			tasks: [
+				{
+					id: "0B1D7E9E93B7A2A6"
+					item: "ic2:stone_macerator"
+					type: "item"
+				}
+			]
+			title: "&b欢迎来到&r&9&d工业时代&f 2: 经典&r！"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["322681605144DFEB"]
 			description: [
-				"The &bGenerator&r is the most basic power generator we can make in the mod. This produces 10 EU/t when given burnable items like coal or wood, which will power most Low Voltage machines. We'll get into Voltage in a little."
+				"&b&a火力发电机&f&r是我们可以在模组中制作的最基本的发电机。当给予可燃物品如煤或木材时，它会产生10 EU/t的电力，可以为大多数低电压机器供电。稍后我们会介绍电压。"
 				""
-				"This will also auto-output its power into any machine placed next to it, or you can use cables!"
+				"它还可以自动将电力输出到任何放置在它旁边的机器中，或者你可以使用电缆！"
 			]
 			id: "61C9AE0EC0E58AC6"
 			rewards: [
@@ -221,26 +223,28 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Tier: LV"
-			tasks: [{
-				id: "6E728522ED66C35C"
-				item: "ic2:generator"
-				type: "item"
-			}]
-			title: "&bStarter Power&r"
+			subtitle: "等级：LV"
+			tasks: [
+				{
+					id: "6E728522ED66C35C"
+					item: "ic2:generator"
+					type: "item"
+				}
+			]
+			title: "&b入门发电机&rr"
 			x: 0.0d
 			y: 6.75d
 		}
 		{
 			dependencies: ["05AE8AEC410777FA"]
 			description: [
-				"The &bBatBox&r is used to store power, as well as charging any items that require power from IC2! This is considered a &aStorage Unit&r for power."
+				"&b&a电池盒&f&r用于储存能量，并为需要IC2电力的物品充电！这被认为是能量的&a&a存储单元&f&r。"
 				""
-				"The &eBattery Station&r is a special type of storage that works as a container for battery items. You can switch between 3 modes on it:"
+				"&e&a电池站&f&r是一种特殊的存储方式，可作为电池物品的容器。您可以在其上切换3种模式："
 				""
-				"Charging Bench: Makes the Battery Station only accept power."
-				"Battery Station: Makes the Battery Station only provide power."
-				"Batbox mode: Allows it to accept and provide power."
+				"充电台：使&a电池站&f仅接受电力。"
+				"&a电池站&f：使&a电池站&f仅提供电力。"
+				"Batbox模式：允许它接受和提供电力。"
 			]
 			id: "3BC2E685A3CDC697"
 			rewards: [
@@ -268,16 +272,16 @@
 					type: "item"
 				}
 			]
-			title: "&aBasic&r &bPower Storage&r"
+			title: "&a基础&r &b能量储存&r"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["563C42A7D2CD8529"]
 			description: [
-				"To continue our journey, we'll need to get our hands on a &2Rubberwood Sapling&r. This can be gotten from sieving leaves, or from buying them from the &cMarket&r."
+				"为了继续我们的旅程，我们需要得到一个&2橡胶树苗&a&r。这可以通过筛选树叶或从&c市场&r购买获得。"
 				""
-				"Once you have a fully grown Rubberwood Tree, make yourself a &aTree Tap&r and look for dots on the logs!"
+				"一旦您有了一个完全成长的橡胶树，制作一个&a树龄计&r并在树干上寻找点！"
 			]
 			id: "32E8D76DD2CF1CEA"
 			rewards: [
@@ -304,18 +308,18 @@
 					type: "item"
 				}
 			]
-			title: "&aCollecting Rubber&r"
+			title: "&a收集橡胶&r"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["32E8D76DD2CF1CEA"]
 			description: [
-				"Those little dots on the tree are &2Resin&r deposits!"
+				"树上的那些小点是&2树脂&r沉积物！"
 				""
-				"Using your Tree Tap, you can grab out the &2Sticky Resin&r and throw it into a furnace to get &3Rubber Balls&r."
+				"使用您的树龄计，您可以取出&2&a橡胶&f&r并将其投入熔炉中以获得&3&a橡胶球&f&r。"
 				""
-				"We're going to need a lot of these to make several items in the mod. It wouldn't hurt to set up a tree farm for them!"
+				"我们需要很多这些东西来制作模组中的几个物品。为它们建立一个树农场不会有害。"
 			]
 			id: "74EC8A3FD72B01C9"
 			rewards: [
@@ -342,18 +346,18 @@
 					type: "item"
 				}
 			]
-			title: "&2Sticky Resin&r"
+			title: "&2&a橡胶&f&r"
 			x: 0.0d
 			y: 2.75d
 		}
 		{
 			dependencies: ["74EC8A3FD72B01C9"]
 			description: [
-				"While you can absolutely make uninsulated cables, you'll electrocute yourself if you get near the wire with an electric current flowing through it."
+				"虽然您绝对可以制作未绝缘的电缆，但如果您靠近带有电流的电线，您将触电。"
 				""
-				"It's also important to note that each cable allows for certain voltages to pass through them. Copper Cables belong to the LV Tier, meaning you can safely use them to transfer LV power to LV machines. If you happen to send anything higher, it'll probably explode. :D"
+				"还要注意每个电缆允许通过一定的电压。&a铜电缆&f属于LV级别，这意味着您可以安全地使用它们将LV电力传输到LV机器。如果您发送任何更高的电压，它可能会爆炸。 :D"
 				""
-				"For the safety of your ship, you should probably insulate your cables."
+				"为了您的飞船的安全，您应该绝缘您的电缆。"
 			]
 			id: "05AE8AEC410777FA"
 			rewards: [
@@ -368,22 +372,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				count: 6L
-				id: "07A22B523094920E"
-				item: "ic2:copper_insulated_cable_item"
-				type: "item"
-			}]
-			title: "&aDon't Shock Yourself&r"
+			tasks: [
+				{
+					count: 6L
+					id: "07A22B523094920E"
+					item: "ic2:copper_insulated_cable_item"
+					type: "item"
+				}
+			]
+			title: "&a不要触电&r"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"Now that we have some sort of power generation, we can upgrade our &3Stone Macerator&r into an Electric &aMacerator&r."
+				"现在我们有了某种类型的发电机，我们可以将我们的&3&a石质打粉机&f&r升级为电动&a&a研磨机&f&r。"
 				""
-				"This machine works the same, except it uses power and can now be upgraded."
+				"这台机器的工作方式相同，只是使用电力，现在可以升级。"
 			]
 			id: "2FC43D396799A325"
 			rewards: [
@@ -399,21 +405,23 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7ECF7421A71EA2E1"
-				item: "ic2:macerator"
-				type: "item"
-			}]
-			title: "&bGetting an Upgrade&r: &aMacerator&r"
+			tasks: [
+				{
+					id: "7ECF7421A71EA2E1"
+					item: "ic2:macerator"
+					type: "item"
+				}
+			]
+			title: "&b获得一个&a空白升级&f&r：&a&a研磨机&f&r"
 			x: 2.75d
 			y: 6.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"We can't be burning our coal in an Iron Furnace forever."
+				"我们不能永远在&a铁炉&f中燃烧煤。"
 				""
-				"The &eElectric Furnace&r is about 53% faster than a standard furnace, so it's definitely worth the upgrade!"
+				"&e&a电炉&f&r比标准熔炉快约53％，因此升级是值得的！"
 			]
 			hide_dependency_lines: true
 			id: "550EA2F13BBFB71B"
@@ -430,21 +438,23 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "7A9F7E35D5AE0C4A"
-				item: "ic2:electric_furnace"
-				type: "item"
-			}]
-			title: "&bGetting an Upgrade&r: &eElectric Furnace&r"
+			tasks: [
+				{
+					id: "7A9F7E35D5AE0C4A"
+					item: "ic2:electric_furnace"
+					type: "item"
+				}
+			]
+			title: "&b获得一个&a空白升级&f&r：&e&a电炉&f&r"
 			x: -1.0d
 			y: 9.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"&9Solar Panels&r are basically free power generators during the day. However, the starter panels are actually Ultra-Low Voltage generators, and only produce 1 EU/t each."
+				"&9&a太阳能面板&f&r在白天基本上是免费的发电机。但是，起始面板实际上是超低电压发电机，每个面板仅产生1 EU/t。"
 				""
-				"You can also compress the Solar Panels down in the &aCompressor&r."
+				"您还可以在&a压缩机&f&r中压缩&a太阳能面板&f。"
 			]
 			id: "3F40C776D8C0C91C"
 			rewards: [
@@ -460,36 +470,38 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "793BD475D059419D"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ic2:solar_panel"
-							}
-							{
-								Count: 1b
-								id: "ic2:solar_panel_compressed"
-							}
-						]
+			tasks: [
+				{
+					id: "793BD475D059419D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ic2:solar_panel"
+								}
+								{
+									Count: 1b
+									id: "ic2:solar_panel_compressed"
+								}
+							]
+						}
 					}
+					title: "&9Solar Panels&r"
+					type: "item"
 				}
-				title: "&9Solar Panels&r"
-				type: "item"
-			}]
+			]
 			x: -2.5d
 			y: 7.25d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &aWind Turbine&r is a basic generator that produces power based off of the wind."
+				"&a&a风力动能发生机&f&r是一种基本的发电机，根据风力产生电力。"
 				""
-				"This generator needs a clear space around it to work. Height has no effect on the power production."
+				"此发电机需要周围有足够的空间才能工作。高度对发电量没有影响。"
 			]
 			id: "003EDED1024612A2"
 			rewards: [
@@ -505,18 +517,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7EE40694A3B3DB74"
-				item: "ic2:wind_turbine"
-				type: "item"
-			}]
-			title: "&aWind Power&r"
+			tasks: [
+				{
+					id: "7EE40694A3B3DB74"
+					item: "ic2:wind_turbine"
+					type: "item"
+				}
+			]
+			title: "&a风力发电&r"
 			x: -2.0d
 			y: 5.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
-			description: ["The &aCompressor&r has several useful recipes for converting items. It is also needed for more advanced recipes for IC2."]
+			description: ["&a&a压缩机&f&r具有几个有用的配方，可用于转换物品。它还需要用于IC2的更高级配方。"]
 			id: "45118695F4E98853"
 			rewards: [
 				{
@@ -531,20 +545,22 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "7B27F85167CDA629"
-				item: "ic2:compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B27F85167CDA629"
+					item: "ic2:compressor"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 10.25d
 		}
 		{
 			dependencies: ["550EA2F13BBFB71B"]
 			description: [
-				"The &bAlloy Smelter&r does exactly what it sounds like: it creates alloys by smelting multiple types of ores or items together."
+				"&b&a合金炉&f&r正是它的名字：通过将多种矿石或物品熔炼在一起来创建合金。"
 				""
-				"This is also how we'll make &cPulsating Quartz&r for higher tier &aCircuits&r."
+				"这也是我们将制作&c脉动石英&r以获取更高级别的&a&a电路板&f&r的方式。"
 			]
 			id: "3EEC5DC24F8E7A86"
 			rewards: [
@@ -560,34 +576,36 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "7596D366226600DD"
-				item: "ic2:alloy_smelter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7596D366226600DD"
+					item: "ic2:alloy_smelter"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 10.75d
 		}
 		{
 			dependencies: ["05AE8AEC410777FA"]
 			description: [
-				"In IC2, the unit used for energy is called &bEnergy Units&r, or EU for short. EU is sent in packets along cables, machines, etc."
+				"在IC2中，能量的单位被称为&b能量单位&r，简称EU。EU通过电缆、机器等以数据包的形式传输。"
 				""
-				"These packet sizes are the Voltage of the energy (or EU/p), and determine the tier of the cable or machine. Here are the Tiers:"
+				"这些数据包的大小是能量的电压（或EU/p），并决定了电缆或机器的等级。以下是各个等级："
 				""
-				"- LV Tier: 32EU/p - Copper Cables"
+				"- LV等级：32EU/p - &a铜电缆&f"
 				""
-				"- MV Tier: 128EU/p - Gold or Bronze Cables"
+				"- MV等级：128EU/p - 金或&a青铜导线&f"
 				""
-				"- HV Tier: 512EU/p - Glass Fibre Cables"
+				"- HV等级：512EU/p - &a玻璃纤维导线&f"
 				""
-				"- EV Tier: 2048EU/p - HV, EU-Detector or Splitter, or Plasma Cables"
+				"- EV等级：2048EU/p - HV、EU-&a标准发信器&f或分配器，或&a等离子体导线&f"
 				""
-				"With this, it's important to know how to step up or down the energy using &aTransformers&r."
+				"因此，了解如何使用&a变压器&f&r调整能量的大小非常重要。"
 				""
-				"Transformers can absorb 4 packets of lower voltage to output 1 packet of the next tier of voltage (4 LV -> 1 MV). They can also absorb one packet of a higher tier voltage and split that into 4 packets of the lower tier (1 MV -> 4 LV). "
+				"&a变压器&f可以吸收4个低电压数据包，输出1个下一级电压的数据包（4 LV -> 1 MV）。它们还可以吸收一个高级电压数据包，并将其分成4个低级数据包（1 MV -> 4 LV）。"
 				""
-				"These packets are also important, as sending a package (or voltage) too large through a machine or cable will cause them to explode. Never give a cable or machine a higher tier voltage than it can accept!"
+				"这些数据包也很重要，因为将过大的数据包（或电压）发送到机器或电缆中会导致它们爆炸。永远不要给电缆或机器提供超过其承受能力的高级电压！"
 			]
 			id: "7F9008FBFEB9D915"
 			min_width: 400
@@ -604,23 +622,25 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "79E415F398B87735"
-				item: "ic2:transformer_lv"
-				type: "item"
-			}]
-			title: "&9Voltage and You&r"
+			tasks: [
+				{
+					id: "79E415F398B87735"
+					item: "ic2:transformer_lv"
+					type: "item"
+				}
+			]
+			title: "&9电压和你&r"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &aCanning Machine&r can be used to package items to make them usable."
+				"&a&a装罐机&f&r可以用于将物品打包，使其可用。"
 				""
-				"This can fill Tin Cans with food to create food items that also directly heal you, fill Electric Sprayers, CF Backpacks, Jetpacks, and Fuel Cans with Construction Foam and Fuel, and more."
+				"这可以用来将食物装入&a锡罐(空)&f中，创建可以直接治愈你的食物，填充电动喷雾器、&a建筑泡沫背包&f、&a喷气背包&f和燃料罐，以及更多。"
 				""
-				"It's also used to make &2Uranium Rods&r which you'll need for the higher tier Power Generators."
+				"它还用于制作&2&a铀&f棒，这是你需要更高级别的火力发电机&f的。"
 			]
 			id: "3C0C033B918388BF"
 			rewards: [
@@ -636,22 +656,24 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5192A3506ED57517"
-				item: "ic2:canner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5192A3506ED57517"
+					item: "ic2:canner"
+					type: "item"
+				}
+			]
 			x: 1.75d
 			y: 5.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &9Water Mill&r is a generator that produces power using water."
+				"&9&a水力发电机&f&r是一种使用水产生电力的发电机。"
 				""
-				"The easiest way to have it provide power is by feeding it water. This will produce 1 EU/t."
+				"最简单的方式是给它提供水来提供电力。这将产生1 EU/t的电力。"
 				""
-				"You can upgrade to higher tier Water Mills, providing more energy!"
+				"您可以升级到更高级别的&a水力发电机&f，提供更多的能量！"
 			]
 			id: "653F271F4564DF30"
 			rewards: [
@@ -667,20 +689,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "2392FE3DC5E59A9C"
-				item: "ic2:water_mill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2392FE3DC5E59A9C"
+					item: "ic2:water_mill"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 6.25d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &bSlag Generator&r is an upgraded version of the basic &aGenerator&r. This provides 25% more power and will also create &3scrap&r randomly from burning items for power."
+				"&b&a炉渣发电机&f&r是基本&a&a火力发电机&f&r的升级版本。它提供了25%的额外电力，并会从燃烧物品产生&3废料&r。"
 				""
-				"However, using scrap for power in this generator is much less effective, and it will not create scrap from burning scrap."
+				"然而，在这个发电机中使用废料作为能源效果要低得多，而且它不会从燃烧废料中产生废料。"
 			]
 			id: "5BA16A16410A7492"
 			rewards: [
@@ -696,21 +720,23 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "4A4C2DDDEC04BA89"
-				item: "ic2:slag_generator"
-				type: "item"
-			}]
-			title: "&bUpgraded Generator&r"
+			tasks: [
+				{
+					id: "4A4C2DDDEC04BA89"
+					item: "ic2:slag_generator"
+					type: "item"
+				}
+			]
+			title: "&b&a空白升级&fd &a火力发电机&f&r"
 			x: -3.0d
 			y: 6.75d
 		}
 		{
 			dependencies: ["45118695F4E98853"]
 			description: [
-				"The &bRecycler&r will convert any item into &3Scrap&r. When given 9 Scrap, this will convert it into a Scrap Box which can give you random items!"
+				"&b&a回收机&f&r将任何物品转化为&3废料&r。当给予9个废料时，它会将其转化为&a废料盒&f，可以给您随机物品！"
 				""
-				"Scrap can also be used to create &2Fertilizer&r, or be used as solid fuel for Generators."
+				"废料还可以用于制作&2&a肥料&f&r，或用作&a火力发电机&f的固体燃料。"
 			]
 			hide_dependency_lines: true
 			id: "0FEB73D6536B5752"
@@ -727,20 +753,22 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "7B0D5EE8B1E2159B"
-				item: "ic2:recycler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B0D5EE8B1E2159B"
+					item: "ic2:recycler"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 9.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &aSawmill&r is used to break down logs more efficiently, giving you 6 Planks instead of 4."
+				"&a&a锯木厂&f&r用于更有效地分解原木，可以获得6个木板而不是4个。"
 				""
-				"You can get potato slices from this as well."
+				"您还可以从中获得土豆片。"
 			]
 			id: "541CEAD55884E041"
 			rewards: [
@@ -756,22 +784,24 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "35C869D2FE9F1A6A"
-				item: "ic2:sawmill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35C869D2FE9F1A6A"
+					item: "ic2:sawmill"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 7.25d
 		}
 		{
 			dependencies: ["0FEB73D6536B5752"]
 			description: [
-				"The &2Rare Earth Extractor&r allows you to extract &2Rare Earth Dust&r from a variety of natural resources like cobblestone or granite."
+				"&2&a稀土提取器&f&r允许您从各种自然资源（如圆石或花岗岩）中提取&2&a稀土粉&f&r。"
 				""
-				"Each resource contributes points to successfully produce 1 Rare Earth Dust. For example, you'll need ~320 Cobblestone to create 1 dust, where as only needing 100 Obsidian or Soul Sand to produce 1 Dust."
+				"每种资源都为成功生产1个&a稀土粉&f&r贡献点数。例如，您需要大约320个圆石才能创建1个粉末，而只需要100个黑曜石或灵魂沙就能产生1个粉末。"
 				""
-				"This dust can be used to create Rare Earth Chunks that can eventually be used to create Magnets."
+				"这种粉末可以用于制作稀土块，最终可以用于制作磁铁。"
 			]
 			hide_dependent_lines: true
 			id: "4A24ED184F9A9C54"
@@ -788,20 +818,22 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "691480262788F9F9"
-				item: "ic2:rare_earth_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "691480262788F9F9"
+					item: "ic2:rare_earth_extractor"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 10.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &aExtractor&r is probably one of the most important machines you can get in the early game. This will increase the amount of Rubber you get from Sticky Resin, as well as allowing you to convert Rubberwood logs and saplings to Rubber as well."
+				"&a&a提取机&f&r可能是早期游戏中最重要的机器之一。这将增加您从&a橡胶&f中获得的橡胶量，并允许您将橡胶木原木和树苗转化为橡胶。"
 				""
-				"It also has several other useful recipes!"
+				"它还有几个有用的配方！"
 			]
 			id: "705C471058F32142"
 			rewards: [
@@ -817,20 +849,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "42CEE2726F715E53"
-				item: "ic2:extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42CEE2726F715E53"
+					item: "ic2:extractor"
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 6.25d
 		}
 		{
 			dependencies: ["45118695F4E98853"]
 			description: [
-				"With our &aCompressor&r, we can start creating the items needed to make the next tier of machines by making the &bAdvanced Machine Block&r."
+				"使用我们的&a&a压缩机&f&r，我们可以通过制作&b&a进阶机器框架&f&r来制造下一级机器所需的物品。"
 				""
-				"This is the MV Tier, with voltage up to 128EU/p."
+				"这是MV等级，电压高达128EU/p。"
 			]
 			id: "1E609436B77595CA"
 			rewards: [
@@ -852,21 +886,23 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "4FC7F50E093CACC9"
-				item: "ic2:advanced_machine_block"
-				type: "item"
-			}]
-			title: "MV Tier Machines"
+			tasks: [
+				{
+					id: "4FC7F50E093CACC9"
+					item: "ic2:advanced_machine_block"
+					type: "item"
+				}
+			]
+			title: "MV 等级机器"
 			x: 0.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &bElectrolyzer&r electrolyzes water and magnetizes magnets. It cannot take power from batteries or from connecting cables to it, and must have some sort of Power Storage Unit nearby to get power. It doesn't work with Personal Storage, Battery Stations, or Creative Storage."
+				"&b&a电解机&f&r将水电解并磁化磁铁。它不能从电池或连接电缆中获取电力，必须附近有某种&a存储单元&f&r来获取电力。它不能与个人存储、&a电池站&f或创意存储一起使用。"
 				""
-				"The storage needs to be at least 70% full to charge and to be 30% full or lower to discharge. Thankfully, this machine cannot blow up."
+				"存储器需要至少充满70%才能充电，并且需要低于30%才能放电。幸运的是，这台机器不会爆炸。"
 			]
 			id: "7E682EC2B3BFE1BA"
 			rewards: [
@@ -882,26 +918,28 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0DF37FB83D0C2F85"
-				item: "ic2:electrolyzer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DF37FB83D0C2F85"
+					item: "ic2:electrolyzer"
+					type: "item"
+				}
+			]
 			x: 1.75d
 			y: 7.75d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
 			description: [
-				"The &dMass Fabricator&r is used to convert enormous amounts of energy into &5UU-Matter&r. This is used for end-game recipes, including the &6ATM Star&r."
+				"&d&a物质生成机&f&r用于将大量能量转化为&5&aUU-物质&f&r。这用于末期配方，包括&6ATM Sta&rr。"
 				""
-				"To create one piece of UU-Matter, you need around 7,000,000 EU. The faster you supply it with the required EU, the faster it will produce UU-Matter."
+				"要创建一件&aUU-物质&f，您需要大约700万EU。您提供所需的EU越快，它就会生产&aUU-物质&f&r越快。"
 				""
-				"The Fabricator will also accept &aScrap&r and &3Metal Scrap&r to \"amplify\" production of UU-Matter. Normal Scrap contributes 5,000, and Metal Scrap contributes 100,000 amplifier points."
+				"制造机还接受&aScrap&r和&3Metal Scrap&r来\"放大\"&aUU-物质&f&r的生产。普通废料贡献5000，金属废料贡献100,000放大器点。"
 				""
-				"For each EU input into the Mass Fabricator, one amplifier point is used. Each amplifier point converts to 5 EU when used, meaning for an input of 100EU/t, 100 amplifier points are being used per tick resulting in an additional input of 500 EU/t."
+				"对于输入到&a物质生成机&f&r的每个EU，将使用一个放大器点。每个放大器点在使用时转换为5 EU，这意味着对于每个输入的100EU/t，每个时钟周期使用100个放大器点，从而产生额外的500 EU/t的输入。"
 				""
-				"To simplify this, you can expect the Fabricator to work 6x the regular speed, with the same exact energy input."
+				"为了简化这个过程，您可以期望制造机的速度是普通速度的6倍，具有完全相同的能量输入。"
 			]
 			icon: "ic2:uumatter"
 			id: "53988F2AEE221B9C"
@@ -927,7 +965,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Tier: HV"
+			subtitle: "等级：HV"
 			tasks: [
 				{
 					id: "3E8700F4E21CDCEE"
@@ -940,16 +978,16 @@
 					type: "item"
 				}
 			]
-			title: "Creating &dUU-Matter&r"
+			title: "制造&d&aUU-物质&f&r"
 			x: 5.25d
 			y: 13.0d
 		}
 		{
 			dependencies: ["1E609436B77595CA"]
 			description: [
-				"Using a &2Rare Earth Extractor&r and an &aElectrolyzer&r, you can create Magnets. These will be used to make the next tier of machines by making the &aStabilized Machine Block&r."
+				"使用&2&a稀土提取器&f&r和&a&a电解机&f&r，您可以创建磁铁。这些将用于制作&aStabilized &a机器方块&f&r，以制造&aHV Tie&rr机器，其使用高达512EU/p。"
 				""
-				"This is the machine block that is used to make &aHV Tier&r machines, which uses up to 512EU/p. "
+				"这是用于制造&aHV Tie&rr机器的机器块。"
 			]
 			id: "363FD99B29CD2954"
 			rewards: [
@@ -972,23 +1010,25 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "49B300BA90531804"
-				item: "ic2:stabilized_machine_block"
-				type: "item"
-			}]
-			title: "HV Tier Machines"
+			tasks: [
+				{
+					id: "49B300BA90531804"
+					item: "ic2:stabilized_machine_block"
+					type: "item"
+				}
+			]
+			title: "HV 等级机器"
 			x: 3.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
 			description: [
-				"Want to change your biome? The &2Terraformer&r can do just that!"
+				"想要改变生物群系吗？&2&a地形转化仪&f&r可以做到！"
 				""
-				"You'll need to inject a Terraforming Blueprint (&aTFBP&r for short) and lots of power, then wait for the magic to happen."
+				"您需要注入一个地形转化蓝图（&aTFBP&r），并提供大量电力，然后等待魔法发生。"
 				""
-				"This machine uses ~5-10kEU per position changed. "
+				"这台机器每次更改位置使用约5-10kEU。"
 			]
 			id: "640F97A5A1EF0AAB"
 			rewards: [
@@ -1011,7 +1051,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Tier: HV"
+			subtitle: "等级：HV"
 			tasks: [
 				{
 					id: "20113C37E9A59772"
@@ -1030,17 +1070,17 @@
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"The &bLiquid Fuel Generator&r uses liquid fuels to create power instead of solid fuels like Coal. Each fuel type has a different production amount and burn time."
+				"&b&a流体燃料发电机&f&r使用液体燃料而不是像煤一样的固体燃料来产生电力。每种燃料类型都有不同的产量和燃烧时间。"
 				""
-				"- Wood Gas: 10EU/t"
-				"- Biomass: 8 EU/t"
-				"- Ethanol: 32 EU/t"
-				"- Seed Oil and Fruit Juice: 6 EU/t"
-				"- Honey: 4 EU/t"
-				"- Canola: 10 EU/t"
-				"- Canola Oil: 15 EU/t"
-				"- Crystalized Oil: 25 EU/t"
-				"- Empowered Oil: 30 EU/t"
+				"- 木炭气：10EU/t"
+				"- &a生物质&f：8 EU/t"
+				"- &a乙醇&f：32 EU/t"
+				"- &a植物油&f和&a水果汁&f：6 EU/t"
+				"- 蜂蜜：4 EU/t"
+				"- 油菜籽：10 EU/t"
+				"- 油菜籽油：15 EU/t"
+				"- 晶化油：25 EU/t"
+				"- 强化油：30 EU/t"
 			]
 			id: "281352A9D7B5A5DD"
 			rewards: [
@@ -1056,11 +1096,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3E97A7A66B010EF4"
-				item: "ic2:liquid_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3E97A7A66B010EF4"
+					item: "ic2:liquid_generator"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 7.75d
 		}
@@ -1086,11 +1128,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7DC14709896B38F3"
-				item: "ic2:charged_electrolyzer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DC14709896B38F3"
+					item: "ic2:charged_electrolyzer"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 12.0d
 		}
@@ -1116,11 +1160,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "4590EB19177184E9"
-				item: "ic2:rotary_macerator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4590EB19177184E9"
+					item: "ic2:rotary_macerator"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: 12.5d
 		}
@@ -1146,11 +1192,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "678E4B1D25FB3CF9"
-				item: "ic2:centrifugal_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "678E4B1D25FB3CF9"
+					item: "ic2:centrifugal_extractor"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: 13.0d
 		}
@@ -1176,11 +1224,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5C2186B8E66F4D62"
-				item: "ic2:vacuum_canner"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C2186B8E66F4D62"
+					item: "ic2:vacuum_canner"
+					type: "item"
+				}
+			]
 			x: -1.75d
 			y: 13.0d
 		}
@@ -1206,11 +1256,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "71116B4109B0360D"
-				item: "ic2:induction_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71116B4109B0360D"
+					item: "ic2:induction_furnace"
+					type: "item"
+				}
+			]
 			x: -3.25d
 			y: 13.5d
 		}
@@ -1236,11 +1288,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "254B047FE2A121C1"
-				item: "ic2:refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "254B047FE2A121C1"
+					item: "ic2:refinery"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 13.0d
 		}
@@ -1266,11 +1320,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "26615F6D43E409F3"
-				item: "ic2:singularity_compressor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26615F6D43E409F3"
+					item: "ic2:singularity_compressor"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 13.5d
 		}
@@ -1296,11 +1352,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "4AF681014042C1D9"
-				item: "ic2:compacting_recycler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AF681014042C1D9"
+					item: "ic2:compacting_recycler"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 12.5d
 		}
@@ -1326,17 +1384,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1C5208DDFC460443"
-				item: "ic2:centrifugal_rare_earth_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C5208DDFC460443"
+					item: "ic2:centrifugal_rare_earth_extractor"
+					type: "item"
+				}
+			]
 			x: -2.75d
 			y: 14.0d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
-			description: ["The &dElectric Enchanter&r is used to enchant both Electric Tools and enchant/anvil regular tools and books. You cannot repair items with this machine."]
+			description: ["&dElectric &a附魔器&f&r用于附魔电动工具以及附魔/铁砧普通工具和书籍。您不能使用此机器修复物品。"]
 			id: "718D0785CC2E404B"
 			rewards: [
 				{
@@ -1358,21 +1418,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Tier: HV"
-			tasks: [{
-				id: "61C6B4CA3D28C5F0"
-				item: "ic2:electric_enchanter"
-				type: "item"
-			}]
+			subtitle: "等级：HV"
+			tasks: [
+				{
+					id: "61C6B4CA3D28C5F0"
+					item: "ic2:electric_enchanter"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 15.25d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
 			description: [
-				"The &eUranium Enricher&r takes Refined Uranium Ingots with some additive items, and combines them together into an &aEnriched Uranium Ingot&r."
+				"&e&a铀&f Enriche&rr将&a精炼铀&f与一些添加剂物品结合在一起，形成&aEnriched &a铀锭&f&r。"
 				""
-				"If you'd like to know more about the 5 types of Enriched Uranium, make sure to check out the guide book!"
+				"如果您想了解有关5种&a铀&f的精炼的更多信息，请务必查看指南书！"
 			]
 			id: "5B30200A3B03E737"
 			rewards: [
@@ -1395,23 +1457,25 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Tier: HV"
-			tasks: [{
-				id: "7B019C9404653DFB"
-				item: "ic2:uranium_enricher"
-				type: "item"
-			}]
+			subtitle: "等级：HV"
+			tasks: [
+				{
+					id: "7B019C9404653DFB"
+					item: "ic2:uranium_enricher"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 15.25d
 		}
 		{
 			dependencies: ["1E609436B77595CA"]
 			description: [
-				"Just like the &cBatbox&r, this is considered a &aStorage Unit&r for EU."
+				"就像&c蝙蝠盒&r一样，这被认为是EU的&a&a存储单元&f&r。"
 				""
-				"This machine can accept power from any side, but will only output power from the front face, which is marked with a dot."
+				"这台机器可以从任何一侧接受电力，但只会从标有点的前面输出电力。"
 				""
-				"The MFE can hold up to 600,000 EU."
+				"MFE最多可以容纳600,000 EU。"
 			]
 			id: "6B7A4B05147E8864"
 			rewards: [
@@ -1433,18 +1497,20 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "3D14D96C66BACB56"
-				item: "ic2:mfe"
-				type: "item"
-			}]
-			title: "&bMV&r &aPower Storage&r"
+			tasks: [
+				{
+					id: "3D14D96C66BACB56"
+					item: "ic2:mfe"
+					type: "item"
+				}
+			]
+			title: "&bMV&r &a能量储存&r"
 			x: 0.75d
 			y: 14.5d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
-			description: ["This is the EU storage unit for the HV tier. The MFSU can hold up to 10mil EU."]
+			description: ["这是HV级别的EU存储单元。MFSU最多可以容纳10百万EU。"]
 			id: "74B6C53E195BF163"
 			rewards: [
 				{
@@ -1466,23 +1532,25 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "4392038E603BAA53"
-				item: "ic2:mfsu"
-				type: "item"
-			}]
-			title: "&bHV&r &aPower Storage&r"
+			tasks: [
+				{
+					id: "4392038E603BAA53"
+					item: "ic2:mfsu"
+					type: "item"
+				}
+			]
+			title: "&bHV&r &a能量储存&r"
 			x: 3.5d
 			y: 11.25d
 		}
 		{
 			dependencies: ["0B859A9B03B56BD6"]
 			description: [
-				"The &dPlasmafier&r is the bridge to the end game resource &dPlasma&r."
+				"&d等离子体发生器&rr是通往最终游戏资源&d等离子体&r的桥梁。"
 				""
-				"To create Plasma in the machine, you will combine 10 pieces of UU-Matter, one &aCell&r, and a lot of power. We're talking 10,240,000 EU per Plasma produced. So how about those Nuclear Reactors?"
+				"要在机器中创建等离子体，您需要将10个&aUU-物质&f、一个&a电池&r和大量电力结合起来。我们说的是每生产一份等离子体需要10240000 EU。那么&a核反应堆&f怎么样呢？"
 				""
-				"This is an EV machine, and cannot be upgraded to a higher voltage tier. This can also store up to 10 Cells worth of Plasma in its internal storage."
+				"这是一台EV机器，不能升级到更高的电压级别。它还可以在内部存储器中存储多达10个电池的等离子体。"
 			]
 			id: "4BE52D2D76389378"
 			rewards: [
@@ -1505,7 +1573,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Tier: EV"
+			subtitle: "级别：EV"
 			tasks: [
 				{
 					id: "2DBA1085BCEC9384"
@@ -1518,16 +1586,16 @@
 					type: "item"
 				}
 			]
-			title: "Making &dPlasma&r"
+			title: "制造&d等离子体&r"
 			x: 8.75d
 			y: 13.0d
 		}
 		{
 			dependencies: ["53988F2AEE221B9C"]
 			description: [
-				"&dUU-Matter&r is the only way to make &bIridium Ore&r. This unlocks several end game recipes!"
+				"&d&aUU-物质&f&r是制造&b&a铱矿石&f&r的唯一方法。这解锁了几个最终游戏配方！"
 				""
-				"Lots of these recipes require &bIridium Plates&r, so make sure to have plenty of power for UU-Matter going!"
+				"许多这些配方需要&b&a铱板&f&r，因此确保有足够的电力进行&aUU-物质&f生产！"
 			]
 			id: "0B859A9B03B56BD6"
 			rewards: [
@@ -1569,9 +1637,9 @@
 		{
 			dependencies: ["363FD99B29CD2954"]
 			description: [
-				"Another step up in Voltage, another step up in Cables!"
+				"电压再次提高，电缆也要跟进！"
 				""
-				"The &bGlass Fiber&r Cables can transfer 512EU up to 40 blocks before having any loss."
+				"&b玻璃纤维电缆&rr可以在传输40个方块之前传输512EU，而不会有任何损失。"
 			]
 			id: "27977E63F9056498"
 			rewards: [
@@ -1593,23 +1661,25 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "7156D161F36C1F15"
-				item: "ic2:glassfiber_cable_item"
-				type: "item"
-			}]
-			title: "&bHV Cables&r"
+			tasks: [
+				{
+					id: "7156D161F36C1F15"
+					item: "ic2:glassfiber_cable_item"
+					type: "item"
+				}
+			]
+			title: "&b&a高压导线&f&r"
 			x: 3.5d
 			y: 10.25d
 		}
 		{
 			dependencies: ["1E609436B77595CA"]
 			description: [
-				"Now that we're at a new tier, we'll need to make sure our Cables can handle the new packet size."
+				"现在我们到了一个新的级别，我们需要确保我们的电缆可以处理新的数据包大小。"
 				""
-				"&6Gold Cables&r can handle the new Voltage, but start having a loss after 2 blocks."
+				"&6&a金质导线&f&r可以处理新的电压，但在2个方块后开始损失。"
 				""
-				"&aBronze Cables&r are cheaper, but the loss starts at 1 block instead."
+				"&a&a青铜导线&f&r更便宜，但损失在1个方块后开始。"
 			]
 			id: "4929BBB34340D163"
 			rewards: [
@@ -1631,59 +1701,61 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "37592816854A6848"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ic2:gold_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:gold_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:gold_double_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:bronze_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:bronze_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:bronze_double_insulated_cable_item"
-							}
-						]
+			tasks: [
+				{
+					id: "37592816854A6848"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ic2:gold_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:gold_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:gold_double_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:bronze_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:bronze_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:bronze_double_insulated_cable_item"
+								}
+							]
+						}
 					}
+					title: "MV Cables"
+					type: "item"
 				}
-				title: "MV Cables"
-				type: "item"
-			}]
-			title: "&bMV Cables&r"
+			]
+			title: "&bMV电缆&r"
 			x: -0.75d
 			y: 14.5d
 		}
 		{
 			dependencies: ["1E609436B77595CA"]
 			description: [
-				"&dNuclear Reactors&r are the ultimate goal for power production in IC2:C."
+				"&d&a核反应堆&f&r是IC2:C中电力生产的终极目标。"
 				""
-				"These are highly customizable generators that can either a single &eNuclear Reactor&r, or a 7-block multiblock structure made by added 6 &aReactor Chamber&r blocks on each face of the &eNuclear Reactor&r block."
+				"这些是高度可定制的发电机，可以是单个&e&a核反应堆&f&r，也可以是在&e&a核反应堆&f&r块的每个面上添加6个&a&a核反应仓&f&r块形成的7块多块结构。"
 				""
-				"Reactors are also extremely dangerous, and can pretty much wipe out your entire base from an explosion if you aren't careful!"
+				"&a反应堆&f也非常危险，如果不小心，它们几乎可以从爆炸中摧毁您的整个基地！"
 				""
-				"Because of their danger, you can test out your Reactor designs using a &aReactor Planner&r to simulate performance."
+				"由于它们的危险性，您可以使用&a反应堆&f计划器模拟性能来测试您的&a反应堆&f设计。"
 				""
-				"For more information regarding the Reactor, make sure to check out the in-game &bWiki&r or you can learn more about them on the github wiki."
+				"有关&a反应堆&f的更多信息，请确保查看游戏内&bWiki&r，或者您可以在github wiki上了解更多信息。"
 			]
 			id: "3D63AFA33B18A6D5"
 			rewards: [
@@ -1732,20 +1804,20 @@
 					type: "item"
 				}
 			]
-			title: "&dNuclear Reactors&r"
+			title: "&d&a核反应堆&f&r"
 			x: 0.0d
 			y: 16.5d
 		}
 		{
 			dependencies: ["363FD99B29CD2954"]
 			description: [
-				"To make the next tier for machines like the furnace or macerator, you'll need to make a multiblock out of &aColossal Base Blocks&r."
+				"要制作像熔炉或破碎机这样的机器的下一个级别，您需要使用&a巨型基础块&r制作多块结构。"
 				""
-				"A Colossal Machine is a dynamic machine that can be built either as a 2x2x2, 3x3x3, or a 4x4x4 structure."
+				"巨型机器是一台动态机器，可以建造为2x2x2、3x3x3或4x4x4结构。"
 				""
-				"To create the multiblock, build the structure size you want out of the Colossal Base Blocks, then in the top left block of one of the faces, place down the &aColossal&r machine that you want to use."
+				"要创建多块结构，请使用&a巨型&r机器中的一个在一个面的左上角块中放置您想要使用的&a巨型&r机器。"
 				""
-				"If you need any help, you can use the guide book!"
+				"如果需要帮助，可以使用指南书！"
 			]
 			id: "6DA5CF089D765CB1"
 			rewards: [
@@ -1769,12 +1841,14 @@
 			]
 			shape: "square"
 			size: 1.25d
-			tasks: [{
-				id: "13D6CF7D862DE1EE"
-				item: "ic2:colossal_base_block"
-				type: "item"
-			}]
-			title: "&dColossal&r &aMachines&r"
+			tasks: [
+				{
+					id: "13D6CF7D862DE1EE"
+					item: "ic2:colossal_base_block"
+					type: "item"
+				}
+			]
+			title: "&d巨型&r &a机器&r"
 			x: 3.5d
 			y: 15.25d
 		}
@@ -1794,21 +1868,23 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "43C7AB785C2957F0"
-				item: "ic2:esu"
-				type: "item"
-			}]
-			title: "&dEV&r &aPower Storage&r"
+			tasks: [
+				{
+					id: "43C7AB785C2957F0"
+					item: "ic2:esu"
+					type: "item"
+				}
+			]
+			title: "EV能量储存"
 			x: 5.25d
 			y: 11.25d
 		}
 		{
 			dependencies: ["4BE52D2D76389378"]
 			description: [
-				"Each Plasma Cell can make 1 &dPlasma Core&r. This is the max tier for Voltage, as well as being needed to make one of the items needed for the &6ATM Star&r."
+				"每个&a等离子体单元&f可以制作1个&d等离子体核心&r。这是电压的最高等级，也是制作&6ATM Sta&rr所需的物品之一。"
 				""
-				"Using this, you can create cables and storage units that provide up to 32,768 EU/p. You can also make upgraded &aNuclear Reactors&r, &eAdvanced Tools&r, and &aBatteries&r that store a massive amount of power."
+				"使用它，您可以创建提供高达32,768 EU/p的电缆和存储单元。您还可以制作升级版的&a&a核反应堆&f&r、&e高级工具&r和&a电池&r，它们可以存储大量的能量。"
 			]
 			id: "289908B254CFB4A4"
 			rewards: [
@@ -1832,21 +1908,23 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "4B78791E4DE94BE0"
-				item: "ic2:plasma_core"
-				type: "item"
-			}]
-			title: "&5Plasma Cores&r"
+			tasks: [
+				{
+					id: "4B78791E4DE94BE0"
+					item: "ic2:plasma_core"
+					type: "item"
+				}
+			]
+			title: "&5等离子体核心&r"
 			x: 10.75d
 			y: 13.0d
 		}
 		{
 			dependencies: ["27977E63F9056498"]
 			description: [
-				"The next tier of Voltage is &dEV&r."
+				"电压的下一个等级是&dEV&r。"
 				""
-				"&bIron&r Cables can handle the packets of 2048 EU with a loss of 1 EU per block."
+				"&b铁&r电缆可以处理2048 EU的数据包，每个方块损失1 EU。"
 			]
 			id: "60E628766763D414"
 			rewards: [
@@ -1862,36 +1940,38 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "6C33E468B6462EA0"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ic2:iron_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:iron_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:iron_double_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:iron_triple_insulated_cable_item"
-							}
-						]
+			tasks: [
+				{
+					id: "6C33E468B6462EA0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ic2:iron_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:iron_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:iron_double_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:iron_triple_insulated_cable_item"
+								}
+							]
+						}
 					}
+					title: "Iron Cables"
+					type: "item"
 				}
-				title: "Iron Cables"
-				type: "item"
-			}]
-			title: "&dEV&r &bCables&r"
+			]
+			title: "&dEV&r &b电缆&r"
 			x: 5.25d
 			y: 10.25d
 		}
@@ -1901,9 +1981,9 @@
 				"0146A525CE064071"
 			]
 			description: [
-				"&5Plasma&r Cables will deliver the strongest Voltage, up to 32kEU."
+				"&5等离子体&r电缆可以提供最强的电压，高达32kEU。"
 				""
-				"This does have loss at every block, but who is counting at this point?"
+				"这确实会在每个方块处损失，但此时谁在计算呢？"
 			]
 			id: "61F870BB6EDBFD87"
 			rewards: [
@@ -1925,12 +2005,14 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "733C77CBA9CA9FEF"
-				item: "ic2:plasma_cable_item"
-				type: "item"
-			}]
-			title: "&5LuV&r &bCables&r"
+			tasks: [
+				{
+					id: "733C77CBA9CA9FEF"
+					item: "ic2:plasma_cable_item"
+					type: "item"
+				}
+			]
+			title: "&5LuV&r &b电缆&r"
 			x: 10.75d
 			y: 10.25d
 		}
@@ -1939,7 +2021,7 @@
 				"289908B254CFB4A4"
 				"1ED100582C6EB683"
 			]
-			description: ["The best power storage for the ultimate tier, &5LuV&r. This is around 32kEU/t."]
+			description: ["终极等级的最佳电源存储是&5LuV&r。这大约是32kEU/t。"]
 			id: "17AAE18A11BAAA06"
 			rewards: [
 				{
@@ -1960,21 +2042,23 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "1EB877E7782614A6"
-				item: "ic2:pesu"
-				type: "item"
-			}]
-			title: "&5LuV&r &aPower Storage&r"
+			tasks: [
+				{
+					id: "1EB877E7782614A6"
+					item: "ic2:pesu"
+					type: "item"
+				}
+			]
+			title: "&5LuV&r &a电源存储&r"
 			x: 10.75d
 			y: 11.25d
 		}
 		{
 			dependencies: ["04B076C0DCBE3E5A"]
 			description: [
-				"There isn't a \"Tier\" necessarily for this Storage. This is 8,192EU, which is in between EV and LuV."
+				"这个存储没有\"等级”概念。它是8192EU，介于EV和LuV之间。"
 				""
-				"Keep in mind, EV machines can only accept 2,048 EU/t. This machine outputs more than that. Don't blow up your machines."
+				"请记住，EV机器只能接受2048 EU/t。这台机器的输出超过了这个值。不要炸毁你的机器。"
 			]
 			id: "1ED100582C6EB683"
 			rewards: [
@@ -1990,21 +2074,23 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "582619B54B516790"
-				item: "ic2:isu"
-				type: "item"
-			}]
-			title: "&dIV&r &aPower Storage&r"
+			tasks: [
+				{
+					id: "582619B54B516790"
+					item: "ic2:isu"
+					type: "item"
+				}
+			]
+			title: "&dIV&r &a电源存储&r"
 			x: 8.75d
 			y: 11.25d
 		}
 		{
 			dependencies: ["60E628766763D414"]
 			description: [
-				"For this tier, &bAluminum&r Cables are great to use and have a loss per block."
+				"对于这个等级，使用&b&a铝&f&r电缆非常好，并且每个方块会有损失。"
 				""
-				"However, &dSuper Cables&r are the best and will deliver the 8,192 EU without loss for up to 1,000 blocks. Aren't they just &oSuper&r?"
+				"然而，&d超级电缆&r是最好的，可以在不损失的情况下提供8192 EU，最多可达1000个方块。它们难道不是&o超级的&r吗？"
 			]
 			id: "0146A525CE064071"
 			rewards: [
@@ -2020,55 +2106,57 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "4F1CAC3C15A3924A"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ic2:aluminium_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:aluminium_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:aluminium_double_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:aluminium_triple_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:aluminium_quadruple_insulated_cable_item"
-							}
-							{
-								Count: 1b
-								id: "ic2:super_cable_item"
-							}
-						]
+			tasks: [
+				{
+					id: "4F1CAC3C15A3924A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ic2:aluminium_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:aluminium_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:aluminium_double_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:aluminium_triple_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:aluminium_quadruple_insulated_cable_item"
+								}
+								{
+									Count: 1b
+									id: "ic2:super_cable_item"
+								}
+							]
+						}
 					}
+					title: "In Between Cables"
+					type: "item"
 				}
-				title: "In Between Cables"
-				type: "item"
-			}]
-			title: "&dIV&r &bCables&r"
+			]
+			title: "&dIV&r &b电缆&r"
 			x: 8.75d
 			y: 10.25d
 		}
 		{
 			dependencies: ["05AE8AEC410777FA"]
 			description: [
-				"If you make any machine in IC2 and place it down, you won't be able to easily pick it back up without breaking it into a &aMachine Block&r."
+				"如果您在IC2中制作任何机器并将其放下，您将无法轻松地将其拿起而不将其打成&a机器方块&f&r。"
 				""
-				"So how do you pick them up? Make a &2Wrench&r. You can get Bronze by creating dusts from the Stone Macerator, then combining them to make Bronze Dust that you can smelt into ingots. To pick up a machine, use the Wrench on the machine front or sneak-use it on the back."
+				"那么怎么拿起它们呢？制作一个&2&a扳手&f&r。您可以通过从&a石质打粉机&f中创建粉末，然后将它们组合成&a青铜粉&f，然后将其熔炼成锭来获得青铜。要拿起机器，请在机器前面使用&a扳手&f或在后面悄悄使用它。"
 				""
-				"The &aEU Reader&r is the ultimate tool for reading energy information. This has 9 different modes to cycle through for all of the info you could ever need! While it's on your Hotbar, tooltips will provide energy information as well. If you'd like to know more about the different modes, check out the guide book!"
+				"&aEU读取器&r是读取能量信息的终极工具。它有9种不同的模式可循环使用，以获取您需要的所有信息！当它在您的热键栏上时，工具提示也会提供能量信息。如果您想了解有关不同模式的更多信息，请查看指南书！"
 			]
 			id: "322681605144DFEB"
 			min_width: 300
@@ -2097,18 +2185,18 @@
 					type: "item"
 				}
 			]
-			title: "&dMAKE THESE.&r"
+			title: "&d制作这些。&r"
 			x: 0.0d
 			y: 5.25d
 		}
 		{
 			dependencies: ["45118695F4E98853"]
 			description: [
-				"The &aNano Suit&r is the first basic set of Power Armor."
+				"&aNano装甲&r是第一套基本的动力装甲。"
 				""
-				"As long as it has power, it will absorb 90% of all damage taken from you, with the exception of fall damage. Anything over 4 hearts of fall damage will only absorb about 87.5% of the damage."
+				"只要有能量，它就会吸收您受到的90%的所有伤害，除了坠落伤害。超过4颗心的坠落伤害只会吸收约87.5%的伤害。"
 				""
-				"This will also never break and can be upgraded. If you get struck by lightning while wearing it and standing on the ground, it will fully charge the Nano Suit! If you are flying or jumping while it happens.... you'll just die instead. "
+				"这也永远不会损坏，可以升级。如果您穿着它被闪电击中并站在地面上，它将完全充电Nano装甲！如果您在飞行或跳跃时被击中....您将死亡。"
 			]
 			hide_dependency_lines: true
 			id: "4A9312CA84742D83"
@@ -2135,11 +2223,13 @@
 						}
 						id: "ic2:nano_suit_helmet"
 						tag: {
-							armor_upgrades: [{
-								Count: 1b
-								id: "ic2:energy_crystal"
-								upgrade_type: "battery"
-							}]
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:energy_crystal"
+									upgrade_type: "battery"
+								}
+							]
 							mods: {
 								storage_add: 100000
 								tier: 2
@@ -2159,11 +2249,13 @@
 						}
 						id: "ic2:nano_suit_chestplate"
 						tag: {
-							armor_upgrades: [{
-								Count: 1b
-								id: "ic2:energy_crystal"
-								upgrade_type: "battery"
-							}]
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:energy_crystal"
+									upgrade_type: "battery"
+								}
+							]
 							mods: {
 								storage_add: 100000
 								tier: 2
@@ -2183,11 +2275,13 @@
 						}
 						id: "ic2:nano_suit_leggings"
 						tag: {
-							armor_upgrades: [{
-								Count: 1b
-								id: "ic2:energy_crystal"
-								upgrade_type: "battery"
-							}]
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:energy_crystal"
+									upgrade_type: "battery"
+								}
+							]
 							mods: {
 								storage_add: 100000
 								tier: 2
@@ -2207,11 +2301,13 @@
 						}
 						id: "ic2:nano_suit_boots"
 						tag: {
-							armor_upgrades: [{
-								Count: 1b
-								id: "ic2:energy_crystal"
-								upgrade_type: "battery"
-							}]
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:energy_crystal"
+									upgrade_type: "battery"
+								}
+							]
 							mods: {
 								storage_add: 100000
 								tier: 2
@@ -2223,18 +2319,18 @@
 					type: "item"
 				}
 			]
-			title: "&aNano&r Suit"
+			title: "&aNano&r装甲"
 			x: -2.75d
 			y: 9.75d
 		}
 		{
 			dependencies: ["45118695F4E98853"]
 			description: [
-				"The &aNano&r Saber is a weapon that uses power to increase the attack damage. To activate it, right click it in the air."
+				"&aNano&r剑是一种使用能量增加攻击伤害的武器。要激活它，请在空中右键单击它。"
 				""
-				"While inactive, it increases damage by 3, and when activated, it increases damage by 19."
+				"未激活时，它会增加3点伤害，激活后，它会增加19点伤害。"
 				""
-				"This also does extra damage to Nano and Quantum armor."
+				"这也会对Nano和Quantum装甲造成额外的伤害。"
 			]
 			hide_dependency_lines: true
 			id: "27F6500ED2761495"
@@ -2269,16 +2365,16 @@
 					type: "item"
 				}
 			]
-			title: "&aNano&r Saber and Shield"
+			title: "&aNano&r剑和盾"
 			x: -2.75d
 			y: 10.75d
 		}
 		{
 			dependencies: ["0B859A9B03B56BD6"]
 			description: [
-				"The &dQuantum Suit&r is one the best armors in the game."
+				"&d&a量子套装&f&r是游戏中最好的盔甲之一。"
 				""
-				"Each piece of Quantum gear has its own special abilities and can be dyed just like vanilla armor. You can find all of the info on the Quantum Suit in the guide book!"
+				"每件量子装备都有其特殊的能力，并且可以像普通盔甲一样染色。您可以在指南书中找到有关&a量子套装&f的所有信息！"
 			]
 			hide_dependency_lines: false
 			id: "1B2436A179F0EEAF"
@@ -2427,24 +2523,24 @@
 					type: "item"
 				}
 			]
-			title: "&dQuantum Suit&r"
+			title: "&d&a量子套装&f&r"
 			x: 7.0d
 			y: 14.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"There are many upgrades for machines! If the machine can accept an upgrade, you'll see the upgrade slots on the right side of the GUI!"
+				"机器有许多升级！如果机器可以接受升级，则会在GUI的右侧看到升级插槽！"
 				""
-				"This quest only requires one of the most used upgrades, but you can check more of them out in the guide book."
+				"这个任务只需要使用最常用的升级之一，但您可以在指南书中查看更多升级。"
 				""
-				"Overclocker Upgrade: Increases processing speed and energy consumption. Stacks up to 64."
+				"&a超频升级&f：增加处理速度和能量消耗。最多可叠加64个。"
 				""
-				"Transformer Upgrade: Increases the energy tier of the machine, allowing it to accept a higher voltage without exploding. Can stack up to max voltage tier."
+				"&a高压升级&f：增加机器的能量等级，使其能够接受更高的电压而不会爆炸。最多可叠加到最大电压等级。"
 				""
-				"Energy Storage Upgrade: Increases the internal energy storage of the machine. Stacks up to 64."
+				"&a储能升级&f：增加机器的内部能量存储。最多可叠加64个。"
 				""
-				"Efficiency Upgrade: Reduces the power consumption of the machine. One of these won't do much, so make sure to stack them! Stacks up to 16."
+				"&a效率升级&f：减少机器的功耗。一个不会有太大作用，所以一定要叠加它们！最多可叠加16个。"
 			]
 			id: "64DFD18C400B6922"
 			min_width: 350
@@ -2466,45 +2562,47 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "627B52D4B9ACEE2E"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ic2:upgrade_overclocker"
-							}
-							{
-								Count: 1b
-								id: "ic2:upgrade_transformer"
-							}
-							{
-								Count: 1b
-								id: "ic2:upgrade_energy_storage"
-							}
-							{
-								Count: 1b
-								id: "ic2:upgrade_efficiency"
-							}
-						]
+			tasks: [
+				{
+					id: "627B52D4B9ACEE2E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ic2:upgrade_overclocker"
+								}
+								{
+									Count: 1b
+									id: "ic2:upgrade_transformer"
+								}
+								{
+									Count: 1b
+									id: "ic2:upgrade_energy_storage"
+								}
+								{
+									Count: 1b
+									id: "ic2:upgrade_efficiency"
+								}
+							]
+						}
 					}
+					title: "Machine Upgrades"
+					type: "item"
 				}
-				title: "Machine Upgrades"
-				type: "item"
-			}]
-			title: "Machine Upgrades"
+			]
+			title: "Machine &a空白升级&f"
 			x: 1.5d
 			y: 6.75d
 		}
 		{
 			dependencies: ["61C9AE0EC0E58AC6"]
 			description: [
-				"&aBatteries&r are great ways to store energy for portable use. There are several tiers of Batteries, starting from the RE-Battery, moving to the Energy Crystal, then the Lapotron Crystal, and then the Plasma Energy Storage Device (PESD)."
+				"&a电池&r是存储便携式能量的好方法。有几个电池等级，从&a充电电池&f开始，然后是&a能量水晶&f，然后是&a兰波顿水晶&f，最后是等离子能量存储设备（PESD）。"
 				""
-				"There are also Energy Packs and Belts, so make sure to check them out! "
+				"还有能量包和腰带，所以一定要查看它们！"
 			]
 			id: "354A6640DB783102"
 			rewards: [
@@ -2520,16 +2618,18 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "56F8216E37CA8D0F"
-				item: "ic2:re_battery"
-				match_nbt: false
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56F8216E37CA8D0F"
+					item: "ic2:re_battery"
+					match_nbt: false
+					type: "item"
+				}
+			]
 			title: "Batteries"
 			x: -1.5d
 			y: 6.75d
 		}
 	]
-	title: "IC2: Classic"
+	title: "IC2：经典版"
 }

@@ -4,14 +4,37 @@
 	loot_size: 1
 	order_index: 14
 	rewards: [
-		{ item: "mekanism:pellet_antimatter" }
-		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot", random_bonus: 2, weight: 3.0f }
-		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot", random_bonus: 2, weight: 3.0f }
-		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot", random_bonus: 2, weight: 3.0f }
-		{ item: "allthemodium:piglich_heart", random_bonus: 3, weight: 3.0f }
-		{ item: "botania:life_essence" }
-		{ item: "mysticalagradditions:insanium_essence", random_bonus: 2 }
+		{
+			item: "mekanism:pellet_antimatter"
+		}
+		{
+			item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+			random_bonus: 2
+			weight: 3.0f
+		}
+		{
+			item: "allthemodium:piglich_heart"
+			random_bonus: 3
+			weight: 3.0f
+		}
+		{
+			item: "botania:life_essence"
+		}
+		{
+			item: "mysticalagradditions:insanium_essence"
+			random_bonus: 2
+		}
 	]
-	title: "&5Mythic Reward"
+	title: "&5神话奖励"
 	use_title: true
 }

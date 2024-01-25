@@ -5,18 +5,20 @@
 	group: ""
 	icon: "minecraft:zombie_head"
 	id: "18A429E7F56AF5A9"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "atm:textures/questpics/bounty.png"
-		rotation: 0.0d
-		width: 12.0d
-		x: 3.0d
-		y: -8.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "atm:textures/questpics/bounty.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -8.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -36,16 +38,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Zombies"
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "5457CD8C1ABA0B9E"
-				title: "Kill 5 Zombies"
-				type: "kill"
-				value: 5L
-			}]
-			title: "&l&9Overworld Bounty:&r&e Zombies"
+			subtitle: "杀死5个僵尸"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5457CD8C1ABA0B9E"
+					title: "Kill 5 Zombies"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "荒野赏金:僵尸"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -66,14 +70,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "3AD10C31CB6BA4C2"
-				title: "Kill 10 Zombies"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3AD10C31CB6BA4C2"
+					title: "Kill 10 Zombies"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: -4.0d
 			y: -2.0d
 		}
@@ -106,14 +112,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "51471254BFEBDAA7"
-				title: "Kill 50 Zombies"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "51471254BFEBDAA7"
+					title: "Kill 50 Zombies"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: -4.0d
 			y: -3.5d
 		}
@@ -135,14 +143,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "5056DC37AEF523E5"
-				title: "Kill 100 Zombies"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5056DC37AEF523E5"
+					title: "Kill 100 Zombies"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: -4.0d
 			y: -5.0d
 		}
@@ -161,16 +171,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Skeles"
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "5B35720DF93CE2DB"
-				title: "Kill 5 Skeletons"
-				type: "kill"
-				value: 5L
-			}]
-			title: "&l&9Overworld Bounty:&r&e Skeles"
+			subtitle: "杀死5个骷髅"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "5B35720DF93CE2DB"
+					title: "Kill 5 Skeletons"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "荒野赏金:骷髅"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -191,14 +203,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "015CB0D172D0712A"
-				title: "Kill 10 Skeletons"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "015CB0D172D0712A"
+					title: "Kill 10 Skeletons"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -231,14 +245,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "2E17443A1BF2A0DA"
-				title: "Kill 50 Skeletons"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2E17443A1BF2A0DA"
+					title: "Kill 50 Skeletons"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: -2.0d
 			y: -3.5d
 		}
@@ -260,14 +276,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "00655AC734444E54"
-				title: "Kill 100 Skeletons"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "00655AC734444E54"
+					title: "Kill 100 Skeletons"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: -2.0d
 			y: -5.0d
 		}
@@ -286,16 +304,18 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Creepers"
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "423AF6C6647B1626"
-				title: "Kill 5 Creepers"
-				type: "kill"
-				value: 5L
-			}]
-			title: "&l&9Overworld Bounty:&r&e Creepers"
+			subtitle: "杀死5个苦力怕"
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "423AF6C6647B1626"
+					title: "Kill 5 Creepers"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "&l&9荒野赏金:&r&e苦力怕"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -316,14 +336,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "1AB92CF7F0246D21"
-				title: "Kill 10 Creepers"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "1AB92CF7F0246D21"
+					title: "Kill 10 Creepers"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -356,14 +378,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "24BA89BD9898759B"
-				title: "Kill 50 Creepers"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "24BA89BD9898759B"
+					title: "Kill 50 Creepers"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 0.0d
 			y: -3.5d
 		}
@@ -385,37 +409,43 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:creeper"
-				icon: "minecraft:creeper_head"
-				id: "045D1087A2692360"
-				title: "Kill 100 Creepers"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "045D1087A2692360"
+					title: "Kill 100 Creepers"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			description: [
-				"Here you'll find all of the rewards you can get by slaying enemies."
+				"在这里，您将找到通过杀死敌人可以获得的所有奖励。"
 				""
-				"This page is a work in progress!"
+				"此页面正在建设中！"
 			]
 			id: "41C0948CD9D50322"
-			rewards: [{
-				id: "55CF29758364D4B2"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "55CF29758364D4B2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			size: 2.0d
-			subtitle: "Killing All The Things"
-			tasks: [{
-				id: "3C380961550177C2"
-				title: "Bounty Board"
-				type: "checkmark"
-			}]
-			title: "The Bounty Board"
+			subtitle: "杀死所有东西"
+			tasks: [
+				{
+					id: "3C380961550177C2"
+					title: "Bounty Board"
+					type: "checkmark"
+				}
+			]
+			title: "赏金公告板"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -435,14 +465,16 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "1809F1F9A3043683"
-				title: "Kill the Ender Dragon"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "1809F1F9A3043683"
+					title: "Kill the Ender Dragon"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 1.5d
 			y: 4.5d
 		}
@@ -462,14 +494,16 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "171FD27057746E80"
-				title: "Kill the Wither"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "171FD27057746E80"
+					title: "Kill the Wither"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 3.0000000000000004d
 			y: 4.5d
 		}
@@ -489,14 +523,16 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:elder_guardian"
-				icon: "minecraft:elder_guardian_spawn_egg"
-				id: "2F28B803C75DA3B2"
-				title: "Kill the Elder Guardian"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "minecraft:elder_guardian_spawn_egg"
+					id: "2F28B803C75DA3B2"
+					title: "Kill the Elder Guardian"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 4.5d
 			y: 4.5d
 		}
@@ -522,23 +558,25 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "This isn't even my final form."
-			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: "ars_nouveau:wilden_tribute"
-				id: "452B65E139D9E12D"
-				title: "Kill the Wilden Chimera"
-				type: "kill"
-				value: 1L
-			}]
+			subtitle: "这还不是我的最终形态。"
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_boss"
+					icon: "ars_nouveau:wilden_tribute"
+					id: "452B65E139D9E12D"
+					title: "Kill the Wilden Chimera"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 4.550000000000001d
 			y: 6.0d
 		}
 		{
 			description: [
-				"\"While making a lot of the questlines for the ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen."
+				"\"在制作ATM7的许多任务线时，商人村民认为在任务屏幕上不断推我很有趣。"
 				""
-				"Take them out. All of them.\""
+				"干掉他们。全部都干掉。\""
 				""
 				"- AlfredGG"
 			]
@@ -578,7 +616,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "\"This is Personal\" - AlfredGG"
+			subtitle: "\"这是私人的\"- AlfredGG"
 			tasks: [
 				{
 					entity: "minecraft:wandering_trader"
@@ -597,7 +635,7 @@
 					value: 2L
 				}
 			]
-			title: "Kill the Trader Villager and His Annoying Llamas"
+			title: "杀死商人村民和他讨厌的羊驼"
 			x: 3.0500000000000003d
 			y: 6.0d
 		}
@@ -617,15 +655,17 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Endermen"
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "0EA4B08DAAFA4287"
-				title: "&l&9The End Bounty:&r&e Endermen"
-				type: "kill"
-				value: 5L
-			}]
+			subtitle: "杀死5个末影人"
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "0EA4B08DAAFA4287"
+					title: "&l&9The End Bounty:&r&e Endermen"
+					type: "kill"
+					value: 5L
+				}
+			]
 			x: 10.0d
 			y: -0.5d
 		}
@@ -647,14 +687,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "58BF5D3267CF02F8"
-				title: "Kill 10 Endermen"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "58BF5D3267CF02F8"
+					title: "Kill 10 Endermen"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 10.0d
 			y: -2.0d
 		}
@@ -682,14 +724,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_pearl"
-				id: "6BA6847A172C8DD7"
-				title: "Kill 50 Endermen"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "6BA6847A172C8DD7"
+					title: "Kill 50 Endermen"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 10.0d
 			y: -3.5d
 		}
@@ -711,14 +755,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:enderman"
-				icon: "minecraft:ender_eye"
-				id: "53C23DB8B4D1CEE2"
-				title: "Kill 100 Endermen"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_eye"
+					id: "53C23DB8B4D1CEE2"
+					title: "Kill 100 Endermen"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 10.0d
 			y: -5.0d
 		}
@@ -738,15 +784,17 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Spiders"
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "18644A08B73A4B12"
-				type: "kill"
-				value: 5L
-			}]
-			title: "&l&9Overworld Bounty:&r&e Spiders"
+			subtitle: "杀死5只蜘蛛"
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "18644A08B73A4B12"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "荒野赏金:蜘蛛"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -767,14 +815,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "5801AF8000768808"
-				title: "Kill 10 Spiders"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "5801AF8000768808"
+					title: "Kill 10 Spiders"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -807,14 +857,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "0F94F7427F99DAFE"
-				title: "Kill 50 Spiders"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "0F94F7427F99DAFE"
+					title: "Kill 50 Spiders"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 2.0d
 			y: -3.5d
 		}
@@ -836,14 +888,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "0F8ACB07CFA8CB33"
-				title: "Kill 100 Spiders"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "0F8ACB07CFA8CB33"
+					title: "Kill 100 Spiders"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 2.0d
 			y: -5.0d
 		}
@@ -863,15 +917,17 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Blazes"
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_powder"
-				id: "1718CA0F8978181C"
-				title: "&l&cThe Nether Bounty:&r&e Blazes"
-				type: "kill"
-				value: 5L
-			}]
+			subtitle: "杀死5个烈焰人"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_powder"
+					id: "1718CA0F8978181C"
+					title: "&l&cThe Nether Bounty:&r&e Blazes"
+					type: "kill"
+					value: 5L
+				}
+			]
 			x: 6.0d
 			y: -0.5d
 		}
@@ -892,14 +948,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "00445193DEB7EAA0"
-				title: "Kill 10 Blazes"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "00445193DEB7EAA0"
+					title: "Kill 10 Blazes"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 6.0d
 			y: -2.0d
 		}
@@ -933,14 +991,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "404D3420276BD963"
-				title: "Kill 50 Blazes"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "404D3420276BD963"
+					title: "Kill 50 Blazes"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 6.0d
 			y: -3.5d
 		}
@@ -962,14 +1022,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:blaze"
-				icon: "minecraft:blaze_rod"
-				id: "2038156A13C07BFC"
-				title: "Kill 100 Blazes"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "2038156A13C07BFC"
+					title: "Kill 100 Blazes"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 6.0d
 			y: -5.0d
 		}
@@ -988,21 +1050,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kill 5 Witches"
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:invisibility"
+			subtitle: "杀死5个女巫"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
 					}
+					id: "7BAB5E17D2DE4E3E"
+					title: "&l&9Overworld Bounty:&r&e Witches"
+					type: "kill"
+					value: 5L
 				}
-				id: "7BAB5E17D2DE4E3E"
-				title: "&l&9Overworld Bounty:&r&e Witches"
-				type: "kill"
-				value: 5L
-			}]
+			]
 			x: 4.0d
 			y: -0.5d
 		}
@@ -1030,20 +1094,22 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:leaping"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:leaping"
+						}
 					}
+					id: "7127A76DEB4D1696"
+					title: "Kill 10 Witches"
+					type: "kill"
+					value: 10L
 				}
-				id: "7127A76DEB4D1696"
-				title: "Kill 10 Witches"
-				type: "kill"
-				value: 10L
-			}]
+			]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -1084,20 +1150,22 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:slowness"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
 					}
+					id: "78A782913B7E6353"
+					title: "Kill 50 Witches"
+					type: "kill"
+					value: 50L
 				}
-				id: "78A782913B7E6353"
-				title: "Kill 50 Witches"
-				type: "kill"
-				value: 50L
-			}]
+			]
 			x: 4.0d
 			y: -3.5d
 		}
@@ -1119,20 +1187,22 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:witch"
-				icon: {
-					Count: 1b
-					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "ars_nouveau:shielding_potion_strong"
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "ars_nouveau:shielding_potion_strong"
+						}
 					}
+					id: "5A3D6416BA0C7A20"
+					title: "Kill 100 Witches"
+					type: "kill"
+					value: 100L
 				}
-				id: "5A3D6416BA0C7A20"
-				title: "Kill 100 Witches"
-				type: "kill"
-				value: 100L
-			}]
+			]
 			x: 4.0d
 			y: -5.0d
 		}
@@ -1156,15 +1226,17 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kill 5 Wither Skeles"
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "1016033CBB003413"
-				title: "&l&cThe Nether Bounty:&r&e Wither Skeles"
-				type: "kill"
-				value: 5L
-			}]
+			subtitle: "杀死5个凋零骷髅"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "1016033CBB003413"
+					title: "&l&cThe Nether Bounty:&r&e Wither Skeles"
+					type: "kill"
+					value: 5L
+				}
+			]
 			x: 8.0d
 			y: -0.5d
 		}
@@ -1185,14 +1257,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "33107949548BC22D"
-				title: "Kill 10 Wither Skeles"
-				type: "kill"
-				value: 10L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "33107949548BC22D"
+					title: "Kill 10 Wither Skeles"
+					type: "kill"
+					value: 10L
+				}
+			]
 			x: 8.0d
 			y: -2.0d
 		}
@@ -1224,14 +1298,16 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "29A605F8B896F3B9"
-				title: "Kill 50 Wither Skeles"
-				type: "kill"
-				value: 50L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "29A605F8B896F3B9"
+					title: "Kill 50 Wither Skeles"
+					type: "kill"
+					value: 50L
+				}
+			]
 			x: 8.0d
 			y: -3.5d
 		}
@@ -1254,14 +1330,16 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "727813FFC599C36D"
-				title: "Kill 100 Wither Skeles"
-				type: "kill"
-				value: 100L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "727813FFC599C36D"
+					title: "Kill 100 Wither Skeles"
+					type: "kill"
+					value: 100L
+				}
+			]
 			x: 8.0d
 			y: -5.0d
 		}
@@ -1287,17 +1365,19 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				entity: "minecraft:warden"
-				icon: "minecraft:sculk_catalyst"
-				id: "69678CAC075C8EA5"
-				title: "Kill the Warden"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: "minecraft:sculk_catalyst"
+					id: "69678CAC075C8EA5"
+					title: "Kill the Warden"
+					type: "kill"
+					value: 1L
+				}
+			]
 			x: 1.5d
 			y: 6.0d
 		}
 	]
-	title: "&bBounty Board&r"
+	title: "&b赏金任务牌&r"
 }

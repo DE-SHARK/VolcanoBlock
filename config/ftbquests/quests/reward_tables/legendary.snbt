@@ -10,15 +10,40 @@
 	loot_size: 1
 	order_index: 13
 	rewards: [
-		{ item: "apotheosis:library" }
-		{ item: "apotheosis:mythic_material", random_bonus: 5, weight: 2.0f }
-		{ item: "apotheosis:superior_sigil_of_socketing", random_bonus: 2, weight: 2.0f }
-		{ item: "mysticalagriculture:supremium_essence", random_bonus: 2, weight: 2.0f }
-		{ item: "powah:solar_panel_spirited", weight: 2.0f }
-		{ item: "powah:solar_panel_nitro" }
-		{ count: 36, item: "powah:reactor_spirited" }
-		{ item: "allthetweaks:nether_star_block", random_bonus: 1 }
+		{
+			item: "apotheosis:library"
+		}
+		{
+			item: "apotheosis:mythic_material"
+			random_bonus: 5
+			weight: 2.0f
+		}
+		{
+			item: "apotheosis:superior_sigil_of_socketing"
+			random_bonus: 2
+			weight: 2.0f
+		}
+		{
+			item: "mysticalagriculture:supremium_essence"
+			random_bonus: 2
+			weight: 2.0f
+		}
+		{
+			item: "powah:solar_panel_spirited"
+			weight: 2.0f
+		}
+		{
+			item: "powah:solar_panel_nitro"
+		}
+		{
+			count: 36
+			item: "powah:reactor_spirited"
+		}
+		{
+			item: "allthetweaks:nether_star_block"
+			random_bonus: 1
+		}
 	]
-	title: "&6Legendary Reward"
+	title: "&6传奇奖励"
 	use_title: true
 }

@@ -15,16 +15,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "586AF33A5298B77D"
-			rewards: [{
-				id: "63281A9275BE311F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "4E6AF23CA82F1C32"
-				item: "botania:white_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "63281A9275BE311F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4E6AF23CA82F1C32"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -4.0d
 		}
@@ -33,16 +37,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "3A8286DF6F667F74"
-			rewards: [{
-				id: "187D54D9F8554BFF"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "4A5B6A054BC2618A"
-				item: "botania:orange_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "187D54D9F8554BFF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4A5B6A054BC2618A"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -5.0d
 		}
@@ -51,16 +59,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "520E3DAD6C87B989"
-			rewards: [{
-				id: "34D6ADEBEA37C6C9"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "3590A9F43523CB5F"
-				item: "botania:magenta_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34D6ADEBEA37C6C9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3590A9F43523CB5F"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -5.0d
 		}
@@ -69,16 +81,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6B2A61833A05C56E"
-			rewards: [{
-				id: "1604784A1ACC60E4"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "668A0B25AB8A7D66"
-				item: "botania:light_blue_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1604784A1ACC60E4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "668A0B25AB8A7D66"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -3.0d
 		}
@@ -87,16 +103,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "573838380230C65D"
-			rewards: [{
-				id: "3504F4736EEDF2C6"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "11B83581781F5029"
-				item: "botania:yellow_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3504F4736EEDF2C6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "11B83581781F5029"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: -5.0d
 		}
@@ -105,16 +125,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "3C16EB51FA4CA1D9"
-			rewards: [{
-				id: "08B4BC73CBCACDC9"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "4117B65D86284D80"
-				item: "botania:lime_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "08B4BC73CBCACDC9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4117B65D86284D80"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -4.0d
 		}
@@ -123,16 +147,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "5295793DD0FBEC3D"
-			rewards: [{
-				id: "2E9165F4BEC99E2B"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1BD13B156A778B94"
-				item: "botania:pink_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2E9165F4BEC99E2B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1BD13B156A778B94"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -2.0d
 		}
@@ -141,16 +169,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7C757F654BD74016"
-			rewards: [{
-				id: "0269B8785074D081"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6D8B27FE2BAB27FF"
-				item: "botania:gray_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0269B8785074D081"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6D8B27FE2BAB27FF"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -5.0d
 		}
@@ -159,16 +191,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "68CB1D1BAD343540"
-			rewards: [{
-				id: "34F3AFC0C00CA4E7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1D7C76D9F6688247"
-				item: "botania:light_gray_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34F3AFC0C00CA4E7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1D7C76D9F6688247"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: -4.0d
 		}
@@ -177,16 +213,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7BFCD0822FC37F50"
-			rewards: [{
-				id: "75BD2F537F37A95F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0F7774409C025470"
-				item: "botania:cyan_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75BD2F537F37A95F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0F7774409C025470"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -3.0d
 		}
@@ -195,16 +235,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "196C47DDEEE313B4"
-			rewards: [{
-				id: "701E439C1816BC84"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0A3D840D77B31838"
-				item: "botania:purple_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "701E439C1816BC84"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0A3D840D77B31838"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -3.0d
 		}
@@ -213,16 +257,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6CA3A5E801C82C19"
-			rewards: [{
-				id: "63E5B4F2FC93096F"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5FE74EB95A4EA4D1"
-				item: "botania:blue_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "63E5B4F2FC93096F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5FE74EB95A4EA4D1"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -4.0d
 		}
@@ -231,16 +279,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "0B59E29219F4588C"
-			rewards: [{
-				id: "168CC876146C3AB7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7FA8567C2B70BA43"
-				item: "botania:brown_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "168CC876146C3AB7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7FA8567C2B70BA43"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: -4.0d
 		}
@@ -249,16 +301,20 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "781B75C63237C8E3"
-			rewards: [{
-				id: "1153BCE864466F45"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "556DC0BEDA4BB8E3"
-				item: "botania:red_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1153BCE864466F45"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "556DC0BEDA4BB8E3"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -2.0d
 		}
@@ -267,25 +323,29 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "28A1E86651472522"
-			rewards: [{
-				id: "3D9818D12990102D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1CC547383983CA1C"
-				item: "botania:black_mystical_flower"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3D9818D12990102D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1CC547383983CA1C"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"The &aPure Daisy&r is one of the first flowers you'll create!"
+				"&a&a白雏菊&f&r是您将创建的第一朵花之一！"
 				""
-				"This flower will convert up to 8 nearby &2Wooden Logs&r or &9Stone&r into &2Livingwood&r or &9Livingrock&r, respectively. This only converts in a 1 block radius around the flower."
+				"这朵花将把最多8个附近的&2木头原木&r或&9石头&r转化为&2&a活木&f&r或&9&a活石&f&r。这仅在花周围1个方块半径内转换。"
 			]
 			hide: true
 			id: "4E02DC8A474A4A2F"
@@ -302,18 +362,20 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "53794EAD5CE56471"
-				item: "botania:pure_daisy"
-				type: "item"
-			}]
-			title: "Our First Flower"
+			tasks: [
+				{
+					id: "53794EAD5CE56471"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			title: "我们的第一朵花"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["Use a &bPure Daisy&r to convert Stone into Livingrock!"]
+			description: ["使用&b&a白雏菊&f&r将石头转化为&a活石&f！"]
 			id: "23ADD20D9B1AE0F3"
 			rewards: [
 				{
@@ -329,19 +391,21 @@
 					xp: 25
 				}
 			]
-			tasks: [{
-				count: 8L
-				id: "66BBC650D92AD2D0"
-				item: "botania:livingrock"
-				type: "item"
-			}]
-			title: "&7Livingrock"
+			tasks: [
+				{
+					count: 8L
+					id: "66BBC650D92AD2D0"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "&7&a活石&f"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["Use a &bPure Daisy&r to convert Wooden Logs into Livingwood!"]
+			description: ["使用&b&a白雏菊&f&r将原木转化为&a活木&f！"]
 			id: "597E4D997A20736D"
 			rewards: [
 				{
@@ -357,26 +421,28 @@
 					xp: 25
 				}
 			]
-			tasks: [{
-				count: 8L
-				id: "3CC2E22FFC03582A"
-				item: "botania:livingwood_log"
-				type: "item"
-			}]
-			title: "&2Livingwood&r"
+			tasks: [
+				{
+					count: 8L
+					id: "3CC2E22FFC03582A"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			title: "&2&a活木&f&r"
 			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
 			description: [
-				"With our &bLivingrock&r we've created, we can now make the &9Mana Pool&r."
+				"有了我们创建的&b&a活石&f&r，我们现在可以制作&9&a魔力池&f&r。"
 				""
-				"The Mana Pool is our storage for our Mana we generate. Once it has some mana stored inside, we can begin converting specific resources into Mana resources, like Manasteel, Mana Diamonds. To create these resources, throw the item into the pool with enough mana inside to convert the item."
+				"&a魔力池&f是我们生成的Mana的存储。一旦里面存储了一些Mana，我们就可以开始将特定资源转化为Mana资源，例如Manasteel、&a魔力钻石&f。要创建这些资源，请将物品扔进池中，其中有足够的Mana来转化物品。"
 				""
-				"To &bgenerate mana&r, you'll need to create a &2Generating Flower&r, like the &9Hydroangeas&r or the &cEndoflame&r."
+				"要&b生成Mana&r，您需要创建一个&2&a产能花&f&r，例如&9&a水绣球&f&r或&c&a火红莲&f&r。"
 				""
-				"Note: The Mana Pool stores a massive amount of mana. To see how much Mana is stored, try looking at one while holding the &2Wand of the Forest&r."
+				"注意：&a魔力池&f存储了大量的Mana。要查看存储了多少Mana，请尝试在手持&2&a森林法杖&f&r时查看其中一个。"
 			]
 			hide: true
 			id: "7A359C1F5E041C4F"
@@ -434,11 +500,11 @@
 				"205BBDFBCA582E3B"
 			]
 			description: [
-				"By tossing in certain items into a &bMana Pool&r, you can infuse them with &9Mana&r."
+				"通过将某些物品扔进&b&a魔力池&f&r中，您可以将它们注入&9Mana&r。"
 				""
-				"To see how much mana is needed for the item, make sure to check the recipe in JEI!"
+				"要查看需要多少Mana，请确保在JEI中检查配方！"
 				""
-				"Pro Tip: If you have enough mana, try creating Manasteel or Mana Diamond blocks to save time!"
+				"专业提示：如果您有足够的Mana，请尝试创建Manasteel或&a魔力钻石&f块以节省时间！"
 			]
 			hide: true
 			id: "70C5A902C0D26628"
@@ -457,66 +523,68 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "43C86CA84DC14E8A"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:manasteel_ingot"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_pearl"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_diamond"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_string"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_powder"
-							}
-							{
-								Count: 1b
-								id: "botania:quartz_mana"
-							}
-							{
-								Count: 1b
-								id: "botania:manasteel_block"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_glass"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_diamond_block"
-							}
-						]
+			tasks: [
+				{
+					id: "43C86CA84DC14E8A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:manasteel_ingot"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_pearl"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_diamond"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_string"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_powder"
+								}
+								{
+									Count: 1b
+									id: "botania:quartz_mana"
+								}
+								{
+									Count: 1b
+									id: "botania:manasteel_block"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_glass"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_diamond_block"
+								}
+							]
+						}
 					}
+					title: "Mana-Infused Materials"
+					type: "item"
 				}
-				title: "Mana-Infused Materials"
-				type: "item"
-			}]
-			title: "Creating Mana-Infused Resources"
+			]
+			title: "创建魔力注入资源"
 			x: 12.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"&aBotania&r is a tech mod disguised as a magic mod, but with TONS of cool trinkets and toys to play with!"
+				"&a&d植物魔法&f&r是一个伪装成魔法模组的技术模组，但有大量酷炫的小玩意和玩具可供玩耍！"
 				""
-				"To start your journey in Botania, you'll need plenty of &9Mystical Flowers&r!"
+				"要开始您在&d植物魔法&f中的旅程，您将需要大量的&9&a神秘花&f&r！"
 				""
-				"For more information on the items in the mod, make sure to check out the &aLexica Botania&r. "
+				"有关模组中的物品的更多信息，请确保查看&aLexica &d植物魔法&f&r。"
 			]
 			id: "13D401048A926A74"
 			rewards: [
@@ -539,25 +607,27 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			tasks: [{
-				id: "1218201A610EEEB9"
-				title: "Welcome to Botania!"
-				type: "checkmark"
-			}]
-			title: "Welcome to &aBotania&r!"
+			tasks: [
+				{
+					id: "1218201A610EEEB9"
+					title: "Welcome to Botania!"
+					type: "checkmark"
+				}
+			]
+			title: "欢迎来到&a&d植物魔法&f&r！"
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
 			description: [
-				"Now that we have some flowers, we can start converting the basic flora into functioning and generating flora using the &9Petal Apothecary&r!"
+				"现在我们有了一些花，我们可以开始使用&9&a花药台&f&r将基本植物转化为功能性和发电植物！"
 				""
-				"To start harnessing the energy from Mystical Flower Petals, we will need to fill the Apothecary with &bWater&r. This can be done by right clicking with a water bucket, or by throwing the water bucket on the Apothecary."
+				"要开始利用&a神秘花&f花瓣的能量，我们需要用&b水&r填充药剂师。这可以通过右键单击水桶或将水桶扔到药剂师上来完成。"
 				""
-				"To create items, just throw the appropriate items for the recipe into the Apothecary. Right clicking with an empty hand will remove items from it as well."
+				"要创建物品，只需将适当的物品扔进药剂师中进行配方。右键单击空手也可以将物品从中移除。"
 				""
-				"Once a recipe has been completed, you will have about 20 seconds where &aright clicking with an empty hand&r will refill the last recipe, making it easier to create multiple of the same items!"
+				"一旦完成了一个配方，您将有约20秒的时间，其中&aright clicking with an empty hand&r将重新填充上一个配方，使创建多个相同物品更容易！"
 			]
 			id: "79BE48D56622542F"
 			min_width: 250
@@ -576,17 +646,19 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "6BBFC01F3C0CC252"
-				item: "botania:apothecary_default"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6BBFC01F3C0CC252"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
-			description: ["You can make yourself some &aFloral Fertilizer&r which works like bone meal but for Botania Flowers!"]
+			description: ["您可以制作一些&a花肥&f&r，它的作用类似于骨粉，但适用于&d植物魔法&f花卉！"]
 			hide: true
 			id: "371E5E1E435E41AA"
 			rewards: [
@@ -604,17 +676,19 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "32655EB912B77D13"
-				item: "botania:fertilizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32655EB912B77D13"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: ["The &cEndoflame&r will absorb any combustible items or blocks dropped nearby, one at a time. It will then burn them to generate &bMana&r."]
+			description: ["&c&a火红莲&f&r会吸收附近掉落的可燃物品或方块，每次只能吸收一个。然后它会燃烧它们来生成&b魔力&r。"]
 			id: "177658CA70DB0C89"
 			rewards: [
 				{
@@ -630,36 +704,42 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "0F3DB7859AC1FA8A"
-				item: "botania:endoflame"
-				type: "item"
-			}]
-			title: "&cBurning Items&r to Create Mana"
+			tasks: [
+				{
+					id: "0F3DB7859AC1FA8A"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "&c燃烧物品&r生成魔力"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"This is considered a miscellaneous flower that is used to measure if you are turning a profit or loss in your Mana Pools."
+				"这被认为是一种杂项花，用于衡量你在&a魔力池&f中是否盈亏。"
 				""
-				"To do this, place the &dManastar&r next to a pool, and watch for the color of the flower to change. If it shines red, the pool is operating at a loss. If it shines blue, there is a profit!"
+				"为了做到这一点，将&d&a魔力星&f&r放在池旁边，观察花的颜色是否改变。如果它发出红光，池子就是亏损的。如果它发出蓝光，就有盈利！"
 			]
 			hide_dependency_lines: true
 			id: "0F9DABC15ED589CB"
 			optional: true
-			rewards: [{
-				id: "1757180C5FC5A320"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "1757180C5FC5A320"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "3CCC0EF8316FC97D"
-				item: "botania:manastar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3CCC0EF8316FC97D"
+					item: "botania:manastar"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -1.5d
 		}
@@ -669,17 +749,21 @@
 			hide_dependency_lines: true
 			id: "11671E9021F8FDDE"
 			optional: true
-			rewards: [{
-				id: "4BC31CE9FE930876"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "4BC31CE9FE930876"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "5BAA16D7598FF17A"
-				item: "botania:dandelifeon"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BAA16D7598FF17A"
+					item: "botania:dandelifeon"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: 2.5d
 		}
@@ -689,17 +773,21 @@
 			hide_dependency_lines: true
 			id: "78D96736B0B7F12A"
 			optional: true
-			rewards: [{
-				id: "110F28702A946AC5"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "110F28702A946AC5"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "1B4F0D2059B8026B"
-				item: "botania:entropinnyum"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B4F0D2059B8026B"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 4.5d
 		}
@@ -709,26 +797,30 @@
 			hide_dependency_lines: true
 			id: "6E7A4F653B0C1383"
 			optional: true
-			rewards: [{
-				id: "7AA7BD3489BDE052"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "7AA7BD3489BDE052"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "064F00766BFAC083"
-				item: "botania:gourmaryllis"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "064F00766BFAC083"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"These flowers generate Mana by consuming &bWater Source Blocks&r in a 3x3 area around it. These are very slow, and will eventually decay."
+				"这些花通过消耗周围3x3区域内的&b&a水源&f&r来生成魔力。它们非常缓慢，最终会腐烂。"
 				""
-				"Below is an example of a basic setup."
+				"下面是一个基本设置的示例。"
 				""
 				"{image:atm:textures/questpics/botania/hydro_sample.png width:150 height:125 align:1}"
 			]
@@ -754,12 +846,14 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "361773BACA86686E"
-				item: "botania:hydroangeas"
-				type: "item"
-			}]
-			title: "Using &9Water&r to Create Mana"
+			tasks: [
+				{
+					id: "361773BACA86686E"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			title: "使用&9水&r生成魔力"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -769,17 +863,21 @@
 			hide_dependency_lines: true
 			id: "1CCB55703C1C3511"
 			optional: true
-			rewards: [{
-				id: "391C5072F3EFA4FA"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "391C5072F3EFA4FA"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "5E904CD770B69066"
-				item: "botania:kekimurus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E904CD770B69066"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 6.5d
 		}
@@ -789,17 +887,21 @@
 			hide_dependency_lines: true
 			id: "7D5981F097FD4237"
 			optional: true
-			rewards: [{
-				id: "6D7842714E46455E"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "6D7842714E46455E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "24A17B911DF7B6A3"
-				item: "botania:munchdew"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24A17B911DF7B6A3"
+					item: "botania:munchdew"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 3.5d
 		}
@@ -809,17 +911,21 @@
 			hide_dependency_lines: true
 			id: "350C732A4A76C93F"
 			optional: true
-			rewards: [{
-				id: "7CBE0D6B85E4C698"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "7CBE0D6B85E4C698"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "2A82329EFC75B3CB"
-				item: "botania:narslimmus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A82329EFC75B3CB"
+					item: "botania:narslimmus"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 7.5d
 		}
@@ -829,17 +935,21 @@
 			hide_dependency_lines: true
 			id: "2E70AA1EAFA36A82"
 			optional: true
-			rewards: [{
-				id: "2D82D35167A0B822"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "2D82D35167A0B822"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "2FDD86AE03028860"
-				item: "botania:rafflowsia"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FDD86AE03028860"
+					item: "botania:rafflowsia"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 6.5d
 		}
@@ -849,17 +959,21 @@
 			hide_dependency_lines: true
 			id: "4C19AD490502D252"
 			optional: true
-			rewards: [{
-				id: "2DB6C4E435C1BEBB"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "2DB6C4E435C1BEBB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "09C57FE747E4FDB1"
-				item: "botania:rosa_arcana"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "09C57FE747E4FDB1"
+					item: "botania:rosa_arcana"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 5.5d
 		}
@@ -869,17 +983,21 @@
 			hide_dependency_lines: true
 			id: "4E5F2803B20A3E93"
 			optional: true
-			rewards: [{
-				id: "1240970AE089DA75"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "1240970AE089DA75"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "27A5137AD2895362"
-				item: "botania:shulk_me_not"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "27A5137AD2895362"
+					item: "botania:shulk_me_not"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -1.5d
 		}
@@ -889,17 +1007,21 @@
 			hide_dependency_lines: true
 			id: "3E80563D8E4C5398"
 			optional: true
-			rewards: [{
-				id: "36D02AAACC5C913A"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "36D02AAACC5C913A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "03C99E0B3F3B2800"
-				item: "botania:spectrolus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03C99E0B3F3B2800"
+					item: "botania:spectrolus"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 0.5d
 		}
@@ -909,17 +1031,21 @@
 			hide_dependency_lines: true
 			id: "66B7E4451AC4EF70"
 			optional: true
-			rewards: [{
-				id: "6408A878638B4A4F"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "6408A878638B4A4F"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "6D6367DDF0FF15EB"
-				item: "botania:thermalily"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D6367DDF0FF15EB"
+					item: "botania:thermalily"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 1.5d
 		}
@@ -929,16 +1055,20 @@
 			hide_dependency_lines: true
 			id: "6E90B369F414EB45"
 			optional: true
-			rewards: [{
-				id: "705081BA53D1AB47"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0B7875FF8CA719B7"
-				item: "botania:agricarnation"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "705081BA53D1AB47"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0B7875FF8CA719B7"
+					item: "botania:agricarnation"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 2.5d
 		}
@@ -948,17 +1078,21 @@
 			hide_dependency_lines: true
 			id: "136567EA7DC27DC7"
 			optional: true
-			rewards: [{
-				id: "48443AF7C7600026"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "48443AF7C7600026"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
-			tasks: [{
-				id: "3AEB80A6F92651FF"
-				item: "botania:bellethorn"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3AEB80A6F92651FF"
+					item: "botania:bellethorn"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -0.5d
 		}
@@ -968,16 +1102,20 @@
 			hide_dependency_lines: true
 			id: "7A35D3039E47E24D"
 			optional: true
-			rewards: [{
-				id: "70C244D17A41AD07"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "54DDD30C2FB19B64"
-				item: "botania:bergamute"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "70C244D17A41AD07"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "54DDD30C2FB19B64"
+					item: "botania:bergamute"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 1.5d
 		}
@@ -987,16 +1125,20 @@
 			hide_dependency_lines: true
 			id: "46959DF790DA9312"
 			optional: true
-			rewards: [{
-				id: "692FFE927E2BDDA3"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "588D1526F8E13BF7"
-				item: "botania:bubbell"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "692FFE927E2BDDA3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "588D1526F8E13BF7"
+					item: "botania:bubbell"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 1.5d
 		}
@@ -1006,16 +1148,20 @@
 			hide_dependency_lines: true
 			id: "7BB2EE5D33229891"
 			optional: true
-			rewards: [{
-				id: "0300495737AD2924"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "1F18CE807E81A7EC"
-				item: "botania:clayconia"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0300495737AD2924"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1F18CE807E81A7EC"
+					item: "botania:clayconia"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.5d
 		}
@@ -1026,16 +1172,20 @@
 			hide_dependency_lines: true
 			id: "7D72A3EB294A658C"
 			optional: true
-			rewards: [{
-				id: "594188DD54DE3EE4"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "5BC990D9FA30C81B"
-				item: "botania:daffomill"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "594188DD54DE3EE4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5BC990D9FA30C81B"
+					item: "botania:daffomill"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.5d
 		}
@@ -1045,16 +1195,20 @@
 			hide_dependency_lines: true
 			id: "37B5FE0302A90F35"
 			optional: true
-			rewards: [{
-				id: "06C6C0B7808924D6"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0A4C0E499F9D2224"
-				item: "botania:dreadthorn"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06C6C0B7808924D6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0A4C0E499F9D2224"
+					item: "botania:dreadthorn"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 0.5d
 		}
@@ -1064,16 +1218,20 @@
 			hide_dependency_lines: true
 			id: "256DCEA4B27608E2"
 			optional: true
-			rewards: [{
-				id: "4AD76BBE8D4AF6B3"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "5CEAA28BFDDFCC5F"
-				item: "botania:exoflame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4AD76BBE8D4AF6B3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5CEAA28BFDDFCC5F"
+					item: "botania:exoflame"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 1.5d
 		}
@@ -1083,16 +1241,20 @@
 			hide_dependency_lines: true
 			id: "1025A352CF7131FD"
 			optional: true
-			rewards: [{
-				id: "352D8C9B91ABE45F"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "7318E29D6291C991"
-				item: "botania:fallen_kanade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "352D8C9B91ABE45F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7318E29D6291C991"
+					item: "botania:fallen_kanade"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 1.5d
 		}
@@ -1102,16 +1264,20 @@
 			hide_dependency_lines: true
 			id: "18BD20B1D713FEBC"
 			optional: true
-			rewards: [{
-				id: "7F7D3E99B055C3B1"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "6826F3DB5C759EF2"
-				item: "botania:heisei_dream"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F7D3E99B055C3B1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6826F3DB5C759EF2"
+					item: "botania:heisei_dream"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 4.5d
 		}
@@ -1121,16 +1287,20 @@
 			hide_dependency_lines: true
 			id: "305EDB583A9380FC"
 			optional: true
-			rewards: [{
-				id: "3045B98D9536DBE8"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "74F64B1A74B30D28"
-				item: "botania:hopperhock"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3045B98D9536DBE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "74F64B1A74B30D28"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 2.5d
 		}
@@ -1140,16 +1310,20 @@
 			hide_dependency_lines: true
 			id: "79BC197AA5999EF7"
 			optional: true
-			rewards: [{
-				id: "4A2357FA548F8D36"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "53DFF5E0788632CF"
-				item: "botania:hyacidus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A2357FA548F8D36"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "53DFF5E0788632CF"
+					item: "botania:hyacidus"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.5d
 		}
@@ -1159,16 +1333,20 @@
 			hide_dependency_lines: true
 			id: "3CA42D084CD48E4D"
 			optional: true
-			rewards: [{
-				id: "576DE11A620A0F0D"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "4F3C22369EFE4771"
-				item: "botania:jaded_amaranthus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "576DE11A620A0F0D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4F3C22369EFE4771"
+					item: "botania:jaded_amaranthus"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.5d
 		}
@@ -1178,16 +1356,20 @@
 			hide_dependency_lines: true
 			id: "7B6D9EDC4F06104C"
 			optional: true
-			rewards: [{
-				id: "5430B07D113C63BC"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "31FE4492CDAB3619"
-				item: "botania:jiyuulia"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5430B07D113C63BC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "31FE4492CDAB3619"
+					item: "botania:jiyuulia"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -0.5d
 		}
@@ -1197,16 +1379,20 @@
 			hide_dependency_lines: true
 			id: "474551E50F99D8AC"
 			optional: true
-			rewards: [{
-				id: "2DF883FDE6570848"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "4571B438D249F3D9"
-				item: "botania:loonium"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2DF883FDE6570848"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4571B438D249F3D9"
+					item: "botania:loonium"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 4.5d
 		}
@@ -1216,16 +1402,20 @@
 			hide_dependency_lines: true
 			id: "018B2BE3D7698107"
 			optional: true
-			rewards: [{
-				id: "3E6FA02C12DB0E83"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "7EB485F46B1A3DAB"
-				item: "botania:marimorphosis"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E6FA02C12DB0E83"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7EB485F46B1A3DAB"
+					item: "botania:marimorphosis"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.5d
 		}
@@ -1235,16 +1425,20 @@
 			hide_dependency_lines: true
 			id: "334A0673FD07BF87"
 			optional: true
-			rewards: [{
-				id: "0902C8F0AAD4BB00"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "7B0A4890B1EA4866"
-				item: "botania:medumone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0902C8F0AAD4BB00"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7B0A4890B1EA4866"
+					item: "botania:medumone"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 2.5d
 		}
@@ -1254,16 +1448,20 @@
 			hide_dependency_lines: true
 			id: "58B0D3B672042B20"
 			optional: true
-			rewards: [{
-				id: "20318101FE4BAE80"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "5365DC5EBDAB7F1F"
-				item: "botania:orechid"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "20318101FE4BAE80"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5365DC5EBDAB7F1F"
+					item: "botania:orechid"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.5d
 		}
@@ -1273,16 +1471,20 @@
 			hide_dependency_lines: true
 			id: "00E5E6BCEB716581"
 			optional: true
-			rewards: [{
-				id: "746FEFBEDAFAB430"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "4A5E3FD182F32743"
-				item: "botania:orechid_ignem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "746FEFBEDAFAB430"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4A5E3FD182F32743"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 2.5d
 		}
@@ -1292,16 +1494,20 @@
 			hide_dependency_lines: true
 			id: "067FDF87F4703205"
 			optional: true
-			rewards: [{
-				id: "5A971A64D2C62A72"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "12DA09A6C97199B7"
-				item: "botania:pollidisiac"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5A971A64D2C62A72"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "12DA09A6C97199B7"
+					item: "botania:pollidisiac"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 4.5d
 		}
@@ -1311,16 +1517,20 @@
 			hide_dependency_lines: true
 			id: "0324A530DF0D9D11"
 			optional: true
-			rewards: [{
-				id: "722B7CC563487E91"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "603469596723B2A8"
-				item: "botania:rannuncarpus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "722B7CC563487E91"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "603469596723B2A8"
+					item: "botania:rannuncarpus"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 3.5d
 		}
@@ -1330,16 +1540,20 @@
 			hide_dependency_lines: true
 			id: "473B72A0BC98A469"
 			optional: true
-			rewards: [{
-				id: "7F3497B3CCFBEBB6"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "18EDE2C0E6133C84"
-				item: "botania:solegnolia"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F3497B3CCFBEBB6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "18EDE2C0E6133C84"
+					item: "botania:solegnolia"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 3.5d
 		}
@@ -1349,16 +1563,20 @@
 			hide_dependency_lines: true
 			id: "04606CC66363B7A2"
 			optional: true
-			rewards: [{
-				id: "52FEDB72D380FC4A"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3C55D19D9BD9C886"
-				item: "botania:spectranthemum"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "52FEDB72D380FC4A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3C55D19D9BD9C886"
+					item: "botania:spectranthemum"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 3.5d
 		}
@@ -1368,16 +1586,20 @@
 			hide_dependency_lines: true
 			id: "7A4335AEE81D23D8"
 			optional: true
-			rewards: [{
-				id: "52C80B5DA125A76A"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "2FDEF1E13E2AA8C8"
-				item: "botania:tangleberrie"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "52C80B5DA125A76A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2FDEF1E13E2AA8C8"
+					item: "botania:tangleberrie"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 3.5d
 		}
@@ -1387,16 +1609,20 @@
 			hide_dependency_lines: true
 			id: "5151959325E1F10B"
 			optional: true
-			rewards: [{
-				id: "47513B880DB6A741"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "349D8E7F10ADA938"
-				item: "botania:tigerseye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "47513B880DB6A741"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "349D8E7F10ADA938"
+					item: "botania:tigerseye"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.5d
 		}
@@ -1406,64 +1632,72 @@
 			hide_dependency_lines: true
 			id: "2E0BCC25FB030043"
 			optional: true
-			rewards: [{
-				id: "0F201F298BA39C53"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3DD0065C7C329AA1"
-				item: "botania:vinculotus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0F201F298BA39C53"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3DD0065C7C329AA1"
+					item: "botania:vinculotus"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
-			description: ["Found only in treasure chests, the &0Black Lotus&r can be thrown into a non-empty Mana Pool to give it a good deal of concentrated Mana."]
+			description: ["&0&a黑莲花&f&r只能在宝藏箱中找到，可以扔进非空的&a魔力池&f中，为其注入大量浓缩魔力。"]
 			hide: true
 			hide_dependency_lines: true
 			id: "5E2AA5695D1F21D7"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "172AEB481DEA9F1E"
-				table_id: 5354288240016506720L
-				type: "random"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "490EAAA3703A576F"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:black_lotus"
-							}
-							{
-								Count: 1b
-								id: "botania:blacker_lotus"
-							}
-						]
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "172AEB481DEA9F1E"
+					table_id: 5354288240016506720L
+					type: "random"
 				}
-				title: "Black Lotus"
-				type: "item"
-			}]
-			title: "The Elusive Mana-infused Lotus"
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "490EAAA3703A576F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:black_lotus"
+								}
+								{
+									Count: 1b
+									id: "botania:blacker_lotus"
+								}
+							]
+						}
+					}
+					title: "Black Lotus"
+					type: "item"
+				}
+			]
+			title: "&a虚影&f魔力注入荷花"
 			x: 10.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["205BBDFBCA582E3B"]
 			description: [
-				"The &2Mana Spreader&r is used to direct the flow of Mana by shooting out Mana Bursts."
+				"&2&a魔力发射器&f&r用于通过发射魔力爆裂来引导魔力流动。"
 				""
-				"You can set the direction that the Spreader shoots by binding it to a block using the &2Wand of the Forest&r. While holding the Wand, you can also see the mana buffer, as well as the Mana Bursts."
+				"您可以使用&2&a森林法杖&f&r将发射器发射的方向设置为绑定到一个方块上。在握着法杖的同时，您还可以看到魔力缓冲区以及魔力爆裂。"
 			]
 			id: "1C48F2612F2FA828"
 			rewards: [
@@ -1479,88 +1713,98 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "0B0D56F682F2791A"
-				item: "botania:mana_spreader"
-				type: "item"
-			}]
-			title: "Directing Mana"
+			tasks: [
+				{
+					id: "0B0D56F682F2791A"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			title: "引导魔力"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["597E4D997A20736D"]
 			description: [
-				"The &2Wand of the Forest&r is a must-have item if you want to continue your journey in Botania."
+				"如果您想继续在&d植物魔法&f中旅行，那么&2&a森林法杖&f&r是必备物品。"
 				""
-				"The wand has two modes: &aBind&r and &9Function&r."
+				"该法杖有两种模式：&a绑定&r和&9功能&r。"
 				""
-				"&aBind mode&r is used to bind flowers and blocks together in Botania. Start by sneak-right clicking the first block or flower you want, then sneak-right click another block or flower to bind them together."
+				"&a绑定模式&r用于在&d植物魔法&f中将花和方块绑定在一起。首先，潜行右键单击您想要的第一个方块或花，然后潜行右键单击另一个方块或花以将它们绑定在一起。"
 				""
-				"&9Function Mode&r essentially acts like a wrench, and is used to rotate blocks."
+				"&9功能模式&r基本上像扳手一样，用于旋转方块。"
 			]
 			hide: true
 			id: "205BBDFBCA582E3B"
-			rewards: [{
-				id: "2240BDE8F6BEE2D2"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "2240BDE8F6BEE2D2"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "rsquare"
 			size: 1.25d
-			tasks: [{
-				id: "59FB36F10FBA2E3D"
-				item: {
-					Count: 1b
-					id: "botania:twig_wand"
-					tag: {
-						color1: 0
-						color2: 0
+			tasks: [
+				{
+					id: "59FB36F10FBA2E3D"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Botania's Wrench"
+			]
+			title: "&d植物魔法&f的&a扳手&f"
 			x: 9.0d
 			y: 3.2d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
 			description: [
-				"To upgrade the &2Mana Spreader&r, you can attach &9Mana Lenses&r to the front of the Spreader. However, the most basic Mana Lens does nothing."
+				"要升级&a魔力发射器&f&r，您可以在发射器前面附加&9&a魔力透镜&f&r。然而，最基本的&9&a魔力透镜&f什么也不做。"
 				""
-				"You'll need to upgrade the Mana Lens to give it different effects on the bursts of Mana it sends out. Lenses can also be dyed by crafting it with any color, or with a Mana Pearl to create a Rainbow Lens."
+				"您需要升级&a魔力透镜&f以在发送的魔力爆裂上产生不同的效果。透镜也可以通过与任何颜色一起制作或与&a魔力珍珠&f一起制作来染色，以创建彩虹透镜。"
 				""
-				"By combining a Mana Lens with specific runes and items, we can use them to upgrade our Spreaders. You can also combine 2 lenses together with a &aSlime Ball&r to create &9Composite Lenses&r, combining the powers to create even stronger effects."
+				"通过将&a魔力透镜&f与特定的符文和物品组合在一起，我们可以使用它们来升级我们的发射器。您还可以使用&a&a粘液球&f&r将2个透镜组合在一起，以创建&9&a复合透镜&f&r，将力量结合在一起以创建更强大的效果。"
 			]
 			id: "6FBE0BF8A7ADBB26"
 			min_width: 300
-			rewards: [{
-				id: "3B601334FFB56069"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3B601334FFB56069"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "3E76CBAA617FAA35"
-				item: "botania:lens_normal"
-				type: "item"
-			}]
-			title: "Upgrading Mana Spreaders"
+			tasks: [
+				{
+					id: "3E76CBAA617FAA35"
+					item: "botania:lens_normal"
+					type: "item"
+				}
+			]
+			title: "升级&a魔力发射器&f"
 			x: 12.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"The &bMana Splitter&r can be used as a way of splitting incoming Mana bursts into several Mana Pools at once."
+				"&b&a魔力分配器&f&r可用作将传入的魔力爆裂分成几个&a魔力池&f的方法。"
 				""
-				"&dSparks&r are used to transfer Mana to specific blocks, which are needed for in the progression of Botania."
+				"&d火花&r用于将魔力传输到特定的方块，这些方块对于&d植物魔法&f的进展是必需的。"
 				""
-				"To use a Spark, place one over a Mana Pool, then another over a nearby block that can accept it. Think of this like \"wirelessly\" transferring Mana from your Mana Pools to the desired nearby block."
+				"要使用火花，请将其放在&a魔力池&f上方，然后将其放在可以接受它的附近方块上方。将其视为将魔力从您的&a魔力池&f无线传输到所需的附近方块。"
 				""
-				"To remove a Spark, sneak-right click it with a &2Wand of the Forest&r."
+				"要删除火花，请使用&2&a森林法杖&f&r进行潜行右键单击。"
 			]
 			id: "2CBBE8EF07B1D3DA"
 			shape: "diamond"
@@ -1576,13 +1820,13 @@
 					type: "item"
 				}
 			]
-			title: "Manipulating Mana Storage"
+			title: "操纵魔力存储"
 			x: 8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["The &dAlchemy Catalyst&r can be placed under a &bMana Pool&r to allow it to perform &9Alchemy&r. This is useful to convert certain items into more useful items, like Rotten Flesh into Leather."]
+			description: ["&d&a炼金催化器&f&r可放置在&a魔力池&f&r下方，以使其执行&9炼金术&r。这对于将某些物品转换为更有用的物品非常有用，例如将腐肉转换为皮革。"]
 			id: "32DF4BC46620F952"
 			rewards: [
 				{
@@ -1598,40 +1842,46 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "0B5B67B066E672CD"
-				item: "botania:alchemy_catalyst"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B5B67B066E672CD"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["Similar to the Alchemy Catalyst, when placed under a Mana Pool, the &9Conjuration Catalyst&r unlocks the abillity to use conjuration recipes. "]
+			description: ["与&a炼金催化器&f类似，当放置在&a魔力池&f下方时，&9&a炼造催化器&f&r将解锁使用咒术配方的能力。"]
 			id: "1DCFC67A8E3DCA2C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77862A79FD065930"
-				table_id: 8234116511213485813L
-				type: "random"
-			}]
-			tasks: [{
-				id: "258C1DEBF18D2EBA"
-				item: "botania:conjuration_catalyst"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77862A79FD065930"
+					table_id: 8234116511213485813L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "258C1DEBF18D2EBA"
+					item: "botania:conjuration_catalyst"
+					type: "item"
+				}
+			]
 			x: 19.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"The &9Mana Tablet&r is a portable Mana Pool!"
+				"&9&a魔力石板&f&r是一个便携式的&a魔力池&f！"
 				""
-				"Tossing the tablet into a Mana Pool will allow it to either give or take Mana from the pool. You can switch between the modes by sneak-right clicking with a &2Wand of the Forest&r."
+				"将该平板投入&a魔力池&f中，将允许它从池中提取或注入魔力。您可以通过使用&2&a森林法杖&f&r进行潜行右键单击来在模式之间切换。"
 				""
-				"Note: Tablets will not despawn."
+				"注意：平板不会消失。"
 			]
 			id: "2162EA0216E27D68"
 			rewards: [
@@ -1648,18 +1898,20 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0ADA4C174CEF2EEE"
-				item: "botania:mana_tablet"
-				type: "item"
-			}]
-			title: "Transferring Mana from Pools"
+			tasks: [
+				{
+					id: "0ADA4C174CEF2EEE"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			title: "从魔力池中转移魔力"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2162EA0216E27D68"]
-			description: ["The &9Band of Mana&r is a wearable Mana Tablet that can be equipped like a trinket."]
+			description: ["&9&a魔力之戒&f&r是一种可穿戴的&a魔力石板&f，可以像小饰品一样装备。"]
 			id: "379AC75F99212089"
 			rewards: [
 				{
@@ -1675,30 +1927,34 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "088F2F276200B262"
-				item: "botania:mana_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "088F2F276200B262"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["379AC75F99212089"]
-			description: ["By upgrading the Band of Mana with an ingot of Terrasteel, it creates the &dGreater Band of Mana&r which allows it to hold up to 4x the amount of mana."]
+			description: ["通过使用一块Terrasteel锭升级&a魔力之戒&f，可以创建&d&a高级魔力之戒&f&r，使其能够容纳多达4倍的魔力。"]
 			id: "2F01BF021E1BE0A2"
 			shape: "diamond"
-			tasks: [{
-				id: "3678AFFD31942CF3"
-				item: "botania:mana_ring_greater"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3678AFFD31942CF3"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6A56574BC562B227"]
-			description: ["By upgrading the Band of Aura with an ingot of Terrasteel, it increases the mana generation rate of the band significantly."]
+			description: ["通过使用一块Terrasteel锭升级&a光环之戒&f，可以显著提高该戒指的魔力生成速率。"]
 			id: "70C25BFA6FFA1799"
 			rewards: [
 				{
@@ -1713,17 +1969,19 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "34385B9406728C43"
-				item: "botania:aura_ring_greater"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34385B9406728C43"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["When equipped, the &9Band of Aura&r will slowly generate a trickle of Mana over time, and stores it into Mana-containing items within your inventory."]
+			description: ["当装备时，&9&a光环之戒&f&r将会随着时间缓慢生成魔力，并将其存储到您的库存中的魔力容器中。"]
 			hide_dependency_lines: false
 			id: "6A56574BC562B227"
 			rewards: [
@@ -1739,20 +1997,22 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "04EDE2305855A16B"
-				item: "botania:aura_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04EDE2305855A16B"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"While the &bManaweave Robes&r don't offer the greatest overall protection, the set bonus is pretty powerful!"
+				"虽然&b&a魔源长袍&f&r的整体保护能力不是最好的，但套装加成非常强大！"
 				""
-				"When all four pieces are worn, you'll get a discount on Mana cost for mana tools and rods. The set can also repair itself using Mana from one's inventory."
+				"当穿戴所有四件时，您将获得魔力工具和魔力棒的魔力成本折扣。该套装还可以使用来自库存中的魔力进行自我修复。"
 			]
 			id: "05A845C811A9A4A0"
 			optional: true
@@ -1821,13 +2081,13 @@
 					type: "item"
 				}
 			]
-			title: "Manaweave Robes"
+			title: "&a魔源长袍&f"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["Similar to the qualities of Iron, &9Manasteel Armor&r has superior enchantability and durability. Manasteel items can also repair themselves with Mana from the user's inventory."]
+			description: ["与铁相似，&9魔钢盔甲&rr具有更高的附魔能力和耐久性。魔钢物品还可以使用用户库存中的魔力进行自我修复。"]
 			hide: true
 			id: "64DB69F741EA5BEE"
 			rewards: [
@@ -1889,117 +2149,137 @@
 					type: "item"
 				}
 			]
-			title: "Manasteel Armor"
+			title: "魔钢盔甲"
 			x: 12.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			id: "7F6B1E12FF35C9B4"
-			rewards: [{
-				id: "42C319B92CE57B4F"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "15721B09FEE7A75E"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_pick"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "42C319B92CE57B4F"
+					type: "xp"
+					xp: 50
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "15721B09FEE7A75E"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			id: "087A99014FE8BAC2"
-			rewards: [{
-				id: "308B2A25CF474BDA"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "443C2EF5FFE8D265"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_shovel"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "308B2A25CF474BDA"
+					type: "xp"
+					xp: 50
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "443C2EF5FFE8D265"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			id: "7E0A8892ABC7C368"
-			rewards: [{
-				id: "5FAF2B25C21AE1C5"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "541045912841BC47"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_axe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "5FAF2B25C21AE1C5"
+					type: "xp"
+					xp: 50
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "541045912841BC47"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			id: "609284EA5EDD6A64"
-			rewards: [{
-				id: "68E57DDA535C30D4"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "3AD34C5C835969B6"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_hoe"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "68E57DDA535C30D4"
+					type: "xp"
+					xp: 50
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "3AD34C5C835969B6"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			id: "07F65584D1525191"
-			rewards: [{
-				id: "43F14C9FC6B8D8A8"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "76BA8B9CAF7F42CF"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "43F14C9FC6B8D8A8"
+					type: "xp"
+					xp: 50
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "76BA8B9CAF7F42CF"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: -1.0d
 		}
@@ -2028,23 +2308,25 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "0573FE02AA798A3A"
-				item: {
-					Count: 1b
-					id: "aiotbotania:manasteel_aiot"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0573FE02AA798A3A"
+					item: {
+						Count: 1b
+						id: "aiotbotania:manasteel_aiot"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 12.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["Just like Manasteel armor, &aTerrasteel Armor&r can repair itself using Mana. It has the durability comparable to Diamond armor as well."]
+			description: ["与魔钢盔甲类似，&aTerrasteel盔甲&rr也可以使用魔力进行自我修复。它的耐久性与&a钻石&f盔甲相当。"]
 			hide: true
 			id: "10F2044D080D6209"
 			rewards: [
@@ -2140,24 +2422,26 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "452C356D4E2D5863"
-				item: {
-					Count: 1b
-					id: "aiotbotania:terra_aiot"
-					tag: {
-						Damage: 0
-						mana: 9999
+			tasks: [
+				{
+					id: "452C356D4E2D5863"
+					item: {
+						Count: 1b
+						id: "aiotbotania:terra_aiot"
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 16.47244897959183d
 			y: -2.9755102040816226d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["Using Mana, the &2Terra Truncator&r will feel entire trees in one fell swoop."]
+			description: ["使用魔力，&2&a泰拉断裂者&f&r可以一次性砍倒整棵树。"]
 			id: "3C84D684B3A5D7B6"
 			rewards: [
 				{
@@ -2172,23 +2456,25 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "1B5BCFFB27A87601"
-				item: {
-					Count: 1b
-					id: "botania:terra_axe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1B5BCFFB27A87601"
+					item: {
+						Count: 1b
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 16.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: ["With the damage of a Diamond Sword, the &2Terra Blade&r will sometimes fire a beam that will deal as much as a melee hit would."]
+			description: ["具有&a钻石&f剑的伤害，&2&a泰拉之刃&f&r有时会发射一束光束，造成与近战攻击相同的伤害。"]
 			id: "24C0F267B330CD23"
 			rewards: [
 				{
@@ -2203,17 +2489,19 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "679F0AA9731DAF88"
-				item: {
-					Count: 1b
-					id: "botania:terra_sword"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "679F0AA9731DAF88"
+					item: {
+						Count: 1b
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 15.5d
 			y: -1.0d
 		}
@@ -2233,30 +2521,32 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "20888C5A49E67F6B"
-				item: {
-					Count: 1b
-					id: "aiotbotania:terra_shovel"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "20888C5A49E67F6B"
+					item: {
+						Count: 1b
+						id: "aiotbotania:terra_shovel"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 15.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"It's not just a pickaxe, the &9Terra Shatterer&r also acts just like a Mana Tablet when tossed into a Mana Pool and can store a ton of mana. However, you will not be able to release the absorbed mana from the Shatterer. "
+				"&9&a泰拉粉碎者&f&r不仅是一把镐子，还可以像&a魔力石板&f一样投入&a魔力池&f中，并可以存储大量魔力。但是，您将无法从Shatterer中释放吸收的魔力。"
 				""
-				"The higher the amount of Mana stored in the tool, the higher the rank that it has, with D being the lowest and SS being the highest."
+				"存储在工具中的魔力越高，其等级就越高，D为最低，SS为最高。"
 				""
-				"Increasing the tool's rank does not increase the speed of it, but instead increases the AoE of its &bActive Ability&r, which can be toggled on and off by sneak-right clicking. When active, it increases the Shatterer's mining width and height based on the rank. Being at a rank of D will not have an ability."
+				"增加工具的等级不会增加其速度，而是增加其&bActive Ability&r的范围，可以通过潜行右键单击进行切换。激活时，它将根据等级增加Shatterer的挖掘宽度和高度。等级为D将没有能力。"
 				""
-				"Note: As long as the tool is active, it will consume its stored mana."
+				"注意：只要工具处于活动状态，它就会消耗其存储的魔力。"
 			]
 			id: "4143C1CF83DE922E"
 			min_width: 300
@@ -2273,18 +2563,20 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "65D28D69164FF766"
-				item: {
-					Count: 1b
-					id: "botania:terra_pick"
-					tag: {
-						Damage: 0
-						mana: 9999
+			tasks: [
+				{
+					id: "65D28D69164FF766"
+					item: {
+						Count: 1b
+						id: "botania:terra_pick"
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 17.5d
 			y: -1.0d
 		}
@@ -2304,28 +2596,30 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "10D85459C1342715"
-				item: {
-					Count: 1b
-					id: "aiotbotania:terra_hoe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "10D85459C1342715"
+					item: {
+						Count: 1b
+						id: "aiotbotania:terra_hoe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"Tired of using a shovel to level out grass? Try using the &2Rod of Terra Firma&r!"
+				"厌倦了使用铲子来铲平草地？试试使用&2&a大地权杖&f&r！"
 				""
-				"At the cost of Mana, this will flatten the surrounding land to your own altitude by charging up the rod by holding right click."
+				"以魔力为代价，通过按住右键充能该权杖，将会将周围的土地平整到您的高度。"
 				""
-				"Note: Blocks removed by the rod are not recoverable."
+				"注意：权杖移除的方块无法恢复。"
 			]
 			id: "2EB6088D4E85DA42"
 			optional: true
@@ -2342,25 +2636,27 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "1DCCF34086BB0191"
-				item: "botania:terraform_rod"
-				type: "item"
-			}]
-			title: "Flattening the Land"
+			tasks: [
+				{
+					id: "1DCCF34086BB0191"
+					item: "botania:terraform_rod"
+					type: "item"
+				}
+			]
+			title: "平整土地"
 			x: 16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"&9Runes&r are vital crafting components in many of the more advanced recipes in Botania, and these are created on a &aRunic Altar&r."
+				"&9符文&r是许多更高级配方中必不可少的制作组件，它们是在&a符文祭坛&f&r上制作的。"
 				""
-				"To use the Altar, start by placing the components of the rune you want on it. This can be done either by right clicking or dropping the item. It will also need Mana, so make sure to point a Mana Spreader that is getting Mana towards it as well."
+				"要使用祭坛，首先将您想要的符文组件放在上面。这可以通过右键单击或放置物品来完成。它还需要魔力，因此请确保将获得魔力的&a魔力发射器&f对准它。"
 				""
-				"Once you've finished placing the items, you can hover over the Altar with your wand and it will show you the progress of the recipe. When it completes, drop a piece of Livingrock on the Altar, then use your wand to collect your rune."
+				"放置完物品后，您可以用魔杖悬停在祭坛上，它会显示配方的进度。完成后，在祭坛上放置一块&a活石&f，然后使用魔杖收集您的符文。"
 				""
-				"Note: Runes used for recipes in the Runic Altar function as catalysts, and will not be consumed. Just like the Petal Apothecary, right-clicking the Altar with an empty hand after a recipe is complete will refill it with the items used in the last recipe."
+				"注意：在&a符文祭坛&f中用于配方的符文作为催化剂，不会被消耗。就像&a花药台&f一样，在完成配方后用空手右键单击祭坛会重新填充上次配方中使用的物品。"
 			]
 			id: "0631F054A9B97A40"
 			min_width: 300
@@ -2417,13 +2713,13 @@
 					type: "item"
 				}
 			]
-			title: "Creating Runes"
+			title: "制作符文"
 			x: 12.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["Using vials, Mana, and reagents in a &aBotanical Brewery&r, you can create &9Brews&r which are just like Potions."]
+			description: ["使用瓶子、魔力和药剂在&a植物酿造台&f&r中，您可以制作与药水类似的&9药剂&r。"]
 			id: "30F7B68093D76590"
 			optional: true
 			rewards: [
@@ -2439,17 +2735,19 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "4E9712523E4B94E8"
-				item: "botania:brewery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E9712523E4B94E8"
+					item: "botania:brewery"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["30F7B68093D76590"]
-			description: ["&2Incense Sticks&r can be infused with Brews in a Botanical Brewery. These can be lit using flint and steel on an &9Incense Plate&r to provide the brew effect for sixty times longer than its liquid counterpart, in a 30-block radius around the plate."]
+			description: ["&2&a熏香&f&r可以在&a植物酿造台&f中与药剂混合。这些可以使用打火石点燃&a香盘&f&r，在盘子周围30个方块的范围内提供药剂效果，持续时间比其液体形式长60倍。"]
 			id: "0D9354ABA2AE2A11"
 			optional: true
 			rewards: [
@@ -2465,17 +2763,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "0B549F7000B06C0D"
-				item: "botania:incense_stick"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B549F7000B06C0D"
+					item: "botania:incense_stick"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["To create &aTerrasteel&r, we'll first need to set up the multiblock for it. The first part of this is crafting the &9Terrasteel Agglomeration Plate&r."]
+			description: ["要制作&aTerrasteel&r，我们首先需要为它设置多方块结构。其中的第一部分是制作&9&a泰拉凝聚板&f&r。"]
 			id: "65238A6DCDDDFA0D"
 			rewards: [
 				{
@@ -2496,25 +2796,27 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "76F8BB9B8C181006"
-				item: "botania:terra_plate"
-				type: "item"
-			}]
-			title: "Creating More Powerful Ingots"
+			tasks: [
+				{
+					id: "76F8BB9B8C181006"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+			]
+			title: "制作更强大的锭"
 			x: 14.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
-				"Now it's time to create our platform for the &9T.A. Plate&r so we can make &aTerrasteel&r!"
+				"现在是时候为&9T.A.板&r创建平台，以便我们可以制作&aTerrasteel&r了！"
 				""
-				"To create the platform, you'll need to place 5 pieces of Livingrock and 4 Blocks of Lapis in a checkerboard pattern, like in the image below. Place the plate on the center Livingrock block, and the platform will be complete!"
+				"要创建平台，您需要在棋盘图案中放置5块&a活石&f和4块青金石。将板放在中心的&a活石&f块上，平台就完成了！"
 				""
-				"Terrasteel needs a lot of Mana to craft, requiring the use of &9Sparks&r. Place several Sparks over your Mana Pools, then one over the T.A. Plate to direct your mana for crafting."
+				"制作Terrasteel需要大量的魔力，需要使用&9火花&r。在&a魔力池&f上放置几个火花，然后在T.A.板上放置一个火花，以引导您的魔力进行制作。"
 				""
-				"Once you have the platform ready for crafting, toss one Manasteel Ingot, Mana Diamond, and a Mana Pearl on the plate to start crafting Terrasteel."
+				"一旦您准备好制作平台，请在板上投掷一块&a魔力钢锭&f、一颗&a魔力钻石&f和一颗&a魔力珍珠&f，开始制作Terrasteel。"
 				""
 				"{image:atm:textures/questpics/botania/t_a_plate_base.png width:200 height:150 align:1}"
 			]
@@ -2555,69 +2857,73 @@
 					type: "item"
 				}
 			]
-			title: "&aCreating&r &dTerrasteel&r"
+			title: "制作&aTerrasteel&r"
 			x: 16.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"With the new Elven materials, we're able to upgrade our sparks using &dAugments&r. With the Augment in hand, you can right click a spark with it to upgrade it. Using the wand, you can sneak-right click to remove it."
+				"有了新的精灵材料，我们可以使用&d增强器&r升级我们的火花。拿着增强器，您可以右键单击火花进行升级。使用魔杖，您可以悄悄右键单击以删除它。"
 				""
-				"Dispersive Augment: Allows a Spark to drain the Mana in its pool to charge nearby players' Mana-containing items."
+				"扩散增强器：允许火花从其池中排出魔力，为附近的玩家的含魔物品充电。"
 				""
-				"Dominant Augment: Makes a Spark pull Mana from nearby non-augmented Sparks' pools into its own."
+				"主导增强器：使火花从附近未增强火花的池中吸取魔力。"
 				""
-				"Recessive Augment: Makes a Spark distribute all of the Mana in its pool into nearby non-augmented or Dispersive Sparks' pools."
+				"隐性增强器：使火花将其池中的所有魔力分配到附近未增强或扩散的火花池中。"
 				""
-				"Isolated Augment: Prevents a Spark from interacting with any Dominant or Recessive Sparks."
+				"孤立增强器：防止火花与任何主导或隐性火花交互。"
 			]
 			id: "5CB5F4CD521F6361"
 			min_width: 300
-			rewards: [{
-				id: "02D21C31266770EA"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "28B797392467C851"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_dispersive"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_dominant"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_recessive"
-							}
-							{
-								Count: 1b
-								id: "botania:spark_upgrade_isolated"
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "02D21C31266770EA"
+					type: "xp"
+					xp: 100
 				}
-				title: "Spark Augments"
-				type: "item"
-			}]
-			title: "Spark Augments"
+			]
+			tasks: [
+				{
+					id: "28B797392467C851"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dispersive"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dominant"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_recessive"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_isolated"
+								}
+							]
+						}
+					}
+					title: "Spark Augments"
+					type: "item"
+				}
+			]
+			title: "火花增强"
 			x: 21.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
-				"While you may not be able to enter the &dPortal to Alfheim&r, you can perform an &2Elven Trade&r by tossing in certain items through the portal. This does use mana for each trade! These materials can also be used to upgrade some of your items, like creating &2Elven Mana Spreaders&r."
+				"虽然你可能无法进入 &d&a精灵传送门&f&r，但你可以通过传送门投掷特定物品来进行 &2精灵贸易&r。每次交易都会使用魔力！这些材料也可以用于升级一些物品，比如制作 &2&a精灵魔力发射器&f&r。"
 				""
-				"Throwing in our &aLexica Botania&r will also upgrade it with &6Elven Knowledge&r, giving you more insight into your journey in Botania."
+				"投掷我们的 &a植物魔法书 &d植物魔法&f&r 也会用 &6&a精灵知识&f&r 升级它，让你更深入了解你在 &d植物魔法&f 中的旅程。"
 			]
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
@@ -2697,22 +3003,22 @@
 					type: "item"
 				}
 			]
-			title: "Communing with Elves"
+			title: "与精灵交流"
 			x: 20.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
 			description: [
-				"To create a &dPortal to Alfheim&r, start with the frame. We'll need to use 8 Livingwood blocks, 3 Glimmering Livingwood blocks, and an &9Elven Gateway Core&r to create the frame."
+				"要创建一个 &d&a精灵传送门&f&r，首先需要建立框架。我们需要使用 8 个 &a活木&f 方块，3 个 &a微光活木&f 方块和一个 &9&a精灵门核心&f&r 来创建框架。"
 				""
-				"Once the frame is created, we'll need to open it by using at least &d2 Mana Pools&r, a huge amount of mana, and a &aNatura Pylon&r over the 2 pools. These mana pools can be within an 11x11x11 area around the core."
+				"一旦框架建好，我们需要使用至少 &d2 &a魔力池&f&r、大量的魔力和一个 &a&a自然水晶&f&r 覆盖在 2 个池子上来打开它。这些魔力池可以在核心周围的 11x11x11 的区域内。"
 				""
-				"With everything set up, right click the Elven Core with your wand to activate the portal."
+				"一切准备就绪后，用你的魔杖右键点击精灵核心以激活传送门。"
 				""
-				"Note: Even though the Mana Pools need a large amount of Mana to activate the portal, activating the portal does not cost Mana itself. However, converting materials over will use a little each time. If there is not enough mana, the portal will close."
+				"注意：即使 &a魔力池&f 需要大量的魔力来激活传送门，但激活传送门本身并不需要魔力。然而，每次转换材料都会使用一点魔力。如果魔力不足，传送门将关闭。"
 				""
-				"You can also use the &aLexica Botania&r to help you build it."
+				"你也可以使用 &a植物魔法书 &d植物魔法&f&r 来帮助你建造它。"
 				""
 				"{image:atm:textures/questpics/botania/elven_portal.png width:200 height:175 align:1}"
 			]
@@ -2757,18 +3063,18 @@
 					type: "item"
 				}
 			]
-			title: "Opening the Portal"
+			title: "打开传送门"
 			x: 18.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"To continue your journey, you will need to get your hands on &6Gaia Spirits&r. To do this, you will need to perform the &9Ritual of Gaia&r."
+				"要继续你的旅程，你需要得到 &6&a盖亚之魂&f&r。为此，你需要进行 &9&a盖亚仪式&f&r。"
 				""
-				"You will need 4 Gaia Pylons around an &aActive Beacon&r, as well as a single Terrasteel ingot. Once the structure is built, sneak-right click the Beacon with the Terrasteel ingot and prepare for the fight of your life."
+				"你需要在一个 &a活跃信标&r 周围放置 4 个 &a盖亚水晶&f 和一个 Terrasteel 熔炉。一旦结构建好，用潜行右键点击信标并用 Terrasteel 熔炉准备好你生命中的战斗。"
 				""
-				"If you need help with building the structure, you can always use the &aLexica Botania&r to help you build it. Look for the &9Ritual of Gaia&r."
+				"如果你需要帮助建造结构，你可以使用 &a植物魔法书 &d植物魔法&f&r 来帮助你建造它。找到 &9&a盖亚仪式&f&r。"
 				""
 				"{image:atm:textures/questpics/botania/gaia_ritual.png width:300 height:100 align:1}"
 			]
@@ -2800,16 +3106,16 @@
 					type: "item"
 				}
 			]
-			title: "&aSummoning the&r &5Guardian of Gaia&r"
+			title: "&a召唤&r &5&a盖亚守护者&f&r"
 			x: 22.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"Just like most armor in Botania, the &9Elementium&r set can repair itself with mana."
+				"就像 &d植物魔法&f 中的大多数盔甲一样，&9&a源质钢&f&r 套装可以用魔力自我修复。"
 				""
-				"It also has a chance to spawn a &aPixie&r whenever the wearer is harmed. "
+				"它还有一定几率在佩戴者受伤时生成一个 &a精灵&f。"
 			]
 			hide: true
 			id: "2F388BE777C43EB6"
@@ -2878,9 +3184,9 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"Has an ability to clear away Cobblestone, Dirt, Netherrack, and other common materials, leaving behind only ores and fine resources."
+				"具有清除掉圆石、泥土、&a下界岩&f 和其他常见材料的能力，只留下矿石和精细资源。"
 				""
-				"Can combine with the Terra Shatterer in a crafting grid, which will allow the latter to take on the former's power. This cannot be undone."
+				"可以与 &a泰拉粉碎者&f 在合成网格中结合，这将使后者具有前者的能力。这是无法撤销的。"
 			]
 			id: "2230244B2CE5851D"
 			rewards: [
@@ -2896,23 +3202,25 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "6348A2F342100CF9"
-				item: {
-					Count: 1b
-					id: "botania:elementium_pickaxe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6348A2F342100CF9"
+					item: {
+						Count: 1b
+						id: "botania:elementium_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 21.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["When breaking a block that is affected by gravity, this will auto-break all blocks above or below it."]
+			description: ["当破坏受重力影响的方块时，它会自动破坏上方或下方的所有方块。"]
 			id: "1C53DEE5CED13E92"
 			rewards: [
 				{
@@ -2927,23 +3235,25 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "48201CEFFBFD0000"
-				item: {
-					Count: 1b
-					id: "botania:elementium_shovel"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "48201CEFFBFD0000"
+					item: {
+						Count: 1b
+						id: "botania:elementium_shovel"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 19.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["Can drop skulls from certain mobs or players when dealing the finishing blow. Can also be enchanted with Looting."]
+			description: ["在打出最后一击时，可以从某些生物或玩家身上掉落头颅。也可以用抢夺附魔。"]
 			id: "76A4FCDF04AD6656"
 			rewards: [
 				{
@@ -2958,23 +3268,25 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "3B60A8D021393754"
-				item: {
-					Count: 1b
-					id: "botania:elementium_axe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3B60A8D021393754"
+					item: {
+						Count: 1b
+						id: "botania:elementium_axe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 20.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["Instantly moisten farmland it creates. Do we know if there is a better word for that?"]
+			description: ["可以立即使其创建的耕地变湿。我们是否知道有更好的词来描述这个？"]
 			id: "1BCA04665A8F5EF5"
 			rewards: [
 				{
@@ -2989,23 +3301,25 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "64D7F9E3A9A910FC"
-				item: {
-					Count: 1b
-					id: "botania:elementium_hoe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "64D7F9E3A9A910FC"
+					item: {
+						Count: 1b
+						id: "botania:elementium_hoe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 21.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["Increases the chance of a Pixie spawning when hit, and augments the strength of any Pixies that are spawned."]
+			description: ["增加了当被击中时生成 &a精灵&f 的几率，并增强任何生成的 &a精灵&f 的力量。"]
 			id: "497C981D49B7FBD6"
 			rewards: [
 				{
@@ -3020,17 +3334,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "1BF03F0B36123366"
-				item: {
-					Count: 1b
-					id: "botania:elementium_sword"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1BF03F0B36123366"
+					item: {
+						Count: 1b
+						id: "botania:elementium_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 19.5d
 			y: -1.0d
 		}
@@ -3043,30 +3359,34 @@
 				"1BCA04665A8F5EF5"
 			]
 			id: "7A638812AD62D449"
-			rewards: [{
-				id: "6E678AEF8B8966BC"
-				type: "xp"
-				xp: 250
-			}]
+			rewards: [
+				{
+					id: "6E678AEF8B8966BC"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "59AED21010D90C69"
-				item: {
-					Count: 1b
-					id: "aiotbotania:elementium_aiot"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "59AED21010D90C69"
+					item: {
+						Count: 1b
+						id: "aiotbotania:elementium_aiot"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 20.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["Combining an &2Elven Mana Spreader&r with the power of Dragonstones and a &6Gaia Spirit&r creates the best Mana Spreader you can get."]
+			description: ["将 &2&a精灵魔力发射器&f&r 与 &a龙石&f 和一个 &6&a盖亚之魂&f&r 的力量结合起来，就可以创建最好的 &a魔力发射器&f。"]
 			hide: false
 			id: "4E03AC9D56202353"
 			rewards: [
@@ -3082,20 +3402,22 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "2D5337F7895CC160"
-				item: "botania:gaia_spreader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D5337F7895CC160"
+					item: "botania:gaia_spreader"
+					type: "item"
+				}
+			]
 			x: 24.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["04CE14D92603FC7A"]
 			description: [
-				"Upon defeating the &9Guardian of Gaia&r, you'll be rewarded with &6Gaia Spirits&r."
+				"打败&9&a盖亚守护者&f&r后，你将获得&6&a盖亚之魂&f&r作为奖励。"
 				""
-				"Both the game difficulty and the number of people participating in the ritual determine the amount of drops you will receive."
+				"游戏难度和参与仪式的人数决定你将获得的掉落数量。"
 			]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
@@ -3128,13 +3450,13 @@
 					value: 1L
 				}
 			]
-			title: "&6Gaia Spirits&r"
+			title: "&6&a盖亚之魂&f&r"
 			x: 24.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["Want more of a challenge, or need more &6Gaia Spirits&r from the fight? Try combining 4 Gaia Spirits with a Terrasteel ingot, and use that to activate the Ritual of Gaia. :)"]
+			description: ["想要更大的挑战或者需要更多的&6&a盖亚之魂&f&r吗？试着将4个&a盖亚之魂&f和一个Terrasteel锭合成，然后使用它来激活&a盖亚仪式&f。 :)"]
 			hide: false
 			id: "27CD17C4B3613171"
 			rewards: [
@@ -3150,18 +3472,20 @@
 					xp: 250
 				}
 			]
-			tasks: [{
-				id: "3DE2A054C6F00FBE"
-				item: "botania:gaia_ingot"
-				type: "item"
-			}]
-			title: "&5Guardian of Gaia 2.0&r"
+			tasks: [
+				{
+					id: "3DE2A054C6F00FBE"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+			]
+			title: "&5&a盖亚守护者&f 2.0&r"
 			x: 26.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: ["Using Gaia Ingots to summon the harder version of the &5Guardian of Gaia&r will get you more &6Gaia Spirits&r, but the Guardian can also drop the &6Dice of Fate&r."]
+			description: ["使用盖亚锭召唤更难的版本的&5&a盖亚守护者&f&r将会获得更多的&6&a盖亚之魂&f&r，但守护者也可能掉落&6&a命运骰子&f&r。"]
 			id: "50A2D68A83A50F47"
 			rewards: [
 				{
@@ -3178,46 +3502,52 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				id: "5348CBD95103744A"
-				item: "botania:dice"
-				type: "item"
-			}]
-			title: "&6Dice of Fate&r"
+			tasks: [
+				{
+					id: "5348CBD95103744A"
+					item: "botania:dice"
+					type: "item"
+				}
+			]
+			title: "&6&a命运骰子&f&r"
 			x: 28.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"The &9Corporea Funnel&r is a simple version of the Index, and can be used to request items from the Network by giving it a redstone signal."
+				"&9&a多媒体漏斗&f&r是索引的简化版本，可以通过给它一个红石信号来请求网络中的物品。"
 				""
-				"To tell the Funnel which item to request, place the item in an Item Frame on the block. If the Funnel has more than one item frame on it, the Funnel will pick one at random. Rotating the item in the frame will change the request quantity."
+				"为了告诉漏斗请求哪个物品，在方块上放置一个&a展示框&f，如果漏斗上有多个物品框，漏斗将随机选择一个。旋转框中的物品将改变请求数量。"
 				""
-				"For more information, make sure to check out the &aLexica Botania&r."
+				"想了解更多信息，请查看&aLexica &d植物魔法&f&r。"
 			]
 			id: "4ECFB1256BD6A7AA"
-			rewards: [{
-				id: "0924F6AEDAFE95F8"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "27FBB10E434FBD29"
-				item: "botania:corporea_funnel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0924F6AEDAFE95F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "27FBB10E434FBD29"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+			]
 			x: 19.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"With Botania, you can create a &dCorporea Network&r by using &9Corporea Sparks&r over inventories."
+				"使用&9&a多媒体火花&f&r可以通过放置在库存上方来创建&a多媒体网络&f&r。"
 				""
-				"While the network will need at least one &bMaster&r &9Corporea Spark&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, it will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks."
+				"虽然网络至少需要一个&bMaste&rr &9&a多媒体火花&f&r才能工作，但你可以使用尽可能多的&a多媒体火花&f&r来扩展网络。当这些火花被放置时，它将连接到所有相同颜色的&a多媒体火花&f&r并形成一个物品网络。每个火花的范围只有8个方块。"
 				""
-				"These Sparks can only see the inventory directly beneath it, but can only access items from its top side. Each Spark can also see every item in the Corporea network, and can be accessed by other Corporea blocks, like the Funnel or Index."
+				"这些火花只能看到它下面的库存，但只能从它的顶部访问物品。每个火花还可以看到Corporea网络中的每个物品，并且可以被其他Corporea块（如漏斗或索引）访问。"
 			]
 			id: "634E71DBAE81D197"
 			min_width: 300
@@ -3246,51 +3576,59 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Corporea Network&r"
+			title: "&dThe &a多媒体网络&f&r"
 			x: 20.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"The &5Corporea Index&r is the interface block you need to access and request items from the &9Corporea Network&r of the Corporea Spark placed above it."
+				"&5&a多媒体索引&f&r是你需要访问和请求&a多媒体网络&f&r中的物品的接口块，它位于上方放置的&a多媒体火花&f&r。"
 				""
-				"To use this, approach the Index and it will intercept Chat Messages from nearby players. These players can request items from the network by typing in what they are looking to get. For example, you could say &b10 Iron Ingots&r, and if the system has it, it will drop it out for you."
+				"要使用它，靠近索引，它将拦截附近玩家的聊天消息。这些玩家可以通过输入他们想要的物品来请求网络。例如，你可以说&b10个铁锭&r，如果系统有，它将为你掉落。"
 				""
-				"For more information, you can always check your &aLexica Botania&r."
+				"想了解更多信息，你可以随时查看你的&aLexica &d植物魔法&f&r。"
 			]
 			id: "7DF7F9CD9A795E69"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69C1BD816E1E421A"
-				table_id: 8234116511213485813L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69C1BD816E1E421A"
+					table_id: 8234116511213485813L
+					type: "loot"
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "3611F94A69522BA9"
-				item: "botania:corporea_index"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3611F94A69522BA9"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
 			x: 20.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
-			description: ["The &9Corporea Crystal Cube&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right clicking it with that item."]
+			description: ["&9&a多媒体水晶魔方&f&r用于通过右键点击它来显示&a多媒体网络&f&r中放置在上方的火花中的物品的总数。"]
 			id: "7440E522FC31C341"
 			optional: true
-			rewards: [{
-				id: "400B276E83E4995C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1550070280A21DC5"
-				item: "botania:corporea_crystal_cube"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "400B276E83E4995C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "1550070280A21DC5"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+			]
 			x: 21.5d
 			y: 6.5d
 		}
@@ -3299,16 +3637,20 @@
 			hide: true
 			id: "4E7B1FF823C85AD6"
 			optional: true
-			rewards: [{
-				id: "3FBDEEEB45C98853"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "05993154671C0697"
-				item: "botania:thor_ring"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3FBDEEEB45C98853"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "05993154671C0697"
+					item: "botania:thor_ring"
+					type: "item"
+				}
+			]
 			x: 29.0d
 			y: 4.5d
 		}
@@ -3317,27 +3659,31 @@
 			hide: true
 			id: "0C56CB7815A1355C"
 			optional: true
-			rewards: [{
-				id: "2B5648DCC65FFD87"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "078E142753C8FA7B"
-				item: {
-					Count: 1b
-					id: "botania:odin_ring"
-					tag: {
-						baubleUUID: [I;
-							-68256365
-							-428781930
-							-1518441386
-							-645335533
-						]
-					}
+			rewards: [
+				{
+					id: "2B5648DCC65FFD87"
+					type: "xp"
+					xp: 100
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "078E142753C8FA7B"
+					item: {
+						Count: 1b
+						id: "botania:odin_ring"
+						tag: {
+							baubleUUID: [I;
+								-68256365
+								-428781930
+								-1518441386
+								-645335533
+							]
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 4.5d
 		}
@@ -3346,16 +3692,20 @@
 			hide: true
 			id: "1EE1EF4695A39876"
 			optional: true
-			rewards: [{
-				id: "5CD71910DADB23AD"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "46081AC3349324C9"
-				item: "botania:loki_ring"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5CD71910DADB23AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "46081AC3349324C9"
+					item: "botania:loki_ring"
+					type: "item"
+				}
+			]
 			x: 30.0d
 			y: 3.5d
 		}
@@ -3364,16 +3714,20 @@
 			hide: true
 			id: "6AFC5FE71A80913E"
 			optional: true
-			rewards: [{
-				id: "0423B21E4757A2E6"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "408C9E36F8C27D8C"
-				item: "botania:infinite_fruit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0423B21E4757A2E6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "408C9E36F8C27D8C"
+					item: "botania:infinite_fruit"
+					type: "item"
+				}
+			]
 			x: 30.0d
 			y: 1.5d
 		}
@@ -3382,16 +3736,20 @@
 			hide: true
 			id: "780B0A790C6AF9DB"
 			optional: true
-			rewards: [{
-				id: "01E797D246D95395"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "371A7D51171C67D4"
-				item: "botania:king_key"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "01E797D246D95395"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "371A7D51171C67D4"
+					item: "botania:king_key"
+					type: "item"
+				}
+			]
 			x: 29.0d
 			y: 0.5d
 		}
@@ -3400,68 +3758,78 @@
 			hide: true
 			id: "16DE70DE2463A5DD"
 			optional: true
-			rewards: [{
-				id: "020513DCA252A8B9"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "337F2A21222F5FFC"
-				item: "botania:flugel_eye"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "020513DCA252A8B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "337F2A21222F5FFC"
+					item: "botania:flugel_eye"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"Using the Petal Apothecary, we can create several different types of flowers that can help us on our journey, and these are broken down into two different categories: &9Functional Flowers&r and &aGenerating Flowers&r."
+				"使用&a花药台&f，我们可以创建几种不同类型的花朵，这些花朵可以帮助我们在旅途中，它们被分为两个不同的类别：&9&a功能性花朵&f和&a&a产能花&f。"
 				""
-				"&9Functional Flowers&r are flowers that help you with everyday tasks. For example, the &7Hopperhock&r will function like a hopper, and pick up items within a certain range around it. Some of the Functional Flowers will require &dMana&r to operate."
+				"&9&a功能性花朵&f是帮助你完成日常任务的花朵。例如，&7&a漏斗花&f将像漏斗一样运作，并在其周围的一定范围内拾取物品。一些&a功能性花朵&f需要&d魔力&r来运作。"
 				""
-				"&aGenerating Flowers&r are flowers that produce &dMana&r using different methods, depending on the flower. The most common flower used to generate mana is the &cEndoflame&r, which generates Mana by consuming nearby combustible like coal."
+				"&a&a产能花&f是使用不同方法产生&d魔力&r的花朵，具体取决于花朵的种类。最常用于产生魔力的花朵是&c&a火红莲&f，它通过消耗附近的可燃物如煤来产生魔力。"
 				""
-				"In this questline, Flowers with the quest shape of a &cSquare&r are Generating Flowers, where as flowers with the shape of a &9Circle&r are Functional Flowers. You can also find out what each flower does by using the &aLexica Botania&r."
+				"在这个任务线中，形状为&c方形&r的花朵是&a产能花&f，而形状为&9圆形&r的花朵是&a功能性花朵&f。你也可以使用&a植物魔法词典&dLexica&f来了解每种花朵的作用。"
 			]
 			hide: true
 			id: "7B3FAF5CA4DD217C"
 			min_width: 400
-			tasks: [{
-				id: "7F362CF1D18C7FB1"
-				title: "Functional Flora"
-				type: "checkmark"
-			}]
-			title: "Functional And Generating Flora"
+			tasks: [
+				{
+					id: "7F362CF1D18C7FB1"
+					title: "Functional Flora"
+					type: "checkmark"
+				}
+			]
+			title: "功能性和产能植物"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1C48F2612F2FA828"]
 			description: [
-				"When you combine a piece of &4Redstone&r with a &2Mana Spreader&r, it creates a &9Pulse Mana Spreader&r."
+				"当你将一块&4&a红石&f&r与一个&2&a魔力发射器&f&r结合时，它会创建一个&9&a魔力发射器(红石)&f&r。"
 				""
-				"These can be controlled to only shoot a mana pulse when given a redstone pulse."
+				"这些可以被控制，只有在接收到红石信号时才会发射魔力脉冲。"
 			]
 			id: "4C22BA5824662C7E"
 			optional: true
-			rewards: [{
-				id: "51FB8A5FF90A645C"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "51FB8A5FF90A645C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "06C2FA45E55D9369"
-				item: "botania:redstone_spreader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06C2FA45E55D9369"
+					item: "botania:redstone_spreader"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Dramatically increases the speed of the Mana Bursts at the expense of initial capacity and faster mana loss."]
+			description: ["大大增加了魔力脉冲的速度，但以初始容量和更快的魔力损失为代价。"]
 			id: "2D1533268C835672"
 			rewards: [
 				{
@@ -3478,17 +3846,19 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "4447633E574741FD"
-				item: "botania:lens_speed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4447633E574741FD"
+					item: "botania:lens_speed"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Doubles the amount of Mana a Mana Burst can carry, at the cost of speed and increased mana loss over longer distances."]
+			description: ["将魔力脉冲可以携带的魔力数量翻倍，但以速度和在较长距离上增加的魔力损失为代价。"]
 			id: "7A82D66B1B138F0F"
 			rewards: [
 				{
@@ -3505,17 +3875,19 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "1F0DDF8D08AA2D09"
-				item: "botania:lens_power"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F0DDF8D08AA2D09"
+					item: "botania:lens_power"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Significantly increases the amount of time a Mana Burst can go without starting to lose Mana, but slows it down as well."]
+			description: ["显著增加了魔力脉冲可以在不开始失去魔力的情况下持续的时间，但也会减慢它的速度。"]
 			id: "4CED346215DDBAC0"
 			rewards: [
 				{
@@ -3532,17 +3904,19 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "58A4565F18420732"
-				item: "botania:lens_time"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58A4565F18420732"
+					item: "botania:lens_time"
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Decreases the amount of time that it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss."]
+			description: ["减少了魔力脉冲开始失去魔力所需的时间，但也会降低它的损失速度。"]
 			id: "5A7FF6D0AED656DC"
 			rewards: [
 				{
@@ -3559,17 +3933,19 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "5FBA2E1E91367CB5"
-				item: "botania:lens_efficiency"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FBA2E1E91367CB5"
+					item: "botania:lens_efficiency"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows Mana Bursts to bounce off of walls."]
+			description: ["允许魔力脉冲从墙壁上反弹。"]
 			id: "504ADBD7E2476827"
 			rewards: [
 				{
@@ -3586,17 +3962,19 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "46729DA26469F064"
-				item: "botania:lens_bounce"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46729DA26469F064"
+					item: "botania:lens_bounce"
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana."]
+			description: ["使魔力脉冲受到重力的影响，使其呈弧形移动。它还略微增加了它开始失去魔力之前的时间。"]
 			hide_dependency_lines: true
 			id: "665B4A8FF5277316"
 			optional: true
@@ -3613,17 +3991,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "5698F1ECAA82616E"
-				item: "botania:lens_gravity"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5698F1ECAA82616E"
+					item: "botania:lens_gravity"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows Mana Bursts to break through blocks by using its own mana."]
+			description: ["允许魔力脉冲使用自己的魔力来穿过方块。"]
 			hide_dependency_lines: true
 			id: "3722E5A8BE99C5B1"
 			optional: true
@@ -3640,17 +4020,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "671D9D2E3EDF31D9"
-				item: "botania:lens_mine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "671D9D2E3EDF31D9"
+					item: "botania:lens_mine"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows Mana Bursts to use its own mana to damage any living being it hits."]
+			description: ["允许魔力脉冲使用自己的魔力来伤害任何它击中的生物。"]
 			hide_dependency_lines: true
 			id: "533624CA5C2A7BBD"
 			optional: true
@@ -3667,17 +4049,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "6BF8FAA764F765F1"
-				item: "botania:lens_damage"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6BF8FAA764F765F1"
+					item: "botania:lens_damage"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["This lens allows a Mana Burst to pass through blocks, while decreasing the amount of time it can survive without losing mana."]
+			description: ["这个透镜允许魔力脉冲穿过方块，同时减少它在没有失去魔力的情况下可以存活的时间。"]
 			hide_dependency_lines: true
 			id: "5EF08646D8F4C432"
 			optional: true
@@ -3694,17 +4078,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "7EF55A6F1C4D84A7"
-				item: "botania:lens_phantom"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EF55A6F1C4D84A7"
+					item: "botania:lens_phantom"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows a Mana Burst to home in on any nearby blocks that can receive Mana. This also slightly decreases the speed of the burst."]
+			description: ["允许魔力脉冲在附近可以接收魔力的方块上自动寻找，这也略微降低了脉冲的速度。"]
 			hide_dependency_lines: true
 			id: "79A19D0B2F94EFDC"
 			optional: true
@@ -3721,17 +4107,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "6F5CDA3C118F1D62"
-				item: "botania:lens_magnet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F5CDA3C118F1D62"
+					item: "botania:lens_magnet"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Imbues a Mana Burst with entropic forces, or in simple terms, turns it into a bomb when it hits something that can't receive Mana."]
+			description: ["将魔力脉冲注入熵力，或者简单地说，当它撞击无法接收魔力的物体时，将其变成炸弹。"]
 			hide_dependency_lines: true
 			id: "7AD4D212633DAEC8"
 			optional: true
@@ -3748,17 +4136,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "0A25BA85F56FB561"
-				item: "botania:lens_explosive"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0A25BA85F56FB561"
+					item: "botania:lens_explosive"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows a Mana Burst to influence nearby dropped items, experience orbs, and falling blocks, having them move in the exact same vector of the motion as the burst itself."]
+			description: ["允许魔力脉冲影响附近的掉落物品、经验球和掉落方块，使它们以与脉冲本身相同的向量运动。"]
 			hide_dependency_lines: true
 			id: "5732936F1FD1D4AE"
 			optional: true
@@ -3775,17 +4165,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "3686E63D875EBFB8"
-				item: "botania:lens_influence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3686E63D875EBFB8"
+					item: "botania:lens_influence"
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["When a block is hit by a Mana Burst from this lens, the block will fall as if it were Sand or Gravel."]
+			description: ["当一个方块被这个透镜的魔力脉冲击中时，它会像沙子或砾石一样掉落。"]
 			hide_dependency_lines: true
 			id: "3CD45533D0BDF26D"
 			optional: true
@@ -3802,11 +4194,13 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "1732E57F7595BB7E"
-				item: "botania:lens_weight"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1732E57F7595BB7E"
+					item: "botania:lens_weight"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 12.0d
 		}
@@ -3816,9 +4210,9 @@
 				"3A20210242A1C865"
 			]
 			description: [
-				"Needs to be dyed with a color first."
+				"需要先用颜色染色。"
 				""
-				"Allows the Mana Bursts to paint any colorable block it hits, as well as any colorable block it is connected to. It also works on sheep. "
+				"允许魔力脉冲在击中任何可染色的方块以及与之相连的任何可染色的方块时进行染色。它也适用于羊。"
 			]
 			hide_dependency_lines: true
 			id: "68DC8A2B4BEF9878"
@@ -3837,11 +4231,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "1C3B5F68898949A4"
-				item: "botania:lens_paint"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C3B5F68898949A4"
+					item: "botania:lens_paint"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 14.5d
 		}
@@ -3850,7 +4246,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["Allows the Mana Bursts to launch festive fireworks when they hit a block."]
+			description: ["当魔力发射器击中方块时，允许它们发射节日烟花。"]
 			hide_dependency_lines: true
 			id: "478352E24CE1F45F"
 			optional: true
@@ -3868,11 +4264,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "2F04E0FD92572BE8"
-				item: "botania:lens_firework"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F04E0FD92572BE8"
+					item: "botania:lens_firework"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 14.5d
 		}
@@ -3881,7 +4279,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["This converts the Mana Spreader's bursts to only fire a continuous particle rather than short bursts. No mana is consumed. Great for decorative uses."]
+			description: ["将&a魔力发射器&f的爆发转换为仅发射连续的粒子而不是短暂的爆发。不消耗魔力。非常适合装饰用途。"]
 			hide_dependency_lines: true
 			id: "7B95C7407A1F5550"
 			optional: true
@@ -3899,11 +4297,13 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "6D405361F834914E"
-				item: "botania:lens_flare"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D405361F834914E"
+					item: "botania:lens_flare"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 14.5d
 		}
@@ -3912,7 +4312,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["Using this on a Spreader will cause it to only fire a Mana Burst only if it can hit a mob or player."]
+			description: ["将其用于传播器将导致它仅在能够击中生物或玩家时发射魔力爆发。"]
 			hide_dependency_lines: true
 			id: "0E7E559F2750F7D3"
 			optional: true
@@ -3930,17 +4330,19 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "3B9B92618158074B"
-				item: "botania:lens_tripwire"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B9B92618158074B"
+					item: "botania:lens_tripwire"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Greatly descreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance."]
+			description: ["大大减少魔力爆发携带的魔力量，大幅增加爆发的速度和距离。"]
 			hide_dependency_lines: true
 			id: "182EBB06B81BDF98"
 			optional: true
@@ -3957,11 +4359,13 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "4C80AD2C05E0CE73"
-				item: "botania:lens_messenger"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C80AD2C05E0CE73"
+					item: "botania:lens_messenger"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 12.0d
 		}
@@ -3970,7 +4374,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["This lens will redirect any Mana Spreaders or entities it collides with to face towards teh block or entity that fired the burst."]
+			description: ["此透镜将重定向任何&a魔力发射器&f或它与之碰撞的实体，使其面向发射爆发的块或实体。"]
 			hide_dependency_lines: true
 			id: "03C475ABEFF04DEF"
 			optional: true
@@ -3988,17 +4392,19 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "28089D55C29C8A5D"
-				item: "botania:lens_redirect"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28089D55C29C8A5D"
+					item: "botania:lens_redirect"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it."]
+			description: ["使魔力爆发在击中方块时创建火焰。这种火焰提供光亮，纯粹是装饰性的。可以使用另一个魔力爆发将其熄灭。"]
 			hide_dependency_lines: true
 			id: "0C557A9494F58400"
 			optional: true
@@ -4015,17 +4421,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "229487A1B2657BF0"
-				item: "botania:lens_light"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "229487A1B2657BF0"
+					item: "botania:lens_light"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows the Mana Burst to move a block just as if a piston would."]
+			description: ["允许魔力爆发像活塞一样移动方块。"]
 			hide_dependency_lines: true
 			id: "14EB725643E9F8FE"
 			optional: true
@@ -4042,17 +4450,19 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "24EBCD71A8C65AAE"
-				item: "botania:lens_piston"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24EBCD71A8C65AAE"
+					item: "botania:lens_piston"
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["Allows the Mana Burst to catch blocks on fire. It will not work on living beings."]
+			description: ["允许魔力爆发点燃方块。它不会对生物起作用。"]
 			hide_dependency_lines: true
 			id: "12BEB76EB924379C"
 			optional: true
@@ -4069,11 +4479,13 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "55AD493BAD9D6E10"
-				item: "botania:lens_fire"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55AD493BAD9D6E10"
+					item: "botania:lens_fire"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 12.5d
 		}
@@ -4082,7 +4494,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["Refer to the &aLexica Botania&r on how to use this lens."]
+			description: ["请参阅&aLexica &d植物魔法&f&r，了解如何使用此透镜。"]
 			hide_dependency_lines: true
 			id: "4CC46A4E71320140"
 			optional: true
@@ -4100,20 +4512,22 @@
 				}
 			]
 			shape: "pentagon"
-			tasks: [{
-				id: "58FACC24E092C8EB"
-				item: "botania:lens_warp"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58FACC24E092C8EB"
+					item: "botania:lens_warp"
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"There are many trinkets that harness the power of &6Gaia Spirits&r. Make sure to check them out!"
+				"有许多小玩意儿可以利用&6&a盖亚之魂&f&r的力量。一定要查看它们！"
 				""
-				"You can find all of the descriptions within the &aLexica Botania&r."
+				"您可以在&aLexica &d植物魔法&f&r中找到所有描述。"
 			]
 			id: "66F1609053B5407C"
 			optional: true
@@ -4130,79 +4544,81 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "44A3CDE54F2A5149"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "botania:black_hole_talisman"
-							}
-							{
-								Count: 1b
-								id: "botania:spawner_mover"
-							}
-							{
-								Count: 1b
-								id: "botania:astrolabe"
-							}
-							{
-								Count: 1b
-								id: "botania:holy_cloak"
-							}
-							{
-								Count: 1b
-								id: "botania:diva_charm"
-							}
-							{
-								Count: 1b
-								id: "botania:super_lava_pendant"
-							}
-							{
-								Count: 1b
-								id: "botania:unholy_cloak"
-							}
-							{
-								Count: 1b
-								id: "botania:laputa_shard"
-							}
-							{
-								Count: 1b
-								id: "botania:super_cloud_pendant"
-							}
-							{
-								Count: 1b
-								id: "botania:flight_tiara"
-							}
-							{
-								Count: 1b
-								id: "botania:mana_bomb"
-							}
-							{
-								Count: 1b
-								id: "botania:missile_rod"
-							}
-							{
-								Count: 1b
-								id: "botania:balance_cloak"
-							}
-							{
-								Count: 1b
-								id: "botania:super_travel_belt"
-							}
-						]
+			tasks: [
+				{
+					id: "44A3CDE54F2A5149"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:black_hole_talisman"
+								}
+								{
+									Count: 1b
+									id: "botania:spawner_mover"
+								}
+								{
+									Count: 1b
+									id: "botania:astrolabe"
+								}
+								{
+									Count: 1b
+									id: "botania:holy_cloak"
+								}
+								{
+									Count: 1b
+									id: "botania:diva_charm"
+								}
+								{
+									Count: 1b
+									id: "botania:super_lava_pendant"
+								}
+								{
+									Count: 1b
+									id: "botania:unholy_cloak"
+								}
+								{
+									Count: 1b
+									id: "botania:laputa_shard"
+								}
+								{
+									Count: 1b
+									id: "botania:super_cloud_pendant"
+								}
+								{
+									Count: 1b
+									id: "botania:flight_tiara"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_bomb"
+								}
+								{
+									Count: 1b
+									id: "botania:missile_rod"
+								}
+								{
+									Count: 1b
+									id: "botania:balance_cloak"
+								}
+								{
+									Count: 1b
+									id: "botania:super_travel_belt"
+								}
+							]
+						}
 					}
+					title: "Gaia Trinkets"
+					type: "item"
 				}
-				title: "Gaia Trinkets"
-				type: "item"
-			}]
-			title: "&aGaia Gear and Trinkets&r"
+			]
+			title: "&a盖亚装备和&a缀品&f&r"
 			x: 24.5d
 			y: 1.0d
 		}
 	]
-	title: "Botania"
+	title: "&d植物魔法&f"
 }

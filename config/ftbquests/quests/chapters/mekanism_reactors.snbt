@@ -268,11 +268,11 @@
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
+				"为了开始我们的&a反应堆&f之旅，我们将首先制作一个&aFission 反应堆&r。这些是多方块结构，通过燃烧&3裂变燃料&r产生大量热量。这个反应堆本身不会产生能量，但产生的热量可以用来加热&b冷却剂&r，用于在&a工业涡轮&r中产生能量。"
 				""
-				"The Fission Reactor can be very dangerous, as a meltdown can cause an &cexplosion&r as well as &2Radiation&r spreading over a 5 chunk radius, which lasts for several in-game weeks. "
+				"&aFission 反应堆&f可能非常危险，因为熔毁可能会导致&c爆炸&r以及&2辐射&r在5个区块半径内扩散，持续几个游戏周。"
 				""
-				"But we're going to be prepared for that. Let's make a Hazmat Suit, just in case... right?"
+				"但我们要为此做好准备。让我们制作一个&a危险套装&f，以防万一...对吧？"
 			]
 			id: "36B1995B495AA674"
 			min_width: 350
@@ -290,7 +290,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Orange = Radiation Protection"
+			subtitle: "&a橙&f = 辐射保护"
 			tasks: [
 				{
 					id: "14BF9ADCB8F43ADC"
@@ -313,22 +313,22 @@
 					type: "item"
 				}
 			]
-			title: "Suiting Up for Reactors"
+			title: "为&a反应堆&f做准备"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
 			description: [
-				"It's time to gather the materials we'll need to build the reactor."
+				"现在是收集建造反应堆所需材料的时候了。"
 				""
-				"Just like most Mekanism multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being 3 wide, 4 tall, and 3 blocks deep. The maximum size is 18x18x18. &aWe're going to build a 5x5 to start with&r."
+				"就像大多数通用机械多方块一样，反应堆可以根据您的需求定制大小。它们必须是长方体，最小外部尺寸为3宽，4高，3块深。最大尺寸为18x18x18。我们将从一个5x5开始建造。"
 				""
-				"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, Reactor Ports, or Reactor Logic Adapters. We'll get to those later."
+				"外部装饰贝壳的边缘必须由裂变反应堆外壳制成，而面可以是外壳或反应堆玻璃、反应堆端口或反应逻辑适配器。我们稍后再说。"
 				""
-				"For now, let's build a basic 5x5x5 Fission Reactor!"
+				"现在，让我们建造一个基本的5x5x5裂变反应堆！"
 				""
-				"Need more help building it? Holding &dw&r while hovering over the Fission Reactor Casing will show you the Ponder that can help you build it."
+				"需要更多帮助建造吗？在悬停在裂变反应堆外壳上时按住w键，将显示可以帮助您建造的思索。"
 			]
 			hide: false
 			id: "1482F2D45E8F761D"
@@ -355,7 +355,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Casings and Glass"
+			subtitle: "外壳和玻璃"
 			tasks: [
 				{
 					count: 53L
@@ -370,23 +370,23 @@
 					type: "item"
 				}
 			]
-			title: "Fission Reactor Building Basics"
+			title: "裂变反应堆建造基础"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"For us to take anything in or out of the Fission Reactor, we'll need &aFission Reactor Ports&r. These can be configured to input or output by using the &9Configurator&r. "
+				"为了将任何东西放入或取出裂变反应堆，我们需要裂变堆端口。这些可以通过使用调整器进行配置以输入或输出。"
 				""
-				"Every Fission Reactor &aneeds a minimum of 4 Ports&r:"
+				"每个裂变反应堆至少需要4个端口："
 				""
-				"1 Coolant Input"
-				"1 Coolant Output"
-				"1 Fissile Fuel Input"
-				"1 Waste Output"
+				"1个冷却剂输入"
+				"1个冷却剂输出"
+				"1个裂变燃料输入"
+				"1个废物输出"
 				""
-				"For this starter build, let's put a port on each side like the image shown below. Make sure to configure them to match the list of inputs and outputs!"
+				"对于这个入门建筑，让我们像下面的图像一样在每个侧面放置一个端口。确保将它们配置为与输入和输出列表匹配！"
 				""
 				"{image:atm:textures/questpics/mek/port_example.png width:200 height:200 align:1}"
 			]
@@ -414,54 +414,60 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				count: 4L
-				id: "057CDA5BC0C5F774"
-				item: "mekanismgenerators:fission_reactor_port"
-				type: "item"
-			}]
-			title: "Interacting with the Fission Reactor"
+			tasks: [
+				{
+					count: 4L
+					id: "057CDA5BC0C5F774"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+			]
+			title: "与裂变反应堆交互"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &o*insert terrible flashback here*&r"
+				"害怕炸毁裂变反应堆并造成大规模辐射泄漏？别担心，我们都是。*插入可怕的回忆*&r"
 				""
-				"So how can we prevent such a catastrophic disaster? By creating a redstone &aCircuit Breaker&r using &dFission Reactor Logic Adapters&r. Now these aren't 100% guaranteed to stop an explosion, but they are absolutely nice to have."
+				"那么我们如何防止这样的灾难性事故？通过使用裂变逻辑适配器创建一个红石电路板断路器。现在这些并不能百分之百地阻止爆炸，但它们绝对是有用的。"
 				""
-				"Essentially, these Adapters allow us to control the Reactor using &cRedstone&r. With just one, you can use a lever to turn on and off the reactor. However, we're going to use them for damage control."
+				"本质上，这些适配器允许我们使用红石来控制反应堆。只需要一个适配器，您就可以使用一个杠杆来打开和关闭反应堆。但是，我们将使用它们进行损坏控制。"
 				""
-				"You can also set these to give off a Redstone Signal based on a certain condition within the Reactor, like &cDamage Critical&r or &8Insufficient Fuel&r. This is useful for setting up a circuit breaker to shut off the Reactor if those ever happen."
+				"您还可以根据反应堆内的某些条件（如损坏严重或燃料不足）设置这些适配器发出红石信号。这对于设置断路器以关闭反应堆非常有用。"
 				""
 				"{image:atm:textures/questpics/mek/logic_adapter.png width:150 height:125 align:1}"
 			]
 			id: "5FDB48511EC1C580"
 			min_width: 300
 			optional: true
-			rewards: [{
-				id: "2E5FE4E46429A82D"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "2E5FE4E46429A82D"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Because We've All Blown Up A Reactor Before"
-			tasks: [{
-				id: "16B10EA105CCC1D3"
-				item: "mekanismgenerators:fission_reactor_logic_adapter"
-				type: "item"
-			}]
-			title: "Reactor Fail Safe"
+			subtitle: "因为我们都曾经炸过反应堆"
+			tasks: [
+				{
+					id: "16B10EA105CCC1D3"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+			]
+			title: "反应堆故障安全"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
 			description: [
-				"The inside of the reactor is built up of pillars using several &aFission Fuel Assembly&r blocks, with a single &aControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from 1 to 15 blocks in height, depending on the size of the reactor."
+				"反应堆内部由柱子构成，使用多个裂变燃料处理器组件块构建，每个柱子顶部放置一个控制棒处理器组件。这可以是1到15个块的高度，具体取决于反应堆的大小。"
 				""
-				"For this build, we'll put 2 of the Fission Fuel Assemblies in the center of our multiblock, and then put the Control Rod Assembly right on top of it."
+				"对于这个建筑，我们将在多方块的中心放置2个裂变燃料组件，然后将控制棒处理器组件直接放在其上。"
 				""
 				"{image:atm:textures/questpics/mek/rod_example.png width:250 height:200 align:1}"
 			]
@@ -494,24 +500,24 @@
 					type: "item"
 				}
 			]
-			title: "Inside the Reactor: Fuel Control"
+			title: "反应堆内部：燃料控制"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FDB48511EC1C580"]
 			description: [
-				"Using some vanilla mechanics and 2 &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn off the reactor &o&ein case things get a little crazy&r."
+				"使用一些基本机制和 2 个 &a裂变 &a反应逻辑适配器&f，我们可以创建一个简单的断路器，以防万一反应堆出现问题时关闭反应堆。"
 				""
-				"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
+				"为此，我们需要一块 &a红石&f、一个活塞、一块沙子或砂砾和一个观察者。"
 				""
-				"On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\"Activation\"&r, and the bottom Adapter to &c\"Damage Critical\"&r."
+				"在其中一个面上，我们需要放置一个逻辑适配器，然后跳过它上面的一个方块，再放置另一个适配器。将顶部适配器设置为 &9\"激活\"&r，将底部适配器设置为 &c\"损坏严重\"&r。"
 				""
-				"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
+				"接下来，在底部适配器的前面和下面，放置任何建筑块，并在上面放置一块 &a红石&f，引导自适配器。然后，在那个 &a红石&f 的前面放置一个向上的活塞，然后在那个活塞上放置我们的沙子或砂砾。"
 				""
-				"For the final part of our breaker, place the Observer with the face pointing &boutwards towards the Piston setup&r. &9This is important&r!"
+				"对于我们断路器的最后一部分，将观察者放置在面向活塞设置的 &boutwards&r 方向。&9这很重要&r！"
 				""
-				"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
+				"每当反应堆出现严重损坏时，它将激活底部适配器，导致红石获得信号，然后激活活塞并推起沙子/砂砾。这将激活观察者，然后关闭反应堆。"
 				""
 				"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
 			]
@@ -535,7 +541,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Need a visual? Watch the Ponder!"
+			subtitle: "需要视觉效果吗？看看 &a思索&f！"
 			tasks: [
 				{
 					count: 2L
@@ -580,37 +586,41 @@
 					type: "item"
 				}
 			]
-			title: "Example Circuit Breaker"
+			title: "示例 &a电路板&f 断路器"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"When burning fuel, the Fission Reactor creates a massive amount of heat. To prevent the Reactor from converting into TNT, we need to make sure it is properly cooled."
+				"在燃烧燃料时，裂变 &a反应堆&f 会产生大量热量。为了防止反应堆转化为TNT，我们需要确保它得到适当的冷却。"
 				""
-				"The easiest way to do this is by giving the Reactor &9Water&r from a Sink. The Sink is an infinite water source, which is &oreally nice for a situation like this&r."
+				"最简单的方法是从水槽中给反应堆提供 &9水&rr。水槽是一个无限水源，对于这种情况非常好。"
 				""
-				"Pump out the water into one of the Reactor's Ports that is set to &ainput&r to fill up the Reactor with water. This will be heated while the Reactor is running and get converted to &bSteam&r, which you can use to create power with in an &9Industrial Turbine&r."
+				"将水抽出到设置为 &ainput&r 的反应堆端口之一，以用水填充反应堆。在反应堆运行时，水将被加热并转化为 &b蒸汽&r，您可以使用它来创建 &9工业涡轮&r 中的电力。"
 				""
-				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
+				"&e钠&r 也可以用作更高效的冷却剂。这允许更高的燃烧速率和更低的核心温度。"
 			]
 			id: "2B76B2F18C2C47D2"
 			min_width: 300
 			progression_mode: "linear"
-			rewards: [{
-				id: "1E2809FAFCF0A292"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1E2809FAFCF0A292"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
-			subtitle: "High Quality H2O"
-			tasks: [{
-				id: "7E8281C007094843"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
-			title: "Cooling Our Reactor"
+			subtitle: "高质量的H2O"
+			tasks: [
+				{
+					id: "7E8281C007094843"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			title: "冷却我们的 &a反应堆&f"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -620,15 +630,15 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"Once you've finish placing in all of the required blocks to build the Reactor, it should give off red particles to show that it is complete."
+				"一旦您完成放置所有必需的方块来构建反应堆，它应该会释放红色粒子以显示它已完成。"
 				""
-				"Right clicking anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the Reactor properly, as well as two buttons to turn on and off the Reactor."
+				"在反应堆的任何位置右键单击将打开 &a&a物品传输接口&f&r。这将提供运行反应堆所需的所有信息，以及两个按钮用于打开和关闭反应堆。"
 				""
-				"On the left, you have 2 tanks: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
+				"在左侧，您有 2 个储罐：一个用于 &b冷却剂&r，一个用于 &3裂变燃料&r。在右侧，您有一个用于 &8核废料&r，一个用于 &b加热冷却剂&r，最可能是 &b蒸汽&r。"
 				""
-				"The &cTemperature&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &4Damage&r, which will eventually cause the Reactor to explode."
+				"&c温度&r 条将显示反应堆的温度。在某个温度后，反应堆将开始受到 &4损坏&r，最终导致反应堆爆炸。"
 				""
-				"To adjust the &cBurn Rate&r of the Fissile Fuel and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick."
+				"要调整裂变燃料的 &c燃烧速率&r 并查看更多统计信息，请单击左侧的 (I) 选项卡。在这里，您可以调整速率限制，控制反应堆每个时刻燃烧多少燃料。"
 				""
 				"{image:atm:textures/questpics/mek/reactor_interface_1.png width:200 height:150 align:1}"
 				"{image:atm:textures/questpics/mek/reactor_interface_2.png width:200 height:150 align:1}"
@@ -652,23 +662,25 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Those are definitely numbers"
-			tasks: [{
-				icon: "mekanism:geiger_counter"
-				id: "34D8628732B36EDF"
-				title: "Observe a Completed Reactor"
-				type: "custom"
-			}]
-			title: "The Fission Reactor Interface"
+			subtitle: "这些绝对是数字"
+			tasks: [
+				{
+					icon: "mekanism:geiger_counter"
+					id: "34D8628732B36EDF"
+					title: "Observe a Completed Reactor"
+					type: "custom"
+				}
+			]
+			title: "裂变 &a反应堆&f &a物品传输接口&f"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"Every Reactor uses Uranium somewhere for fuel, right?"
+				"每个&a反应堆&f都需要在某个地方使用&a铀&f作为燃料，对吧？"
 				""
-				"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
+				"首先，让我们收集一些&a&a铀锭&f&r。我们需要在&9&a富集仓&f&r中加工它，将其转化为&eYellow Cake &a铀&f&r。"
 			]
 			icon: "mekanism:yellow_cake_uranium"
 			id: "7E17AB5A4492929E"
@@ -686,7 +698,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Of Course It Uses Uranium"
+			subtitle: "当然使用&a铀&f"
 			tasks: [
 				{
 					id: "5641530385DCA6A7"
@@ -700,13 +712,13 @@
 					type: "item"
 				}
 			]
-			title: "&aUranium"
+			title: "&a&a铀&f"
 			x: 5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7E17AB5A4492929E"]
-			description: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
+			description: ["一旦我们拥有&eYellow Cake &a铀&f&r，我们可以将其通过&a&a化学氧化机&f&r转化为气体，&2&a铀&f氧化物&r。"]
 			id: "3AF4E5D4839CEF8B"
 			progression_mode: "linear"
 			rewards: [
@@ -735,78 +747,88 @@
 					type: "custom"
 				}
 			]
-			title: "&eUranium Oxide"
+			title: "&e&a铀&f氧化物"
 			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7E4A95B6443F23BC"]
 			description: [
-				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
+				"作为回顾，我们已经建立了一个高级矿石加工设施，使用了多种气体、机械等等。"
 				""
-				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, which are used to make the &6ATM Star&r, as well as some of the strongest tools and weapons in the pack."
+				"在这一章中，我们将使用更多的方法来创建强大的多块&a&a反应堆&f&r，以及先进的发电和储存能源的方法。这也将导致制造&d&a反物质&f Pellets&r，这些Pellets用于制造&6ATM Sta&rr，以及包中一些最强大的工具和武器。"
 			]
 			icon: "mekanism:antiprotonic_nucleosynthesizer"
 			id: "24174700F7FB771C"
 			min_width: 300
-			rewards: [{
-				id: "73F5CE911AC4474C"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "73F5CE911AC4474C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&cRequires Quest \"Advanced Mekanism\" Completion from the Mekanism Chapter&r"
-			tasks: [{
-				id: "3153288DCE1C4FEF"
-				title: "&aMekanism&r: &dAdvanced&r"
-				type: "checkmark"
-			}]
+			subtitle: "&c需要完成\"Advanced &d通用机械&f\"任务，来自&d通用机械&f章节"
+			tasks: [
+				{
+					id: "3153288DCE1C4FEF"
+					title: "&aMekanism&r: &dAdvanced&r"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1DE8B0C9A7195720"]
 			description: [
-				"The Fission Reactor needs &3Fissile Fuel&r to run. If you look up Fissile Fuel right now in JEI, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
+				"Fission &a反应堆&f需要&3Fissile Fuel&r才能运行。如果你现在在JEI中查找Fissile Fuel，我敢打赌你会被需要制造它的所有东西所压倒。没关系，你能行的。让我们一步一步来。"
 				""
-				"It all boils down to creating &eUranium Hexafluoride&r. To do this, let's focus on making these two gases: &bHydrofluoric Acid&r, and &eUranium Oxide&r."
+				"这一切都归结于创建&e&a铀&f六氟化物&r。为此，让我们专注于制造这两种气体：&b&a氢氟酸&f&r和&e&a铀&f氧化物&r。"
 			]
 			icon: "mekanism:reprocessed_fissile_fragment"
 			id: "3B81800EE6E77EF2"
-			rewards: [{
-				id: "21A507B60A7721B0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "382818E289EC83A6"
-				title: "&3Fissile Fuel Production&r"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "21A507B60A7721B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "382818E289EC83A6"
+					title: "&3Fissile Fuel Production&r"
+					type: "checkmark"
+				}
+			]
 			x: 4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
 			description: [
-				"You should have already made &2Sulfuric Acid&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it."
+				"你应该已经为你的四级矿石加工设施制造了&2&a硫酸&f&r，但这里是如何获得它的提醒。"
 				""
-				"Start by getting &eSulfur Dust&r either by crushing Sulfur from Thermal, or by mixing &bHydrogen Chloride&r with &3Gunpowder&r in a Chemical Dissolution Chamber."
+				"首先，获取&e&a硫磺粉&f&r，可以通过从Thermal中破碎硫磺或在&a化学溶解室&f中混合&b&a氯化氢&f&r和&3Gunpowde&rr来获得。"
 				""
-				"Take the Sulfur Dust and run it through a &9Chemical Oxidizer&r to get &eSulfur Dioxide&r. Combine that with &bOxygen&r in a Chemical Infuser to get &eSulfur Trioxide&r."
+				"将&a硫磺粉&f通过&9&a化学氧化机&f&r运行，以获得&e&a二氧化硫&f&r。&a收割机&f将其与&b氧气&r在&a化学灌注器&f中混合，以获得&e&a三氧化硫&f&r。"
 				""
-				"Next, we'll combine &bWater Vapor&r with the Sulfur Trioxide to make &2Sulfuric Acid&r."
+				"接下来，我们将&a水蒸气&f&r与&a三氧化硫&f混合，制成&2&a硫酸&f&r。"
 			]
 			icon: "thermal:sulfur_dust"
 			id: "31EEE2875595F315"
 			progression_mode: "linear"
-			rewards: [{
-				id: "414A6E5BDC1A3B1E"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A Quick Recap"
+			rewards: [
+				{
+					id: "414A6E5BDC1A3B1E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "快速回顾"
 			tasks: [
 				{
 					id: "14A09EAF150777A3"
@@ -827,16 +849,16 @@
 					type: "custom"
 				}
 			]
-			title: "&2Sulfuric Acid"
+			title: "&2&a硫酸&f"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["31EEE2875595F315"]
 			description: [
-				"Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."
+				"让我们将我们的&2&a硫酸&f&r与&b&a氟石&f&r在&9&a化学溶解室&f&r中混合，制成&b&a氢氟酸&f&r。"
 				""
-				"We're almost there!"
+				"我们快要完成了！"
 			]
 			id: "187A3F5B41D1C923"
 			progression_mode: "linear"
@@ -871,7 +893,7 @@
 					type: "custom"
 				}
 			]
-			title: "&bHydrofluoric Acid"
+			title: "&b&a氢氟酸&f"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -880,7 +902,7 @@
 				"187A3F5B41D1C923"
 				"3AF4E5D4839CEF8B"
 			]
-			description: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
+			description: ["使用另一个&9&a化学灌注器&f&r，我们要将我们的&b&a氢氟酸&f&r与&e&a铀&f氧化物&r混合，制成&2&a铀&f六氟化物&r。"]
 			id: "3663E93E169EF8E3"
 			progression_mode: "linear"
 			rewards: [
@@ -909,16 +931,16 @@
 					type: "custom"
 				}
 			]
-			title: "&2Uranium Hexafluoride"
+			title: "&2&a铀&f六氟化物"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3663E93E169EF8E3"]
 			description: [
-				"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
+				"一旦我们拥有一个&9Isotopic &a源质离心机&f&r，我们就可以将我们的&2&a铀&f六氟化物&r运行，并创建&3Fissile Fuel&r！"
 				""
-				"See, that wasn't so bad was it?"
+				"看，这不是很难吧？"
 			]
 			icon: "mekanism:isotopic_centrifuge"
 			id: "16A6C47E35F3B9D0"
@@ -958,15 +980,15 @@
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"Let's go through the checklist &oone more time&r to ensure we have everything ready to go before we boot it up:"
+				"在我们启动之前，让我们再次检查清单，确保我们准备好了："
 				""
-				"1. Hazmat Suit On (safety first)"
-				"2. Water/coolant pumping into an input Port."
-				"3. Fissile Fuel pumping into an input Port."
-				"4. A Port set to output the Heated Coolant, either to a trashcan or an Industrial Turbine."
-				"5. A Port set to output Nuclear Waste leading to Radioactive Waste Barrels or machines to process it, or both!"
+				"1. &a危险套装&f已穿上（安全第一）"
+				"2. 水/冷却剂泵入输入端口。"
+				"3. Fissile Fuel泵入输入端口。"
+				"4. 一个端口设置为输出加热冷却剂，可以输出到垃圾桶或工业涡轮机。"
+				"5. 一个端口设置为输出核废料，导向放射性废料桶或处理它的机器，或两者都有！"
 				""
-				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
+				"如果你准备好了，点击&eActivate&r按钮！你也可以调整&3Burn Rate&r以产生更多的核废料，但要慢慢来。"
 			]
 			icon: {
 				Count: 1b
@@ -977,32 +999,36 @@
 			}
 			id: "3591EAA8E397F992"
 			min_width: 300
-			rewards: [{
-				id: "5AC458A8C3D99B74"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5AC458A8C3D99B74"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				id: "27709080B4B77B09"
-				title: "Ready To Go!"
-				type: "checkmark"
-			}]
-			title: "Booting Up The Reactor"
+			tasks: [
+				{
+					id: "27709080B4B77B09"
+					title: "Ready To Go!"
+					type: "checkmark"
+				}
+			]
+			title: "启动&a反应堆&f"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["16A6C47E35F3B9D0"]
 			description: [
-				"Once we start burning up Fissile Fuel in the reactor, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
+				"一旦我们开始在反应堆中燃烧裂变燃料，我们就会得到加热的 &b冷却剂&r 和 &8核废料&r。"
 				""
-				"This is where the Radiation kicks in. As long as it stays &osafely in some container or machine&r, you won't have any spills....right?"
+				"这就是辐射的作用。只要它安全地存放在某个容器或机器中，就不会发生泄漏……对吧？"
 				""
-				"The best way to store any Radioactive substance is using a &2Radioactive Waste Barrel&r. These will safely store the waste, while slowly decaying the gas without causing a Radiation spill. You don't want your Nuclear Waste sitting in your Reactor as it causes it to produce more heat, so set a port to &aoutput Waste&r and ship it to a barrel!"
+				"存储任何放射性物质的最佳方式是使用 &2放射性废物桶&r。这些将安全地存储废物，同时缓慢分解气体，而不会造成辐射泄漏。你不想让你的核废料留在你的 &a反应堆&f 中，因为它会导致它产生更多的热量，所以设置一个端口来 &a输出废物&r 并将其运到桶里！"
 				""
-				"&9Important Note&r: Breaking &nany&r machine, barrel, pipe, or &oanything&r that has a Radioactive gas inside of it &cwill cause a Radiation leak&r. That includes the products of Nuclear Waste, like Polonium or Plutonium."
+				"&9重要提示&r：破坏任何装有放射性气体的机器、桶、管道或 &o任何东西&r 都会导致辐射泄漏。这包括核废料的产物，如钋或 &a钚&f。"
 			]
 			id: "3FFF9018DA2A2763"
 			min_width: 300
@@ -1019,24 +1045,26 @@
 					xp: 25
 				}
 			]
-			tasks: [{
-				count: 3L
-				id: "45EC7D8BA0CCFB07"
-				item: "mekanism:radioactive_waste_barrel"
-				type: "item"
-			}]
-			title: "Dealing with &8Nuclear Waste&r"
+			tasks: [
+				{
+					count: 3L
+					id: "45EC7D8BA0CCFB07"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			title: "处理 &8核废料&r"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"&8Nuclear Waste&r can be sent into an Isotopic Centrifuge to create &9Plutonium&r."
+				"&8核废料&r 可以被送入同位素 &a源质离心机&f 中，以创建 &9&a钚&f&r。"
 				""
-				"Sending the Plutonium into a Pressurized Reaction Chamber with some water and &7Fluorite Dust&r will give you &9Plutonium Pellets&r. These are used to make end game materials!"
+				"将 &a钚&f 送入带有一些水和 &7&a氟石&f 粉尘&r 的 &a加压反应室&f 中，你将得到 &9&a钚&f 颗粒&r。这些用于制作末期材料！"
 				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
+				"注意：这也会产生 &7废核废料&r 的副产品，需要将其泵入废物桶中存储。"
 			]
 			id: "2E9FC7DC2AC6FD8E"
 			rewards: [
@@ -1052,22 +1080,24 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "6B40312EE7C8875D"
-				item: "mekanism:pellet_plutonium"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B40312EE7C8875D"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3591EAA8E397F992"]
 			description: [
-				"Pumping Nuclear Waste into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
+				"将核废料泵入 &9&a太阳能中子活化器&f&r 中，你将得到 &d钋&r。"
 				""
-				"Run the Polonium through a Pressurized Reaction Chamber with some Fluorite Dust and you'll get &9Polonium Pellets&r. You will need a good bit of these for the future."
+				"将钋通过带有一些 &a氟石&f 粉尘的 &a加压反应室&f 中，你将得到 &9钋颗粒&r。你将需要大量这些用于未来。"
 				""
-				"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
+				"注意：这也会产生 &7废核废料&r 的副产品，需要将其泵入废物桶中存储。"
 			]
 			id: "1FAAF8216CDC3AC6"
 			rewards: [
@@ -1083,11 +1113,13 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "38A344B697C93B3B"
-				item: "mekanism:pellet_polonium"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38A344B697C93B3B"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -3.5d
 		}
@@ -1097,9 +1129,9 @@
 				"1FAAF8216CDC3AC6"
 			]
 			description: [
-				"The &dSupercritical Phase Shifter&r (SPS for short) is another multiblock structure used to infuse Polonium with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
+				"&d超临界相 &a移形恶兽&f&r（简称SPS）是另一个多方块结构，用于将钋与大量能量融合，以创建 &d&a反物质&f&r 气体，可以结晶成颗粒。"
 				""
-				"To build the SPS, you'll need to make a total of 72 &9SPS Casings&r (60 for the build, 12 to make the ports), 3 &9SPS Ports&r, 122 Reactor Glass, and one other item we'll talk about in the next quest. Let's get the materials first!"
+				"要构建SPS，您需要制作总共72个 &9SPS外壳&r（60个用于构建，12个用于制作端口），3个 &9SPS端口&r，122个 &a反应堆玻璃&f，以及我们将在下一个任务中讨论的另一个物品。让我们先获取材料！"
 			]
 			id: "068728DE3B9B13C3"
 			progression_mode: "linear"
@@ -1151,23 +1183,23 @@
 					type: "item"
 				}
 			]
-			title: "&dSupercritical Phase Shifter"
+			title: "&d超临界相 &a移形恶兽&f"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1FAAF8216CDC3AC6"]
 			description: [
-				"You've probably heard people talk about how the &cFusion Reactor&r is the best power source in the pack. They are right."
+				"你可能听过人们谈论 &c&a聚变反应堆&f&r 是包中最好的电源。他们是正确的。"
 				""
-				"Once activated, the Reactor can push out up to 200MRF/t with the right setup. It can also be cooled with water to produce steam, which can go into an &9Industrial Turbine&r to make even more power."
+				"一旦激活，&a反应堆&f 可以推出高达200MRF/t的电力，具备正确的设置。它还可以用水冷却以产生蒸汽，这可以进入 &9工业涡轮机&r 以产生更多的电力。"
 				""
-				"To build the Fusion Reactor, we need to follow a simple pattern. Each face will look like this:"
+				"要构建 &a聚变反应堆&f，我们需要遵循一个简单的模式。每个面看起来都像这样："
 				"{image:atm:textures/questpics/mek/fusion_pattern.png width:175 height:175 align:1}"
 				""
-				"For the top, we want replace the middle block with the Fusion Reactor Controller."
+				"对于顶部，我们要用 &a反应控制器&f 替换中间的方块。"
 				""
-				"For the ports, you can replace any of the Reactor Glass on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
+				"对于端口，您可以替换任何一侧的 &a反应堆玻璃&f。对于此设置，我们需要两个端口来输入 &c&a氘&f&r 和 &e&a氚&f&r，然后一个端口来输出电力。"
 				""
 				"{image:atm:textures/questpics/mek/completed_fusion_reactor.png width:175 height:150 align:1}"
 			]
@@ -1176,7 +1208,7 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
+					command: "/msg @p Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
 					icon: "ftbquests:barrier"
 					id: "7A58D77A4EDACC40"
 					player_command: false
@@ -1197,7 +1229,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "The Best Power Source In The Pack"
+			subtitle: "包中最好的电源"
 			tasks: [
 				{
 					id: "4005EDF7A97FD97D"
@@ -1223,16 +1255,16 @@
 					type: "item"
 				}
 			]
-			title: "The &cFusion Reactor&r"
+			title: "&c&a聚变反应堆&f&r"
 			x: 8.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["068728DE3B9B13C3"]
 			description: [
-				"The &9Supercharged Coil&r is placed on an SPS Port in the center of two faces, like the image below. When given power, these will supercharge Polonium into Antimatter. Only 1 is required, but you can use 2 if you want."
+				"&9超级线圈&r放置在两个面的中心的SPS端口上，如下图所示。当给予能量时，它们将把钋超级电荷成&a反物质&f。只需要1个，但如果需要可以使用2个。"
 				""
-				"To produce 1mb of Antimatter, you need 400MRF. If you haven't started making a &cFusion Reactor&r, now's a good time to make it!"
+				"要生产1mb的&a反物质&f，需要400MRF。如果您还没有开始制作&c&a聚变反应堆&f&r，现在是一个好时机！"
 				""
 				"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 			]
@@ -1256,27 +1288,29 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "48A70F1D73DE5E37"
-				item: "mekanism:supercharged_coil"
-				type: "item"
-			}]
-			title: "The Supercharged Coils"
+			tasks: [
+				{
+					id: "48A70F1D73DE5E37"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "超级线圈"
 			x: 6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2331FCDD2F2B709A"]
 			description: [
-				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
+				"有了所有收集的方块，现在是建造这个东西的时候了。下面是一个文本指南，或者您可以观看&a思索&f！"
 				""
-				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
+				"当建造时，SPS将是7x7，但它不是一个立方体。它遵循一个简单的模式，您可以按照下面的图像作为构建指南。该模式如下："
 				""
 				"{image:atm:textures/questpics/mek/basic_sps_shape.png width:250 height:225 align:1}"
 				""
-				"Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas."
+				"每个面，包括底部和顶部，都将遵循此模式。超级线圈应该放置在它们各自的面的中心相对位置上，其余两个端口将用于泵入钋和泵出&a反物质&f气体。"
 				""
-				"Here is the completed structure below: "
+				"下面是完成的结构："
 				""
 				"{image:atm:textures/questpics/mek/sps_complete.png width:300 height:250 align:1}"
 			]
@@ -1297,22 +1331,24 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				icon: "mekanism:sps_casing"
-				id: "2A13A1B1A85C2981"
-				title: "Observe a completed SPS"
-				type: "custom"
-			}]
-			title: "Build the SPS!"
+			tasks: [
+				{
+					icon: "mekanism:sps_casing"
+					id: "2A13A1B1A85C2981"
+					title: "Observe a completed SPS"
+					type: "custom"
+				}
+			]
+			title: "建造SPS！"
 			x: 6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2B3F2F470E06BC40"]
 			description: [
-				"After zapping away trillions of power in the SPS, we can finally create &dAntimatter Pellets&r."
+				"在SPS中消耗了数万亿的能量后，我们终于可以创建&d&a反物质&f颗粒&r。"
 				""
-				"Run the Antimatter Gas you get from the SPS into a Chemical Crystallizer and you'll get 1 Antimatter Pellet for every 1,000mb you make."
+				"将从SPS中获得的&a反物质&f气体运行到&a化学结晶器&f中，您将获得每1000mb制造1个&a反物质&f颗粒。"
 			]
 			id: "00EFC7B327E79076"
 			rewards: [
@@ -1330,28 +1366,30 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				id: "3B83170BC4E75158"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B83170BC4E75158"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["79757F66DF263FA0"]
 			description: [
-				"To see a visual, check out the Ponder by holding &aW&r while hovering over the Laser Focus Matrix."
+				"要查看视觉效果，请通过悬停在&a激光聚焦矩阵&f上并按住&aW&r来查看&a思索&f。"
 				""
-				"The goal is to aim each Laser into a Laser Amplifier. Using one is pretty slow, so we're going to make a few."
+				"目标是将每个激光瞄准到&a激光增幅器&f中。使用一个相当慢，因此我们将制作几个。"
 				""
-				"In the image below, you can see an example of how this is setup. Sticking the Lasers directly on a power source like an Energy Cube works, or you can have them on pipes or cables. You want to give it a block of empty space between the lasers and the Laser Amplifier."
+				"在下面的图像中，您可以看到设置示例。将激光直接粘在能量立方体等电源上可以工作，或者您可以将它们放在管道或电缆上。您需要在激光和&a激光增幅器&f之间留出一个空的块。"
 				""
-				"The Laser Amplifier has a red dot on one of the faces. This is what you want to point towards the Laser Focus Matrix."
+				"&a激光增幅器&f的一个面上有一个红点。这是您要指向&a激光聚焦矩阵&f的位置。"
 				""
-				"Make sure to turn the Laser Amplifier off (or activate Redstone control) and wait for it to store &cat least 400MRF&r, then it'll be ready."
+				"确保关闭&a激光增幅器&f（或激活&a红石&f控制）并等待其存储&cat least 400MRF&r，然后它将准备好。"
 				""
-				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1} "
+				"{image:atm:textures/questpics/mek/laser_example.png width:200 height:150 align:1 "
 			]
 			id: "320CC038A64A3195"
 			min_width: 400
@@ -1389,13 +1427,13 @@
 					type: "item"
 				}
 			]
-			title: "Jumpstarting Method: &dLaser Focus Array&r"
+			title: "启动方法：&d激光聚焦阵列&r"
 			x: 14.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
-			description: ["By now, you're already making &aLithium&r. Pump that into a Solar Neutron Activator to create &eTritium&r."]
+			description: ["到现在为止，您已经在制造&a&a液态锂&f&r。将其泵入&a太阳能中子活化器&f中，以创建&e&a氚&f&r。"]
 			id: "57534FA0E09C4975"
 			rewards: [
 				{
@@ -1410,23 +1448,25 @@
 					xp: 50
 				}
 			]
-			tasks: [{
-				id: "6C40D1088C211675"
-				item: "mekanism:solar_neutron_activator"
-				type: "item"
-			}]
-			title: "Fueling the Fusion Reactor: &eTritium&r"
+			tasks: [
+				{
+					id: "6C40D1088C211675"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			title: "为&a聚变反应堆&f加油：&e&a氚&f&r"
 			x: 12.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["12D271359D48210E"]
 			description: [
-				"To fuel our Fusion Reactor, we'll need to create two different gases, this one being &cDeuterium&r."
+				"为了为我们的&a聚变反应堆&f加油，我们需要创建两种不同的气体，这是其中之一&c&a氘&f&r。"
 				""
-				"To make this, we'll need to make some Electric Pumps and give them a Filter Upgrade. Place them over a source block of water, give them some power, and they'll pump out &5Heavy Water&r."
+				"要制作这个，我们需要制作一些&a电动泵&f并为它们提供&a过滤升级&f。将它们放在水源块上方，给它们一些电力，它们将泵出&5&a重水&f&r。"
 				""
-				"Pump the Heavy Water into an Electrolytic Separator to get &cDeuterium&r."
+				"将&a重水&f泵入&a电解分离器&f中，以获得&c&a氘&f&r。"
 			]
 			icon: "mekanism:electric_pump"
 			id: "4ABF0727AA569DD9"
@@ -1455,7 +1495,7 @@
 					type: "item"
 				}
 			]
-			title: "Fueling the Reactor: &cDeuterium&r"
+			title: "为&a反应堆&f加油：&c&a氘&f&r"
 			x: 12.5d
 			y: -8.5d
 		}
@@ -1465,9 +1505,9 @@
 				"4ABF0727AA569DD9"
 			]
 			description: [
-				"To kick start the Fusion Reactor, we'll need a quick-shot of D-T fuel. This is made by combining &cDeuterium&r and &eTritium&r together in a Chemical Infuser."
+				"为了启动&a聚变反应堆&f，我们需要一个快速的D-T燃料。这是通过在&a化学灌注器&f中将&c&a氘&f&r和&e&a氚&f&r组合而成的。"
 				""
-				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with D-T fuel. Now we're ready to jumpstart the Reactor!"
+				"首先制作一个&4&a黑体辐射腔&f&r并将其放入&a炼药器&f（加号所在的位置）中，以填充D-T燃料。现在我们准备好启动&a反应堆&f了！"
 			]
 			id: "3593D955361B0C6D"
 			rewards: [
@@ -1483,23 +1523,25 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "789B4C8031BCDBDA"
-				item: "mekanismgenerators:hohlraum"
-				type: "item"
-			}]
-			title: "The Fuel Injector"
+			tasks: [
+				{
+					id: "789B4C8031BCDBDA"
+					item: "mekanismgenerators:hohlraum"
+					type: "item"
+				}
+			]
+			title: "燃料喷射器"
 			x: 14.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"To create a reaction for the Reactor to turn on, we're going to need to inject it with a ton of power. &oAnd I mean a ton of power&r."
+				"为了让反应堆启动，我们需要注入大量的能量。我是指大量的能量。"
 				""
-				"This requires you to set up several &9Lasers&r that all need to be powered, then shooting 400MFE directly into the Laser Focus Matrix."
+				"这需要你设置几个激光，所有的激光都需要供电，然后将400MFE直接射入激光聚焦矩阵。"
 				""
-				"The Laser Focus Matrix is placed in the center of one face of the Fusion Reactor. We'll build the Lasers next."
+				"激光聚焦矩阵放置在聚变反应堆的一个面的中心。我们接下来要建造激光。"
 			]
 			icon: "mekanism:laser"
 			id: "79757F66DF263FA0"
@@ -1517,37 +1559,43 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "5799CEC4031D454E"
-				item: "mekanismgenerators:laser_focus_matrix"
-				type: "item"
-			}]
-			title: "Frickin' Laser Beams"
+			tasks: [
+				{
+					id: "5799CEC4031D454E"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+			]
+			title: "激光束"
 			x: 10.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0152C49AB74B9D32"]
 			description: [
-				"Fusion Reactors require a very special fuel: &dD-T Fuel&r to be exact."
+				"聚变反应堆需要非常特殊的燃料：D-T燃料/氘氚燃料。"
 				""
-				"There are two ways to fuel the Reactor: Either by pumping in D-T Fuel directly into the Reactor at 1,000mb/t, or by pumping each of the two fuels  in separately at controlled rates."
+				"有两种方法给反应堆加燃料：直接将D-T燃料/氘氚燃料泵入反应堆，速度为1000mb/t；或者分别泵入两种燃料，速度可控。"
 				""
-				"For starters, let's pump them in separately. We probably need to know how to make them as well."
+				"首先，让我们分别泵入它们。我们可能需要知道如何制造它们。"
 			]
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			id: "12D271359D48210E"
-			rewards: [{
-				id: "771198694F018CFC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "2A6E713A062510B6"
-				title: "Fueling the Reactor"
-				type: "checkmark"
-			}]
-			title: "Fueling the &dFusion Reactor&r"
+			rewards: [
+				{
+					id: "771198694F018CFC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "2A6E713A062510B6"
+					title: "Fueling the Reactor"
+					type: "checkmark"
+				}
+			]
+			title: "给聚变反应堆加燃料"
 			x: 10.5d
 			y: -8.0d
 		}
@@ -1557,16 +1605,11 @@
 				"3593D955361B0C6D"
 			]
 			description: [
-				"Hohlraum filled with D-T Fuel? &oCheck!&r"
-				""
-				"Deuterium and Tritium ready to be pumped into the Reactor? &oCheck!&r"
-				""
-				"A Laser Amplifier with at least 400MRF ready to shoot into the Laser Focus Matrix? &oCheck!&r"
-				""
-				"Once you are ready, place the &5Hohlraum&r into the &aFusion Reactor Controller&r, pump in the Fuel, then activate your Laser Amplifier."
-				""
-				"If done right, &nyou'll see the Reactor activate!&r"
-				""
+				"黑体辐射腔填满了D-T燃料/氘氚燃料？检查！"
+				"氘和氚准备好被泵入反应堆了？检查！"
+				"至少有400MRF的激光增幅器准备射入激光聚焦矩阵？检查！"
+				"一旦准备好，将黑体辐射腔放入聚变反应控制器中，泵入燃料，然后启动激光增幅器。"
+				"如果做得正确，你会看到反应堆启动！"
 				""
 				"{image:atm:textures/questpics/mek/fusion_activated.png width:225 height:150 align:1}"
 			]
@@ -1597,13 +1640,15 @@
 						id: "mekanismgenerators:hohlraum"
 						tag: {
 							mekData: {
-								GasTanks: [{
-									Tank: 0b
-									stored: {
-										amount: 10L
-										gasName: "mekanismgenerators:fusion_fuel"
+								GasTanks: [
+									{
+										Tank: 0b
+										stored: {
+											amount: 10L
+											gasName: "mekanismgenerators:fusion_fuel"
+										}
 									}
-								}]
+								]
 							}
 						}
 					}
@@ -1616,21 +1661,17 @@
 					type: "custom"
 				}
 			]
-			title: "&dI Think We're Ready&r"
+			title: "我认为我们准备好了"
 			x: 17.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["54D8B9CB3F98040F"]
 			description: [
-				"The &dFusion Reactor&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics."
-				""
-				"The easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &aInjection Rate&r in the &cFuel Tab&r."
-				""
-				"This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max."
-				""
-				"However, you can directly inject &dD-T Fuel&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel."
-				""
+				"聚变反应堆可以独自产生高达200MRF/t的能量，但首先我们需要了解一些机制。"
+				"最简单的发电方式是分别泵入氘和氚，然后使用燃料选项卡中的注入速率控制燃料燃烧的量。"
+				"这必须是一个偶数，最大为98，因为它将D-T燃料组合在反应堆内部。每种燃料的消耗量等于每个刻度的注入速率的一半，即最大值为49mb/t。"
+				"但是，你也可以直接注入D-T燃料/氘氚燃料，但无法控制注入速率。这将每个刻度产生大量的能量，但燃料消耗率更高，每种燃料为500mb/t。"
 				"{image:atm:textures/questpics/mek/fusion_fuelUI.png width:175 height:150 align:1}"
 			]
 			id: "26D306418545A2D6"
@@ -1653,27 +1694,26 @@
 					xp: 1000
 				}
 			]
-			tasks: [{
-				id: "1EEEE30BA51757D6"
-				max_input: 1000L
-				type: "forge_energy"
-				value: 50000000L
-			}]
-			title: "&dThe End Game Power Source&r"
+			tasks: [
+				{
+					id: "1EEEE30BA51757D6"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 50000000L
+				}
+			]
+			title: "终极能源来源"
 			x: 20.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"The &9Industrial Turbine&r is a massive multiblock structure used to convert &cHeated Coolant&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18."
+				"工业涡轮是一个巨大的多方块结构，用于将加热冷却剂转化为能量。最小尺寸为5x5x5，最大尺寸为17x17x18。"
 				""
-				"To build the Turbine, we'll need several blocks so let's start with the basics."
-				""
-				"Just like most Mekanism multiblocks, the frame must be made out of &eTurbine Casings&r. However, instead of Reactor Glass, you can use &bStructural Glass&r or Casings for each face."
-				""
-				"We're going to build this Turbine, and the quest requires the exact materials needed."
-				""
+				"要建造涡轮，我们需要几个方块，所以让我们从基础开始。"
+				"就像大多数通用机械多方块一样，框架必须由涡轮机外壳制成。但是，你可以使用结构玻璃或外壳代替反应堆玻璃。"
+				"我们要建造这个涡轮，任务需要精确的材料。"
 				"{image:atm:textures/questpics/mek/turbine_completed.png width:200 height:225 align:1}"
 			]
 			id: "6313B18820445882"
@@ -1700,7 +1740,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Building the Frame"
+			subtitle: "建造框架"
 			tasks: [
 				{
 					count: 52L
@@ -1715,18 +1755,18 @@
 					type: "item"
 				}
 			]
-			title: "The &9Industrial Turbine&r"
+			title: "工业涡轮"
 			x: 12.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
+				"&9&a涡轮阀门&f&r用于泵入&b蒸汽&r，以及泵出涡轮产生的能量。"
 				""
-				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the Turbine. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the Turbine, but for this build, we'll just be using them on the outside faces."
+				"&8&a涡轮排气口&f&r用于在使用&a&a饱和冷凝器&f&r时泵出多余的水。否则，它们有助于增加涡轮内的蒸汽总流量。排气口的总数也限制了总蒸汽流量。排气口也可以用于涡轮的顶部面，但对于这个建筑，我们只会在外部面使用它们。"
 				""
-				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the Electromagnetic Coils."
+				"&a&a饱和冷凝器&f&r用于将&b蒸汽&r转化为水。这些放置在或以上包含&a电磁线圈&f的层中。"
 			]
 			id: "233E438357CD89F6"
 			min_width: 300
@@ -1764,20 +1804,20 @@
 					type: "item"
 				}
 			]
-			title: "The &aPorts&r"
+			title: "涡轮机的端口"
 			x: 14.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"The &9Turbine Rotor&r is placed in the middle of the Turbine. For every Turbine Rotor, you will need 2 &aTurbine Blades&r. For this Turbine, we'll be using 3 Rotors."
+				"&9&a涡轮转子&f&r放置在涡轮的中间。每个&a涡轮转子&f&r需要2个&a&a涡轮扇叶&f&r。对于这个涡轮，我们将使用3个转子。"
 				""
-				"While looking at the Rotor, right clicking with &aTurbine Blades&r will place them directly onto the Rotor. The taller the Rotor, the longer the Blades will become. For this build, we are using 6 total Blades. If you plan on building a bigger Turbine, you will need to increase the width of the Turbine depending on how many Blades you plan on using."
+				"在查看转子时，使用&a&a涡轮扇叶&f&r右键单击将它们直接放置到转子上。转子越高，叶片就越长。对于这个建筑，我们使用了6个叶片。如果您计划建造一个更大的涡轮，您需要根据您计划使用的叶片数量增加涡轮的宽度。"
 				""
-				"The &9Rotational Complex&r must be placed at the top of the Turbine Rotor. This is then surrounded by &ePressure Dispersers&r."
+				"&9&a复杂旋钮装置&f&r必须放置在&a涡轮转子&f的顶部。然后用&e&a分压元件&f&r包围它。"
 				""
-				"The Dispersers must fill out the entire layer where the Rotational Complex sits."
+				"分散器必须填满&a复杂旋钮装置&f所在的整个层。"
 			]
 			id: "05D20B506213A449"
 			min_width: 300
@@ -1820,16 +1860,16 @@
 					type: "item"
 				}
 			]
-			title: "The &aRotor&r"
+			title: "涡轮转子"
 			x: 14.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
+				"&9&a电磁线圈&f&r直接放置在&a&a复杂旋钮装置&f&r上，将动能转化为能量。"
 				""
-				"You can use multiple, with 5 being the max. These must either touch another Coil, or the Rotational Complex."
+				"您可以使用多个，最多为5个。这些必须与另一个线圈或&a复杂旋钮装置&f接触。"
 			]
 			id: "7C61906C6C87C97D"
 			rewards: [
@@ -1846,11 +1886,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "4C0CC372A8597375"
-				item: "mekanismgenerators:electromagnetic_coil"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C0CC372A8597375"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 1.5d
 		}
@@ -1861,15 +1903,15 @@
 				"05D20B506213A449"
 			]
 			description: [
-				"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
+				"如果您正确地构建了涡轮机，您将在结构周围看到红色粒子。右键单击涡轮机将打开界面。"
 				""
-				"This will tell you all of the information that you need to know, including the total Steam Flow Rate, as well as the total Steam inside of the Turbine."
+				"这将告诉您所有需要知道的信息，包括总蒸汽流量以及涡轮内的总蒸汽。"
 				""
-				"On the right, you will have a bar that shows you the Power that is stored inside of the Turbine. If this gets full, the Turbine will turn off, unless you set it to Vent Overflow."
+				"在右侧，您将看到一个显示存储在涡轮机内的能量的条形图。如果这个条形图满了，涡轮机将关闭，除非您将其设置为过流排放。"
 				""
-				"Let's get it running!"
+				"让我们开始运行它！"
 				""
-				"Once you have a fully functioning Fission Reactor, pump out the &bSteam&r directly into a Turbine Valve on your Turbine. Since we're using Saturating Condensers in this build, you can pump out water from a Turbine Vent back into your Reactor if you want. "
+				"一旦您拥有一个完全运行的&a反应堆&f，将&b蒸汽&r直接泵入涡轮机上的&a涡轮阀门&f。由于我们在这个建筑中使用&a饱和冷凝器&f，您可以从&a涡轮排气口&f中泵出水返回&a反应堆&f。"
 			]
 			id: "4189BC3DFB551F4C"
 			min_width: 300
@@ -1889,24 +1931,24 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				icon: "mekanismgenerators:turbine_casing"
-				id: "71DB5E5857993B3F"
-				title: "Observe a Completed Turbine"
-				type: "custom"
-			}]
-			title: "Creating Power with the Turbine!"
+			tasks: [
+				{
+					icon: "mekanismgenerators:turbine_casing"
+					id: "71DB5E5857993B3F"
+					title: "Observe a Completed Turbine"
+					type: "custom"
+				}
+			]
+			title: "使用涡轮机创建能量！"
 			x: 15.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"If we want to create massive amounts of power, we'll need a way to store all of it, and those Energy Cubes just won't cut it."
+				"如果我们想要创建大量的能量，我们需要一种存储所有能量的可定制多方块结构，但首先，我们需要制作一些&a锂粉&f！"
 				""
-				"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some Lithium Dust!"
-				""
-				"You should have some Brine being made from a previous quest using the &aThermal Evaporation Plants&r. Run the &eBrine&r through another &aThermal Evaporation Plant&r to get Lithium, then through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
+				"您应该使用之前使用&a热蒸发装置&r制作的一些卤水。将&e卤水&r通过另一个&a热蒸发装置&r运行以获得&a液态锂&f，然后通过一个&9&a化学结晶器&f&r获得&a&a锂粉&f&r。"
 			]
 			icon: "mekanism:upgrade_energy"
 			id: "0FF852DE33E41C90"
@@ -1925,24 +1967,26 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				count: 4L
-				id: "31A1425AA09C33F8"
-				item: "mekanism:dust_lithium"
-				type: "item"
-			}]
-			title: "Advanced Power Storage"
+			tasks: [
+				{
+					count: 4L
+					id: "31A1425AA09C33F8"
+					item: "mekanism:dust_lithium"
+					type: "item"
+				}
+			]
+			title: "高级能量存储"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"Almost every Mekanism multiblock is built the same way."
+				"几乎每个&d通用机械&f多方块结构都是以相同的方式构建的。"
 				""
-				"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &cInduction Ports&r. It's best to have 2 Ports: one for input, and one for output. These can be changed using the &eConfigurator&r."
+				"你需要制作一个长方体结构。边缘必须由&8&a输导套管&f&r制成。面可以由外壳、&a&a结构玻璃&f&r或&c&a输导端口&f&r制成。最好有2个端口：一个用于输入，一个用于输出。这些可以使用&e&a调整器&f&r进行更改。"
 				""
-				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this. Need help? &nCheck out the Ponder!&r"
+				"对于这个构建，我们将制作一个5x5x5。这个任务需要精确的材料数量来构建。需要帮助吗？&n查看&a思索&f!&r"
 				""
 				"{image:atm:textures/questpics/mek/induction_matrix.png width:200 height:200 align:1}"
 			]
@@ -1971,7 +2015,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Energy Cube's Papa"
+			subtitle: "能量方块的父亲"
 			tasks: [
 				{
 					count: 44L
@@ -1992,20 +2036,20 @@
 					type: "item"
 				}
 			]
-			title: "Building the &9Induction Matrix&r"
+			title: "建造&9感应矩阵&r"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"The Induction Matrix allows you to customize how much power you can store and transfer by adding Cells and Providers inside of the multiblock structure."
+				"感应矩阵允许您通过在多方块结构内添加电池和供应器来自定义存储和传输的电力量。"
 				""
-				"Induction Cells increase the total amount of power that can be stored."
+				"&a输导元件&f增加可以存储的总电力量。"
 				""
-				"Induction Providers increase the total transfer speed both in and out of the Matrix."
+				"&a输导供应器&f增加矩阵内外的总传输速度。"
 				""
-				"You can customize how many you want of each inside of the multiblock, but you will need at least one of each. These also have higher tiers to increase your overall storage and transfer capacity."
+				"您可以在多方块结构内自定义每个元件的数量，但至少需要一个。这些还有更高级别的版本，以增加您的总存储和传输容量。"
 				""
 				"{image:atm:textures/questpics/mek/induction_inside.png width:300 height:200 align:1}"
 			]
@@ -2086,7 +2130,7 @@
 					type: "item"
 				}
 			]
-			title: "&aCustomizing Our&r &9Power Limits&r"
+			title: "&a自定义我们的&rr&9功率限制&r"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -2096,9 +2140,9 @@
 				"14D772808D1BEAE2"
 			]
 			description: [
-				"Once you've finished building your first &9Energized Induction Matrix&r, you'll see red particles all around the structure to show that it is complete."
+				"一旦您完成了第一个&9充能感应矩阵&r的建造，您将看到红色粒子围绕结构显示它已经完成。"
 				""
-				"Don't be afraid to upgrade with higher tier Cells and Providers! Need more space for them? The maximum size the Induction Matrix can be is 18x18x18. "
+				"不要害怕升级更高级别的电池和供应器！需要更多空间吗？感应矩阵的最大尺寸为18x18x18。"
 			]
 			icon: "mekanism:ultimate_induction_cell"
 			id: "07ECC87DFF2D3991"
@@ -2118,16 +2162,18 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				icon: "mekanism:induction_casing"
-				id: "621A4E28BD50F96C"
-				title: "Observe a Completed Induction Matrix"
-				type: "custom"
-			}]
-			title: "&aCompleting the&r &9Matrix&r"
+			tasks: [
+				{
+					icon: "mekanism:induction_casing"
+					id: "621A4E28BD50F96C"
+					title: "Observe a Completed Induction Matrix"
+					type: "custom"
+				}
+			]
+			title: "&a完成&r&9矩阵&r"
 			x: 5.0d
 			y: -1.0d
 		}
 	]
-	title: "Mekanism: &dAdvanced&r"
+	title: "&d通用机械&f：&d高级&r"
 }

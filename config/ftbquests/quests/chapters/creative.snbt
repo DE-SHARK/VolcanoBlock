@@ -51,11 +51,13 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "2CF11A70229000AB"
-			rewards: [{
-				id: "297894608F40D90C"
-				type: "xp_levels"
-				xp_levels: 100
-			}]
+			rewards: [
+				{
+					id: "297894608F40D90C"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -70,7 +72,7 @@
 					type: "item"
 				}
 			]
-			title: "Getting Create-ive."
+			title: "创造性获取。"
 			x: -4.0d
 			y: 7.0d
 		}
@@ -88,7 +90,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of Creation\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -105,12 +109,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "4F7E4F430154E96E"
-				item: "mysticalagradditions:creative_essence"
-				type: "item"
-			}]
-			title: "Master of Creation"
+			tasks: [
+				{
+					id: "4F7E4F430154E96E"
+					item: "mysticalagradditions:creative_essence"
+					type: "item"
+				}
+			]
+			title: "创造大师"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -128,7 +134,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of The Sky\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -145,12 +153,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "48CC30220D7FC2C9"
-				item: "allthetweaks:nexium_emitter"
-				type: "item"
-			}]
-			title: "Master of The Sky"
+			tasks: [
+				{
+					id: "48CC30220D7FC2C9"
+					item: "allthetweaks:nexium_emitter"
+					type: "item"
+				}
+			]
+			title: "天空大师"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -168,7 +178,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of The Elements\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -185,12 +197,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "3F1E9259BB90D044"
-				item: "allthetweaks:philosophers_fuel"
-				type: "item"
-			}]
-			title: "Master of The Elements"
+			tasks: [
+				{
+					id: "3F1E9259BB90D044"
+					item: "allthetweaks:philosophers_fuel"
+					type: "item"
+				}
+			]
+			title: "元素大师"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -208,7 +222,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of Space\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -225,19 +241,21 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "56F3DEFF2D46B881"
-				item: "allthetweaks:pulsating_black_hole"
-				type: "item"
-			}]
-			title: "Master of Space"
+			tasks: [
+				{
+					id: "56F3DEFF2D46B881"
+					item: "allthetweaks:pulsating_black_hole"
+					type: "item"
+				}
+			]
+			title: "空间大师"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"When crafting the mini portals required for this seed, or crafting the seed itself, make sure to follow the orientation of the recipes accordingly! N should face North, S should face South, and so on."
-				"The skulls/heads don't require a specific angle rotation."
+				"在制作此种子所需的迷你传送门或制作种子本身时，请确保按照配方的方向进行操作！N应该面向北，S应该面向南，依此类推。"
+				"头骨/头部不需要特定的角度旋转。"
 				""
 				"{image:atm:textures/questpics/spiritcraft.png width:200 height:150 align:1}"
 			]
@@ -255,7 +273,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of The Universe\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -272,12 +292,14 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "10834451DAC877C5"
-				item: "allthetweaks:dimensional_seed"
-				type: "item"
-			}]
-			title: "Master of The Universe"
+			tasks: [
+				{
+					id: "10834451DAC877C5"
+					item: "allthetweaks:dimensional_seed"
+					type: "item"
+				}
+			]
+			title: "宇宙大师"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -297,9 +319,9 @@
 				"7F3C377120EF35B8"
 			]
 			description: [
-				"The ATM Star."
+				"ATM之星。"
 				""
-				"This is needed to craft Creative items."
+				"这是制作创意物品所需的。"
 			]
 			id: "464D0C17601E8A2B"
 			rewards: [
@@ -316,13 +338,15 @@
 			]
 			shape: "octagon"
 			size: 3.0d
-			subtitle: "Take over the world."
-			tasks: [{
-				id: "5F6988D125AAB233"
-				item: "allthetweaks:atm_star"
-				type: "item"
-			}]
-			title: "&6ATM Star"
+			subtitle: "接管世界。"
+			tasks: [
+				{
+					id: "5F6988D125AAB233"
+					item: "allthetweaks:atm_star"
+					type: "item"
+				}
+			]
+			title: "&6ATM之星"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -370,12 +394,14 @@
 				}
 			]
 			size: 2.0d
-			tasks: [{
-				id: "7222BF35C9281295"
-				item: "allthetweaks:patrick_star"
-				type: "item"
-			}]
-			title: "Master of....Patrick?"
+			tasks: [
+				{
+					id: "7222BF35C9281295"
+					item: "allthetweaks:patrick_star"
+					type: "item"
+				}
+			]
+			title: "帕特里克之主"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -393,7 +419,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of Oblivion\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -410,12 +438,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "64A1AE71DDC8F0B0"
-				item: "allthetweaks:oblivion_shard"
-				type: "item"
-			}]
-			title: "Master of Oblivion"
+			tasks: [
+				{
+					id: "64A1AE71DDC8F0B0"
+					item: "allthetweaks:oblivion_shard"
+					type: "item"
+				}
+			]
+			title: "湮灭大师"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -434,7 +464,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of Reality\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -451,12 +483,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "52DDA8A874F605CB"
-				item: "allthetweaks:improbable_probability_device"
-				type: "item"
-			}]
-			title: "Master of Reality"
+			tasks: [
+				{
+					id: "52DDA8A874F605CB"
+					item: "allthetweaks:improbable_probability_device"
+					type: "item"
+				}
+			]
+			title: "现实大师"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -474,7 +508,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of Dragons\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -491,12 +527,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "48CE28F5C1683093"
-				item: "allthetweaks:dragon_soul"
-				type: "item"
-			}]
-			title: "Master of Dragons"
+			tasks: [
+				{
+					id: "48CE28F5C1683093"
+					item: "allthetweaks:dragon_soul"
+					type: "item"
+				}
+			]
+			title: "龙之主"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -514,7 +552,9 @@
 						Count: 1b
 						id: "allthemodium:allthemodium_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of The Undead\",\"italic\":false,\"color\":\"gold\"}]"
 							}
@@ -531,12 +571,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "042808E2D5E02DED"
-				item: "allthetweaks:withers_compass"
-				type: "item"
-			}]
-			title: "Master of The Undead"
+			tasks: [
+				{
+					id: "042808E2D5E02DED"
+					item: "allthetweaks:withers_compass"
+					type: "item"
+				}
+			]
+			title: "亡灵大师"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -559,12 +601,14 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "775BD503F830BB6C"
-				item: "botania:creative_pool"
-				type: "item"
-			}]
-			title: "Infinite Mana"
+			tasks: [
+				{
+					id: "775BD503F830BB6C"
+					item: "botania:creative_pool"
+					type: "item"
+				}
+			]
+			title: "无限魔力"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -582,7 +626,9 @@
 						Count: 1b
 						id: "allthemodium:alloy_sword"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Master of The Alloy\",\"italic\":false}]"
 							}
@@ -613,10 +659,12 @@
 						Count: 1b
 						id: "allthemodium:unobtainium_vibranium_alloy_block"
 						tag: {
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 1s
+								}
+							]
 							HideFlags: 1
 							display: {
 								Name: "[{\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\",\"italic\":false}]"
@@ -626,7 +674,7 @@
 					type: "item"
 				}
 			]
-			title: "Building The Frame"
+			title: "建造框架"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -639,7 +687,9 @@
 						Count: 1b
 						id: "minecraft:nether_star"
 						tag: {
-							Enchantments: [{ }]
+							Enchantments: [
+								{ }
+							]
 							display: {
 								Name: "[{\"text\":\"Star of The Gods\",\"italic\":false,\"color\":\"dark_purple\"}]"
 							}
@@ -656,13 +706,15 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				count: 15L
-				id: "15781E3FD52A7921"
-				item: "allthecompressed:nether_star_block_3x"
-				type: "item"
-			}]
-			title: "Harnessing the Power of the Nether"
+			tasks: [
+				{
+					count: 15L
+					id: "15781E3FD52A7921"
+					item: "allthecompressed:nether_star_block_3x"
+					type: "item"
+				}
+			]
+			title: "利用地狱的力量"
 			x: -4.0d
 			y: 3.0d
 		}
@@ -671,35 +723,43 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "3DA9649DC32DDF7C"
-			rewards: [{
-				id: "1483F0383FB2B474"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "1483F0383FB2B474"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [{
-				id: "425542D0B83DFC9E"
-				item: "allthetweaks:atm_star_shard"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "425542D0B83DFC9E"
+					item: "allthetweaks:atm_star_shard"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["3DA9649DC32DDF7C"]
 			id: "182FD093AEDC84D4"
-			rewards: [{
-				id: "2F45E675F1DAD3BB"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "2F45E675F1DAD3BB"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "13CDE75623F0EBD5"
-				item: "thermal:machine_efficiency_creative_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13CDE75623F0EBD5"
+					item: "thermal:machine_efficiency_creative_augment"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 9.5d
 		}
@@ -720,11 +780,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "23419C4DB7C1E5CB"
-				item: "pipez:infinity_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "23419C4DB7C1E5CB"
+					item: "pipez:infinity_upgrade"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 9.5d
 		}
@@ -733,18 +795,22 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "695C8159D28F16B7"
-			rewards: [{
-				id: "3841CBE0A9BBA8A6"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "3841CBE0A9BBA8A6"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "2E44EAD876619015"
-				item: "ars_nouveau:creative_source_jar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E44EAD876619015"
+					item: "ars_nouveau:creative_source_jar"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -1.0d
 		}
@@ -753,21 +819,25 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "3F833B656A0DBB0E"
-			rewards: [{
-				id: "0886FF12E77AAC17"
-				type: "xp"
-				xp: 1000
-			}]
+			rewards: [
+				{
+					id: "0886FF12E77AAC17"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "5973E65E0C940E27"
-				item: "ars_nouveau:creative_spell_book"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5973E65E0C940E27"
+					item: "ars_nouveau:creative_spell_book"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 7.0d
 		}
 	]
-	title: "&dCreative "
+	title: "&d创造模式"
 }

@@ -247,11 +247,11 @@
 	quests: [
 		{
 			description: [
-				"After planning and prepping for years, you have finally started your expedition into a massive &cVolcano&r!"
+				"经过多年的规划和准备，你终于开始了你的探险之旅，进入了一个巨大的&c火山&r！"
 				""
-				"Your goal is to loot and scavenge your new lava-filled home, while surviving our version of \"The Floor Is Lava.\""
+				"你的目标是在新的熔岩之家中掠夺和搜寻，同时在我们的版本中生存\"地板是熔岩\"。"
 				""
-				"To get started on your adventure, head over to the &aGetting Started&r quest chapter!"
+				"要开始你的冒险，请前往&a入门&r任务章节！"
 			]
 			icon: {
 				Count: 1b
@@ -261,56 +261,64 @@
 				}
 			}
 			id: "3BC0A50886A3222B"
-			rewards: [{
-				id: "4956CB79E44FB523"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4956CB79E44FB523"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "square"
 			size: 3.0d
-			tasks: [{
-				id: "5A1784C5676CDC62"
-				title: "Welcome!"
-				type: "checkmark"
-			}]
-			title: "&dWelcome to&r &cVolcanoBlock!&r"
+			tasks: [
+				{
+					id: "5A1784C5676CDC62"
+					title: "Welcome!"
+					type: "checkmark"
+				}
+			]
+			title: "&d欢迎来到&r&cVolcanoBlock！&r"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			description: [
-				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				"在这个模组包中，任务是可选的。没有任何任务会限制你使用模组！"
 				""
-				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				"除了主线任务外，其他任务线都是作为模组指南而存在的。如果你想按照进度进行，一定要查看主线任务！"
 				""
-				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+				"这个模组包中的大部分任务也是由 &2AlfredGG&r 制作的。任务是很辛苦的，如果你想支持他，可以点击下面他的玩家头像！"
 			]
 			icon: "ftbquests:book"
 			id: "3708A4780ACEB34E"
 			min_width: 250
-			rewards: [{
-				id: "4A56DF6E0204666C"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4A56DF6E0204666C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "52BB142F044075B4"
-				title: "Quests"
-				type: "checkmark"
-			}]
-			title: "Quests"
+			tasks: [
+				{
+					id: "52BB142F044075B4"
+					title: "Quests"
+					type: "checkmark"
+				}
+			]
+			title: "任务"
 			x: 0.0d
 			y: 0.6d
 		}
 		{
 			description: [
-				"There are plenty of helpful commands within ATM. Here are a few:"
+				"ATM中有很多有用的命令。以下是其中一些："
 				""
-				"&e/skyblock gui&r | Opens up the GUI for Skyblock Islands. This is where you can create your Island or visit others!"
+				"&e/skyblock gui&r | 打开Skyblock Islands的GUI。这里可以创建你的岛屿或访问其他人的岛屿！"
 				""
-				"&e/skyblock home&r | Teleports you back to your island's spawn point."
+				"&e/skyblock home&r | 将你传送回你的岛屿出生点。"
 			]
 			icon: {
 				Count: 1b
@@ -321,28 +329,32 @@
 			}
 			id: "7658C1C663394E85"
 			min_width: 350
-			rewards: [{
-				id: "5007C73E170C4FF6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5007C73E170C4FF6"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "10A16F89D4AD238D"
-				title: "Useful Commands"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "10A16F89D4AD238D"
+					title: "Useful Commands"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 0.6d
 		}
 		{
 			description: [
-				"To claim chunks, the default key to open the Claim Map is &6M&r and clicking the Map icon in the top left."
+				"要声明区块，打开声明地图的默认键是 &6M&r 并点击左上角的地图图标。"
 				""
-				"To claim a chunk, left click and drag to claim. "
+				"要声明一个区块，左键单击并拖动进行声明。"
 				""
-				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+				"要强制加载一个区块，按住Shift键左键单击该区块。如果操作正确，你会看到该区块上出现了线条。"
 			]
 			icon: {
 				Count: 1b
@@ -352,21 +364,25 @@
 				}
 			}
 			id: "0C93D7A607AB8B83"
-			rewards: [{
-				id: "1B044C35466AFAEF"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1B044C35466AFAEF"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "103C42C743E2A2DB"
-				title: "Claiming Chunks"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "103C42C743E2A2DB"
+					title: "Claiming Chunks"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: 0.6d
 		}
 	]
-	title: "&dWelcome&r"
+	title: "&d欢迎&r"
 }

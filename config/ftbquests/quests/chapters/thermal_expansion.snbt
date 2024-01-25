@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Thermal Series is a modular series of mods that adds a content-rich blend of magic and technology to your Minecraft experience!"]
+			description: ["&d热力系列&f是一系列模块化的模组，为您的Minecraft体验添加了丰富的魔法和技术元素！"]
 			icon: "thermal:upgrade_augment_3"
 			id: "2C50B0E024C3D92E"
 			rewards: [
@@ -32,84 +32,98 @@
 			]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				id: "37547F63C72EED17"
-				item: "alltheores:raw_tin"
-				type: "item"
-			}]
-			title: "Welcome to the &9Thermal Series&r!"
+			tasks: [
+				{
+					id: "37547F63C72EED17"
+					item: "alltheores:raw_tin"
+					type: "item"
+				}
+			]
+			title: "欢迎来到&9&d热力系列&f&r！"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"The Redstone Furnace uses RF/FE instead of Coal to smelt items."
+				"&a通量熔炼炉&f使用RF/FE而不是煤来熔化物品。"
 				""
-				"Like all machines in the Thermal Series, this machine can be upgraded with augments to increase the speed of each process."
+				"像&d热力系列&f中的所有机器一样，该机器可以使用增益升级来增加每个过程的速度。"
 			]
 			id: "22BC123D486CC3E3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "47FB9A5E8CA0DEBF"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
-			subtitle: "Powered Furnace"
-			tasks: [{
-				id: "288B38C43A7C6D48"
-				item: "thermal:machine_furnace"
-				type: "item"
-			}]
-			title: "The Redstone Furnace"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47FB9A5E8CA0DEBF"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			subtitle: "&a电炉&f"
+			tasks: [
+				{
+					id: "288B38C43A7C6D48"
+					item: "thermal:machine_furnace"
+					type: "item"
+				}
+			]
+			title: "&a通量熔炼炉&f"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["22BC123D486CC3E3"]
-			description: ["The Pulverizer breaks raw ores into dusts, and also has a 25% chance to create an extra dust."]
+			description: ["&a磨粉机&f将原始矿石破碎成粉末，并且还有25％的机会创建额外的粉末。"]
 			id: "55C8DD9A754545BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3A6A6FD904C5D807"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
-			subtitle: "Breaks Ores into Dusts"
-			tasks: [{
-				id: "06665E87CB134F3C"
-				item: "thermal:machine_pulverizer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A6A6FD904C5D807"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			subtitle: "将矿石破碎成粉末"
+			tasks: [
+				{
+					id: "06665E87CB134F3C"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["55C8DD9A754545BD"]
 			description: [
-				"The Induction Furnace combines materials into new alloys."
+				"&a感应炉&f将材料组合成新的合金。"
 				""
-				"This is also useful when smelting Ancient Debris into Netherite Scraps."
+				"这在将远古残骸熔炼成下界合金碎片时也很有用。"
 			]
 			id: "452F51995AD0461C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "579CC37AC45E0F27"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
-			subtitle: "The Alloy Maker"
-			tasks: [{
-				id: "63C10CF0EF19F2C8"
-				item: "thermal:machine_smelter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "579CC37AC45E0F27"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
+			subtitle: "合金制造机"
+			tasks: [
+				{
+					id: "63C10CF0EF19F2C8"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["The Machine Frame is needed to craft various machines in Thermal Series."]
+			description: ["&a机器框架&f是制作&d热力系列&f中各种机器所需的基础框架。"]
 			id: "5F385CBA98795C62"
 			rewards: [
 				{
@@ -124,12 +138,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The Basic Frame for Machines"
-			tasks: [{
-				id: "3EC446E752907C94"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
+			subtitle: "机器的基本框架"
+			tasks: [
+				{
+					id: "3EC446E752907C94"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 0.0d
 		}
@@ -151,18 +167,20 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power by Burning Items!"
-			tasks: [{
-				id: "4BEE939AC38768ED"
-				item: "thermal:dynamo_stirling"
-				type: "item"
-			}]
+			subtitle: "通过燃烧物品产生能量！"
+			tasks: [
+				{
+					id: "4BEE939AC38768ED"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel."]
+			description: ["注意：这接受&a树油&f、&a杂酚油&f和&a精炼油&f。"]
 			hide_dependency_lines: true
 			id: "7FE2EED58AB791E8"
 			rewards: [
@@ -179,12 +197,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Liquid Fuel!"
-			tasks: [{
-				id: "6E5C2E9D729210C9"
-				item: "thermal:dynamo_compression"
-				type: "item"
-			}]
+			subtitle: "使用液体燃料产生能量！"
+			tasks: [
+				{
+					id: "6E5C2E9D729210C9"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
@@ -213,12 +233,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Gems!"
-			tasks: [{
-				id: "7B973B2B2EED7921"
-				item: "thermal:dynamo_lapidary"
-				type: "item"
-			}]
+			subtitle: "使用宝石产生能量！"
+			tasks: [
+				{
+					id: "7B973B2B2EED7921"
+					item: "thermal:dynamo_lapidary"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 0.5d
 		}
@@ -246,12 +268,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Enchanted Items!"
-			tasks: [{
-				id: "0E3CDD1130A56248"
-				item: "thermal:dynamo_disenchantment"
-				type: "item"
-			}]
+			subtitle: "使用附魔物品产生能量！"
+			tasks: [
+				{
+					id: "0E3CDD1130A56248"
+					item: "thermal:dynamo_disenchantment"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 1.0d
 		}
@@ -279,21 +303,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Generates Power using Food?"
-			tasks: [{
-				id: "795A2D642A7B7D50"
-				item: "thermal:dynamo_gourmand"
-				type: "item"
-			}]
+			subtitle: "使用食物产生能量？"
+			tasks: [
+				{
+					id: "795A2D642A7B7D50"
+					item: "thermal:dynamo_gourmand"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This is a base upgrade for all machines and items."
+				"这是所有机器和物品的基础升级。"
 				""
-				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+				"注意：虽然您可以将几个基础升级放入机器中，但只有最高级别生效。"
 			]
 			hide_dependency_lines: true
 			id: "76084BE1BBCF941F"
@@ -311,21 +337,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 1 Base Upgrade"
-			tasks: [{
-				id: "3EE6189C5B2FDD2F"
-				item: "thermal:upgrade_augment_1"
-				type: "item"
-			}]
+			subtitle: "一级基础&a空白升级&f"
+			tasks: [
+				{
+					id: "3EE6189C5B2FDD2F"
+					item: "thermal:upgrade_augment_1"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This is a tier 2 upgrade for Thermal Series items and machines."
+				"这是&d热力系列&f物品和机器的二级升级。"
 				""
-				"Note: While you can put several base upgrades into a machine, only the highest tier takes effect."
+				"注意：虽然您可以将几个基础升级放入机器中，但只有最高级别生效。"
 			]
 			hide_dependency_lines: true
 			id: "246CD1925FD6761C"
@@ -343,18 +371,20 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 2 Base Upgrade"
-			tasks: [{
-				id: "6AD321AC8D6BFDAD"
-				item: "thermal:upgrade_augment_2"
-				type: "item"
-			}]
+			subtitle: "二级基础&a空白升级&f"
+			tasks: [
+				{
+					id: "6AD321AC8D6BFDAD"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Note: While you can put several base upgrades into a machine, only the highest tier takes effect."]
+			description: ["注意：虽然您可以将几个基础升级放入机器中，但只有最高级别生效。"]
 			hide_dependency_lines: true
 			id: "034FC4BCCCD7D154"
 			rewards: [
@@ -371,18 +401,20 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tier 3 Base Upgrade"
-			tasks: [{
-				id: "5237B4381DA7BE1B"
-				item: "thermal:upgrade_augment_3"
-				type: "item"
-			}]
+			subtitle: "三级基础&a空白升级&f"
+			tasks: [
+				{
+					id: "5237B4381DA7BE1B"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Creates an infinite water source when placed between two water source blocks."]
+			description: ["将其放置在两个水源方块之间，可以创建一个无限水源。"]
 			hide_dependency_lines: true
 			id: "213FFA67A680E534"
 			rewards: [
@@ -399,17 +431,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "07C7BA8E13F85930"
-				item: "thermal:device_water_gen"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "07C7BA8E13F85930"
+					item: "thermal:device_water_gen"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["This machine charges the items placed inside."]
+			description: ["该机器可以为放置在其中的物品充电。"]
 			hide_dependency_lines: true
 			id: "5FDEAA78891874FD"
 			rewards: [
@@ -426,21 +460,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Charges Items"
-			tasks: [{
-				id: "2BB7C4355B61F638"
-				item: "thermal:charge_bench"
-				type: "item"
-			}]
+			subtitle: "为物品充电"
+			tasks: [
+				{
+					id: "2BB7C4355B61F638"
+					item: "thermal:charge_bench"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"This machine can produce several types of stone."
+				"该机器可以生产几种类型的石头。"
 				""
-				"Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!"
+				"在一侧放置1个熔岩源方块，在另一侧放置1个水源方块，它将生成圆石。查看配方以了解您可以创建的其他石种！"
 			]
 			hide_dependency_lines: false
 			id: "4EA8BA9753D0DD81"
@@ -459,21 +495,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Cobblestone Generator"
-			tasks: [{
-				id: "2720B59BB163F73B"
-				item: "thermal:device_rock_gen"
-				type: "item"
-			}]
+			subtitle: "&a造石机&f"
+			tasks: [
+				{
+					id: "2720B59BB163F73B"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Can convert certain blocks into liquids."
+				"可以将某些方块转换为液体。"
 				""
-				"This is useful for generating lava from Cobblestone, Netherrack, etc."
+				"这对于从圆石、&a下界岩&f等生成熔岩非常有用。"
 			]
 			id: "0897F7A3203E45AF"
 			rewards: [
@@ -490,20 +528,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3D2DFF6062AED26E"
-				item: "thermal:machine_crucible"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D2DFF6062AED26E"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"This machine works like a Botany Pot, Garden Cloche, etc."
+				"这台机器的工作方式类似于植物罐、&a园艺玻璃罩&f等。"
 				""
-				"When given water and a seed, it will grow the seed inside of the machine and auto-output the products into the machine."
+				"当给予水和种子时，它会在机器内种植种子并自动输出产品到机器内。"
 			]
 			id: "648B483B128A32F5"
 			rewards: [
@@ -520,11 +560,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "61287BF539F0C5FC"
-				item: "thermal:machine_insolator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61287BF539F0C5FC"
+					item: "thermal:machine_insolator"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -2.0d
 		}
@@ -546,11 +588,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7A3BCB9C631D8FAD"
-				item: "thermal:machine_sawmill"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A3BCB9C631D8FAD"
+					item: "thermal:machine_sawmill"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.5d
 		}
@@ -572,18 +616,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Vacuums up items"
-			tasks: [{
-				id: "3819DBE6E95E998E"
-				item: "thermal:device_collector"
-				type: "item"
-			}]
+			subtitle: "吸取物品"
+			tasks: [
+				{
+					id: "3819DBE6E95E998E"
+					item: "thermal:device_collector"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Spreads Potion Effects to an area."]
+			description: ["将药水效果传播到一定范围内。"]
 			hide_dependency_lines: true
 			id: "66858700C3DDCB9E"
 			rewards: [
@@ -600,17 +646,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "590869F3AE44A956"
-				item: "thermal:device_potion_diffuser"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "590869F3AE44A956"
+					item: "thermal:device_potion_diffuser"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Can be used to charge items, augment machines, or fill up items with liquid."]
+			description: ["可用于充电物品、增强机器或将物品充满液体。"]
 			id: "74F524F4F0231A78"
 			rewards: [
 				{
@@ -626,17 +674,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5835951863555C2E"
-				item: "thermal:tinker_bench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5835951863555C2E"
+					item: "thermal:tinker_bench"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Pro Tip: You can enchant these with &9Capacity&r to increase the storage!"]
+			description: ["专业提示：你可以用&9容量&r附魔来增加储存量！"]
 			hide_dependency_lines: true
 			id: "037E566ACC83FE07"
 			rewards: [
@@ -654,23 +704,25 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "64186CC4330A70D8"
-				item: {
-					Count: 1b
-					id: "thermal:energy_cell"
-					tag: {
-						BlockEntityTag: {
-							Energy: 0
-							EnergyMax: 1000000
-							EnergyRecv: 1000
-							EnergySend: 1000
+			tasks: [
+				{
+					id: "64186CC4330A70D8"
+					item: {
+						Count: 1b
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Storing Power"
+			]
+			title: "储存能量"
 			x: -1.25d
 			y: 1.9499999999999997d
 		}
@@ -698,25 +750,29 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "694DB377E094D28E"
-				item: {
-					Count: 1b
-					id: "thermal:fluid_cell"
-					tag: {
-						BlockEntityTag: {
-							TankInv: [{
-								Amount: 0
-								Capacity: 32000
-								FluidName: "minecraft:empty"
-								Tank: 0b
-							}]
+			tasks: [
+				{
+					id: "694DB377E094D28E"
+					item: {
+						Count: 1b
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [
+									{
+										Amount: 0
+										Capacity: 32000
+										FluidName: "minecraft:empty"
+										Tank: 0b
+									}
+								]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Storing Fluids"
+			]
+			title: "储存流体"
 			x: 5.25d
 			y: 1.9499999999999997d
 		}
@@ -724,19 +780,23 @@
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
 			id: "483C1F4D099369A2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E92C5CEFFE3E4B3"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E92C5CEFFE3E4B3"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			subtitle: "Allows Storage of XP"
-			tasks: [{
-				id: "66656B02B957573F"
-				item: "thermal:xp_storage_augment"
-				type: "item"
-			}]
+			subtitle: "允许储存经验值"
+			tasks: [
+				{
+					id: "66656B02B957573F"
+					item: "thermal:xp_storage_augment"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 5.0d
 		}
@@ -758,45 +818,47 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Capacity and Transfer Rate"
-			tasks: [{
-				id: "2F608F433D9A3363"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:rf_coil_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_augment_5"
-							}
-						]
+			subtitle: "增加RF容量和传输速率"
+			tasks: [
+				{
+					id: "2F608F433D9A3363"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:rf_coil_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_augment_5"
+								}
+							]
+						}
 					}
+					title: "Expanded RF Coil"
+					type: "item"
 				}
-				title: "Expanded RF Coil"
-				type: "item"
-			}]
-			title: "Expanded RF Coil"
+			]
+			title: "&a扩展通量线圈&f"
 			x: 1.5d
 			y: 3.1999999999999993d
 		}
@@ -818,44 +880,46 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Capacity, and slightly increases the RF Transfer"
-			tasks: [{
-				id: "7B5C9FA866C0588A"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:rf_coil_storage_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_storage_augment_5"
-							}
-						]
+			subtitle: "增加RF容量，略微增加RF传输"
+			tasks: [
+				{
+					id: "7B5C9FA866C0588A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:rf_coil_storage_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_storage_augment_5"
+								}
+							]
+						}
 					}
+					title: "Stabilized RF Coil"
+					type: "item"
 				}
-				title: "Stabilized RF Coil"
-				type: "item"
-			}]
+			]
 			x: 2.5d
 			y: 3.1999999999999993d
 		}
@@ -877,44 +941,46 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases RF Transfer, and slightly increases the Capacity"
-			tasks: [{
-				id: "775A7E11D20688CD"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:rf_coil_xfer_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:rf_coil_xfer_augment_5"
-							}
-						]
+			subtitle: "增加RF传输，略微增加容量"
+			tasks: [
+				{
+					id: "775A7E11D20688CD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:rf_coil_xfer_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:rf_coil_xfer_augment_5"
+								}
+							]
+						}
 					}
+					title: "High-Flux RF Coil"
+					type: "item"
 				}
-				title: "High-Flux RF Coil"
-				type: "item"
-			}]
+			]
 			x: 3.5d
 			y: 3.1999999999999993d
 		}
@@ -922,55 +988,59 @@
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
 			id: "6DF4B859ACBCD408"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D4FCF5F1807C976"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
-			shape: "diamond"
-			subtitle: "Increases Tank Storage"
-			tasks: [{
-				id: "5DFD1C0334466FF2"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:fluid_tank_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_4"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_5"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:fluid_tank_augment_6"
-							}
-						]
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D4FCF5F1807C976"
+					table_id: 4084485630345500261L
+					type: "random"
 				}
-				title: "Expanded Tank Construction"
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			subtitle: "增加储罐存储量"
+			tasks: [
+				{
+					id: "5DFD1C0334466FF2"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:fluid_tank_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_4"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_5"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:fluid_tank_augment_6"
+								}
+							]
+						}
+					}
+					title: "Expanded Tank Construction"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 5.0d
 		}
@@ -978,18 +1048,22 @@
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
 			id: "6D35E56FC874C841"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F92134E16107738"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F92134E16107738"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "1726C6AB09496E0C"
-				item: "thermal:item_filter_augment"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1726C6AB09496E0C"
+					item: "thermal:item_filter_augment"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 5.5d
 		}
@@ -1012,40 +1086,42 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Processing Speed, but Reduces Efficiency"
-			tasks: [{
-				id: "46E665F97A2BECB6"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:machine_speed_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_speed_augment_4"
-							}
-						]
+			subtitle: "增加处理速度，但降低效率"
+			tasks: [
+				{
+					id: "46E665F97A2BECB6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:machine_speed_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_speed_augment_4"
+								}
+							]
+						}
 					}
+					title: "Flux Linkage Amplifier"
+					type: "item"
 				}
-				title: "Flux Linkage Amplifier"
-				type: "item"
-			}]
+			]
 			x: 0.5d
 			y: 3.1999999999999993d
 		}
@@ -1067,40 +1143,42 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Efficiency at the cost of Speed"
-			tasks: [{
-				id: "1E0593F1AA073CFD"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:machine_efficiency_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_efficiency_augment_4"
-							}
-						]
+			subtitle: "以速度为代价增加效率"
+			tasks: [
+				{
+					id: "1E0593F1AA073CFD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:machine_efficiency_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_efficiency_augment_4"
+								}
+							]
+						}
 					}
+					title: "Flux Efficiency"
+					type: "item"
 				}
-				title: "Flux Efficiency"
-				type: "item"
-			}]
+			]
 			x: 1.0d
 			y: 3.6999999999999993d
 		}
@@ -1122,36 +1200,38 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Secondary Output"
-			tasks: [{
-				id: "497485048E0AD20D"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:machine_output_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_output_augment_3"
-							}
-						]
+			subtitle: "增加次要产出"
+			tasks: [
+				{
+					id: "497485048E0AD20D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:machine_output_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_output_augment_3"
+								}
+							]
+						}
 					}
+					title: "Auxiliary Process Sieve"
+					type: "item"
 				}
-				title: "Auxiliary Process Sieve"
-				type: "item"
-			}]
+			]
 			x: 2.0d
 			y: 3.6999999999999993d
 		}
@@ -1179,36 +1259,38 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Reduces Catalyst Usage"
-			tasks: [{
-				id: "6C996D5E63879519"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:machine_catalyst_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:machine_catalyst_augment_3"
-							}
-						]
+			subtitle: "减少&a催化剂&f使用"
+			tasks: [
+				{
+					id: "6C996D5E63879519"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:machine_catalyst_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:machine_catalyst_augment_3"
+								}
+							]
+						}
 					}
+					title: "Catalytic Reclamation Chamber"
+					type: "item"
 				}
-				title: "Catalytic Reclamation Chamber"
-				type: "item"
-			}]
+			]
 			x: 3.0d
 			y: 3.6999999999999993d
 		}
@@ -1216,19 +1298,23 @@
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
 			id: "234CD79746FCAA18"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67A2BAD4D9983E26"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67A2BAD4D9983E26"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			subtitle: "Voids By-products"
-			tasks: [{
-				id: "784D4494897AF202"
-				item: "thermal:machine_null_augment"
-				type: "item"
-			}]
+			subtitle: "虚空副产品"
+			tasks: [
+				{
+					id: "784D4494897AF202"
+					item: "thermal:machine_null_augment"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 5.5d
 		}
@@ -1250,40 +1336,42 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Increases Generation Rate at the Cost of Efficiency"
-			tasks: [{
-				id: "3861678346D376C1"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:dynamo_output_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_output_augment_4"
-							}
-						]
+			subtitle: "以效率为代价增加发电速率"
+			tasks: [
+				{
+					id: "3861678346D376C1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:dynamo_output_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_output_augment_4"
+								}
+							]
+						}
 					}
+					title: "Auxiliary Reaction Chamber"
+					type: "item"
 				}
-				title: "Auxiliary Reaction Chamber"
-				type: "item"
-			}]
+			]
 			x: 8.5d
 			y: 1.5d
 		}
@@ -1305,40 +1393,42 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Increases Fuel Efficiency of Dynamos"
-			tasks: [{
-				id: "3D6A9C7EE22C2ADF"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:dynamo_fuel_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:dynamo_fuel_augment_4"
-							}
-						]
+			subtitle: "增加发电机燃料效率"
+			tasks: [
+				{
+					id: "3D6A9C7EE22C2ADF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:dynamo_fuel_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:dynamo_fuel_augment_4"
+								}
+							]
+						}
 					}
+					title: "Multi-Cycle Injectors"
+					type: "item"
 				}
-				title: "Multi-Cycle Injectors"
-				type: "item"
-			}]
+			]
 			x: 8.5d
 			y: -1.5d
 		}
@@ -1346,47 +1436,51 @@
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
 			id: "00C24A7DFEAEE956"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0162FC16A134829D"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
-			shape: "diamond"
-			subtitle: "Increases AoE Effect"
-			tasks: [{
-				id: "705AE21001A4E9C7"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thermal:area_radius_augment"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_1"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_2"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_3"
-							}
-							{
-								Count: 1b
-								id: "thermal_extra:area_radius_augment_4"
-							}
-						]
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0162FC16A134829D"
+					table_id: 4084485630345500261L
+					type: "random"
 				}
-				title: "Radial Enchancement"
-				type: "item"
-			}]
+			]
+			shape: "diamond"
+			subtitle: "增加AoE效果"
+			tasks: [
+				{
+					id: "705AE21001A4E9C7"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:area_radius_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_1"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_2"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal_extra:area_radius_augment_4"
+								}
+							]
+						}
+					}
+					title: "Radial Enchancement"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 5.0d
 		}
@@ -1407,12 +1501,14 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Amplifies Potion Effect"
-			tasks: [{
-				id: "08ED05EBDFF0B4D9"
-				item: "thermal:potion_amplifier_augment"
-				type: "item"
-			}]
+			subtitle: "放大药水效果"
+			tasks: [
+				{
+					id: "08ED05EBDFF0B4D9"
+					item: "thermal:potion_amplifier_augment"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -2.5d
 		}
@@ -1433,41 +1529,47 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Increases Duration of Potion Effect"
-			tasks: [{
-				id: "501A3B2548F6DB3E"
-				item: "thermal:potion_duration_augment"
-				type: "item"
-			}]
+			subtitle: "增加药水效果持续时间"
+			tasks: [
+				{
+					id: "501A3B2548F6DB3E"
+					item: "thermal:potion_duration_augment"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["This machine is mostly for extracting dyes from flowers, or ore blends back into their components."]
+			description: ["这台机器主要用于从花朵或矿石混合物中提取染料，或将其分离成其制作组件。"]
 			id: "3475E12711B6BB98"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1F383E05B6EC4EBA"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F383E05B6EC4EBA"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			subtitle: "Separates Items into their Crafting Components"
-			tasks: [{
-				id: "2183800CED355EEB"
-				item: "thermal:machine_centrifuge"
-				type: "item"
-			}]
+			subtitle: "将物品分离成其制作组件"
+			tasks: [
+				{
+					id: "2183800CED355EEB"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Creates \"Presses\" using Casts."
+				"使用铸造制作\"&a压印模板&f\"。"
 				""
-				"Think plates, gears, etc."
+				"想想板子、齿轮等。"
 			]
 			hide_dependency_lines: true
 			id: "5963FBEB78A79668"
@@ -1485,40 +1587,46 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0C6725EA57E7D9EE"
-				item: "thermal:machine_press"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0C6725EA57E7D9EE"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Converts items from a liquid to a solid, some requiring casts."
+				"将物品从液体转换为固体，有些需要铸造。"
 				""
-				"There is also a bee spawn egg recipe it can create."
+				"它还可以创建蜜蜂孵化蛋的配方。"
 			]
 			id: "469443A3BA0C3BEE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "122EF97CC1EE4796"
-				table_id: 4084485630345500261L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "122EF97CC1EE4796"
+					table_id: 4084485630345500261L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "66AF5C07727A5B39"
-				item: "thermal:machine_chiller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66AF5C07727A5B39"
+					item: "thermal:machine_chiller"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Can convert liquids into items or other useful liquids."]
+			description: ["可以将液体转换为物品或其他有用的液体。"]
 			hide_dependency_lines: true
 			id: "627D6FDC3D8C42F6"
 			rewards: [
@@ -1535,20 +1643,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3B188F7D7009093C"
-				item: "thermal:machine_refinery"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B188F7D7009093C"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Works like a Coke Oven, but simplified."
+				"工作方式类似于&a焦炉&f，但更简化。"
 				""
-				"Insert \"fuel\" like Coal and it'll produce Coal Coke and a by-product."
+				"插入像煤炭这样的\"燃料\"，它会产生&a焦煤碳&f和一个副产品。"
 			]
 			hide_dependency_lines: true
 			id: "5ECC93FB8F676E3F"
@@ -1566,17 +1676,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "76A0C32FB86A089D"
-				item: "thermal:machine_pyrolyzer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "76A0C32FB86A089D"
+					item: "thermal:machine_pyrolyzer"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Combines Liquids with Items"]
+			description: ["&a收割机&f液体与物品"]
 			hide_dependency_lines: true
 			id: "469663FE3DA932EF"
 			rewards: [
@@ -1593,17 +1705,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "05867D444D20EABE"
-				item: "thermal:machine_bottler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05867D444D20EABE"
+					item: "thermal:machine_bottler"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Can Create \"Liquid\" Potions that can be bottled into Potions."]
+			description: ["可以创建\"液体\"药水，可以装瓶成药水。"]
 			hide_dependency_lines: true
 			id: "1BCE8D02CDD13838"
 			rewards: [
@@ -1620,11 +1734,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "70EF981620DADB32"
-				item: "thermal:machine_brewer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70EF981620DADB32"
+					item: "thermal:machine_brewer"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -2.5d
 		}
@@ -1646,18 +1762,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "An Auto-Crafter!"
-			tasks: [{
-				id: "72EC640A6F6C69C1"
-				item: "thermal:machine_crafter"
-				type: "item"
-			}]
+			subtitle: "自动合成器！"
+			tasks: [
+				{
+					id: "72EC640A6F6C69C1"
+					item: "thermal:machine_crafter"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["It's more like a pickaxe that uses RF/FE."]
+			description: ["它更像是使用RF/FE的镐。"]
 			hide_dependency_lines: true
 			id: "5257468DC6C11851"
 			rewards: [
@@ -1674,16 +1792,18 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "An Early-Game Mining Gadget"
-			tasks: [{
-				id: "38EE8C011F7E3FEC"
-				item: {
-					Count: 1b
-					id: "thermal:flux_drill"
-					tag: { }
+			subtitle: "早期采矿工具"
+			tasks: [
+				{
+					id: "38EE8C011F7E3FEC"
+					item: {
+						Count: 1b
+						id: "thermal:flux_drill"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 3.5d
 			y: -2.5d
 		}
@@ -1705,19 +1825,21 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "RF-Powered Handsaw!"
-			tasks: [{
-				id: "504ABB4FCF4AA14E"
-				item: {
-					Count: 1b
-					id: "thermal:flux_saw"
-					tag: { }
+			subtitle: "RF动力手锯！"
+			tasks: [
+				{
+					id: "504ABB4FCF4AA14E"
+					item: {
+						Count: 1b
+						id: "thermal:flux_saw"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.5d
 			y: -2.5d
 		}
 	]
-	title: "Thermal Series"
+	title: "&d热力系列&f"
 }

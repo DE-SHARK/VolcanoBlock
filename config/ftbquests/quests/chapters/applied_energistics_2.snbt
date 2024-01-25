@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&lWelcome to &bApplied Energistics 2&f!"
+				"&l欢迎来到&b&d应用能源2&f&f！"
 				""
-				"Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."
+				"&d应用能源2&f（或简称为&oAE2&r）是一种非常多功能的&bdigital storage&f模组，允许极其高效的存储和各种自动化功能，从你想要的早期到最终游戏阶段都可以大大增强你的模组Minecraft体验。"
 				""
-				"To get started with AE2, you will need an important resource for the mod known as &bCertus Quartz&f. Just like alot of things, you can obtain all the materials you need through Ex nihilo!"
+				"要开始使用AE2，你需要一种名为&b&a赛特斯石英&f&f的重要资源。就像很多东西一样，你可以通过Ex nihilo获得所需的所有材料！"
 				""
-				"For more information on AE2 beyond this chapter, consult the wiki over at &o&bappliedenergistics.github.io&f&r."
+				"有关AE2的更多信息，请查阅&o&bappliedenergistics.github.io&f&r上的维基。"
 			]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
@@ -36,10 +36,12 @@
 								]
 								Name: "82000"
 								Properties: {
-									textures: [{
-										Signature: "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug="
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
-									}]
+									textures: [
+										{
+											Signature: "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug="
+											Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
+										}
+									]
 								}
 							}
 						}
@@ -60,7 +62,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Virtual Storage System"
+			subtitle: "虚拟存储系统"
 			tasks: [
 				{
 					id: "43FD619EF9A41E76"
@@ -73,18 +75,18 @@
 					type: "item"
 				}
 			]
-			title: "Applied Energistics 2"
+			title: "&d应用能源2&f"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2893F483C10293E6"]
 			description: [
-				"Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f."
+				"在AE2中，你需要的前两件事是&b&a袭击者&f&f和&b&a压印器&f&f。"
 				""
-				"The &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power."
+				"当&b&a袭击者&f&f提供电力时，它会取走&e&a赛特斯石英水晶&f&r并充电。这些&eCharged Certus Crystals&r可以用于生产模组中的另一个重要资源&eFluix&f。它还可以用于充电任何存储电力的物品。"
 				""
-				"The &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."
+				"&b&a压印器&f&f可用于将AE2中的各种石英晶体转化为它们的粉末形式，但更重要的是用于制造特殊的&ePrinted &a电路板&f&f和&e&a处理器&f&f，这将在下一个任务中变得更加清晰。"
 			]
 			id: "68B0B3DAF1145191"
 			rewards: [
@@ -99,7 +101,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Some basic machines"
+			subtitle: "一些基本机器"
 			tasks: [
 				{
 					id: "29C4195E8366DBDD"
@@ -112,14 +114,14 @@
 					type: "item"
 				}
 			]
-			title: "First Things First"
+			title: "首要任务"
 			x: 2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"Being a skyblock you might be wondering how you get into ae2, because where the hell are the meteors?! Well sweat no more, the presses have 2 alternate recipes, one in the inscriber that is relatively easy to get going, or the mystical agriculture default recipe using essence, the choice is now yours!"
+				"作为一个天空岛屿，你可能会想知道如何进入AE2，因为流星在哪里？！好了，现在你不用担心了，压印机有两种备选配方，一种在印刷机中相对容易启动，或者使用精华的神秘农业默认配方，选择权在你手中！"
 				""
 				""
 			]
@@ -143,22 +145,24 @@
 					xp: 100
 				}
 			]
-			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
-			tasks: [{
-				advancement: "ae2:main/presses"
-				criterion: ""
-				id: "4D25BF3C4F05025D"
-				type: "advancement"
-			}]
+			subtitle: "\"COMIC #42: shearching 4 bobby [&a菲希尔&f]\""
+			tasks: [
+				{
+					advancement: "ae2:main/presses"
+					criterion: ""
+					id: "4D25BF3C4F05025D"
+					type: "advancement"
+				}
+			]
 			x: 4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"While the Inscriber and Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE."
+				"虽然&a压印器&f和&a袭击者&f本身可以接受RF/FE，但大多数ME网络使用其自己的专用电力系统称为AE。"
 				""
-				"RF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."
+				"RF/FE可以以2:1 RF:AE的比例转换为本机AE，可以直接通过&aME控制器&f或通过&a能源接收器&f&f连接到网络的任何部分来实现。"
 			]
 			id: "00611844AFD5C31E"
 			rewards: [
@@ -173,21 +177,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "Plug in"
-			tasks: [{
-				id: "5B4DDF66C36AF356"
-				item: "ae2:energy_acceptor"
-				type: "item"
-			}]
+			subtitle: "插入"
+			tasks: [
+				{
+					id: "5B4DDF66C36AF356"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["00611844AFD5C31E"]
 			description: [
-				"By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block. For large enough networks, this can be insufficient and may cause a network to power off intermittently when trying to recoup power for any connected devices."
+				"默认情况下，一个ME网络仅有800AE的内部缓冲区，没有&aME控制器&f，而控制器每个方块可以增加额外的8kAE。对于足够大的网络，这可能是不足的，可能会导致网络在尝试为任何连接的设备恢复电力时间歇性地关闭。"
 				""
-				"The &bEnergy Cell&f allows for an ME network to hold significantly more energy, adding another 200kAE per regular Energy Cell and 1.6MAE per &bDense&f Energy Cell. These can also be placed anywhere in the network to provide the increased energy buffer."
+				"&b&a能源元件&f&f允许ME网络容纳更多的能量，每个普通&a能源元件&f增加200kAE，每个&bDense&f &a能源元件&f增加1.6MAE。这些也可以放置在网络中的任何位置，以提供增加的能量缓冲区。"
 			]
 			id: "037488EF1F3581CE"
 			rewards: [
@@ -227,7 +233,7 @@
 		}
 		{
 			dependencies: ["037488EF1F3581CE"]
-			description: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
+			description: ["&b&a能源卡&f&f可以应用于大多数可充电设备，如&aME便携式元件&f和&a无线终端&f（稍后介绍），以增加&othei&rr能量缓冲区。"]
 			id: "6D54B45CDA70FEAB"
 			rewards: [
 				{
@@ -242,17 +248,19 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "42C1EB9094F67B62"
-				item: "ae2:energy_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42C1EB9094F67B62"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["51236544BFEF487B"]
-			description: ["Once you have obtained a full set of the required &eInscriber Presses&r, it's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
+			description: ["一旦您获得了所需的&e&a压印器&f&a压印模板&f的完整套装，就可以开始制作一些&e&a处理器&f&f。这些是用于制作大多数ME连接设备的重要制作成分。"]
 			id: "15564C11744D6AA0"
 			rewards: [
 				{
@@ -283,16 +291,16 @@
 					type: "item"
 				}
 			]
-			title: "Processors"
+			title: "&a处理器&f"
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."
+				"可以说，您下一个最重要的资源是&eFluix&f，它在AE2设备的绝大多数部分中使用，并作为制作ME网络中所有电缆的基础。"
 				""
-				"You'll typically want to mass produce these, and the way to do so is to make a &bFluix Crystal&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. This will give you a &eFluix Crystal&r which you can turn to dust in an Inscriber."
+				"您通常会想要大量生产这些，而要这样做的方法是将&eNether Quartz&f、&e&oCharged&r&e Certus quartz&r和&e&a红石&f&f投入到水池中。这将为您提供一个&e&a福鲁伊克斯水晶&f&r，您可以在&a压印器&f中将其变成粉尘。"
 			]
 			icon: "ae2:fluix_crystal"
 			id: "4BF0BB763BFFACF0"
@@ -326,18 +334,18 @@
 					type: "item"
 				}
 			]
-			title: "Fluix Crystal"
+			title: "&a福鲁伊克斯水晶&f"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4BF0BB763BFFACF0"]
 			description: [
-				"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
+				"要将您的ME网络的绝大部分连接在一起，您需要一些电缆。&e&aME玻璃线缆&f&f是最基本的电缆，您将在整个过程中制作这些电缆，作为制作其他种类电缆的第一步。"
 				""
-				"Both glass cables and their &ecovered&f counterpart can carry up to 8 channels along a single section of cabling. Unlike glass cables, covered cables can subsequently be crafted into &edense&f covered cables, capable of carrying up to 32 channels. However, most \"multipart\" devices such as buses and terminals cannot be directly attached to dense cables, requiring normal-width cables to form a connection instead."
+				"玻璃电缆及其&e覆盖&f对应物都可以在单个电缆段上承载多达8个通道。与玻璃电缆不同，覆盖电缆随后可以制成&edense&f覆盖电缆，能够承载多达32个通道。但是，大多数\"multipart”设备（如总线和终端）不能直接连接到致密电缆上，而需要使用普通宽度的电缆形成连接。"
 				""
-				"All cables can also be crafted with dye to colour them. Uncoloured (\"Fluix\") cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."
+				"所有电缆也可以用染料制成颜色。未着色（\"Fluix”）电缆可以连接到任何其他颜色的电缆，但不同颜色的电缆将永远不会连接到彼此。"
 			]
 			id: "5C22E3103544B120"
 			rewards: [
@@ -390,13 +398,13 @@
 					type: "item"
 				}
 			]
-			title: "Basic Cabling"
+			title: "基础电缆"
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			description: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
+			description: ["&b&aME智能线缆&f&f和&b&a致密线缆&f&f在通道分配方面与覆盖电缆的功能相同，但也会在自身上显示使用的通道数量，作为彩色线条显示。"]
 			id: "5233A447BAA4593C"
 			rewards: [
 				{
@@ -444,16 +452,16 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Cabling"
+			title: "高级电缆"
 			x: 5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["15564C11744D6AA0"]
 			description: [
-				"&eTerminals&f provide access to any of the contents of an ME network. The standard &eME Terminal&f simply lists everything in the network as one large grid to pull from and insert into, akin to a single inventory."
+				"&e&a终端&f&f提供对ME网络中任何内容的访问。标准的&e&aME终端&f&f只是将网络中的所有内容列为一个大网格，以便从中提取和插入，类似于单个库存。"
 				""
-				"The &eME Crafting Terminal&f is an extension of the ME Terminal which also provides a built-in crafting grid, allowing for convenient crafting using any item contained in the network and visible through the terminal screen."
+				"&e&aME合成终端&f&f是&aME终端&f的扩展，还提供内置的制作网格，允许使用任何包含在网络中并通过终端屏幕可见的物品进行方便的制作。"
 			]
 			id: "22C4318523A43B49"
 			rewards: [
@@ -469,7 +477,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "[Linux user joke goes here]"
+			subtitle: "[Linux用户笑话在这里]"
 			tasks: [
 				{
 					id: "6C7282A058006A21"
@@ -482,7 +490,7 @@
 					type: "item"
 				}
 			]
-			title: "Terminals"
+			title: "&a终端&f"
 			x: 8.0d
 			y: 0.5d
 		}
@@ -492,11 +500,11 @@
 				"2F16B6A173525277"
 			]
 			description: [
-				"Arguably the most important aspect of Applied Energistics 2 is its storage system, making use of digital &eStorage Cells&f. These cells are accessible through either an &eME Chest&r for single cells, or an &eME Drive&r for multiple cells."
+				"在Minecraft游戏中，&d应用能源2&f的最重要的方面可能是其存储系统，利用数字&e存储单元&f。这些单元可以通过&e&aME箱子&f&r来访问单个单元，或通过&e&aME驱动器&f&r来访问多个单元。"
 				""
-				"The &bME Chest&f holds a single Cell at a time, which can then be read from and written to from any other terminal on the same network. The ME Chest itself also provides its own terminal screen on the top with specific access only to the cell it contains."
+				"&b&aME箱子&f&f一次只能容纳一个单元，然后可以从网络上的任何其他终端读取和写入。&aME箱子&f本身还提供了自己的终端屏幕，只能访问它所包含的单元。"
 				""
-				"The &bME Drive&f can hold up to 10 assorted Storage Cells in the space of a single block and a single ME channel. However, it does not provide its own terminal screen, requiring some external terminal elsewhere on the network for storage access."
+				"&b&aME驱动器&f&f可以在一个单块和一个ME通道的空间内容纳多达10个不同的存储单元。然而，它不提供自己的终端屏幕，需要在网络上的其他终端上进行存储访问。"
 			]
 			id: "4E8A05C3BFA80540"
 			rewards: [
@@ -513,7 +521,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Items as a file system"
+			subtitle: "物品作为文件系统"
 			tasks: [
 				{
 					id: "74AA3FA06B3574A8"
@@ -526,18 +534,18 @@
 					type: "item"
 				}
 			]
-			title: "The Storage"
+			title: "存储系统"
 			x: 11.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
 			description: [
-				"To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world."
+				"为了使生活更加轻松，AE2提供了一整套设备来操作ME数据，即将存储的物品在世界范围内移动。"
 				""
-				"The &bME Interface&f is one of these devices. As an input device, the Interface allows any item/fluid/etc to be piped externally through it, which is then automatically stored in the ME Network that the interface is connected to."
+				"&b&aME接口&f&f是其中之一。作为输入设备，&a物品传输接口&f允许任何物品/液体等通过它外部传输，然后自动存储在接口连接的ME网络中。"
 				""
-				"As an output device, the Interface can be configured to keep a certain available amount of a stored item in stock, from the ME network to its own internal inventory. This allows items to then be received by some external source like another player or some pipe."
+				"作为输出设备，&a物品传输接口&f可以配置为保持存储物品的一定可用数量，从ME网络到其自己的内部库存。这允许物品被一些外部来源接收，如另一个玩家或一些管道。"
 			]
 			icon: "ae2:interface"
 			id: "74FC0DDDB91DB172"
@@ -555,31 +563,33 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "OI, OI, OI!"
-			tasks: [{
-				id: "7241918F270CA402"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:interface"
+			subtitle: "输入输出！"
+			tasks: [
+				{
+					id: "7241918F270CA402"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:interface"
+						}
 					}
+					title: "ME Interface"
+					type: "item"
 				}
-				title: "ME Interface"
-				type: "item"
-			}]
-			title: "The IO"
+			]
+			title: "输入输出"
 			x: 24.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
 			description: [
-				"Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually?"
+				"存储很好，但是如果存储系统被需要加工成某些东西的原材料堵塞了，而你仍然被困在手动加工中，那么这个存储系统有什么用呢？"
 				""
-				"AE2's &eauto-crafting&f system begins with the &bME Pattern Provider&f. The Pattern Provider holds certain items called &bPatterns&f (covered in the next quest) which are programmed to hold some recipe that turns input items into a certain output. Up to 9 patterns can fit in one provider."
+				"AE2的&e自动制作&f系统始于&b&aME样板供应器&f&f。&a样板供应器&f持有称为&b&a模具&f&f（在下一个任务中介绍）的某些物品，这些物品被编程为保持某些配方，将输入物品转化为某种输出。一个提供者可以容纳多达9个模板。"
 				""
-				"You'll often be making use of multiple pattern providers scattered all throughout your base, which is why it's useful to have a &bPattern Access Terminal&f to remotely access the contents of any and all providers on your wider ME network."
+				"您经常会利用分散在整个基地的多个模板提供者，这就是为什么拥有一个&b&a模具&f&aME接入终端&f&f可以远程访问您更广泛的ME网络中任何和所有提供者的内容。"
 			]
 			icon: "ae2:pattern_provider"
 			id: "51DE3157DE3E57B8"
@@ -597,7 +607,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Order up"
+			subtitle: "订购"
 			tasks: [
 				{
 					id: "338A6DA0D711B7DC"
@@ -617,7 +627,7 @@
 					type: "item"
 				}
 			]
-			title: "Auto-Crafting"
+			title: "自动制作"
 			x: 13.0d
 			y: -2.5d
 		}
@@ -627,13 +637,13 @@
 				"78311531069807DE"
 			]
 			description: [
-				"The last piece of the puzzle for any large ME network is the &bME Controller&f."
+				"对于任何大型ME网络的最后一块拼图是&b&aME控制器&f&f。"
 				""
-				"A controller supplies an ME Network with a far larger number of channels than the standard 8 channels for ad-hoc networks, providing 32 channels out of each face of the block for a total of 216 channels."
+				"控制器为ME网络提供了比临时网络标准8个通道更多的通道，为每个块的每个面提供32个通道，总共216个通道。"
 				""
-				"That's only for a single-block controller, however, since the ME Controller is in fact a multi-block structure. The controller can be up to 7x7x7 blocks in size and can come in any freeform arrangement within that maximum size. Each individual block can then provide its own separate set of channels, so long as no single controller block is surrounded by 4 other blocks along the same plane."
+				"然而，这仅适用于单块控制器，因为&aME控制器&f实际上是一个多块结构。控制器的大小可以达到7x7x7块，并且可以以任何自由形式的排列方式在该最大尺寸内。每个单独的块都可以提供自己的独立通道集，只要没有单个控制器块被同一平面上的其他4个块包围。"
 				""
-				"An ME Network may only contain one multiblock controller at any given time. Attempting to connect more than one controller on separate parts of the network will cause a conflict, shutting down the whole network."
+				"ME网络一次只能包含一个多块控制器。尝试在网络的不同部分连接多个控制器将导致冲突，关闭整个网络。"
 			]
 			id: "2F16B6A173525277"
 			rewards: [
@@ -648,41 +658,47 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "6C80AA2FD67BD192"
-				item: "ae2:controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6C80AA2FD67BD192"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2893F483C10293E6"]
 			description: [
-				"The &bQuartz Wrench&f does what any regular tech mod wrench would do. It rotates blocks and devices along the face you right-click on and dismantles them when right-clicked while sneaking."
+				"&b&a石英扳手&f&f与普通的技术模组扳手一样，可以旋转右键点击的面上的方块和设备，并在潜行右键点击时拆除它们。"
 				""
-				"AE2's wrench comes in both certus and nether quartz flavours."
+				"AE2的扳手有certus和下界石英两种口味。"
 			]
 			id: "1B686954D34A0F23"
-			rewards: [{
-				id: "3F733DD53ED27710"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "circle"
-			subtitle: "Does exactly what you'd expect."
-			tasks: [{
-				id: "1076BC82EECB73F5"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "ae2:quartz_wrench"
-					}
+			rewards: [
+				{
+					id: "3F733DD53ED27710"
+					type: "xp"
+					xp: 10
 				}
-				title: "Quartz Wrench"
-				type: "item"
-			}]
+			]
+			shape: "circle"
+			subtitle: "完全符合您的期望。"
+			tasks: [
+				{
+					id: "1076BC82EECB73F5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:quartz_wrench"
+						}
+					}
+					title: "Quartz Wrench"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 1.5d
 		}
@@ -692,27 +708,29 @@
 				"1076BC82EECB73F5"
 			]
 			description: [
-				"The &bNetwork Tool&f is an important tool throughout AE2, which is used to display various details of a network on-screen such as overall power consumption and storage."
+				"&b&a网络工具&f&f是AE2中的重要工具，用于在屏幕上显示网络的各种详细信息，如总体功耗和存储。"
 				""
-				"As an added bonus, it also provides its own small inventory used to hold &eupgrade cards&f, which can be accessed when looking at any upgradeable device's screen for easy replacement. However, it cannot rotate blocks attached to the ME network like a regular wrench, only dismantle them when sneaking."
+				"作为额外的奖励，它还提供了自己的小型库存，用于容纳&e升级卡&f，在查看任何可升级设备的屏幕时可以轻松更换。但是，它不能像普通扳手一样旋转连接到ME网络的方块，只能在潜行时拆除它们。"
 			]
 			id: "6431A384DDFBF439"
-			tasks: [{
-				id: "7BDCDEB679A9969C"
-				item: "ae2:network_tool"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BDCDEB679A9969C"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
 			description: [
-				"Each individual cell has a certain capacity dictated by the &ecomponent&f that the cell has been crafted with."
+				"每个单独的单元都有一定的容量，由制作单元的&e组件&f决定。"
 				""
-				"The first of the components is the &b1k ME Storage Component&f, providing &e1024&f \"bytes\" of storage for a given cell. More on that later."
+				"第一个组件是&b&a1k-ME存储组件&f&f，为给定单元提供&e1024&f \"字节\"的存储。稍后会详细介绍。"
 				""
-				"Create the 1k Component, which will be combined with housing in the next quest."
+				"创建1k组件，它将与外壳组合在下一个任务中。"
 			]
 			id: "2FB231069D2E4E77"
 			rewards: [
@@ -728,13 +746,15 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The first kilobyte."
-			tasks: [{
-				id: "64CCF1FB42AA41CE"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			title: "Creating your first Storage Cell"
+			subtitle: "第一个千字节。"
+			tasks: [
+				{
+					id: "64CCF1FB42AA41CE"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
+			title: "创建您的第一个存储单元"
 			x: 14.0d
 			y: 1.5d
 		}
@@ -743,7 +763,7 @@
 				"64CCF1FB42AA41CE"
 				"2FB231069D2E4E77"
 			]
-			description: ["The second tier of storage component, providing &e4096&f bytes of storage."]
+			description: ["第二层存储组件，提供&e4096&f字节的存储。"]
 			id: "3B42CCC19D23EC6D"
 			rewards: [
 				{
@@ -759,12 +779,14 @@
 			]
 			shape: "diamond"
 			subtitle: "x4"
-			tasks: [{
-				id: "066F1BBF3D0863C5"
-				item: "ae2:cell_component_4k"
-				type: "item"
-			}]
-			title: "4k Storage Component"
+			tasks: [
+				{
+					id: "066F1BBF3D0863C5"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			title: "4k存储组件"
 			x: 15.0d
 			y: 2.5d
 		}
@@ -773,7 +795,7 @@
 				"066F1BBF3D0863C5"
 				"3B42CCC19D23EC6D"
 			]
-			description: ["The third tier of storage component, providing &e16384&f bytes of storage."]
+			description: ["第三层存储组件，提供&e16384&f字节的存储。"]
 			id: "219932CB19258C16"
 			rewards: [
 				{
@@ -789,12 +811,14 @@
 			]
 			shape: "diamond"
 			subtitle: "x4^2"
-			tasks: [{
-				id: "076237ECA6D5DE58"
-				item: "ae2:cell_component_16k"
-				type: "item"
-			}]
-			title: "16k Storage Component"
+			tasks: [
+				{
+					id: "076237ECA6D5DE58"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			title: "16k存储组件"
 			x: 14.5d
 			y: 3.0d
 		}
@@ -803,7 +827,7 @@
 				"076237ECA6D5DE58"
 				"219932CB19258C16"
 			]
-			description: ["The fourth tier of storage component, providing &e65536&f bytes of storage."]
+			description: ["第四层存储组件，提供&e65536&f字节的存储。"]
 			id: "523853C1C4E688BA"
 			rewards: [
 				{
@@ -819,12 +843,14 @@
 			]
 			shape: "diamond"
 			subtitle: "x4^3"
-			tasks: [{
-				id: "32FFC36DEEA7792D"
-				item: "ae2:cell_component_64k"
-				type: "item"
-			}]
-			title: "64k Storage Component"
+			tasks: [
+				{
+					id: "32FFC36DEEA7792D"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
+			title: "64k存储组件"
 			x: 15.0d
 			y: 3.5d
 		}
@@ -833,7 +859,7 @@
 				"32FFC36DEEA7792D"
 				"523853C1C4E688BA"
 			]
-			description: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
+			description: ["第五个也是最后一个AE2标准层的存储组件，提供&e262144&f字节的存储。"]
 			id: "5F56892CD904C40F"
 			rewards: [
 				{
@@ -849,12 +875,14 @@
 			]
 			shape: "diamond"
 			subtitle: "x4^4"
-			tasks: [{
-				id: "2C4616CD2EBB58C6"
-				item: "ae2:cell_component_256k"
-				type: "item"
-			}]
-			title: "256k Storage Component"
+			tasks: [
+				{
+					id: "2C4616CD2EBB58C6"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
+			title: "256k存储组件"
 			x: 15.5d
 			y: 3.0d
 		}
@@ -864,9 +892,9 @@
 				"5F56892CD904C40F"
 			]
 			description: [
-				"There comes a point in any playthrough of a large modpack where even the highest standard tier of storage cell doesn't cut it for the amount of items and resources that you may be accumulating."
+				"在大型模组包的任何游戏过程中，即使是最高标准层的存储单元也无法满足您可能积累的物品和资源数量。"
 				""
-				"This is where the &dMEGA Cells&f add-on comes in, extending the available tiers of storage into the megabyte territory. The first of these new tiers is given by the &b1M MEGA Storage Component&f, providing 1024 &okilo&rbytes, or &e1048576&f bytes, of storage."
+				"这就是&d&aMEGA存储单元&f&f插件的用途，将可用的存储层扩展到兆字节领域。这些新层中的第一个由&b&a1M MEGA存储组件&f&f提供，为给定单元提供1024 &okilo&r字节或&e1048576&f字节的存储。"
 			]
 			id: "460A8F17F3ED6CAF"
 			rewards: [
@@ -888,13 +916,15 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "The first MEGAbyte."
-			tasks: [{
-				id: "19BF2D67291056DE"
-				item: "megacells:cell_component_1m"
-				type: "item"
-			}]
-			title: "1M Storage Component"
+			subtitle: "第一个MEGA字节。"
+			tasks: [
+				{
+					id: "19BF2D67291056DE"
+					item: "megacells:cell_component_1m"
+					type: "item"
+				}
+			]
+			title: "1M存储组件"
 			x: 16.5d
 			y: 4.0d
 		}
@@ -903,7 +933,7 @@
 				"19BF2D67291056DE"
 				"460A8F17F3ED6CAF"
 			]
-			description: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
+			description: ["第二个MEGA层的存储组件，提供&e4194304&f（4096k）字节的存储。"]
 			id: "25DBA00422301EDC"
 			rewards: [
 				{
@@ -918,12 +948,14 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "32340AD4F677375F"
-				item: "megacells:cell_component_4m"
-				type: "item"
-			}]
-			title: "4M Storage Component"
+			tasks: [
+				{
+					id: "32340AD4F677375F"
+					item: "megacells:cell_component_4m"
+					type: "item"
+				}
+			]
+			title: "4M存储组件"
 			x: 19.0d
 			y: 3.9999999999999996d
 		}
@@ -932,7 +964,7 @@
 				"32340AD4F677375F"
 				"25DBA00422301EDC"
 			]
-			description: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
+			description: ["第三个MEGA层的存储组件，提供&e16777216&f（16384k）字节的存储。"]
 			id: "0E809747193ED3A9"
 			rewards: [
 				{
@@ -947,12 +979,14 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "76A0C582AECC4702"
-				item: "megacells:cell_component_16m"
-				type: "item"
-			}]
-			title: "16M Storage Component"
+			tasks: [
+				{
+					id: "76A0C582AECC4702"
+					item: "megacells:cell_component_16m"
+					type: "item"
+				}
+			]
+			title: "16M存储组件"
 			x: 19.5d
 			y: 4.499999999999998d
 		}
@@ -961,7 +995,7 @@
 				"76A0C582AECC4702"
 				"0E809747193ED3A9"
 			]
-			description: ["The fourth MEGA tier of storage component, providing &e67108864&f (65536k) bytes of storage."]
+			description: ["第四个MEGA层的存储组件，提供&e67108864&f（65536k）字节的存储。"]
 			id: "3CE3D9245F8EC005"
 			rewards: [
 				{
@@ -976,12 +1010,14 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "50CD83AC904EC47E"
-				item: "megacells:cell_component_64m"
-				type: "item"
-			}]
-			title: "64M Storage Component"
+			tasks: [
+				{
+					id: "50CD83AC904EC47E"
+					item: "megacells:cell_component_64m"
+					type: "item"
+				}
+			]
+			title: "64M存储组件"
 			x: 20.0d
 			y: 3.9999999999999996d
 		}
@@ -990,7 +1026,7 @@
 				"50CD83AC904EC47E"
 				"3CE3D9245F8EC005"
 			]
-			description: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
+			description: ["第五个也是最后一个MEGA层的存储组件，提供&e268435456&f（262144k）字节的存储。"]
 			id: "51A57E142C686C8F"
 			rewards: [
 				{
@@ -1005,25 +1041,27 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0D5DA83B0C0665C8"
-				item: "megacells:cell_component_256m"
-				type: "item"
-			}]
-			title: "256M Storage Component"
+			tasks: [
+				{
+					id: "0D5DA83B0C0665C8"
+					item: "megacells:cell_component_256m"
+					type: "item"
+				}
+			]
+			title: "256M存储组件"
 			x: 19.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2FB231069D2E4E77"]
 			description: [
-				"With the 1k Storage Component, you can now craft yourself a 1k ME Item Storage Cell to start your digital item storage system. You'll most likely want the majority of your storage to be for items, so you'll probably want to make a few &bME Item Storage Cells&f."
+				"使用1k存储元件，您现在可以制作一个1k ME物品存储单元来启动您的数字物品存储系统。您大多数的存储空间可能都是用于物品，因此您可能需要制作几个&aME物品存储单元&f。"
 				""
-				"ME Item Storage Cells can each hold up to 63 different types of items. Each new type of item added to a cell will take up a certain fraction of the storage cell's total capacity in bytes. For each type already present, 1 \"byte\" counts for 8 items of that same type."
+				"&aME物品存储单元&f可以容纳多达63种不同类型的物品。每添加一种新类型的物品，都会占用存储单元总容量的一定比例（以字节为单位）。对于已经存在的每种类型，1个\"byte”相当于8个相同类型的物品。"
 				""
-				"As an example, a 1k Item Storage Cell containing only cobblestone can hold up to 8128 cobblestone (8*1024b - 8b/type * 1 type)."
+				"例如，一个只包含圆石的1k物品存储单元最多可以容纳8128个圆石（8*1024b - 8b/类型*1种类型）。"
 				""
-				"If a cell is empty, it can be repurposed by disassembling it into its respective component and housing. This is done by sneaking and right-clicking in the air with the cell in your hand."
+				"如果单元为空，可以通过将其拆卸成相应的元件和外壳来重新用途。这可以通过将单元握在手中，潜行并右键单击空气来完成。"
 			]
 			id: "361CCBD353D6FF34"
 			rewards: [
@@ -1044,28 +1082,30 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "52521FCD58B2FEF0"
-				item: {
-					Count: 1b
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
+			tasks: [
+				{
+					id: "52521FCD58B2FEF0"
+					item: {
+						Count: 1b
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					title: "ME Item Storage Cell"
+					type: "item"
 				}
-				title: "ME Item Storage Cell"
-				type: "item"
-			}]
-			title: "Item Storage"
+			]
+			title: "物品存储"
 			x: 16.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			description: [
-				"Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava and any variety of modded oils and fuels, just to give a few examples."
+				"物品不是唯一可以存储在ME单元中的东西。&aME流体存储元件&f可以存储液体，例如水、熔岩和任何种类的模组油和燃料，只是举几个例子。"
 				""
-				"Note that all storage cells, regardless of what they're designed to store, only differ in terms of their housing; both item and fluid cells use the same kind of storage component to make."
+				"请注意，所有存储单元，无论它们设计用于存储什么，都只在其外壳方面有所不同；物品和流体单元使用相同类型的存储元件制作。"
 				""
-				"For fluids, 1 byte equals 8 buckets (8000mb)."
+				"对于流体，1个字节等于8个桶（8000mb）。"
 			]
 			id: "5E24012A3D9B72A1"
 			rewards: [
@@ -1081,28 +1121,30 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "61D93B13D496547D"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: ":fluid_storage_cell_"
+			tasks: [
+				{
+					id: "61D93B13D496547D"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":fluid_storage_cell_"
+						}
 					}
+					title: "ME Fluid Storage Cell"
+					type: "item"
 				}
-				title: "ME Fluid Storage Cell"
-				type: "item"
-			}]
-			title: "Fluid Storage"
+			]
+			title: "流体存储"
 			x: 18.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5E24012A3D9B72A1"]
 			description: [
-				"New to 1.18 versions of Applied Energistics 2 is direct support for Mekanism chemicals, provided by AE2's official integration add-on &dApplied Mekanistics&f. These cells can hold most chemicals from Mekanism, including gases, pigments and ore slurries, but they will &o&lnot&r hold anything radioactive such as nuclear waste."
+				"在1.18版本的&d应用能源2&f中，直接支持&d通用机械&f化学品，由AE2的官方集成插件&dApplied Mekanistics&f提供。这些单元可以容纳大多数来自&d通用机械&f的化学品，包括气体、颜料和矿浆，但不会容纳任何放射性物质，例如核废料。"
 				""
-				"&dMEGA Cells&f also in turn integrates directly with Applied Mekanistics to provide higher tiers of chemical cells, though with the same radioactivity restriction as the standard cells."
+				"&aMEGA存储单元&f也直接与Applied Mekanistics集成，提供更高级别的化学单元，但具有与标准单元相同的放射性限制。"
 			]
 			id: "397165BB305A887E"
 			rewards: [
@@ -1118,28 +1160,30 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "773E8781B09CA753"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: ":chemical_storage_cell_"
+			tasks: [
+				{
+					id: "773E8781B09CA753"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":chemical_storage_cell_"
+						}
 					}
+					title: "ME Chemical Storage Cell"
+					type: "item"
 				}
-				title: "ME Chemical Storage Cell"
-				type: "item"
-			}]
-			title: "Chemical Storage"
+			]
+			title: "化学品存储"
 			x: 20.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
 			description: [
-				"The &bCell Workbench&f allows for cells to be \"partitioned\" to hold specific items, i.e. given a whitelist filter. It also allows the cell to be upgraded with certain upgrade cards such as the Inverter Card, which sets the aforementioned whitelist to be a blacklist instead."
+				"&b&a元件工作台&f允许将单元\"分区”以容纳特定物品，即给定白名单过滤器。它还允许使用某些升级卡对单元进行升级，例如&a反相卡&f，将上述白名单设置为黑名单。"
 				""
-				"Cells can also be given a higher or lower \"priority\" via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
+				"单元还可以通过工作台获得更高或更低的\"优先级”，即允许单元成为首先接收某些物品直到满，或者等待其他更高优先级的单元先填满。"
 			]
 			id: "2F556E7919582D2D"
 			rewards: [
@@ -1155,20 +1199,22 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "19F84B1451F7D602"
-				item: "ae2:cell_workbench"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19F84B1451F7D602"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
 			description: [
-				"The &bME IO Port&f allows for the contents of an ME network's storage to be quickly rearranged between different storage media such as ME cells and external containers connected to storage buses."
+				"&b&aME-IO端口&f允许在ME网络存储和连接到存储总线的外部容器之间快速重新排列内容。"
 				""
-				"When a cell is inserted in an input slot on the left, the IO Port can be toggled to either empty the cell out into other ME storages or fill the (ideally, partitioned) cell with certain items spread out across other storages."
+				"当将单元插入左侧的输入槽时，可以切换&aME-IO端口&f以将单元清空到其他ME存储中，或者将（理想情况下，分区的）单元填充到其他存储中分散的某些物品。"
 			]
 			id: "7B7D1F0CB326B28F"
 			rewards: [
@@ -1184,18 +1230,20 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Defragmentation"
-			tasks: [{
-				id: "23261340EF9D48AF"
-				item: "ae2:io_port"
-				type: "item"
-			}]
+			subtitle: "碎片整理"
+			tasks: [
+				{
+					id: "23261340EF9D48AF"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
+			description: ["&b&aME输入总线&f定期从总线面对的任何外部存储中吸取物品。它可以选择性地过滤只从该库存中获取某些物品。"]
 			id: "5E7E35CCAF1C88EE"
 			rewards: [
 				{
@@ -1210,18 +1258,20 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "The I"
-			tasks: [{
-				id: "060BD30C77262BDA"
-				item: "ae2:import_bus"
-				type: "item"
-			}]
+			subtitle: "I"
+			tasks: [
+				{
+					id: "060BD30C77262BDA"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["The &bME Export Bus&f periodically spits items in its whitelist filter out to whatever external storage the bus is facing. Unlike the Import Bus, the Export Bus cannot work without being filtered."]
+			description: ["&b&aME输出总线&f&f会定期将其白名单过滤器中的物品喷出到总线面对的任何外部存储中。与&a输入总线&f不同，&a输出总线&f无法在没有过滤器的情况下工作。"]
 			id: "083D458032F0325C"
 			rewards: [
 				{
@@ -1236,23 +1286,25 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "The O"
-			tasks: [{
-				id: "6D6E070CB7998FA1"
-				item: "ae2:export_bus"
-				type: "item"
-			}]
+			subtitle: "O"
+			tasks: [
+				{
+					id: "6D6E070CB7998FA1"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5E7E35CCAF1C88EE"]
 			description: [
-				"The &bME Annihilation Plane&f can be used to automatically break any blocks in front of it and return anything dropped by the block directly to the ME network."
+				"&b&aME破坏面板&f&f可用于自动破坏其前方的任何方块，并将方块掉落的任何物品直接返回到ME网络中。"
 				""
-				"As an added bonus, the Annihilation Plane can be enchanted in the same way as a regular digging tool, affecting block drops in the same way as that enchanted tool would. This makes it ideal for processing ore blocks when enchanted with Fortune, for example."
+				"作为额外的奖励，&a破坏面板&f可以像普通挖掘工具一样附魔，影响方块掉落的方式。例如，使用Fortune附魔时，它非常适合处理矿石方块。"
 				""
-				"Any added enchantments significantly increase the amount of energy used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall energy use incurred by all other enchantments, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to Unbreaking on regular tools."
+				"任何添加的附魔都会显著增加每次破坏方块时飞机使用的能量量。使用&eEfficiency&f附魔将减少所有其他附魔产生的总能量使用量，而&eUnbreaking&f附魔则使飞机有时只使用任何能量，类似于普通工具上的Unbreaking。"
 			]
 			id: "140DE53DC0FCD9F4"
 			rewards: [
@@ -1268,21 +1320,23 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "GET IN"
-			tasks: [{
-				id: "3F715007AD9C0D58"
-				item: "ae2:annihilation_plane"
-				type: "item"
-			}]
+			subtitle: "进入"
+			tasks: [
+				{
+					id: "3F715007AD9C0D58"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["083D458032F0325C"]
 			description: [
-				"The &bME Formation Plane&f acts similarly to the Storage Bus, but treats the world itself as its storage medium. In other words, it will place down any block in its filter directly in front of itself."
+				"&b&aME成型面板&f&f的作用类似于存储总线，但将世界本身视为其存储介质。换句话说，它会将其过滤器中的任何方块直接放置在其前方。"
 				""
-				"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
+				"这在某些情况下非常有用，例如通过使用特定工具将其放置并破坏来处理方块。"
 			]
 			id: "525F25F4ADE45B50"
 			rewards: [
@@ -1298,23 +1352,25 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "GET OUT"
-			tasks: [{
-				id: "0BEBC087F970093E"
-				item: "ae2:formation_plane"
-				type: "item"
-			}]
+			subtitle: "离开"
+			tasks: [
+				{
+					id: "0BEBC087F970093E"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
 			description: [
-				"&bP2P&f (peer-to-peer) is a powerful system within AE2, allowing for the transfer of items, fluids and even more without the need for any intermediary ME storage."
+				"&bP2P&f（点对点）是AE2中的一个强大系统，允许在不需要任何中介ME存储的情况下传输物品、流体甚至更多内容。"
 				""
-				"Right-clicking on a P2P tunnel with certain items will &eattune&f the tunnel into one capable of transferring something else, such as items through pipes, energy through cables, redstone signals and (by default) even ME connections themselves."
+				"右键单击具有特定物品的P2P隧道将会将该隧道&e调谐&f为能够传输其他内容的隧道，例如通过管道传输物品、通过电缆传输能量、通过红石信号和（默认情况下）甚至ME连接本身。"
 				""
-				"P2P tunnels must be linked to one another with the use of a &eMemory Card&f, detailed in the next quest."
+				"必须使用&e&a内存卡&f&f将P2P隧道链接在一起，详细信息请参见下一个任务。"
 			]
 			id: "1710B3D05215A71E"
 			rewards: [
@@ -1330,22 +1386,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Cut out the middleman"
-			tasks: [{
-				id: "36A7C775D94798EE"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
-			title: "P2P Tunnels"
+			subtitle: "去掉中间商"
+			tasks: [
+				{
+					id: "36A7C775D94798EE"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "&aP2P通道&f"
 			x: 26.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
 			description: [
-				"The &bME Storage Bus&f, when facing some external storage container, will allow the container to be used as though it were part of the ME network, allowing items to be taken out from the container or inserted into it purely via ME."
+				"&b&aME存储总线&f&f，当面对某些外部存储容器时，将允许使用该容器，就像它是ME网络的一部分一样，允许通过ME纯粹地从容器中取出物品或将物品插入其中。"
 				""
-				"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
+				"存储总线可以被过滤并赋予特定的优先级，以使特定的物品首先尝试进入附加的存储，但它不会将任何过滤的物品从网络中的其他位置向其附加的存储中进行回溯移动。"
 			]
 			id: "7EFBAF3E281D2EBE"
 			rewards: [
@@ -1361,21 +1419,23 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "The spare chest"
-			tasks: [{
-				id: "294FA6663BE38B7C"
-				item: "ae2:storage_bus"
-				type: "item"
-			}]
+			subtitle: "备用箱"
+			tasks: [
+				{
+					id: "294FA6663BE38B7C"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1710B3D05215A71E"]
 			description: [
-				"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
+				"&b&a内存卡&f&f是一个具有两种不同功能的工具。其中较简单的一个是保存各种设备的配置（例如白名单过滤器），以便将其复制到同一种设备的另一个设备中。"
 				""
-				"The second function of a memory card is to link &eP2P tunnels&f together. When doing so, the P2P tunnel being linked will be assigned a unique ID, which is stored on the memory card for further linking."
+				"内存卡的第二个功能是将&eP2P隧道&f链接在一起。这样做时，将为被链接的P2P隧道分配一个唯一的ID，该ID存储在内存卡中以进行进一步的链接。"
 			]
 			id: "55186B8602689B66"
 			rewards: [
@@ -1391,25 +1451,27 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "2D19A4EF2E4B7A55"
-				item: {
-					Count: 1b
-					id: "ae2:memory_card"
-					tag: { }
+			tasks: [
+				{
+					id: "2D19A4EF2E4B7A55"
+					item: {
+						Count: 1b
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					title: "Memory Card"
+					type: "item"
 				}
-				title: "Memory Card"
-				type: "item"
-			}]
+			]
 			x: 26.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2F556E7919582D2D"]
 			description: [
-				"The &bEqual Distribution Card&f is an upgrade for storage cells that pre-allocates a certain amount of items that can be taken up by any individual type."
+				"&b&a均分卡&f&f是一种升级储存单元的卡片，预先分配了一定数量的物品，可以由任何单个类型占用。"
 				""
-				"This behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."
+				"这种行为类似于功能性存储抽屉，其中每个隔间容纳一定数量的堆栈，而不是允许一个隔间中的物品泄漏到其他隔间并挤占其他种类的物品。"
 			]
 			id: "3195A7AA874163CD"
 			rewards: [
@@ -1425,18 +1487,20 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "ME Storage &mCells&r Drawers"
-			tasks: [{
-				id: "5E1E2F6E86A3E0F3"
-				item: "ae2:equal_distribution_card"
-				type: "item"
-			}]
+			subtitle: "ME存储单元抽屉"
+			tasks: [
+				{
+					id: "5E1E2F6E86A3E0F3"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2F556E7919582D2D"]
-			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
+			description: ["&b&a虚空卡&f&f是一种储存单元升级，允许储存单元在尝试移动到已满的单元中时删除（虚空）其中已包含的任何类型的物品。"]
 			id: "33ADE41526C39AFD"
 			rewards: [
 				{
@@ -1451,20 +1515,22 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "2D72E699C4D506CE"
-				item: "ae2:void_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D72E699C4D506CE"
+					item: "ae2:void_card"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			description: [
-				"&bPortable Cells&f function identically to regular cells in that they can they be inserted into a chest or drive and filled accordingly."
+				"&b&aME便携式元件&f&f与常规单元的功能相同，可以插入到箱子或驱动器中并相应地填充。"
 				""
-				"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
+				"但是，与常规单元不同，它们的内容也可以通过单元物品本身独立访问，有点像数字ME风味的背包。"
 			]
 			id: "77C9EE701F72586D"
 			rewards: [
@@ -1479,24 +1545,26 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "65C439FD14C5EEB9"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: ":portable_(.*)_cell_"
+			tasks: [
+				{
+					id: "65C439FD14C5EEB9"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":portable_(.*)_cell_"
+						}
 					}
+					title: "ME Portable Cell"
+					type: "item"
 				}
-				title: "ME Portable Cell"
-				type: "item"
-			}]
+			]
 			x: 17.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7EFBAF3E281D2EBE"]
-			description: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
+			description: ["&b&a容量卡&f&f允许升级的总线携带更大的过滤器。升级为容量卡的导入和导出总线可以从每个仅支持一个过滤器的物品增加到最大的九个插槽过滤器，而存储总线将从18个插槽增加到最大的63个插槽。"]
 			id: "371A382CF1DDF2B2"
 			rewards: [
 				{
@@ -1511,22 +1579,24 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "6DC55B5EA1534444"
-				item: "ae2:capacity_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6DC55B5EA1534444"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
 			description: [
-				"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjuction with the main network to perform some specialised function or process."
+				"AE2中的一个重要概念是称为\"子网划分”的技术，其中额外的单独ME网络（子网络）与主网络一起执行某些专门的功能或过程。"
 				""
-				"What separates a subnetwork from a completely detached separate network is usually the use of the &bQuartz Fiber&f as a cable part. When placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels between the two whatsoever, instead only transmitting power."
+				"将子网络与完全分离的单独网络区分开来的通常是使用石英纤维作为电缆部件。当放置在两个否则未连接的电缆长度之间时，石英纤维不会在两者之间传输任何数据或通道，而仅传输电力。"
 				""
-				"Thus, a subnetwork on the other side of the Fiber can be powered wholly by the main network's power source, without requiring any extra dedicated powergen."
+				"因此，在光纤的另一侧的子网络可以完全由主网络的电源供电，而不需要任何额外的专用电源。"
 			]
 			id: "2077D64428E9C067"
 			rewards: [
@@ -1542,22 +1612,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "This has a use outside of crafting cables."
-			tasks: [{
-				id: "05A8DD006B623032"
-				item: "ae2:quartz_fiber"
-				type: "item"
-			}]
-			title: "Forgot to Mention"
+			subtitle: "这在制作电缆之外也有用途。"
+			tasks: [
+				{
+					id: "05A8DD006B623032"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			title: "忘记提到"
 			x: 25.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
 			description: [
-				"&bPatterns&f are what hold an encoded recipe to be fulfilled by a Pattern Provider. To encode a recipe onto a Pattern, the &bME Pattern Encoding Terminal&f must be used."
+				"&b&a模具&f&f是保存由&a样板供应器&f完成的编码配方的工具。要将配方编码到&a模具&f上，必须使用&bME&a模具&f编码&a终端&f&f。"
 				""
-				"Patterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general \"&eprocessing&f\" recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant."
+				"&a模具&f可以设置为保存常规的&e合成&f配方，这将需要在其提供者的面上使用&e&a分子装配室&f&f，或者更一般的\"&e处理&f”配方，其中任何输入物品都可以被提供者发送到其他机器块或专门的处理厂。"
 			]
 			icon: "ae2:blank_pattern"
 			id: "2C04B3BA507D5673"
@@ -1592,18 +1664,18 @@
 					type: "item"
 				}
 			]
-			title: "Patterns"
+			title: "&a模具&f"
 			x: 14.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2C04B3BA507D5673"]
 			description: [
-				"The &bMolecular Assembler&f is AE2's equivalent of an automatic crafting table, required to fulfil any and all &ecrafting&f pattern jobs."
+				"&b&a分子装配室&f&f是AE2的自动合成台等效物，需要完成任何和所有&e合成&f模式作业。"
 				""
-				"Molecular Assemblers are capable of transferring power and channels to other ME devices connected to it, but will not themselves take up a channel. Up to 6 MAs can be connected to a single Pattern Provider (if employed) to allow for more crafts to be done in parallel."
+				"&a分子装配室&f能够将电力和通道传输到连接到它的其他ME设备，但本身不会占用通道。最多可以连接6个MAs到单个&a样板供应器&f（如果使用），以允许并行进行更多的合成。"
 				""
-				"MAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."
+				"MAs还各自具有一个用于单个合成模式的专用插槽，使它们在接通电源时可以独立运行。在这种方式下操作时，插入到MA中的任何匹配物品都将自动制成该模式的结果。"
 			]
 			id: "4597D3B3BDC2BED5"
 			rewards: [
@@ -1619,20 +1691,22 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "5639418C0364E5A1"
-				item: "ae2:molecular_assembler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5639418C0364E5A1"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
 			description: [
-				"The &bME Level Emitter&f, when configured with a specific item and quantity of it to respond to, will emit a redstone signal depending on whether that item stored in the network either falls below, goes above or equals the given quantity."
+				"当配置了特定物品和数量以响应时，&b&aME标准发信器&f&f将发出红石信号，取决于存储在网络中的物品是否低于、高于或等于给定数量。"
 				""
-				"This can be used, for example, to automatically switch certain machines on with redstone to auto-craft a resource when it falls below a given minimum amount."
+				"例如，可以使用它来自动开启某些机器的红石，以在资源低于给定最小数量时自动制造资源。"
 			]
 			id: "3DDB0DDA7571B2C1"
 			rewards: [
@@ -1648,20 +1722,22 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "3E4BDC8D3B7F727C"
-				item: "ae2:level_emitter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3E4BDC8D3B7F727C"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
 			x: 15.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3DDB0DDA7571B2C1"]
 			description: [
-				"Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed."
+				"个别ME设备也可以配置为响应红石信号。当升级为&b&a红石卡&f&f时，设备可以配置为仅在接收到红石电源或其他需要时才工作。"
 				""
-				"This behavour can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
+				"使用&b&aME触发总线&f&f也可以将此行为应用于整个ME网络的&osections&r。这允许网络的一部分在总线由红石供电时在线，或者在使用&e反转&f切换总线时离线。"
 			]
 			id: "1AAF0B31B47AF23D"
 			rewards: [
@@ -1689,16 +1765,16 @@
 					type: "item"
 				}
 			]
-			title: "Redstone-Controlled ME"
+			title: "&a红石&f控制的ME"
 			x: 17.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1AAF0B31B47AF23D"]
 			description: [
-				"When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item. Crafting CPUs can be set to respond only to these requests to prevent taking up CPUs meant for player-requested crafts."
+				"当应用于任何支持的设备，如&a物品传输接口&f或&a输出总线&f时，&b&a合成卡&f&f允许相关设备自动发送其自己的制作请求以获取所需（过滤）物品。&a合成CPU&f可以设置为仅响应这些请求，以防止占用为玩家请求的制作而设计的CPU。"
 				""
-				"When the &eLevel Emitter&f is upgraded with the Crafting Card, it can be configured to emit redstone in order to directly facilitate in crafting, by emitting a signal either &owhile&r a crafting job for its given item is detected or specifically &oto&r craft the item. The latter would apply for cases where the only thing needed to make a given item is a redstone signal, without even requiring a crafting pattern."
+				"当&e&a等级发射器&f&f升级为&a合成卡&f时，它可以配置为发出红石信号，以直接促进制作，通过发出信号来检测其给定物品的制作作业，或者专门用于制作物品。后者适用于只需要红石信号即可制作给定物品的情况，甚至不需要制作图案。"
 			]
 			id: "5E6585F7627247E3"
 			rewards: [
@@ -1714,21 +1790,23 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Automation in upgrade form!"
-			tasks: [{
-				id: "356C06E894DC659B"
-				item: "ae2:crafting_card"
-				type: "item"
-			}]
+			subtitle: "自动化升级形式！"
+			tasks: [
+				{
+					id: "356C06E894DC659B"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
 			description: [
-				"Naturally, AE2 provides its own way to dramatically speed up crystal growth."
+				"自然地，AE2还提供了一种显著加速水晶生长的方法。"
 				""
-				"Place these around your Budding Crystals, give them some power, and watch your crystals grow!"
+				"将它们放在你的萌芽水晶周围，给它们一些能量，看着你的水晶生长！"
 			]
 			id: "5AA3E5DFECB4AC4D"
 			rewards: [
@@ -1743,20 +1821,22 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "5F33C4F4AD2F297B"
-				item: "ae2:quartz_growth_accelerator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5F33C4F4AD2F297B"
+					item: "ae2:quartz_growth_accelerator"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4597D3B3BDC2BED5"]
 			description: [
-				"The &bAcceleration Card&f, depending on the device being upgraded with it, will either increase the speed at which the device operates or allow the device to carry out more operations in one go."
+				"&b&a加速卡&f&f，根据升级的设备不同，将增加设备操作速度或允许设备一次执行更多操作。"
 				""
-				"In the case of the &eMolecular Assembler&f, a full set of 5 cards reduces the time taken for the MA to fulfil a craft from one second (with no cards) to one &otick&r."
+				"在&e&a分子装配室&f&f的情况下，一整套5张卡片将把MA完成制作所需的时间从一秒（没有卡片）减少到一&otick&r。"
 			]
 			id: "1F7DFA5AA65F2812"
 			rewards: [
@@ -1772,22 +1852,24 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "495253F1301A8070"
-				item: "ae2:speed_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "495253F1301A8070"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
 			x: 18.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
 			description: [
-				"Aside from the storage of items and fluids, AE2 also provides a native way of storing entire &estructures&f inside of storage cells, not too dissimilarly to the Compact Machines mod."
+				"除了物品和流体的存储外，AE2还提供了一种本地存储整个&estructures&f的方式，与&d更多空间/压缩空间&f模组相似。"
 				""
-				"The &bSpatial IO Port&f allows structures contained within a &bSpatial Containment Structure&f to be captured within a specially-designed storage cell, activated via a redstone signal."
+				"&b&a空间IO端口&f&f允许在&b空间容纳结构&f中包含的结构被捕获在专门设计的存储单元中，并通过红石信号激活。"
 				""
-				"If a mob or player happens to stand inside of the SCS while the space is being captured, they too will be transported to where the rest of the space goes, i.e. in a dedicated dimension. Just make sure you have a way to get back out and in if you're the one being captured."
+				"如果一个生物或玩家恰好站在SCS内，当空间被捕获时，他们也将被传送到其他空间，即专用维度。只要确保有办法回到原来的位置，如果你是被捕获的人，就可以了。"
 			]
 			id: "01F3F0C25BA72BDA"
 			rewards: [
@@ -1804,23 +1886,25 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "0EFC322997906572"
-				item: "ae2:spatial_io_port"
-				type: "item"
-			}]
-			title: "Spatial IO"
+			tasks: [
+				{
+					id: "0EFC322997906572"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
+			title: "空间IO"
 			x: 16.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["01F3F0C25BA72BDA"]
 			description: [
-				"The Spatial Containment Structure (SCS) consists of a cage of &bSpatial Pylons&f covering the volume you wish to enclose in a Spatial IO cell. At the absolute minimum, an SCS requires three lines of spatial pylon blocks, one for each dimension of the space being contained (length, width, height)."
+				"空间封闭结构（SCS）由一组覆盖您希望封闭在空间IO单元中的空间维度（长度、宽度、高度）的空间塔块组成。最少需要三行空间塔块。"
 				""
-				"However, Spatial IO is an extremely power-hungry feature, especially when trying to capture much larger spaces (up to 128x128x128). Having more spatial pylons included in the SCS around the desired volume will increase its overall &eefficiency&f, allowing it to use less energy to capture."
+				"然而，空间IO是一个极其耗能的功能，特别是在尝试捕获更大的空间（高达128x128x128）时。在所需空间周围包含更多的空间塔块将增加其整体效率，使其使用更少的能量来捕获。"
 				""
-				"Also, be mindful that each individual pylon (regardless of its length) takes up one channel. For particularly large spaces, you may wish to build a dedicated network with a controller to fit all the required pylons."
+				"此外，请注意每个单独的塔块（无论其长度）占用一个通道。对于特别大的空间，您可能希望建立一个专用网络，配备控制器以适应所有所需的塔块。"
 			]
 			id: "18DFB25DC48D8BF7"
 			rewards: [
@@ -1835,19 +1919,21 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "4E0C5E3A98293C08"
-				item: "ae2:spatial_pylon"
-				title: "Spatial Cell Component"
-				type: "item"
-			}]
-			title: "Spatial Pylon"
+			tasks: [
+				{
+					id: "4E0C5E3A98293C08"
+					item: "ae2:spatial_pylon"
+					title: "Spatial Cell Component"
+					type: "item"
+				}
+			]
+			title: "&a空间塔&f"
 			x: 19.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
+			description: ["&b&a空间锚&f&f是空间IO系列的伴侣设备，仅作为区块加载器。当连接到ME网络时，锚将强制加载所有电缆和设备占用的ME网络中的所有区块，不包括子网络，只要网络保持通电状态。"]
 			id: "2897FA291E5A38D8"
 			rewards: [
 				{
@@ -1861,22 +1947,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "68A36AB341CC016D"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68A36AB341CC016D"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
 			x: 20.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
 			description: [
-				"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space."
+				"&b&a空间存储单元&f&f用于存储一个定义的空间体积，有三种不同的容量，最大可容纳2x2x2、16x16x16和128x128x128个方块的空间。"
 				""
-				"Upon encoding, a cell is allocated a section of space within the spatial storage &edimension&f, along with a unique ID corresponding to the region allocated to the cell. An encoded cell can still be used within the Spatial IO Port to retrieve any stored blocks and entities."
+				"编码后，单元将被分配一个空间存储维度内的空间区域，以及与分配给单元的区域相对应的唯一ID。编码的单元仍然可以在&a空间IO端口&f中使用，以检索任何存储的方块和实体。"
 				""
-				"From then on, any blocks contained either within the cell's region of space or in an SCS with the same size as the one used for the initial encoding can be moved back into the overworld or into the spatial dimension respectively. If there are blocks both within the spatial region and within the SCS, these will simply swap places accordingly."
+				"从那时起，任何包含在单元空间区域或与初始编码使用的相同大小的SCS中的方块都可以移回到主世界或空间维度中。如果空间区域和SCS中都有方块，则它们将相应地交换位置。"
 			]
 			id: "6F3D0A248B5A9CA2"
 			rewards: [
@@ -1891,27 +1979,29 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "75924053D6F5B242"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "ae2:spatial_storage_cell_"
+			tasks: [
+				{
+					id: "75924053D6F5B242"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "ae2:spatial_storage_cell_"
+						}
 					}
+					title: "Spatial Storage Cell"
+					type: "item"
 				}
-				title: "Spatial Storage Cell"
-				type: "item"
-			}]
+			]
 			x: 18.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
 			description: [
-				"Before you can carry out an auto-crafting job, you need a device to actually store the request itself along with any interim items for multi-step crafts. This device is known as a &ecrafting CPU&f."
+				"在执行自动制作工作之前，您需要一个设备来存储请求本身以及任何中间物品以进行多步制作。这个设备被称为&e制作CPU&f。"
 				""
-				"A crafting CPU is a multiblock structure requiring at least one &bCrafting Storage&f block, optionally along with any other Crafting Unit. The multiblock can be made in any size, but must be a solid cuboid in order to form and function accordingly."
+				"制作CPU是一个多方块结构，至少需要一个&a合成存储器&f&f块，可选地还可以包括任何其他&a合成单元&f。多方块可以制作任何大小，但必须是一个实心的长方体才能形成和正常工作。"
 			]
 			id: "30E853CE699E669B"
 			rewards: [
@@ -1927,29 +2017,27 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Download more RAM"
-			tasks: [{
-				id: "08DA73B1AC17E5F5"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "(.*)crafting_storage"
+			subtitle: "下载更多内存"
+			tasks: [
+				{
+					id: "08DA73B1AC17E5F5"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(.*)crafting_storage"
+						}
 					}
+					title: "Crafting Storage"
+					type: "item"
 				}
-				title: "Crafting Storage"
-				type: "item"
-			}]
+			]
 			x: 14.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["30E853CE699E669B"]
-			description: [
-				"The &bCrafting Co-Processing Unit&f helps speed up crafting jobs by allowing pattern providers to either send items out to their connected devices faster or to work concurrently to make multiple required ingredients."
-				""
-				"The base AE2 co-processor provides one co-processor \"thread\" to assist this, while the co-processing unit from &dMEGA Cells&f provides 4 threads in a single such block."
-			]
+			description: ["&b&a并行处理单元&f&f通过允许模式提供者更快地将物品发送到其连接的设备或并行工作来加速制作工作。基本的AE2协处理器提供一个协处理器\"线程=”，而MEGA存储单元的协处理器单元在单个块中提供4个线程。"]
 			id: "69B7DE2283B4EE6C"
 			rewards: [
 				{
@@ -1964,28 +2052,30 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Download more CPU cores"
-			tasks: [{
-				id: "5EC8D891031E34EF"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "(.*)crafting_accelerator"
+			subtitle: "下载更多CPU核心"
+			tasks: [
+				{
+					id: "5EC8D891031E34EF"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(.*)crafting_accelerator"
+						}
 					}
+					title: "Crafting Co-Processor"
+					type: "item"
 				}
-				title: "Crafting Co-Processor"
-				type: "item"
-			}]
+			]
 			x: 16.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["69B7DE2283B4EE6C"]
 			description: [
-				"The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted."
+				"&b&a合成监控器&f&f显示正在制作的整体物品，以及仍在制作的该物品的剩余数量。"
 				""
-				"Both the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."
+				"基本的AE2监视器和MEGA监视器的功能相同，但提供了美学用途。"
 			]
 			id: "1348995F64A94396"
 			rewards: [
@@ -2001,32 +2091,34 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Download more VRAM"
-			tasks: [{
-				id: "2D386EFC23C45581"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "(ae2|mega)(.*)crafting_monitor"
+			subtitle: "下载更多VRAM"
+			tasks: [
+				{
+					id: "2D386EFC23C45581"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(ae2|mega)(.*)crafting_monitor"
+						}
 					}
+					title: "Crafting Monitor"
+					type: "item"
 				}
-				title: "Crafting Monitor"
-				type: "item"
-			}]
+			]
 			x: 18.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
 			description: [
-				"The &bQuartz Cutting Knife&f, like the wrench, comes in both nether and certus quartz flavours and is a useful crafting tool to have on hand."
+				"像扳手一样，&b石英&f&b剪切&f刀有地狱和水晶石两种口味，是一种有用的制作工具。"
 				""
-				"Cables can also be separated without needing to be coloured by attaching a &bCable Anchor&f between them, crafted using this knife and craftable up to 50 times with the same knife before it breaks."
+				"通过使用这把刀制作的&a线缆锚&f，可以在不需要着色的情况下将电缆分离。同一把刀最多可制作50次，然后就会损坏。"
 				""
-				"Cable Anchors can also be used to craft &bCable Facades&f, allowing you to disguise cables within walls by covering them with the face of an arbitrary block. While facade recipes are hidden in JEI, you can still craft them by taking any regular block and surrounding it with 4 cable anchors in the crafting grid."
+				"&a线缆锚&f还可用于制作&b&a线缆伪装板&f&f，通过用任意方块的面覆盖电缆，可以将电缆伪装在墙内。虽然伪装板的配方在JEI中是隐藏的，但仍然可以通过在制作栏中使用4个电缆锚包围任意普通方块来制作它们。"
 				""
-				"Aside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."
+				"除了制作锚，剪切刀还有另一个用途：右键单击剪切刀将打开一个小GUI，允许您制作&a名称压印模板&f。给定名称后，这些压印模板可以在&a压印器&f中使用，将输入物品重命名为压印的名称。在压印器中可以连接两个这样的压印模板，将物品重命名为顶部压印模板的名称，然后是底部的名称。"
 			]
 			icon: "ae2:cable_anchor"
 			id: "6144202A97C6CD1C"
@@ -2043,7 +2135,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Under the knife"
+			subtitle: "手术刀下的电缆"
 			tasks: [
 				{
 					id: "23D186249A999B8C"
@@ -2072,7 +2164,7 @@
 					type: "item"
 				}
 			]
-			title: "Cable Anchor"
+			title: "&a线缆锚&f"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -2083,9 +2175,9 @@
 				"5C22E3103544B120"
 			]
 			description: [
-				"The &bColor Applicator&f is a chargeable tool that allows for in-world dyeing of cables. It functions more or less as a specialised &estorage cell&f to be loaded up with either vanilla dyes or &epaint balls&f for specific colours, along with &esnowballs&f to wash colours off and turn cables back to their Fluix variant."
+				"&b&a染色器&f&f是一种可充电工具，可在世界中对电缆进行染色。它的功能与&e存储单元&f类似，可装载原版染料或&e油漆球&f以获得特定颜色，还可使用&e雪球&f将颜色洗掉并将电缆变回其Fluix变体。"
 				""
-				"Applying colour to a cable uses 100AE of energy from its internal battery, for a total of 3400 cable segments in a single charge."
+				"将颜色应用于电缆会从其内部电池中使用100AE的能量，单次充电可用于3400个电缆段。"
 			]
 			id: "03E6FA4DCB71162E"
 			rewards: [
@@ -2101,16 +2193,18 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "6691176371563341"
-				item: {
-					Count: 1b
-					id: "ae2:color_applicator"
-					tag: { }
+			tasks: [
+				{
+					id: "6691176371563341"
+					item: {
+						Count: 1b
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Color Applicator"
+			]
+			title: "&a染色器&f"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -2120,15 +2214,15 @@
 				"2FB231069D2E4E77"
 			]
 			description: [
-				"These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees."
+				"这最后三个物品更多地是AE2提供的一些额外玩具，不一定适合任何这些任务树。"
 				""
-				"The &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days."
+				"&b&a充能手杖&f&f只是一个简单的带电杖，可造成3颗心的伤害，每次攻击消耗300AE。它还使用了1.9版之前的战斗机制，这意味着您可以像以前一样连续点击。"
 				""
-				"The &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block."
+				"当&b&a熵变机械臂&f&f用于世界中的某些方块时，它会在原地熔化它们，例如将沙子熔化成玻璃和将金属矿石熔化成金属锭。如果不是，则只会在方块上点燃火。"
 				""
-				"Finally, the &bMatter Cannon&f functions similarly to the Color Applicator as a dedicated cell for holding \"ammo\" items such as Matter Balls and iron/gold nuggets, which can then be fired out to deal damage to mobs or break blocks. Heavier \"ammo\", e.g. metal nuggets, will deal more damage and destroy harder blocks."
+				"最后，&b&a物质炮&f&f与&a染色器&f类似，是用于持有\"弹药”的专用单元，例如&a物质球&f和铁/金粒子，可以发射出去对怪物造成伤害或破坏方块。更重的\"弹药”，例如金属粒子，将造成更多的伤害并摧毁更硬的方块。"
 				""
-				"Matter Balls in a Matter Cannon can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at. &bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world."
+				"&a物质炮&f中的&a物质球&f可以用&b&a染色球&f&f替换，这将在被射击的方块面上应用油漆飞溅效果。&bLumen&a染色球&f&f是专门由&a物质炮&f使用的油漆球变体，其油漆飞溅在存在于世界中时也会发出一些光。"
 			]
 			hide_dependency_lines: true
 			id: "5CD8D169181C7339"
@@ -2145,7 +2239,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Too hot for the ATF"
+			subtitle: "ATF无法承受的热度"
 			tasks: [
 				{
 					id: "3AC5F84892DC0717"
@@ -2167,18 +2261,18 @@
 					type: "item"
 				}
 			]
-			title: "The... Weapons?"
+			title: "武器？"
 			x: 15.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
 			description: [
-				"ME networks also provide solid wireless functionality, both in the sense of remote on-the-go access of ME storage contents, or long-distance (and cross-dimensional) network connections."
+				"ME网络还提供可靠的无线功能，既可以远程访问ME存储内容，也可以进行长距离（跨维度）网络连接。"
 				""
-				"Typically the first step for the former is to make an &bME Security Terminal&f. The Security Terminal, as per its name, allows for networks to be secured from unwanted users by setting explicit permissions for access to the network. Specific users can be granted permissions by using a &bBiometric Card&f linked (via right-click) to the relevant user. Alternatively, a blank card can be used to set blanket permissions for anyone who isn't either the owner or already whitelisted with a card."
+				"通常，前者的第一步是制作一个&aME安全终端&f。安全&a终端&f，顾名思义，允许通过设置明确的访问权限来保护网络免受不受欢迎的用户的侵害。可以使用与相关用户链接（通过右键单击）的&a身份卡&f来授予特定用户权限。或者，可以使用空白卡为未被所有者或已经被列入白名单的卡片之外的任何人设置全局权限。"
 				""
-				"By default, the person who placed down the terminal is determined to be the \"owner\" of the network, and automatically has full control of the network without requiring a biometric card."
+				"默认情况下，放置终端的人被确定为网络的\"所有者”，并且自动具有对网络的完全控制权，无需生物识别卡。"
 			]
 			icon: "ae2:security_station"
 			id: "4D846582D408479D"
@@ -2196,7 +2290,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Exit the Wired"
+			subtitle: "退出有线"
 			tasks: [
 				{
 					id: "3778EAFF6F5475D5"
@@ -2209,13 +2303,13 @@
 					type: "item"
 				}
 			]
-			title: "The Wireless"
+			title: "无线网络"
 			x: 7.950000000000001d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4D846582D408479D"]
-			description: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
+			description: ["允许无线网络访问的下一步是制作&aME无线访问点&f。访问点用于通过&e无线终端&f开放网络，其范围取决于插入访问点的&b&a无线信号增幅器&f&f数量（有限）。"]
 			id: "2B31E6C1707D8195"
 			rewards: [
 				{
@@ -2250,9 +2344,9 @@
 			description: [
 				"As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox."
 				""
-				"The &bMatter Condenser&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy."
+				"The &b&a物质浓缩器&f&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy."
 				""
-				"The first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material."
+				"The first of these two items is the &b&a物质球&f&f, requiring at least a 1k storage component and 256 items' worth of voided material."
 			]
 			id: "5BB887411B8B38FA"
 			rewards: [
@@ -2287,11 +2381,9 @@
 		{
 			dependencies: ["2B31E6C1707D8195"]
 			description: [
-				"the &bWireless Terminal&f functions identically to a regular terminal, but wirelessly. Go figure."
+				"&b&a无线终端&f&f的功能与普通终端相同，但是可以无线使用。在使用无线终端访问网络之前，必须通过之前制作的&e安全&a终端&f&f将其&e链接&f到网络。如果未链接到网络，或者超出范围或电力不足，则终端将无法使用。"
 				""
-				"Before a wireless terminal can be used to access a network, it must first be &elinked&f to the network via the &eSecurity Terminal&f you made earlier. If it is not linked to a network, or is out of either range or power, the terminal will not function."
-				""
-				"Wireless terminals can also be upgraded with &eEnergy Cards&f to provide a larger internal battery."
+				"无线终端还可以使用&e&a能源卡&f&f进行升级，以提供更大的内部电池。"
 			]
 			id: "16299B9AE87257DC"
 			rewards: [
@@ -2307,7 +2399,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "This is what you're here for"
+			subtitle: "这就是你来这里的原因"
 			tasks: [
 				{
 					id: "195B7DC4D7815D29"
@@ -2325,7 +2417,7 @@
 		}
 		{
 			dependencies: ["16299B9AE87257DC"]
-			description: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
+			description: ["&dAEInfinity&aBooster效应器&f&f附加组件提供两个定制的无线增强器，允许无限连接范围，并提供可选的跨维度支持。"]
 			id: "234DC1702333EB18"
 			rewards: [
 				{
@@ -2339,7 +2431,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "I'm not writing the Toy Story line"
+			subtitle: "我不写《玩具总动员》的台词"
 			tasks: [
 				{
 					id: "745C92ED1392EE1A"
@@ -2352,16 +2444,16 @@
 					type: "item"
 				}
 			]
-			title: "AEInfinityBooster"
+			title: "AEInfinity&aBooster效应器&f"
 			x: 14.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5BB887411B8B38FA"]
 			description: [
-				"When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r!"
+				"使用64k存储组件或更高版本时，&a物质浓缩器&f可以浓缩更多物品，以产生&b&a奇点&f&f。一个奇点需要丢弃256000个物品。那正好是&o4000个堆&r！"
 				""
-				"See what happens when you throw this singularity on the ground with a piece of &eender dust&f. You'll have to deal some damage to the surroundings while you're at it, but thankfully AE2 offers its own &bTiny TNT&f to minimise that."
+				"看看当你将这个奇点和一些&e末影之尘&f一起扔在地上时会发生什么。在此过程中，您必须对周围环境造成一些伤害，但幸运的是，AE2提供了自己的&b&a迷你TNT&f&f来将其最小化。"
 			]
 			icon: "ae2:singularity"
 			id: "3E3DF8E967D95DB0"
@@ -2378,7 +2470,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Not quite antimatter"
+			subtitle: "不完全是反物质"
 			tasks: [
 				{
 					id: "3458474D44BD443F"
@@ -2396,13 +2488,13 @@
 					type: "item"
 				}
 			]
-			title: "Hyper-Condensed Matter"
+			title: "超浓缩物质"
 			x: 4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["371A382CF1DDF2B2"]
-			description: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
+			description: ["&b&a模糊卡&f&f可以匹配过滤的物品，而不考虑任何（NBT）元数据，如损坏或附魔，而&b&a反相卡&f&f则可以将这些总线上的过滤器从白名单切换为黑名单。"]
 			id: "6E15447FC3D678E0"
 			rewards: [
 				{
@@ -2417,7 +2509,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "The remaining two IO cards"
+			subtitle: "剩下的两张IO卡"
 			tasks: [
 				{
 					id: "79E894E41241B6A2"
@@ -2430,16 +2522,16 @@
 					type: "item"
 				}
 			]
-			title: "Loosely Speaking"
+			title: "模糊卡和反相卡"
 			x: 26.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3E3DF8E967D95DB0"]
 			description: [
-				"If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f."
+				"如果您上一个任务完成正确，您应该已经将那个奇点转化为一对&b量子纠缠奇点&f。这些新的奇点用于连接一个名为&e量子网络桥&f的环形设备。"
 				""
-				"When two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."
+				"当两个这样的单独环使用量子纠缠奇点链接并使用一些AE电力（例如能量电池）启动时，ME网络可以在桥的另一侧无线扩展，跨越长距离甚至跨越维度。"
 			]
 			id: "0B218DD73FE8D985"
 			rewards: [
@@ -2475,82 +2567,90 @@
 					type: "item"
 				}
 			]
-			title: "Quantum Network Bridge"
+			title: "量子网络桥"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
 			description: [
-				"In Applied Energistics 2, every ME network has a certain number of &echannels&f available, which simply means how many networked devices can fit on the whole network."
+				"在&d应用能源2&f中，每个ME网络都有一定数量的&e通道&f可用，这意味着整个网络上可以容纳多少网络设备。"
 				""
-				"As a rule of thumb, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually components that are only concerned with the internal power storage of the network, like &eEnergy Cells&f and &eInscribers&f, do &onot&r take up channels."
+				"作为一个经验法则，任何直接处理ME数据（存储在网络中的物品）并执行某种形式的I/O的设备都会占用一个通道。通常，仅涉及网络内部电源存储的组件，如&e&a能源元件&f&f和&e&a压印器&f&f，不会占用通道。"
 				""
-				"Networks without an &bME Controller&f are known as \"ad-hoc\" networks and only support a maximum of 8 channels."
+				"没有&b&aME控制器&f&f的网络称为\"特定网络”，仅支持最多8个通道。"
 			]
 			id: "78311531069807DE"
-			rewards: [{
-				id: "0608B89F87FECB34"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0608B89F87FECB34"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
-			tasks: [{
-				id: "7E0D9E6342295AB0"
-				type: "checkmark"
-			}]
-			title: "Foreword on Channels"
+			tasks: [
+				{
+					id: "7E0D9E6342295AB0"
+					type: "checkmark"
+				}
+			]
+			title: "通道前言"
 			x: 7.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			description: [
-				"Aside from DISKs, you can also use netherite to craft what is effectively the complete opposite of the DISK."
+				"除了DISKs，您还可以使用下界合金制作与DISK完全相反的东西。"
 				""
-				"&dMEGA Cells&f offers the bespoke &bBulk Item Storage Cell&f, which is limited to no more than &oone&r type of item storeable per cell but can store a practically &o&lINFINITE&r* number of that item type. Before it can accept an item type, it must be filtered in advance using a Cell Workbench."
+				"&d&aMEGA存储单元&f&f提供定制的&b批量物品存储单元&f，每个单元仅限于存储&o一种&r类型的物品，但可以存储几乎&o&l无限&r*数量的该物品类型。在接受物品类型之前，必须使用&a元件工作台&f进行预先过滤。"
 				""
-				"*&oTechnically \"max long\". If you know then you know.&r"
+				"*&o从技术上讲，\"max long”。如果你知道，那你就知道。&r"
 			]
 			id: "0F03E75CF79BADD7"
-			subtitle: "Bulk and cut"
-			tasks: [{
-				id: "4C2F435902156183"
-				item: {
-					Count: 1b
-					id: "megacells:bulk_item_cell"
-					tag: { }
+			subtitle: "批量和切割"
+			tasks: [
+				{
+					id: "4C2F435902156183"
+					item: {
+						Count: 1b
+						id: "megacells:bulk_item_cell"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Bulk Item Storage"
+			]
+			title: "批量物品存储"
 			x: 17.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["397165BB305A887E"]
 			description: [
-				"&dMEGA Cells&f blacklists radioactive chemicals the same as regular &dApplied Mekanistics&f does, but still provides something of a compact storage solution for those looking to get into waste reprocessing."
+				"&d&aMEGA存储单元&f&f与普通的&d应用能源&f一样，将放射性化学品列入黑名单，但仍为那些想要进行废物再处理的人提供了一种紧凑的存储解决方案。"
 				""
-				"The &bMEGA Radioactive Chemical Storage Cell&f is a specialised cell made in a similar manner to the Bulk Item Storage Cell, but a fair bit more late-stage and expensive. It is limited to 256 bytes of a single chemical type, equivalent to 2048 buckets or 4 waste barrels' worth of Polonium, Plutonium or Nuclear Waste."
+				"&b&aMEGA放射性化学品储存元件&f&f是一种类似于批量物品存储单元的专业单元，但更为后期和昂贵。它仅限于256字节的单一化学类型，相当于2048个桶或4个废物桶的波洛尼姆、&a钚&f或核废料。"
 				""
-				"That being said, they do not store Spent Nuclear Waste. You're not getting off the hook that easily."
+				"也就是说，它们不存储已用核废料。你不会这么容易脱身的。"
 			]
 			id: "49EAED3E06FF1C05"
-			subtitle: "There's still a catch."
-			tasks: [{
-				id: "2EF66A399634C21D"
-				item: {
-					Count: 1b
-					id: "megacells:radioactive_chemical_cell"
-					tag: { }
+			subtitle: "还有一个问题。"
+			tasks: [
+				{
+					id: "2EF66A399634C21D"
+					item: {
+						Count: 1b
+						id: "megacells:radioactive_chemical_cell"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Waste Storage"
+			]
+			title: "废物存储"
 			x: 21.5d
 			y: 2.5d
 		}
 	]
-	title: "Applied Energistics 2"
+	title: "&d应用能源2&f"
 }

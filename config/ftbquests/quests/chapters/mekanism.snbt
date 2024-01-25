@@ -5,29 +5,31 @@
 	group: "73E251290820E9B5"
 	icon: "mekanism:steel_casing"
 	id: "23983F4DC524B14B"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 2.0d
-		hover: [ ]
-		image: "ftbquests:block/barrier_open"
-		rotation: 45.0d
-		width: 2.0d
-		x: 9.0d
-		y: -5.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 2.0d
+			x: 9.0d
+			y: -5.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6F62B5510FA881CD"]
 			description: [
-				"The Metallurgic Infuser is used to craft core crafting components throughout Mekanism."
+				"&a冶金灌注机&f用于在&d通用机械&f中制作核心制作组件。"
 				""
-				"The machine works by infusing a material (middle-left slot) with an \"infuser\" (far-left slot)."
+				"该机器通过将材料（中左插槽）与\"注入器\"（最左插槽）结合来进行注入。"
 				""
-				"This is also how you get Steel Ingots."
+				"这也是您获得&a钢锭&f的方法。"
 			]
 			id: "162CE44400A63575"
 			rewards: [
@@ -51,23 +53,25 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "The Starting Machine"
-			tasks: [{
-				id: "28277BA9F319240D"
-				item: "mekanism:metallurgic_infuser"
-				type: "item"
-			}]
+			subtitle: "起始机器"
+			tasks: [
+				{
+					id: "28277BA9F319240D"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"This machine works like a Macerator or Pulverizer, and will break ores down into dusts."
+				"该机器的工作方式类似于&a研磨机&f或&a磨粉机&f，并将矿石破碎成粉尘。"
 				""
-				"This breaks 3 raw ores down into 4 dusts."
+				"这将3个原始矿石破碎成4个粉尘。"
 				""
-				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
+				"这是您的矿石&a工厂&f的开始。它也可以升级为工厂机器，增加使用插槽。"
 			]
 			id: "08DDE018A804BFE7"
 			rewards: [
@@ -88,21 +92,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "Breaks Raw Ores into Dusts"
-			tasks: [{
-				id: "1AE233B4CCFE99F7"
-				item: "mekanism:enrichment_chamber"
-				type: "item"
-			}]
+			subtitle: "将&a粗矿&f破碎成粉尘"
+			tasks: [
+				{
+					id: "1AE233B4CCFE99F7"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian."
+				"该机器创建两个非常强大的锭：精炼&a荧石&f和&a强化黑曜石&f。"
 				""
-				"It infuses an item with Osmium to create a more powerful ingot."
+				"它使用奥斯米亚将物品注入以创建更强大的锭。"
 			]
 			id: "195729280394ABFB"
 			rewards: [
@@ -117,18 +123,20 @@
 					xp: 10
 				}
 			]
-			subtitle: "Really Only Good For 2 Things"
-			tasks: [{
-				id: "6934C61AFEB0443D"
-				item: "mekanism:osmium_compressor"
-				type: "item"
-			}]
+			subtitle: "真正只有两个用途"
+			tasks: [
+				{
+					id: "6934C61AFEB0443D"
+					item: "mekanism:osmium_compressor"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6C25D42C36175BF4"]
-			description: ["This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot."]
+			description: ["该机器将矿石破碎成其\"脏\"粉尘形式。这对于将块转换为脏粉尘非常有用，脏粉尘可以通过&a富集仓&f进行处理，然后可以将其熔炼成锭。"]
 			id: "7AE502EDB73BD57A"
 			rewards: [
 				{
@@ -148,21 +156,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "It Crushes Things."
-			tasks: [{
-				id: "431D7329CFCAF880"
-				item: "mekanism:crusher"
-				type: "item"
-			}]
+			subtitle: "它会破碎东西。"
+			tasks: [
+				{
+					id: "431D7329CFCAF880"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4BDE773C3359D584"]
 			description: [
-				"This machine can mine for you!"
+				"这台机器可以为你挖矿！"
 				""
-				"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
+				"它是完全可配置的，甚至可以用你提供的石头或其他方块替换被挖掉的方块！"
 			]
 			id: "7EA6B942D1294ED6"
 			rewards: [
@@ -185,21 +195,23 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "A bigger robot friend."
-			tasks: [{
-				id: "36FE95268A543F7C"
-				item: "mekanism:digital_miner"
-				type: "item"
-			}]
+			subtitle: "一个更大的机器人朋友。"
+			tasks: [
+				{
+					id: "36FE95268A543F7C"
+					item: "mekanism:digital_miner"
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["58B125BD4876054C"]
 			description: [
-				"This item stores liquids."
+				"这个物品可以储存液体。"
 				""
-				"It has a bucket mode which can be toggled to scoop up liquids with it. Very useful for lava in the beginning!"
+				"它有一个桶模式，可以切换来用它舀取液体。在开始时对于熔岩非常有用！"
 			]
 			hide_dependency_lines: true
 			id: "6DB1AAAD926486BC"
@@ -217,12 +229,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "It has a BUCKET MODE!"
-			tasks: [{
-				id: "54BEF9EA9F1D4374"
-				item: "mekanism:basic_fluid_tank"
-				type: "item"
-			}]
+			subtitle: "它有一个桶模式！"
+			tasks: [
+				{
+					id: "54BEF9EA9F1D4374"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 7.0d
 		}
@@ -248,12 +262,14 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "A Mini-Robot To Accompany You On Your Travels"
-			tasks: [{
-				id: "171E6682D1578C63"
-				item: "mekanism:robit"
-				type: "item"
-			}]
+			subtitle: "一个小型机器人，陪伴你的旅程"
+			tasks: [
+				{
+					id: "171E6682D1578C63"
+					item: "mekanism:robit"
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 2.5d
 		}
@@ -276,18 +292,20 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Requires Hydrogen to Work!"
-			tasks: [{
-				id: "71E922FC5BBF154C"
-				item: "mekanism:jetpack"
-				type: "item"
-			}]
+			subtitle: "需要氢气才能工作！"
+			tasks: [
+				{
+					id: "71E922FC5BBF154C"
+					item: "mekanism:jetpack"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["This item upgrades a base machine to a Basic Factory machine."]
+			description: ["这个物品可以将基础机器升级为基础&a工厂&f机器。"]
 			hide_dependency_lines: true
 			id: "07AD45DCF9EE3C2E"
 			rewards: [
@@ -304,12 +322,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Upgrading to Factories"
-			tasks: [{
-				id: "28A769E7676E358F"
-				item: "mekanism:basic_tier_installer"
-				type: "item"
-			}]
+			subtitle: "升级到工厂"
+			tasks: [
+				{
+					id: "28A769E7676E358F"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 7.0d
 		}
@@ -330,11 +350,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "646785A06E01D173"
-				item: "mekanism:advanced_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "646785A06E01D173"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 7.75d
 		}
@@ -354,11 +376,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3AA211725EA97D18"
-				item: "mekanism:elite_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3AA211725EA97D18"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 8.25d
 		}
@@ -378,20 +402,22 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "56A8A51990C7F0A1"
-				item: "mekanism:ultimate_tier_installer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56A8A51990C7F0A1"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 7.75d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"This item is how you make Wireless Transfers possible."
+				"这个物品使无线传输成为可能。"
 				""
-				"You can set specific channels, named by you, to transfer whatever you want from it."
+				"你可以设置特定的频道，由你命名，来传输你想要的任何东西。"
 			]
 			hide_dependency_lines: true
 			id: "7CC49360D07086B8"
@@ -415,18 +441,20 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Wireless Power, Gases, Fluids, Everything."
-			tasks: [{
-				id: "0526878F9506FB48"
-				item: "mekanism:quantum_entangloporter"
-				type: "item"
-			}]
+			subtitle: "无线电力、气体、液体，一切皆可。"
+			tasks: [
+				{
+					id: "0526878F9506FB48"
+					item: "mekanism:quantum_entangloporter"
+					type: "item"
+				}
+			]
 			x: -7.75d
 			y: 5.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["This block stores power, and can also be used to charge items."]
+			description: ["这个方块可以储存能量，也可以用来给物品充电。"]
 			hide_dependency_lines: true
 			id: "09408C6DCAC90318"
 			rewards: [
@@ -443,12 +471,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Storing Power"
-			tasks: [{
-				id: "19C3A9D5E656FAA5"
-				item: "mekanism:basic_energy_cube"
-				type: "item"
-			}]
+			subtitle: "储存能量"
+			tasks: [
+				{
+					id: "19C3A9D5E656FAA5"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
 			x: -2.5000000000000004d
 			y: 7.0d
 		}
@@ -469,11 +499,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "3939A98E3276095B"
-				item: "mekanism:advanced_energy_cube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3939A98E3276095B"
+					item: "mekanism:advanced_energy_cube"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 7.800000000000001d
 		}
@@ -493,11 +525,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0485F28A3916A974"
-				item: "mekanism:elite_energy_cube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0485F28A3916A974"
+					item: "mekanism:elite_energy_cube"
+					type: "item"
+				}
+			]
 			x: -2.5000000000000004d
 			y: 8.3d
 		}
@@ -517,17 +551,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "50A250703B09FA5A"
-				item: "mekanism:ultimate_energy_cube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50A250703B09FA5A"
+					item: "mekanism:ultimate_energy_cube"
+					type: "item"
+				}
+			]
 			x: -3.0000000000000004d
 			y: 7.800000000000001d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these."]
+			description: ["在&a冶金灌注机&f中用&a红石&f注入铁矿石，就可以得到这个合金。"]
 			hide_dependency_lines: true
 			id: "166971866A9234C7"
 			rewards: [
@@ -543,12 +579,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The Basic Alloy for Crafting Items"
-			tasks: [{
-				id: "72CE838EFDDE6479"
-				item: "mekanism:alloy_infused"
-				type: "item"
-			}]
+			subtitle: "制作物品的基础合金"
+			tasks: [
+				{
+					id: "72CE838EFDDE6479"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -3.5d
 		}
@@ -568,11 +606,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "2FE06FDA0A3A66C7"
-				item: "mekanism:alloy_reinforced"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FE06FDA0A3A66C7"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -4.5d
 		}
@@ -592,17 +632,19 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "0DD9B2119BB50C80"
-				item: "mekanism:alloy_atomic"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DD9B2119BB50C80"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["Infusing Osmium with Redstone in a Metallurgic Infuser will create you one of these."]
+			description: ["在&a冶金灌注机&f中用&a红石&f注入奥斯米粉末，就可以制作出这个。"]
 			hide_dependency_lines: true
 			id: "0498A578D0EC3254"
 			rewards: [
@@ -618,12 +660,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The Basic Control Circuit"
-			tasks: [{
-				id: "5E51F5B17F77573E"
-				item: "mekanism:basic_control_circuit"
-				type: "item"
-			}]
+			subtitle: "&a基础控制电路&f"
+			tasks: [
+				{
+					id: "5E51F5B17F77573E"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -3.5d
 		}
@@ -646,11 +690,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "05F2EEE4DE21E2ED"
-				item: "mekanism:advanced_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05F2EEE4DE21E2ED"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -4.5d
 		}
@@ -673,11 +719,13 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "48AC2274973C4509"
-				item: "mekanism:elite_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48AC2274973C4509"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -5.5d
 		}
@@ -700,22 +748,24 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "7E9FCA38BA758B41"
-				item: "mekanism:ultimate_control_circuit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E9FCA38BA758B41"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron."
+				"在&a冶金灌注机&f中用煤或木炭注入铁矿石，就可以得到&a富集铁&f。"
 				""
-				"Infusing the Enriched Iron with more Coal or Charcoal will give you Steel Dust, which can be smelted into Steel."
+				"在&a富集铁&f中再注入更多的煤或木炭，就可以得到&a钢粉&f，可以熔炼成钢。"
 				""
-				"This is a major crafting component in a lot of recipes in Mekanism."
+				"这是许多&d通用机械&f配方中的重要制作组件。"
 			]
 			hide_dependency_lines: true
 			id: "1B6DDF50D00CBB31"
@@ -733,20 +783,22 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				icon: "alltheores:steel_ingot"
-				id: "6B88F1F9DF50C1E4"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/steel"
+			tasks: [
+				{
+					icon: "alltheores:steel_ingot"
+					id: "6B88F1F9DF50C1E4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
 					}
+					title: "Any #forge:ingots/steel"
+					type: "item"
 				}
-				title: "Any #forge:ingots/steel"
-				type: "item"
-			}]
-			title: "Steel"
+			]
+			title: "钢"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -769,12 +821,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "For Transferring Power"
-			tasks: [{
-				id: "56F8A49135418FD8"
-				item: "mekanism:basic_universal_cable"
-				type: "item"
-			}]
+			subtitle: "用于传输能量"
+			tasks: [
+				{
+					id: "56F8A49135418FD8"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 4.0d
 		}
@@ -795,11 +849,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "445F3D8AA18A518A"
-				item: "mekanism:advanced_universal_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "445F3D8AA18A518A"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 5.0d
 		}
@@ -819,11 +875,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "6EC6D1463C65EBF2"
-				item: "mekanism:elite_universal_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EC6D1463C65EBF2"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 5.5d
 		}
@@ -843,11 +901,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1ECDAF49CF1BC952"
-				item: "mekanism:ultimate_universal_cable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1ECDAF49CF1BC952"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 5.0d
 		}
@@ -869,12 +929,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "For Transferring Fluids"
-			tasks: [{
-				id: "45B151086147D98D"
-				item: "mekanism:basic_mechanical_pipe"
-				type: "item"
-			}]
+			subtitle: "用于传输液体"
+			tasks: [
+				{
+					id: "45B151086147D98D"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 4.0d
 		}
@@ -895,11 +957,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "131392325AEB228E"
-				item: "mekanism:advanced_mechanical_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "131392325AEB228E"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 5.0d
 		}
@@ -919,11 +983,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "78C482BF65B20673"
-				item: "mekanism:elite_mechanical_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78C482BF65B20673"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 5.5d
 		}
@@ -943,11 +1009,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "25D5626BBA7615F0"
-				item: "mekanism:ultimate_mechanical_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25D5626BBA7615F0"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 5.0d
 		}
@@ -969,12 +1037,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "For Transferring Gasses"
-			tasks: [{
-				id: "685BFFC7BDA40FC3"
-				item: "mekanism:basic_pressurized_tube"
-				type: "item"
-			}]
+			subtitle: "用于传输气体"
+			tasks: [
+				{
+					id: "685BFFC7BDA40FC3"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 4.0d
 		}
@@ -996,12 +1066,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "For Transferring Items"
-			tasks: [{
-				id: "3F972BE9DFCA1EB5"
-				item: "mekanism:basic_logistical_transporter"
-				type: "item"
-			}]
+			subtitle: "用于传输物品"
+			tasks: [
+				{
+					id: "3F972BE9DFCA1EB5"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 4.0d
 		}
@@ -1023,12 +1095,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "For Transferring Heat"
-			tasks: [{
-				id: "5F4FEC0FD7C5CC33"
-				item: "mekanism:basic_thermodynamic_conductor"
-				type: "item"
-			}]
+			subtitle: "用于传输热量"
+			tasks: [
+				{
+					id: "5F4FEC0FD7C5CC33"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 4.0d
 		}
@@ -1049,11 +1123,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "2E82ABE762A77F41"
-				item: "mekanism:advanced_pressurized_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E82ABE762A77F41"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 5.0d
 		}
@@ -1073,11 +1149,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "460D2FF854258953"
-				item: "mekanism:elite_pressurized_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "460D2FF854258953"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 5.5d
 		}
@@ -1097,11 +1175,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1E066CC63A95B288"
-				item: "mekanism:ultimate_pressurized_tube"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E066CC63A95B288"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 5.0d
 		}
@@ -1122,11 +1202,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "631FDADA57127F2E"
-				item: "mekanism:advanced_logistical_transporter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "631FDADA57127F2E"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 5.0d
 		}
@@ -1146,11 +1228,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1F7689D1D5DB5E8C"
-				item: "mekanism:elite_logistical_transporter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F7689D1D5DB5E8C"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 5.5d
 		}
@@ -1170,11 +1254,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "62A00D9DD3A8CA8E"
-				item: "mekanism:ultimate_logistical_transporter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "62A00D9DD3A8CA8E"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 5.0d
 		}
@@ -1195,11 +1281,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "7B1C318ACC88ED60"
-				item: "mekanism:advanced_thermodynamic_conductor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B1C318ACC88ED60"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 5.0d
 		}
@@ -1219,11 +1307,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "72F178B9B6C32B15"
-				item: "mekanism:elite_thermodynamic_conductor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72F178B9B6C32B15"
+					item: "mekanism:elite_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 5.5d
 		}
@@ -1243,11 +1333,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "744EA1745278F562"
-				item: "mekanism:ultimate_thermodynamic_conductor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "744EA1745278F562"
+					item: "mekanism:ultimate_thermodynamic_conductor"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 5.0d
 		}
@@ -1272,11 +1364,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "69CEEFADCFA28675"
-				item: "mekanism:ingot_refined_obsidian"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69CEEFADCFA28675"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: 0.5d
 		}
@@ -1297,11 +1391,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "532EE85D4748D50D"
-				item: "mekanism:ingot_refined_glowstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "532EE85D4748D50D"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: 0.5d
 		}
@@ -1311,11 +1407,11 @@
 				"407EFAF528871014"
 			]
 			description: [
-				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot."
+				"这台机器可以\"净化”我们的矿石。它可以将1个&a粗矿&f变成2个\"块”，然后可以通过&a粉碎机&f将其变成脏尘，再通过&a富集仓&f得到干净的尘土，最后通过熔炉将其变成锭。"
 				""
-				"This will double your ingot output."
+				"这将使你的锭产量翻倍。"
 				""
-				"This machine requires &aOxygen&r to run, which is created by pumping water into an &6Electrolytic Separator&r."
+				"这台机器需要&a氧气&r来运行，氧气是通过将水泵入&a电解分离器&f&r中产生的。"
 			]
 			id: "6C25D42C36175BF4"
 			rewards: [
@@ -1336,21 +1432,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "It makes Clumps."
-			tasks: [{
-				id: "4983AE3B954BF2FE"
-				item: "mekanism:purification_chamber"
-				type: "item"
-			}]
+			subtitle: "它制造\"块”。"
+			tasks: [
+				{
+					id: "4983AE3B954BF2FE"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"This machine smelts items."
+				"这台机器可以熔炼物品。"
 				""
-				"It can be upgraded into a Smelting Factory, increasing the total number of smelting slots up to a maximum of 9."
+				"它可以升级为熔炼&a工厂&f，将熔炼槽的总数增加到最多9个。"
 			]
 			id: "488DBE69595F38F8"
 			optional: true
@@ -1372,23 +1470,25 @@
 					xp: 10
 				}
 			]
-			subtitle: "Mekanism's Powered Furnace"
-			tasks: [{
-				id: "5A081977DB9407EA"
-				item: "mekanism:energized_smelter"
-				type: "item"
-			}]
+			subtitle: "&d通用机械&f的&a电炉&f"
+			tasks: [
+				{
+					id: "5A081977DB9407EA"
+					item: "mekanism:energized_smelter"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"The Electrolytic Separator (big fancy name) is used to separate chemicals from certain liquids and gases."
+				"&a电解分离器&f（大而花哨的名字）用于从某些液体和气体中分离化学物质。"
 				""
-				"You'll need a bunch of these if you plan on making an Ore Processing Factory."
+				"如果你计划制作矿石处理&a工厂&f，你将需要大量的这些机器。"
 				""
-				"To start, make one of these and we'll break down the most basic fluid: Water."
+				"首先，制作一个这样的机器，我们将分解最基本的液体：水。"
 			]
 			id: "18D88932916C7A98"
 			rewards: [
@@ -1409,21 +1509,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "Time to Break It Down"
-			tasks: [{
-				id: "054CC6FB5173F8A3"
-				item: "mekanism:electrolytic_separator"
-				type: "item"
-			}]
+			subtitle: "分解它"
+			tasks: [
+				{
+					id: "054CC6FB5173F8A3"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["407EFAF528871014"]
 			description: [
-				"This generator can burn both Hydrogen and Ethylene to produce power."
+				"这个发电机可以燃烧&a氢气&f和&a乙烯&f来产生能量。"
 				""
-				"Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator. Use for Ethylene instead."
+				"注意：燃烧&a氢气&f不会产生比运行&a电解分离器&f更多的能量。请使用&a乙烯&f。"
 			]
 			id: "3EC9D0DA61B45328"
 			rewards: [
@@ -1450,21 +1552,23 @@
 					type: "random"
 				}
 			]
-			subtitle: "Burn Gases into Power!"
-			tasks: [{
-				id: "2C13E8B67BC61E34"
-				item: "mekanismgenerators:gas_burning_generator"
-				type: "item"
-			}]
+			subtitle: "将气体燃烧成能量！"
+			tasks: [
+				{
+					id: "2C13E8B67BC61E34"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["263220DCCDB90E29"]
 			description: [
-				"This machine is the next step to your Ore Processing Factory. Add this to the left of your Purification Chamber to build on to your current ore factory!"
+				"这台机器是你的矿石加工&a工厂&f的下一步。将其添加到&a净化仓&f的左侧，以扩展你当前的矿石工厂！"
 				""
-				"This machine requires &aHydrogen Chloride&r to operate. To find out how to create Hydrogen Chloride, follow the quest above!"
+				"这台机器需要&a&a氯化氢&f&r来运行。要了解如何创建&a氯化氢&f，请按照上面的任务进行！"
 			]
 			id: "4F1C04C0F6769825"
 			rewards: [
@@ -1485,21 +1589,23 @@
 					xp: 100
 				}
 			]
-			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
-			tasks: [{
-				id: "443DCB7E2E45F3DD"
-				item: "mekanism:chemical_injection_chamber"
-				type: "item"
-			}]
+			subtitle: "将3个&a粗矿&f转化为8个矿石碎片"
+			tasks: [
+				{
+					id: "443DCB7E2E45F3DD"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"This machine combines two gases to create a new gas."
+				"这台机器将两种气体结合起来创建一个新的气体。"
 				""
-				"You'll need this to combine Chlorine with Hydrogen to create Hyrdogen Chloride, which is then used in our Chemical Injection Chamber."
+				"你需要将&a氯气&f与&a氢气&f结合起来创建氯化氢，然后在我们的&a化学压射室&f中使用。"
 			]
 			id: "04E2D539E33B7B0F"
 			rewards: [
@@ -1514,27 +1620,29 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Chemical Combiner"
-			tasks: [{
-				id: "31D203EC92BEA66F"
-				item: "mekanism:chemical_infuser"
-				type: "item"
-			}]
+			subtitle: "化学&a融合机&f"
+			tasks: [
+				{
+					id: "31D203EC92BEA66F"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4F1C04C0F6769825"]
 			description: [
-				"To get Hydrogen Chloride for our machines, we'll need to first create &aBrine&r."
+				"为了获得我们机器所需的&a氯化氢&f，我们需要首先创建&a卤水&r。"
 				""
-				"To do this, we'll need a Thermal Evaporation Plant. This is a multi-block structure."
+				"为此，我们需要一个热蒸发厂。这是一个多块结构。"
 				""
-				"To start, create a 4x3x4 structure that is hollow in the middle, except for the base. You can replace any of the sides with a Controller or Valve."
+				"首先，创建一个4x3x4的结构，中间为空心，除了底部。你可以用&a控制器&f或阀门替换任何一侧。"
 				""
-				"You'll need at least 1 controller, and at least 2  valves."
+				"你至少需要1个控制器和至少2个阀门。"
 				""
-				"Pump in water, and you'll start collecting brine, which can be pumped into an &aElectrolytic Separator&r to extract &6Chlorine&r from the gas."
+				"泵入水，你就可以开始收集卤水，可以将其泵入&a&a电解分离器&f&r中从气体中提取&6&a氯气&f&r。"
 				"{image:atm:textures/questpics/mek/thermalplant.png width:100 height:100 align:1}"
 			]
 			id: "603877AB96321F1A"
@@ -1558,7 +1666,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Water turns into Brine!"
+			subtitle: "水变成卤水！"
 			tasks: [
 				{
 					id: "716D483EFC35F6F3"
@@ -1578,20 +1686,20 @@
 					type: "item"
 				}
 			]
-			title: "Thermal Evaporation Plant"
+			title: "热蒸发厂"
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1112E4E2CCEB2467"]
 			description: [
-				"We will need to add 3 more machines to our current setup."
+				"我们需要向当前设置添加3个机器。"
 				""
-				"The first part of the process is the Chemical Dissolution Chamber."
+				"过程的第一部分是&a化学溶解室&f。"
 				""
-				"This machine requires &aSulfuric Acid&r to break down raw ores into an \"Ore Slurry.\""
+				"这台机器需要&a&a硫酸&f&r将原始矿石分解成\"矿浆”。"
 				""
-				"To get Sulfuric Acid, we'll need a new setup, which is explained further in the above quests."
+				"要获得&a硫酸&f，我们需要一个新的设置，这在上面的任务中有进一步解释。"
 			]
 			id: "4F436770D30D8520"
 			rewards: [
@@ -1613,21 +1721,23 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "1FE5AA0FF1F9BB51"
-				item: "mekanism:chemical_dissolution_chamber"
-				type: "item"
-			}]
-			title: "The Start of a Tier 4 Ore Factory"
+			tasks: [
+				{
+					id: "1FE5AA0FF1F9BB51"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+			]
+			title: "第四层矿石&a工厂&f的开始"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"To make Sulfuric Acid, you'll need to create &aWater Vapor&r."
+				"要制作&a硫酸&f，你需要创建&a&a水蒸气&f&r。"
 				""
-				"Pump some water into this machine and it'll convert it into vapor. "
+				"将一些水泵入这台机器，它会将其转换为蒸汽。"
 			]
 			id: "4236B9F071BE18F3"
 			rewards: [
@@ -1642,26 +1752,28 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "50D9504BFFB97A27"
-				item: "mekanism:rotary_condensentrator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50D9504BFFB97A27"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"Okay, let's start with making Sulfur Dioxide first."
+				"好的，让我们先制作&a二氧化硫&f。"
 				""
-				"Start by placing Gunpowder in a separate &aChemical Injection Chamber&r with Hydrogen Chloride to create Sulfur Dust. OR you can just pulverize Sulfur from Thermal Series into Sulfur Dust, it's up to you."
+				"首先，在单独的&a&a化学压射室&f&r中放置火药和&a氯化氢&f以创建&a硫磺粉&f。或者你可以从&d热力系列&f中粉碎硫制成&a硫磺粉&f，由你决定。"
 				""
-				"Feeding the Sulfur Dust into this machine, the &aChemical Oxidizer&r, will create Sulfur Dioxide. Now we need to create Sulfur Trioxide."
+				"将&a硫磺粉&f送入这台机器，&a&a化学氧化机&f&r，将创建&a二氧化硫&f。现在我们需要创建&a三氧化硫&f。"
 				""
-				"Send the Sulfur Dioxide into a Chemical Infuser to combine it with Oxygen to create Sulfur Trioxide. Send the Trioxide to another Chemical Infuser to combine it with Water Vapor to create Sulfuric Acid."
+				"将&a二氧化硫&f发送到&a化学灌注器&f中，与氧气结合，创建&a三氧化硫&f。将三氧化硫发送到另一个&a化学灌注器&f中，与&a水蒸气&f结合，创建&a硫酸&f。"
 				""
-				"It's a lot."
+				"这是很多的。"
 			]
 			id: "2E274BEEF2B0B8C7"
 			rewards: [
@@ -1701,13 +1813,11 @@
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"The Thermal Evaporation Plant multi-block produces Brine based on the internal temperature."
+				"热蒸发厂多块结构根据内部温度产生卤水。"
 				""
-				"There are several methods to increase the temperature of the plant, including building them in a desert!"
+				"有几种方法可以增加工厂的温度，包括在沙漠中建造它们！"
 				""
-				"The &aFuelwood Heater&r burns buckets of Lava, which can them be piped in using a pipe that transfers heat."
-				""
-				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
+				"&a&a电阻加热装置&f&r使用RF/FE产生热量，并可以设置使用任何你想要使用的RF/FE。"
 			]
 			id: "027084AE2DF5EBA6"
 			optional: true
@@ -1723,40 +1833,42 @@
 					xp: 10
 				}
 			]
-			subtitle: "Hot Brine here. Get Your Hot Brine here."
-			tasks: [{
-				id: "6E75525A5D88EF23"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mekanism:fuelwood_heater"
-							}
-							{
-								Count: 1b
-								id: "mekanism:resistive_heater"
-							}
-						]
+			subtitle: "热卤水在这里。在这里获得你的热卤水。"
+			tasks: [
+				{
+					id: "6E75525A5D88EF23"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:fuelwood_heater"
+								}
+								{
+									Count: 1b
+									id: "mekanism:resistive_heater"
+								}
+							]
+						}
 					}
+					title: "Heaters"
+					type: "item"
 				}
-				title: "Heaters"
-				type: "item"
-			}]
-			title: "Heating Up our Brine Production"
+			]
+			title: "加热我们的卤水生产"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"To create a custom Portal, place down a single Teleporter block. Connect power to the block."
+				"要创建自定义传送门，请放置一个单独的&a传送机&f块。将电源连接到块。"
 				""
-				"Create a \"Portal Frame\" with the teleporter block being the base of the portal."
+				"创建一个\"&a传送门框架&f”并将传送器块作为传送门的基础。"
 				""
-				"The final product will be a 4x3 portal structure, with the two blocks in the middle creating the portal."
+				"最终产品将是一个4x3的传送门结构，中间的两个块创建传送门。"
 			]
 			hide_dependency_lines: true
 			id: "7B0DFA55B4D8B16D"
@@ -1779,7 +1891,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Teleportation at its finest."
+			subtitle: "最好的传送。"
 			tasks: [
 				{
 					count: 9L
@@ -1793,16 +1905,16 @@
 					type: "item"
 				}
 			]
-			title: "Custom Portals!"
+			title: "自定义传送门！"
 			x: -9.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"This item is used to store power, and functions like a portable battery pack."
+				"这个物品用于存储能量，像一个便携式电池一样工作。"
 				""
-				"It is also an important crafting item in Mekanism."
+				"它也是&d通用机械&f中的重要制作物品。"
 			]
 			hide_dependency_lines: true
 			id: "1FC7E9DBF92BE6AA"
@@ -1820,12 +1932,14 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Portable Battery Pack"
-			tasks: [{
-				id: "79EF9001D76FD91D"
-				item: "mekanism:energy_tablet"
-				type: "item"
-			}]
+			subtitle: "便携式&a充电电池&f包"
+			tasks: [
+				{
+					id: "79EF9001D76FD91D"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 2.5d
 		}
@@ -1846,11 +1960,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "46C5C0922839BDCA"
-				item: "mekanism:upgrade_speed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46C5C0922839BDCA"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 9.5d
 		}
@@ -1871,11 +1987,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1B5CF4B0B6D3F6F9"
-				item: "mekanism:upgrade_energy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B5CF4B0B6D3F6F9"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 10.0d
 		}
@@ -1896,11 +2014,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "43E4874F23459DB1"
-				item: "mekanism:upgrade_filter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43E4874F23459DB1"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 9.5d
 		}
@@ -1921,12 +2041,14 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "shhhhh... too loud...."
-			tasks: [{
-				id: "126FB3CA8F2CCF11"
-				item: "mekanism:upgrade_muffling"
-				type: "item"
-			}]
+			subtitle: "嘘嘘嘘...太吵了..."
+			tasks: [
+				{
+					id: "126FB3CA8F2CCF11"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 10.0d
 		}
@@ -1947,11 +2069,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "70A4BDDF6392DC9D"
-				item: "mekanism:upgrade_gas"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70A4BDDF6392DC9D"
+					item: "mekanism:upgrade_gas"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 10.5d
 		}
@@ -1972,17 +2096,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0872B5A950703C8A"
-				item: "mekanism:upgrade_stone_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0872B5A950703C8A"
+					item: "mekanism:upgrade_stone_generator"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["1FC7E9DBF92BE6AA"]
-			description: ["This item is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines."]
+			description: ["这个物品用于配置&d通用机械&f中的许多物品，从更改管道到\"拉或推”或旋转机器。"]
 			hide_dependency_lines: true
 			id: "5E116409DC7D30BB"
 			progression_mode: "linear"
@@ -2000,23 +2126,25 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Mekanism's Wrench"
-			tasks: [{
-				id: "2612CACBDDF9AD1A"
-				item: "mekanism:configurator"
-				type: "item"
-			}]
+			subtitle: "&d通用机械&f的&a扳手&f"
+			tasks: [
+				{
+					id: "2612CACBDDF9AD1A"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["18D88932916C7A98"]
 			description: [
-				"To start breaking down water, we'll need a water source. The Kitchen Sink provides infinite water, and can easily be set up to pump out water."
+				"要开始分解水，我们需要一个水源。厨房水槽提供无限水，并且可以轻松设置为泵出水。"
 				""
-				"Alternatively, you can always just use the classic infinite water source with a Pump from Mekanism."
+				"或者，您始终可以使用来自&d通用机械&f的泵的经典无限水源。"
 				""
-				"Pump the water into your Electrolytic Separator to split the water into Hydrogen and Oxygen."
+				"将水泵入您的&a电解分离器&f中，将水分解为&a氢气&f和氧气。"
 			]
 			id: "407EFAF528871014"
 			rewards: [
@@ -2031,13 +2159,15 @@
 					xp: 100
 				}
 			]
-			subtitle: "The All-Mighty Infinite Water Source"
-			tasks: [{
-				id: "16DAFC5C5846015A"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
-			title: "Water Source"
+			subtitle: "全能的&a无限水&f"
+			tasks: [
+				{
+					id: "16DAFC5C5846015A"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			title: "水源"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -2058,11 +2188,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5FFEF5D6055A67B1"
-				item: "mekanism:advanced_fluid_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FFEF5D6055A67B1"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 7.800000000000004d
 		}
@@ -2082,11 +2214,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "05059B48A8F56BC5"
-				item: "mekanism:elite_fluid_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05059B48A8F56BC5"
+					item: "mekanism:elite_fluid_tank"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 8.300000000000004d
 		}
@@ -2106,17 +2240,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "33F9C615B944909A"
-				item: "mekanism:ultimate_fluid_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33F9C615B944909A"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 7.800000000000004d
 		}
 		{
 			dependencies: ["58B125BD4876054C"]
-			description: ["This block stores gases."]
+			description: ["这个方块可以存储气体。"]
 			hide_dependency_lines: true
 			id: "41EB0C570FC54F43"
 			rewards: [
@@ -2133,12 +2269,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Storing All That Gas"
-			tasks: [{
-				id: "665B9818855C0028"
-				item: "mekanism:basic_chemical_tank"
-				type: "item"
-			}]
+			subtitle: "存储所有气体"
+			tasks: [
+				{
+					id: "665B9818855C0028"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
 			x: 1.5000000000000053d
 			y: 7.0d
 		}
@@ -2159,11 +2297,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "78CFB8D559DA92AE"
-				item: "mekanism:advanced_chemical_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78CFB8D559DA92AE"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 7.800000000000004d
 		}
@@ -2183,11 +2323,13 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1D2AE44FA5391B71"
-				item: "mekanism:elite_chemical_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1D2AE44FA5391B71"
+					item: "mekanism:elite_chemical_tank"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 8.300000000000004d
 		}
@@ -2207,17 +2349,19 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "5FD0078940E64A4C"
-				item: "mekanism:ultimate_chemical_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FD0078940E64A4C"
+					item: "mekanism:ultimate_chemical_tank"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 7.800000000000004d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["Generates power from the sun!"]
+			description: ["从太阳发电！"]
 			hide_dependency_lines: true
 			id: "74200A48498DD7F8"
 			rewards: [
@@ -2234,18 +2378,20 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "Produces about 17.6FE/t"
-			tasks: [{
-				id: "22ACFEB806D68385"
-				item: "mekanismgenerators:solar_generator"
-				type: "item"
-			}]
+			subtitle: "产生约17.6FE/t"
+			tasks: [
+				{
+					id: "22ACFEB806D68385"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["This generator will burn Bio Fuel into energy. It produces around 140FE/t."]
+			description: ["这个发电机会将&a生物燃料&f燃烧成能量。它产生大约140FE/t的能量。"]
 			hide_dependency_lines: true
 			id: "6CD1720B76F47806"
 			rewards: [
@@ -2262,20 +2408,22 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			tasks: [{
-				id: "36B12984060A90FD"
-				item: "mekanismgenerators:bio_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "36B12984060A90FD"
+					item: "mekanismgenerators:bio_generator"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["74200A48498DD7F8"]
 			description: [
-				"If you're wondering if it is worth making this upgrade, the answer is yes."
+				"如果您想知道是否值得进行此升级，答案是肯定的。"
 				""
-				"This version produces 105.6FE/t. It also can be used to add extra heat to Thermal Evaporation Plants."
+				"此版本产生105.6FE/t。它还可以用于为热蒸发装置添加额外的热量。"
 			]
 			id: "4EDD96EB60EF5814"
 			rewards: [
@@ -2292,20 +2440,22 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			tasks: [{
-				id: "4F0B3CA66BE1AEE1"
-				item: "mekanismgenerators:advanced_solar_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F0B3CA66BE1AEE1"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"This is a great option for generating power."
+				"这是一个生成电力的好选择。"
 				""
-				"This generates around 40FE/t, and increases based on how high you are. The higher the Y level, the more power it produces!"
+				"这可以生成约40FE/t的电力，并根据您所在的高度而增加。 Y坐标越高，产生的电力越多！"
 			]
 			hide_dependency_lines: true
 			id: "7778937DF377C1B4"
@@ -2323,32 +2473,36 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "Generates Power from the Wind"
-			tasks: [{
-				id: "50624A39AD15A8A6"
-				item: "mekanismgenerators:wind_generator"
-				type: "item"
-			}]
+			subtitle: "从风中发电"
+			tasks: [
+				{
+					id: "50624A39AD15A8A6"
+					item: "mekanismgenerators:wind_generator"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Mekanism is a tech mod that will change the way you play Minecraft."
+				"&d通用机械&f是一个技术模组，将改变您玩Minecraft的方式。"
 				""
-				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+				"该模组专注于将材料分解为其化学成分，并从每种材料中获得最佳效果。"
 				""
-				"This mod features Hydrogen-Powered Jetpacks, a mini-robotic friend, reactors, a Digital Miner to automate mining, and much, much more."
+				"此模组具有&a氢气&f动力的&a喷气背包&f，迷你机器人朋友，反应堆，&a数字型采矿机&f以自动化采矿，以及更多。"
 			]
 			icon: {
 				Count: 1b
 				id: "mekanism:creative_energy_cube"
 				tag: {
 					mekData: {
-						EnergyContainers: [{
-							Container: 0b
-							stored: "18446744073709551615.9999"
-						}]
+						EnergyContainers: [
+							{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}
+						]
 					}
 				}
 			}
@@ -2367,13 +2521,15 @@
 			]
 			shape: "square"
 			size: 2.0d
-			subtitle: "The Start of Your Own Factory"
-			tasks: [{
-				id: "10CE7D11B912F418"
-				item: "alltheores:raw_osmium"
-				type: "item"
-			}]
-			title: "&dMekanism&r"
+			subtitle: "您自己的&a工厂&f的开始"
+			tasks: [
+				{
+					id: "10CE7D11B912F418"
+					item: "alltheores:raw_osmium"
+					type: "item"
+				}
+			]
+			title: "&d通用机械&f"
 			x: -12.0d
 			y: -2.0d
 		}
@@ -2393,26 +2549,28 @@
 					xp: 10
 				}
 			]
-			subtitle: "The Base Crafting Ingot"
-			tasks: [{
-				id: "52967F83338A3AC3"
-				item: "alltheores:osmium_ingot"
-				type: "item"
-			}]
-			title: "Osmium"
+			subtitle: "基础制作锭"
+			tasks: [
+				{
+					id: "52967F83338A3AC3"
+					item: "alltheores:osmium_ingot"
+					type: "item"
+				}
+			]
+			title: "奥斯米"
 			x: -9.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7AE502EDB73BD57A"]
 			description: [
-				"So far, to \"double\" our ingot output, your setup should look something like this:"
+				"到目前为止，为了\"加倍”我们的锭产量，您的设置应该看起来像这样："
 				""
-				"Raw Ore goes into your &aPurification Chamber&r, which is being fed &aOxygen&r from an &6Electrolytic Separator&r."
+				"&a粗矿&f进入您的&a净化仓&f，该仓正在从&6&a电解分离器&f中提供&a氧气&f。"
 				""
-				"It then outputs the product into the &aCrusher&r, which converts the ore clumps into \"dirty dusts\". This \"Dirty Dust\" is fed into an &aEnrichment Chamber&r, which converts the \"Dirty Dust\" into the appropriate \"Ore Dust.\""
+				"然后将产品输出到&a粉碎机&f中，将矿石块转换为\"脏尘”。这个\"&a污浊的粉&f”被送入&a富集仓&f中，将\"&a污浊的粉&f”转换为适当的\"矿石粉尘”。"
 				""
-				"The &aEnrichment Chamber&r then feeds into your preferred smelter of choice. You follow?"
+				"&a富集仓&f然后进入您选择的熔炉。你明白了吗？"
 			]
 			id: "263220DCCDB90E29"
 			rewards: [
@@ -2430,12 +2588,14 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Tier 2 Ore Factory"
-			tasks: [{
-				id: "46C4C1AD9FA5BEE2"
-				title: "Our Setup So Far"
-				type: "checkmark"
-			}]
+			subtitle: "二级矿石&a工厂&f"
+			tasks: [
+				{
+					id: "46C4C1AD9FA5BEE2"
+					title: "Our Setup So Far"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: -2.0d
 		}
@@ -2445,35 +2605,39 @@
 				"04E2D539E33B7B0F"
 			]
 			description: [
-				"So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?"
+				"现在，您应该准备好使用5台机器来处理矿石了。您准备好让它变得更加复杂了吗？"
 				""
-				"Your factory should be: Chemical Injection Chamber > Purifying Chamber > Crusher > Enrichment Chamber > Furnace/Smelter."
+				"您的工厂应该是：&a化学压射室&f > 净化仓 > &a粉碎机&f > &a富集仓&f > &a电炉&f/熔炼者。"
 				""
-				"Easy so far, right?"
+				"到目前为止还很容易，对吧？"
 				""
-				"Well buckle up. It's about to get wild."
+				"好吧，系好安全带。它将变得疯狂起来。"
 			]
 			id: "1112E4E2CCEB2467"
-			rewards: [{
-				id: "0B129E30AA37E379"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Tier 3 Ore Factory"
-			tasks: [{
-				id: "57F40CFA03BD36EF"
-				title: "The Hard Part"
-				type: "checkmark"
-			}]
+			rewards: [
+				{
+					id: "0B129E30AA37E379"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "三级矿石&a工厂&f"
+			tasks: [
+				{
+					id: "57F40CFA03BD36EF"
+					title: "The Hard Part"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"Combines gases, solid items, and liquids to produce an item and by-product."
+				"&a收割机&f气体，固体物品和液体以产生物品和副产品。"
 				""
-				"This machine is needed to create end-game materials and armor."
+				"这台机器是创建最终游戏材料和盔甲所需的。"
 			]
 			id: "587A19FC348387C5"
 			rewards: [
@@ -2494,17 +2658,19 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				id: "1C162E39F2ACA72F"
-				item: "mekanism:pressurized_reaction_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C162E39F2ACA72F"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7AE502EDB73BD57A"]
-			description: ["The Crusher can also break down natural substances into Bio Fuel!"]
+			description: ["&a粉碎机&f也可以将自然物质分解为&a生物燃料&f！"]
 			id: "3B43DB1A6B0A7B44"
 			rewards: [
 				{
@@ -2518,22 +2684,24 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				count: 2L
-				id: "05138E2E906020F3"
-				item: "mekanism:bio_fuel"
-				type: "item"
-			}]
-			title: "Bio Fuel"
+			tasks: [
+				{
+					count: 2L
+					id: "05138E2E906020F3"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+			]
+			title: "&a生物燃料&f"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3B43DB1A6B0A7B44"]
 			description: [
-				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
+				"当将&a生物燃料&f与水和&a氢气&f在&a加压反应室&r中混合时，会产生&a基片&f。它还会产生&a乙烯&f作为副产品。"
 				""
-				"These are needed to create HDPE pellets, which is used for end-game crafts like the Meka-suit."
+				"这些是制作HDPE颗粒所需的，用于末期制作，如Meka套装。"
 			]
 			id: "5047792C6EF6D2AD"
 			rewards: [
@@ -2548,19 +2716,21 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				count: 3L
-				id: "1F6A5B58DF94730B"
-				item: "mekanism:substrate"
-				type: "item"
-			}]
-			title: "Substrates"
+			tasks: [
+				{
+					count: 3L
+					id: "1F6A5B58DF94730B"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+			]
+			title: "&a基片&f"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5047792C6EF6D2AD"]
-			description: ["Combining Oxygen, Ethylene, and a Substrate in a &aPressurized Reaction Chamber&r will create an HDPE Pellet."]
+			description: ["在&a加压反应室&r中将氧气、&a乙烯&f和&a基片&f混合会产生&a高密度聚乙烯颗粒&f。"]
 			id: "76A38CCA5816CDAD"
 			rewards: [
 				{
@@ -2575,19 +2745,21 @@
 					xp: 10
 				}
 			]
-			tasks: [{
-				count: 3L
-				id: "62E8F3CC847BBD3D"
-				item: "mekanism:hdpe_pellet"
-				type: "item"
-			}]
-			title: "HDPE Pellets"
+			tasks: [
+				{
+					count: 3L
+					id: "62E8F3CC847BBD3D"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
+				}
+			]
+			title: "&a高密度聚乙烯颗粒&f"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["76A38CCA5816CDAD"]
-			description: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
+			description: ["要获得&a高密度聚乙烯纸&f，在&a富集仓&f中放置3个&a高密度聚乙烯颗粒&f。"]
 			id: "47106CE1937C4340"
 			rewards: [
 				{
@@ -2602,11 +2774,13 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "6EE6F07986BAFC3B"
-				item: "mekanism:hdpe_sheet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EE6F07986BAFC3B"
+					item: "mekanism:hdpe_sheet"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -6.0d
 		}
@@ -2635,23 +2809,25 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Mekanism's All In One Tool"
-			tasks: [{
-				id: "79F38A9428A0A23D"
-				item: "mekanism:atomic_disassembler"
-				type: "item"
-			}]
+			subtitle: "通用机械的全能工具"
+			tasks: [
+				{
+					id: "79F38A9428A0A23D"
+					item: "mekanism:atomic_disassembler"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["08DDE018A804BFE7"]
 			description: [
-				"Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants."
+				"使用&a富集仓&f，可以富集物品将其转化为富集变种。"
 				""
-				"These \"Enriched\" items give 8x the amount of mb in a Metallurgic Infuser."
+				"这些\"富集”物品在&a冶金灌注机&f中提供8倍的mb量。"
 				""
-				"If you plan on making a bunch of steel, Enrich your Charcoal first!"
+				"如果计划制作大量钢铁，请先富集木炭！"
 			]
 			id: "0F326EEEC2EBE4E5"
 			rewards: [
@@ -2667,22 +2843,24 @@
 					xp: 10
 				}
 			]
-			subtitle: "Enrich your items first!"
-			tasks: [{
-				id: "4B60ACBCC3B46D1D"
-				item: "mekanism:enriched_carbon"
-				type: "item"
-			}]
-			title: "Enriched Items"
+			subtitle: "先富集你的物品！"
+			tasks: [
+				{
+					id: "4B60ACBCC3B46D1D"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+			]
+			title: "富集物品"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\""
+				"这台机器需要水来运行，并使用水将\"矿浆”清洗成\"&a纯净的矿物浆液&f”。"
 				""
-				"It will be part 2 of your Tier 4 Ore Processing Factory."
+				"它将成为你的第4级矿石加工工厂的第2部分。"
 			]
 			id: "4AFF81D3D0E78255"
 			rewards: [
@@ -2697,21 +2875,23 @@
 					xp: 100
 				}
 			]
-			subtitle: "Giving Ores a Bath"
-			tasks: [{
-				id: "1DA159AA61B37545"
-				item: "mekanism:chemical_washer"
-				type: "item"
-			}]
+			subtitle: "给矿石洗个澡"
+			tasks: [
+				{
+					id: "1DA159AA61B37545"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"This machine will be #3 in your Tier 4 Ore Processing Factory."
+				"这台机器将成为你的第4级矿石加工工厂的第3部分。"
 				""
-				"It takes the Clean Ore Slurry from the Chemical Washer and turns it into Crystals, which the Chemical Injection Chamber can process after."
+				"它将从&a化学清洗机&f中取出&a纯净的矿物浆液&f并将其转化为晶体，之后&a化学压射室&f可以进行处理。"
 			]
 			id: "3999760881C855FA"
 			rewards: [
@@ -2726,12 +2906,14 @@
 					xp: 100
 				}
 			]
-			subtitle: "Turns Ore Slurry into Crystals"
-			tasks: [{
-				id: "6F2B3A4206C129B0"
-				item: "mekanism:chemical_crystallizer"
-				type: "item"
-			}]
+			subtitle: "将矿浆转化为晶体"
+			tasks: [
+				{
+					id: "6F2B3A4206C129B0"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -0.5d
 		}
@@ -2741,38 +2923,42 @@
 				"4AFF81D3D0E78255"
 			]
 			description: [
-				"If you're like me, you probably got lost 55 times during these last few steps. This is a complicated system."
+				"如果像我一样，在这些步骤中你可能迷路了55次。这是一个复杂的系统。"
 				""
-				"A basic layout of your factory should be: "
+				"你的工厂的基本布局应该是："
 				""
-				"Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter."
+				"原始矿石进入你的&a化学溶解室&f > 将气体泵送至&a化学清洗机&f > 将气体泵送至&a化学结晶器&f > 输出晶体至&a化学压射室&f > 输出碎片至&a净化仓&f > 输出块至&a粉碎机&f > 输出脏尘至&a富集仓&f > 输出干净尘至&a熔炼者&f。"
 				""
 				"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 			]
 			id: "3C49F2EEDCCAF1DF"
 			min_width: 300
-			rewards: [{
-				id: "3417F669ABC16584"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3417F669ABC16584"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "This is a lot, I know."
-			tasks: [{
-				id: "3B3B58C438FD4397"
-				title: "Tier 4 Ore Processing Factory Summary"
-				type: "checkmark"
-			}]
+			subtitle: "我知道这很多。"
+			tasks: [
+				{
+					id: "3B3B58C438FD4397"
+					title: "Tier 4 Ore Processing Factory Summary"
+					type: "checkmark"
+				}
+			]
 			x: 9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
 			description: [
-				"Standing on this item will charge up any powered item from any mod."
+				"站在这个物品上会为任何模组的已启动物品充电。"
 				""
-				"This is also needed for the Robit."
+				"这也是制作Robit所需的。"
 			]
 			hide_dependency_lines: true
 			id: "4204702AA6FBF40B"
@@ -2790,11 +2976,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [{
-				id: "6190BE8B67130AB5"
-				item: "mekanism:chargepad"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6190BE8B67130AB5"
+					item: "mekanism:chargepad"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 2.5d
 		}
@@ -2804,25 +2992,29 @@
 				"2E274BEEF2B0B8C7"
 			]
 			description: [
-				"Now that we have some experience working with more advanced machinery, it's time to move towards making &dAntimatter Pellets&r."
+				"现在我们已经有了一些使用更高级机器的经验，是时候转向制作&a反物质&f颗粒了。"
 				""
-				"These create several &5End Game&r items, including the &6ATM Star&r. To learn all about Reactors and more, head over to the &aMekanism&r: &dReactors&r questline!"
+				"这些颗粒可以创建多个&5末期&r物品，包括&6ATM Sta&rr。要了解有关&a反应堆&f等更多信息，请前往&a&d通用机械&f&r：&d&a反应堆&f&r任务线！"
 			]
 			icon: "mekanism:pellet_antimatter"
 			id: "7E4A95B6443F23BC"
-			rewards: [{
-				id: "1E16D1CE01AD7052"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1E16D1CE01AD7052"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "The Path to Reactors"
-			tasks: [{
-				id: "60BF6E0420C91050"
-				title: "&dAdvanced Mekanism&r"
-				type: "checkmark"
-			}]
+			subtitle: "通向&a反应堆&f的道路"
+			tasks: [
+				{
+					id: "60BF6E0420C91050"
+					title: "&dAdvanced Mekanism&r"
+					type: "checkmark"
+				}
+			]
 			x: 9.0d
 			y: -5.5d
 		}

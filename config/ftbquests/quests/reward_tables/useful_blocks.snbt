@@ -3,11 +3,27 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ count: 2, item: "minecraft:gravel", random_bonus: 8 }
-		{ count: 2, item: "minecraft:sand", random_bonus: 8 }
-		{ count: 2, item: "exnihilosequentia:dust", random_bonus: 8 }
-		{ count: 2, item: "minecraft:dirt", random_bonus: 8 }
+		{
+			count: 2
+			item: "minecraft:gravel"
+			random_bonus: 8
+		}
+		{
+			count: 2
+			item: "minecraft:sand"
+			random_bonus: 8
+		}
+		{
+			count: 2
+			item: "exnihilosequentia:dust"
+			random_bonus: 8
+		}
+		{
+			count: 2
+			item: "minecraft:dirt"
+			random_bonus: 8
+		}
 	]
-	title: "Useful Blocks"
+	title: "实用方块"
 	use_title: true
 }

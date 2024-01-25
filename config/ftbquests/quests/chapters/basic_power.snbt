@@ -8,86 +8,98 @@
 		id: "mekanism:creative_energy_cube"
 		tag: {
 			mekData: {
-				EnergyContainers: [{
-					Container: 0b
-					stored: "18446744073709551615.9999"
-				}]
+				EnergyContainers: [
+					{
+						Container: 0b
+						stored: "18446744073709551615.9999"
+					}
+				]
 			}
 		}
 	}
 	id: "5D045EF1AB73DF70"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 5.0d
-		hover: [ ]
-		image: "atm:textures/questpics/allthepower.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: -3.5d
-		y: -3.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/questpics/allthepower.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.5d
+			y: -3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"This Chapter is dedicated to all things power related!"
+				"本章节专门介绍与能源相关的所有内容！"
 				""
-				"In this section, you'll find the basic ways to generate, store, and transfer power."
+				"在本节中，您将找到生成、存储和传输能源的基本方法。"
 			]
 			icon: "minecraft:redstone_torch"
 			id: "4AB0DD227471FDBF"
-			rewards: [{
-				id: "3C8F065AEE4CDB80"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3C8F065AEE4CDB80"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "4800DD5A7039B8B7"
-				title: "All Things Power!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4800DD5A7039B8B7"
+					title: "All Things Power!"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
 			description: [
-				"The &9Bigger Reactors&r mod offers multi-block reactors that are completely customizable in size, efficiency, and more."
+				"&9&d&a更大的&a反应堆&f&f&f&r模组提供了完全可定制大小、效率等的多块反应堆。"
 				""
-				"To learn more about getting started with Bigger Reactors, it now has its own questline!"
+				"要了解有关如何开始使用&d&a更大的&a反应堆&f&f&f的更多信息，现在它有自己的任务线！"
 			]
 			hide_dependency_lines: false
 			icon: "biggerreactors:reactor_terminal"
 			id: "6D6E07564D8FDD8D"
-			rewards: [{
-				id: "1C7FBA6844D50ABA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1C7FBA6844D50ABA"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
-			subtitle: "Customizable Reactors!"
-			tasks: [{
-				id: "70CC25EA15DBE615"
-				title: "Bigger Reactors"
-				type: "checkmark"
-			}]
-			title: "Bigger Reactors"
+			subtitle: "可定制的&a反应堆&f！"
+			tasks: [
+				{
+					id: "70CC25EA15DBE615"
+					title: "Bigger Reactors"
+					type: "checkmark"
+				}
+			]
+			title: "&d&a更大的&a反应堆&f&f&f"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["42D173B9FF8D16E4"]
 			description: [
-				"Mekanism provides several ways to make power using renewable resources."
+				"&d通用机械&f提供了几种使用可再生资源发电的方法。"
 				""
-				"The &9Solar Generators&r harness the power of the sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay."
+				"&9&a太阳能发电机&f&r利用太阳的能量提供基本的电力需求。它在夜间不起作用，必须有天空的接入。玻璃可以。"
 				""
-				"The &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."
+				"&9&a风力发电机&f&r通过风力提供电力。除非您已经想出了让您的角色手动旋转它的方法，否则它旋转的速度取决于它放置的Y级别。它还需要直接接入天空，没有任何方块在它上面。"
 			]
 			hide_dependency_lines: false
 			id: "48DC9E8E9D21A2FA"
@@ -105,42 +117,44 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Using the Sun"
-			tasks: [{
-				id: "59DE118DD6597A4E"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mekanismgenerators:solar_generator"
-							}
-							{
-								Count: 1b
-								id: "mekanismgenerators:advanced_solar_generator"
-							}
-							{
-								Count: 1b
-								id: "mekanismgenerators:wind_generator"
-							}
-						]
+			subtitle: "利用太阳能"
+			tasks: [
+				{
+					id: "59DE118DD6597A4E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanismgenerators:solar_generator"
+								}
+								{
+									Count: 1b
+									id: "mekanismgenerators:advanced_solar_generator"
+								}
+								{
+									Count: 1b
+									id: "mekanismgenerators:wind_generator"
+								}
+							]
+						}
 					}
+					title: "Renewable Energy Gens"
+					type: "item"
 				}
-				title: "Renewable Energy Gens"
-				type: "item"
-			}]
-			title: "Mekanism: Renewable Energy"
+			]
+			title: "&d通用机械&f：可再生能源"
 			x: -5.5d
 			y: 4.25d
 		}
 		{
 			dependencies: ["42D173B9FF8D16E4"]
 			description: [
-				"The RFTools Coal Generator is one of the easiest coal-burning generators to make."
+				"&dRF工具箱&f的&a燃煤发电机&f是最容易制作的燃煤发电机之一。"
 				""
-				"It is very simple to use and creates a decent amount of power based on the combustible material you input. It automatically distributes power to adjacent blocks as well."
+				"它非常简单易用，根据您输入的可燃物材料产生相当数量的电力。它还会自动将电力分配给相邻的方块。"
 			]
 			id: "0BB367839D28607D"
 			rewards: [
@@ -157,48 +171,54 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				id: "0F7D7AE91E20F778"
-				item: "rftoolspower:coalgenerator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F7D7AE91E20F778"
+					item: "rftoolspower:coalgenerator"
+					type: "item"
+				}
+			]
 			x: -6.25d
 			y: 3.25d
 		}
 		{
 			description: [
-				"Looking for early game power options? These are good ways to get you started with generating power."
+				"寻找早期游戏的能源选择？这些是开始发电的好方法。"
 				""
-				"These don't produce a ton of power, but they are typically easy or cheap to get in the early game!"
+				"它们不会产生大量的电力，但通常在早期游戏中很容易或便宜获得！"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:coal"
 			id: "42D173B9FF8D16E4"
-			rewards: [{
-				id: "0CE525ECCA99C748"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0CE525ECCA99C748"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Starter Power"
-			tasks: [{
-				id: "55F3497E936C4885"
-				title: "Burning Fuel for Power"
-				type: "checkmark"
-			}]
-			title: "Early Game Power Options"
+			subtitle: "起始电力"
+			tasks: [
+				{
+					id: "55F3497E936C4885"
+					title: "Burning Fuel for Power"
+					type: "checkmark"
+				}
+			]
+			title: "早期游戏的能源选择"
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
 			description: [
-				"These are simple pipes that can be upgraded with Pipe Upgrades."
+				"这些是可以使用&a空白升级&f升级的简单管道。"
 				""
-				"To \"extract\" power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract."
+				"要从方块中\"提取\"电力，请将管道放在方块旁边，并在连接的一侧上，使用管道扳手按住Shift+右键设置管道以提取。"
 				""
-				"The &9Pipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r. "
+				"&9Pipez&r模组还提供了运输物品、气体和液体的方法！或者您可以制作一个名为&aUniversal Pipe&r的全能管道。"
 			]
 			id: "4EEAB467C722ECE7"
 			rewards: [
@@ -227,16 +247,16 @@
 					type: "item"
 				}
 			]
-			title: "&9Using Pipez: &aEnergy Pipe"
+			title: "&9使用管道：&a&a能量管道&f"
 			x: -10.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
 			description: [
-				"Mekanism offers a nice looking cable to transfer your power."
+				"&d通用机械&f提供了一个漂亮的电缆来传输您的电力。"
 				""
-				"If the machine you are connecting to already pulls or pushes power, you will not need to configure the cable. Otherwise, you'll need a &9Configurator&r to configure the pipe. Shift+right-clicking will change the cable to pull or push mode. "
+				"如果您连接的机器已经拉取或推送电力，则无需配置电缆。否则，您需要一个&9&a调整器&f&r来配置管道。按住Shift+右键可以将电缆更改为拉取或推送模式。"
 			]
 			id: "5C47935A3B2877FF"
 			rewards: [
@@ -252,45 +272,47 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mekanism's Energy Transfer Pipe"
-			tasks: [{
-				id: "6C4B8A2662030CB0"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mekanism:basic_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "mekanism:advanced_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "mekanism:elite_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "mekanism:ultimate_universal_cable"
-							}
-						]
+			subtitle: "&d通用机械&f的能源传输管道"
+			tasks: [
+				{
+					id: "6C4B8A2662030CB0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_universal_cable"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_universal_cable"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_universal_cable"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_universal_cable"
+								}
+							]
+						}
 					}
+					title: "Universal Cables"
+					type: "item"
 				}
-				title: "Universal Cables"
-				type: "item"
-			}]
-			title: "&9Using Mekanism:&a Basic Universal Cable"
+			]
+			title: "&9使用&d通用机械&f：&a&a基础通用线缆&f"
 			x: -7.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"If you're looking for different ways to get power out of your machines, this is where you can find it!"
+				"如果您正在寻找从机器中获取电力的不同方法，那么您可以在这里找到它！"
 				""
-				"There are several options, both &awired&r and &9wireless&r, for transferring power."
+				"有几种有线和无线的传输电力选项。"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -298,36 +320,42 @@
 				id: "mekanism:energy_tablet"
 				tag: {
 					mekData: {
-						EnergyContainers: [{
-							Container: 0b
-							stored: "1000000"
-						}]
+						EnergyContainers: [
+							{
+								Container: 0b
+								stored: "1000000"
+							}
+						]
 					}
 				}
 			}
 			id: "1F81EA5E45424308"
-			rewards: [{
-				id: "5C863FCC138617D2"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5C863FCC138617D2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "6D3C243268479EE9"
-				title: "Transferring Power"
-				type: "checkmark"
-			}]
-			title: "Transferring Power"
+			tasks: [
+				{
+					id: "6D3C243268479EE9"
+					title: "Transferring Power"
+					type: "checkmark"
+				}
+			]
+			title: "传输电力"
 			x: -9.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
 			description: [
-				"With a little work into Mekanism, this machine allows you to transfer anything wirelessly."
+				"通过对&d通用机械&f进行一些工作，这个机器可以让你无线传输任何东西。"
 				""
-				"You can set specific channels to transfer individual items, energy, or even gases from Mekanism. It's pretty cool."
+				"你可以设置特定的频道来传输单个物品、能量，甚至是气体，来自&d通用机械&f。非常酷。"
 			]
 			id: "7FE969CB4B419FC6"
 			rewards: [
@@ -344,18 +372,20 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Also works for items, gases, liquids, and heat."
-			tasks: [{
-				id: "3E843C44C9CD3ACC"
-				item: "mekanism:quantum_entangloporter"
-				type: "item"
-			}]
-			title: "&9Wireless Transfer: &6Quantum Entangloporter"
+			subtitle: "也适用于物品、气体、液体和热量。"
+			tasks: [
+				{
+					id: "3E843C44C9CD3ACC"
+					item: "mekanism:quantum_entangloporter"
+					type: "item"
+				}
+			]
+			title: "&9无线传输：&6&a量子传送装置&f"
 			x: -10.0d
 			y: 1.5d
 		}
 		{
-			description: ["This section shows you different ways to store your power!"]
+			description: ["本节介绍了不同的储存能量的方法！"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -363,30 +393,34 @@
 				tag: { }
 			}
 			id: "76EA017B12E8F01B"
-			rewards: [{
-				id: "477F18566EC6FB2A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "477F18566EC6FB2A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "3121BA0C9976AFCD"
-				title: "Storing Power"
-				type: "checkmark"
-			}]
-			title: "Storing Power"
+			tasks: [
+				{
+					id: "3121BA0C9976AFCD"
+					title: "Storing Power"
+					type: "checkmark"
+				}
+			]
+			title: "储存能量"
 			x: 3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
 			description: [
-				"Mekanism is one of the best mods for energy storage, especially in the early game."
+				"&d通用机械&f是最好的能量存储模组之一，特别是在早期游戏中。"
 				""
-				"The Basic Energy Cube is easy to configure, easy to craft, and stores a lot of power. It can also be upgraded, and can charge items inside of the interface!"
+				"&a基础能量立方&f易于配置、易于制作，存储大量能量。它还可以升级，并可以在界面内充电物品！"
 				""
-				"To learn more about upgrading the Energy Cube as well as the mod, head over to the &aMekanism&r questline!"
+				"要了解有关升级能量立方以及该模组的更多信息，请前往&a&d通用机械&f&r任务线！"
 			]
 			id: "477B411F84342EEA"
 			rewards: [
@@ -408,46 +442,48 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mekanism"
-			tasks: [{
-				id: "76378687551A79C3"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mekanism:basic_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "mekanism:advanced_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "mekanism:elite_energy_cube"
-							}
-							{
-								Count: 1b
-								id: "mekanism:ultimate_energy_cube"
-							}
-						]
+			subtitle: "&d通用机械&f"
+			tasks: [
+				{
+					id: "76378687551A79C3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_energy_cube"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_energy_cube"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_energy_cube"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_energy_cube"
+								}
+							]
+						}
 					}
+					title: "Energy Cubes"
+					type: "item"
 				}
-				title: "Energy Cubes"
-				type: "item"
-			}]
-			title: "Mekanism's Energy Cubes"
+			]
+			title: "&d通用机械&f的能量立方"
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
 			description: [
-				"RFToolsPower has &9Powercells&r to store power, which are multi-block storage units that can be customized and upgraded to store power."
+				"&dRF工具箱&f的能量有&9&a能量单元&f&r来存储，这是多块存储单元，可以定制和升级以存储能量。"
 				""
-				"You will need a wrench to determine inputs and outputs for power."
+				"你需要扳手来确定能量的输入和输出。"
 			]
 			id: "05B6DB75AEC01187"
 			rewards: [
@@ -464,39 +500,41 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "RFTools"
-			tasks: [{
-				id: "7CA8741CA073C1DA"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "rftoolspower:cell1"
-							}
-							{
-								Count: 1b
-								id: "rftoolspower:cell2"
-							}
-							{
-								Count: 1b
-								id: "rftoolspower:cell3"
-							}
-						]
+			subtitle: "&dRF工具箱&f"
+			tasks: [
+				{
+					id: "7CA8741CA073C1DA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolspower:cell1"
+								}
+								{
+									Count: 1b
+									id: "rftoolspower:cell2"
+								}
+								{
+									Count: 1b
+									id: "rftoolspower:cell3"
+								}
+							]
+						}
 					}
+					title: "Powercells"
+					type: "item"
 				}
-				title: "Powercells"
-				type: "item"
-			}]
-			title: "Powercells from RFTools"
+			]
+			title: "&dRF工具箱&f的能量单元"
 			x: 4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
-			description: ["&9IntegratedDynamics&r provides a simple power storage system. The batteries can even be combined in a crafting grid to increase the overall storage!"]
+			description: ["&9&a动态联合/集成动力&f&r提供了一个简单的能量存储系统。电池甚至可以在制作网格中组合以增加整体存储！"]
 			id: "72EA25D05C46D39A"
 			rewards: [
 				{
@@ -512,49 +550,53 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Integrated Dynamics"
-			tasks: [{
-				id: "460A67B09BD45CF4"
-				item: {
-					Count: 1b
-					id: "integrateddynamics:energy_battery"
-					tag: {
-						energy: 0
+			subtitle: "&d动态联合/集成动力&f"
+			tasks: [
+				{
+					id: "460A67B09BD45CF4"
+					item: {
+						Count: 1b
+						id: "integrateddynamics:energy_battery"
+						tag: {
+							energy: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"You can't power your base off of Coal forever! If you've got a decent amount of resources available, it's time to upgrade your power setup!"
+				"你不能永远用煤来为你的基地供电！如果你有足够的资源，那么现在是升级你的电力设置的时候了！"
 				""
-				"These options usually require a little setting up, but produce enough power to carry you far into your playthrough."
+				"这些选项通常需要一些设置，但产生足够的能量可以让你在游戏中走得更远。"
 			]
 			icon: "powah:dielectric_casing"
 			id: "5E41363F9AE243F3"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "5A8F474927CC1E80"
-				title: "Mid Game Power Options"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5A8F474927CC1E80"
+					title: "Mid Game Power Options"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
 			description: [
-				"If you've ever heard of someone talking about \"Melon Power\", this is it. Mekanism's &9Gas-Burning Generator&r can produce a good amount power by pumping in &9Ethylene&r made from Melon Slices."
+				"如果你曾听说过有人谈论\"西瓜能量”，那就是它。&d通用机械&f的&9&a燃气发电机&f&r可以通过将由西瓜片制成的&9&a乙烯&f&r泵入其中来产生大量电力。"
 				""
-				"To produce &dEthylene&r, start by crushing organic materials in a &eCrusher&r to create &6Bio Fuel&r. Melon Slices are typically used for this! This is then pumped into a &dPressurized Reaction Chamber&r (PRC for short)."
+				"要生产&d&a乙烯&f&r，首先要在&e&a粉碎机&f&r中粉碎有机材料以创建&6&a生物燃料&f&r。通常使用西瓜片！然后将其泵入&d&a加压反应室&f&r（PRC简称）。"
 				""
-				"The PRC needs Water, Bio Fuel, and some Hydrogen to create Ethylene. You can get the Hydrogen from separating water in an &9Electrolytic Separator&r. "
+				"PRC需要水、&a生物燃料&f和一些&a氢气&f来创建&a乙烯&f。你可以从&9&a电解分离器&f&r中分离水来获得&a氢气&f。"
 				""
-				"Once you've started producing the Ethylene, pump it into the Gas-Burning Generator to start generating power!"
+				"一旦开始生产&a乙烯&f，将其泵入&a燃气发电机&f中开始发电！"
 			]
 			id: "0AEC181F5E21A299"
 			min_width: 300
@@ -578,7 +620,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "The Power of the Melon"
+			subtitle: "西瓜的力量"
 			tasks: [
 				{
 					id: "2ADE2B487637FA3F"
@@ -601,70 +643,78 @@
 					type: "item"
 				}
 			]
-			title: "&eMekanism's&r &dGas-Burning Generator&r"
+			title: "&e&d通用机械&f&r的&d&a燃气发电机&f&r"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5E41363F9AE243F3"]
 			description: [
-				"Believe it or not, the &dPowah&r mod has some great options for getting... powah."
+				"信不信由你，&dPowah&r模组有一些很好的获取...powah的选项。"
 				""
-				"Make sure to check out the &cPowah&r Chapter to learn more!"
+				"确保查看&cPowah&r章节以了解更多信息！"
 			]
 			icon: "powah:book"
 			id: "35ABB0DEE70DF7FD"
 			min_width: 300
-			rewards: [{
-				id: "2374BE0128AF2ED8"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2374BE0128AF2ED8"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
-			tasks: [{
-				id: "215F37D96DF88189"
-				title: "Powah"
-				type: "checkmark"
-			}]
-			title: "Need more &9Powah&r"
+			tasks: [
+				{
+					id: "215F37D96DF88189"
+					title: "Powah"
+					type: "checkmark"
+				}
+			]
+			title: "需要更多&9Powah&r"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"If you're looking to generate a ton of power, you can start by scaling up some of the options from the &9Mid Game Power&r section. Make your &eBigger Reactors&r bigger. Upgrade your &9Thermo Gens&r to Nitro, etc. "
+				"如果你想产生大量电力，可以从&9中期电力&r部分扩展一些选项。让你的&e&d&a更大的反应堆&f&f&f&r更大。将你的&9Thermo Gens&r升级为Nitro等。"
 				""
-				"&9Mekanism&r also has an end game power option that is tough to beat."
+				"&9&d通用机械&f&r还有一个终极电力选项，难以超越。"
 				""
-				"The &dFusion Reactor&r can produce up to 200MRF/t, and if you want to learn how to build it, make sure to check out the &aMekanism:&r &dAdvanced&r Chapter!"
+				"&d&a聚变反应堆&f&r可以产生高达200MRF/t的电力，如果你想了解如何构建它，请确保查看&a&d通用机械&f:&r&d高级&r章节！"
 			]
 			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "3BDB94F17765EE77"
 			min_width: 300
-			rewards: [{
-				id: "45BE4BD6F9CCB927"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "45BE4BD6F9CCB927"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "More Power Than You'll Need"
-			tasks: [{
-				id: "03A4FFC4CFCA5DB7"
-				title: "End Game Power Options"
-				type: "checkmark"
-			}]
+			subtitle: "比你需要的电力更多"
+			tasks: [
+				{
+					id: "03A4FFC4CFCA5DB7"
+					title: "End Game Power Options"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4EEAB467C722ECE7"]
 			description: [
-				"To make your pipes extract more power, you'll want to make it an upgrade."
+				"为了让你的管道提取更多的能量，你需要进行升级。"
 				""
-				"Once you've shift+right-clicked a pipe to set it to extract, you can insert a pipe upgrade into it by right-clicking the pipe with the upgrade. You can also right-click with an empty hand and add it using the GUI!"
+				"当你按住Shift键并右键点击管道进行提取后，你可以通过右键点击带有升级的管道来插入升级。你也可以用空手右键点击并通过GUI添加升级！"
 				""
-				"To be able to set filters, you'll need at least an &9Advanced Pipe Upgrade&r. "
+				"要能够设置过滤器，你至少需要一个&9高级管道&a空白升级&f&r。"
 			]
 			hide: true
 			id: "1409C17773B6A131"
@@ -687,76 +737,82 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "098F1B932F851616"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "pipez:basic_upgrade"
-							}
-							{
-								Count: 1b
-								id: "pipez:improved_upgrade"
-							}
-							{
-								Count: 1b
-								id: "pipez:advanced_upgrade"
-							}
-							{
-								Count: 1b
-								id: "pipez:ultimate_upgrade"
-							}
-						]
+			tasks: [
+				{
+					id: "098F1B932F851616"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:basic_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:improved_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:advanced_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:ultimate_upgrade"
+								}
+							]
+						}
 					}
+					title: "Pipe Upgrades"
+					type: "item"
 				}
-				title: "Pipe Upgrades"
-				type: "item"
-			}]
-			title: "Upgrading our Pipez"
+			]
+			title: "升级我们的管道"
 			x: -11.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["477B411F84342EEA"]
 			description: [
-				"&9Mekanism's&r &aInduction Matrix&r is the ultimate way to store your power."
+				"&9&d通用机械&f&r的&a感应矩阵&r是存储能量的终极方式。"
 				""
-				"If you're looking for the best power storage in the game, check out the &aMekanism:&r &dAdvanced&r Chapter."
+				"如果你正在寻找游戏中最好的能量存储方式，请查看&a&d通用机械&f:&r &d高级&r章节。"
 				""
 				"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:1}"
 			]
 			id: "682034C680FDEDC2"
 			min_width: 500
-			rewards: [{
-				id: "4897BCA1A6B1D623"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4897BCA1A6B1D623"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "4FC7F1A8F2BDEF93"
-				title: "Advanced Mekanism Chapter"
-				type: "checkmark"
-			}]
-			title: "Need more storage?"
+			tasks: [
+				{
+					id: "4FC7F1A8F2BDEF93"
+					title: "Advanced Mekanism Chapter"
+					type: "checkmark"
+				}
+			]
+			title: "需要更多的存储空间吗？"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
 			description: [
-				"&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs."
+				"&9&d通量网络&f&r是一个旨在解决你所有无线电力需求的模组。"
 				""
-				"The mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory."
+				"该模组本身没有发电的方式，但它可以存储和无线传输电力，甚至跨越维度。它甚至可以为你的库存物品充电。"
 				""
-				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
+				"你甚至可以在飞行时为你的喷气背包充电。这是多么酷啊！"
 				""
-				"To get started with the mod, you'll need some Flux Dust. Head to bedrock level, then throw some redstone on top of a block of bedrock, or do it from your island with crying obsidian (check jei)!. Place a block of obsidian right above the floating redstone, then left click the obsidian."
+				"要开始使用该模组，你需要一些&a通量粉尘&f。前往基岩层，然后在基岩块上方扔一些红石，或者在你的岛上用哭泣的黑曜石（查看JEI）！将一个黑曜石块放在浮动的红石正上方，然后左键点击黑曜石。"
 			]
 			id: "35CC898E0E49FE58"
 			min_width: 300
@@ -782,20 +838,22 @@
 			]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "The Ultimate Wireless Power Solution"
-			tasks: [{
-				count: 4L
-				id: "0F0CBAF912DE462F"
-				item: "fluxnetworks:flux_dust"
-				type: "item"
-			}]
-			title: "Flux Networks"
+			subtitle: "终极无线电力解决方案"
+			tasks: [
+				{
+					count: 4L
+					id: "0F0CBAF912DE462F"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+			]
+			title: "&d通量网络&f"
 			x: -9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["35CC898E0E49FE58"]
-			description: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
+			description: ["在这个模组中，你需要&a通量核心&f和&a能量块&f来制作你的网络核心部件。制作几个吧！"]
 			hide: true
 			id: "1BE26A00A420DAE3"
 			rewards: [
@@ -825,20 +883,20 @@
 					type: "item"
 				}
 			]
-			title: "The \"Core\" Crafting Materials"
+			title: "\"核心”制作材料"
 			x: -9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1BE26A00A420DAE3"]
 			description: [
-				"The first item you'll need to start your Flux Network is a &9Flux Plug&r. "
+				"开始你的通量网络所需的第一件物品是一个&9&a通量网络输入点&f&r。"
 				""
-				"The Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store power itself, so don't worry about it zapping up all of your power."
+				"插头用于从它所连接的块中\"提取”电力。除了一个小缓冲区外，插头本身不存储电力，所以不用担心它会吸走你所有的电力。"
 				""
-				"It is suggested to place the Plug on a power storage block like an energy cube. It can connect to cables, pipes, or the output of any power producing machine."
+				"建议将插头放在像能量立方体这样的电力存储块上。它可以连接到电缆、管道或任何发电机的输出。"
 				""
-				"To learn how to set up your first network, check the next quest!"
+				"要了解如何设置你的第一个网络，请查看下一个任务！"
 			]
 			id: "5F078A574A783B02"
 			rewards: [
@@ -859,23 +917,25 @@
 					type: "loot"
 				}
 			]
-			tasks: [{
-				id: "00B1C30B3E10D332"
-				item: "fluxnetworks:flux_plug"
-				type: "item"
-			}]
-			title: "Starting Your Network"
+			tasks: [
+				{
+					id: "00B1C30B3E10D332"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			title: "开始你的网络"
 			x: -9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5F078A574A783B02"]
 			description: [
-				"Right-click on your plug and you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!"
+				"右键点击插头，你将看到通量网络UI。在右上角，点击\"+”按钮创建你的第一个网络。你需要设置一个密码来创建网络，但你也可以设置一个颜色！"
 				""
-				"From here, you can go to the Network Selection tab to activate your network on the plug. If the plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!"
+				"从这里，你可以进入网络选择选项卡，在插头上激活你的网络。如果插头连接到电源，你现在可以在你的系统中的任何地方利用&a通量网络接出点&f来利用那些电力了！"
 				""
-				"Pro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"
+				"专业提示：如果你想让不同的电源为系统的不同部分提供电力，你可以创建多个网络！"
 			]
 			icon: "fluxnetworks:flux_configurator"
 			id: "36DEA17CBB696CC7"
@@ -893,21 +953,23 @@
 					xp: 100
 				}
 			]
-			subtitle: "You're a Network Admin Now!"
-			tasks: [{
-				id: "2D0212699F99459F"
-				title: "My First Network"
-				type: "checkmark"
-			}]
+			subtitle: "你现在是一个网络管理员了！"
+			tasks: [
+				{
+					id: "2D0212699F99459F"
+					title: "My First Network"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"With our plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
+				"有了我们的插头设置，现在我们可以从我们的网络中获取电力。&9&a通量网络接出点&f&r就是这样做的。它将网络中的电力指向连接的任何方块，包括管道、电缆或直接用于机器！"
 				""
-				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab. Just like the plug, you can adjust how much power it pulls, priority level, etc."
+				"将接出点放在你想要供电的机器或方块上后，右键单击它并在网络选择选项卡中选择你的网络。就像插头一样，你可以调整它所吸取的电力量、优先级等。"
 			]
 			id: "56B6ABF3D6EA0D84"
 			rewards: [
@@ -930,21 +992,23 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "026DE584C4DF393C"
-				item: "fluxnetworks:flux_point"
-				type: "item"
-			}]
-			title: "Accessing Network Power"
+			tasks: [
+				{
+					id: "026DE584C4DF393C"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "接入网络电力"
 			x: -9.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Flux Networks does provide a way to store the power you generate for your network!"
+				"&d通量网络&f提供了一种为你的网络存储所产生的电力的方法！"
 				""
-				"These hold massive amounts of power overall, and can be upgraded to store even more!"
+				"它们总体上可以存储大量的电力，并且可以升级以存储更多的电力！"
 			]
 			id: "79AD74A863EA43CB"
 			rewards: [
@@ -961,26 +1025,28 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Storing Power"
-			tasks: [{
-				id: "3C574DDC057353DF"
-				item: "fluxnetworks:basic_flux_storage"
-				type: "item"
-			}]
+			subtitle: "存储电力"
+			tasks: [
+				{
+					id: "3C574DDC057353DF"
+					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
+				}
+			]
 			x: -8.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Right clicking a functional Flux Network block will give you this UI."
+				"右键单击一个功能性的通量网络方块将会给你这个用户界面。"
 				""
-				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
+				"每个插头或接出点都可以命名、有自定义的优先级级别和自定义的电力传输限制。这允许完全控制你系统的所有部分。"
 				""
-				"&aPower Surge&r sets the specific point or plug to ignore set priorities within the system."
-				"&aBypass Limit&r ignores the limit set."
+				"&a电力浪涌&r设置特定的点或插头忽略系统中设置的优先级。"
+				"&a绕过限制&r忽略设置的限制。"
 				""
-				"There are several other tabs to check out, mostly for statistics on your network!"
+				"还有几个其他的选项卡可以查看，主要是用于统计你的网络！"
 				""
 				"{image:atm:textures/questpics/flux/flux_ui.png width:125 height:150 align:1}"
 			]
@@ -988,28 +1054,32 @@
 			id: "2EB7784D5296F410"
 			min_width: 350
 			optional: true
-			rewards: [{
-				id: "64751B6E2F284585"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "64751B6E2F284585"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "diamond"
-			tasks: [{
-				id: "3D721B55E8D33FE8"
-				title: "The Flux Networks UI"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3D721B55E8D33FE8"
+					title: "The Flux Networks UI"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
 			description: [
-				"Flux Networks also provides a way to charge your items wirelessly, even across dimensions!"
+				"&d通量网络&f还提供了一种无线充电物品的方法，甚至可以跨维度！"
 				""
-				"Once you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down."
+				"一旦你在你的电力系统中连接了一个插头，你就需要制作&9&a能量网络控制器&f&r并将其放置下来。"
 				""
-				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle at the bottom to Enable Wireless charging, then click apply!"
+				"右键单击以打开界面，然后转到\"无线充电”选项卡。从这里，你可以选择你想要保持充电的每个库存部分。要激活，请确保点击底部的切换按钮以启用无线充电，然后点击应用！"
 				""
 				"{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:150 align:1}"
 			]
@@ -1029,30 +1099,32 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "013BD44E5E82802A"
-				item: "fluxnetworks:flux_controller"
-				type: "item"
-			}]
-			title: "Wireless Charging"
+			tasks: [
+				{
+					id: "013BD44E5E82802A"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "无线充电"
 			x: -9.0d
 			y: 7.5d
 		}
 		{
 			description: [
-				"If you ever wondered if there was a generator that could make both &eEU&r &oAND&r &4FE&r, wonder no more!"
+				"如果你曾经想知道是否有一种发电机可以同时产生&eEU&r和&4FE&r，那么现在不用再想了！"
 				""
-				"&bAdvanced Generators&r is fairly versatile and can produce them both."
-				"The multiblock structure can be even any shape you desire! They just need to be connected."
+				"&b高级火力发电机&f&r相当灵活，可以同时产生它们。"
+				"多方块结构可以是任何你想要的形状！它们只需要连接起来。"
 				""
-				"There's multiple forms to create the generator but we'll highlight the &6Gas Generator&r."
+				"有多种形式可以创建发电机，但我们将重点介绍&6气体&b高级火力发电机&f&r。"
 				""
-				"You can also upgrade the capacitors and the turbines by replacing them with a higher tier or using an &9Upgrade Kit&r."
+				"你还可以通过用更高级别的电容器或涡轮替换它们或使用&9&a空白升级&f套件来升级电容器和涡轮。"
 				""
-				"There's also plenty of fuel sources you can use for it, like Mekanism's &bHydrogen&r (&fGas&r), or &dLiquid Ethylene&r (&bLiquid&r). You'll need either the &bLiquid Intake Valve&r for liquid fuel or the &fGas Intake Valve&r for gas fuel. "
-				"Hover your mouse over the &2Gas Turbine Controller&r and press your JEI \"Uses\" button(Usually u). "
+				"还有很多燃料来源可以用于它，比如&d通用机械&f的&b&a氢气&f&r（&fGas&r），或&d&a液态乙烯&f&r（&bLiquid&r）。你需要使用&b液体&f进气阀&r来获取液体燃料，或使用&f&a气体收集器&f阀门&r来获取气体燃料。"
+				"将鼠标悬停在&2气体&b涡轮机控制器&f&r上，然后按下JEI的\"使用”按钮（通常是u）。"
 				""
-				"The limits of how many blocks you can add to the structure is shown on the description of the Generator itself(You can see \"Up to X\")."
+				"你可以在&b高级火力发电机&f本身的描述中看到你可以添加多少个方块（你可以看到\"最多X”）。"
 			]
 			icon: "advgenerators:fuel_turbine_controller"
 			id: "36E33EDF1DE488FD"
@@ -1080,7 +1152,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "MultiMod Energy Generation?!"
+			subtitle: "多模组能源发电？！"
 			tasks: [
 				{
 					id: "3D75A4F1E5B4792C"
@@ -1118,30 +1190,34 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Generators"
+			title: "高级火力发电机"
 			x: -3.5d
 			y: 6.25d
 		}
 		{
 			dependencies: ["36E33EDF1DE488FD"]
-			description: ["The &3Fuel/Air Mixer&r increases the efficiency of the generator to &e135%&r, you can get more for less!"]
+			description: ["&3燃料/空气混合器&rr将发电机的效率提高到&e135%&r，让你用更少的燃料获得更多的能量！"]
 			id: "57DE2BB67263E9B5"
-			rewards: [{
-				id: "3F84177038C1094A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "257C7A7D09DCD2DC"
-				item: "advgenerators:efficiency_upgrade_tier1"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F84177038C1094A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "257C7A7D09DCD2DC"
+					item: "advgenerators:efficiency_upgrade_tier1"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 7.75d
 		}
 		{
 			dependencies: ["57DE2BB67263E9B5"]
-			description: ["The &bGas Mix Compressor&r increases the efficiency to &4185%&r, letting you get almost double energy for the same amount of fuel."]
+			description: ["&b气体混合&b压缩机&f&r将效率提高到&4185%&r，让你用同样的燃料获得几乎双倍的能量。"]
 			id: "3E239E4310428ECC"
 			rewards: [
 				{
@@ -1161,55 +1237,65 @@
 					type: "random"
 				}
 			]
-			subtitle: "Even higher efficiency? Sign me up!"
-			tasks: [{
-				id: "5569A99AECDC1B3D"
-				item: "advgenerators:efficiency_upgrade_tier2"
-				type: "item"
-			}]
+			subtitle: "效率更高？我要加入！"
+			tasks: [
+				{
+					id: "5569A99AECDC1B3D"
+					item: "advgenerators:efficiency_upgrade_tier2"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["36E33EDF1DE488FD"]
-			description: ["The &bFlux Generator&r is the block that lets you take the produced energy and lets you output it in &4FE&r form."]
+			description: ["&bFlux &a火力发电机&f&r是一个方块，让你可以将产生的能量以&4FE&r形式输出。"]
 			id: "763112C3B5CD9C80"
-			rewards: [{
-				id: "1CF195A6EC441E84"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1D60E501CF1A4C9D"
-				item: "advgenerators:fe_output"
-				type: "item"
-			}]
-			title: "RF Production"
+			rewards: [
+				{
+					id: "1CF195A6EC441E84"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1D60E501CF1A4C9D"
+					item: "advgenerators:fe_output"
+					type: "item"
+				}
+			]
+			title: "RF生产"
 			x: -4.75d
 			y: 7.25d
 		}
 		{
 			dependencies: ["36E33EDF1DE488FD"]
 			description: [
-				"The &bLow Voltage Emitter&r is the block that lets you take the produced energy and lets you output it in &eEU&r form."
+				"&b低压发射器&a是一个方块，让你可以将产生的能量以&eEU&r形式输出。"
 				""
-				"There are multiple Voltage Emitter blocks output so make sure to craft the one you require based on your needs."
+				"有多个电压的发射器方块，根据你的需要制作所需的那个。"
 			]
 			id: "6B61DD6C74FC408A"
-			rewards: [{
-				id: "701C3D05F79B41E7"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "191AE167760C6102"
-				item: "advgenerators:eu_output_lv"
-				type: "item"
-			}]
-			title: "EU Production"
+			rewards: [
+				{
+					id: "701C3D05F79B41E7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "191AE167760C6102"
+					item: "advgenerators:eu_output_lv"
+					type: "item"
+				}
+			]
+			title: "EU生产"
 			x: -2.25d
 			y: 7.25d
 		}
 	]
-	title: "Basic Power"
+	title: "基础能源"
 }
